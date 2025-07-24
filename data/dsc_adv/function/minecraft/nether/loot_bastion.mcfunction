@@ -1,0 +1,1 @@
+function dsc:module/adv_mod/rewards/recieve {namespace:"minecraft:nether/loot_bastion",score:"10"}

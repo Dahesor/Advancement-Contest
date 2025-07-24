@@ -1,0 +1,1 @@
+function dsc:module/adv_mod/rewards/recieve {namespace:"minecraft:story/enchant_item",score:"10"}

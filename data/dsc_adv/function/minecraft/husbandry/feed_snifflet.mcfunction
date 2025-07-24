@@ -1,0 +1,1 @@
+function dsc:module/adv_mod/rewards/recieve {namespace:"minecraft:husbandry/feed_snifflet",score:"10"}

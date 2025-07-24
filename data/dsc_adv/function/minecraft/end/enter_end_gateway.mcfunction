@@ -1,0 +1,1 @@
+function dsc:module/adv_mod/rewards/recieve {namespace:"minecraft:end/enter_end_gateway",score:"100"}

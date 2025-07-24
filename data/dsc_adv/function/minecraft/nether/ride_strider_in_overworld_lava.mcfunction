@@ -1,0 +1,1 @@
+function dsc:module/adv_mod/rewards/recieve {namespace:"minecraft:nether/ride_strider_in_overworld_lava",score:"10"}

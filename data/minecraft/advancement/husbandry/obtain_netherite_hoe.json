@@ -1,0 +1,45 @@
+{
+    "parent": "minecraft:husbandry/plant_seed",
+    "criteria": {
+        "netherite_hoe": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:netherite_hoe"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "description": [
+            {
+                "translate": "advancements.husbandry.netherite_hoe.description"
+            },
+            {
+                "translate": "dsc.adv.score",
+                "with": [
+                    "10"
+                ]
+            }
+        ],
+        "frame": "challenge",
+        "icon": {
+            "count": 1,
+            "id": "minecraft:netherite_hoe"
+        },
+        "title": {
+            "translate": "advancements.husbandry.netherite_hoe.title"
+        }
+    },
+    "requirements": [
+        [
+            "netherite_hoe"
+        ]
+    ],
+    "rewards": {
+        "experience": 100,
+        "function": "dsc_adv:minecraft/husbandry/obtain_netherite_hoe"
+    }
+}

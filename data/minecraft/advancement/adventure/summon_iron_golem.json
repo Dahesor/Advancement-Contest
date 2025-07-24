@@ -1,0 +1,48 @@
+{
+    "parent": "minecraft:adventure/trade",
+    "criteria": {
+        "summoned_golem": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:iron_golem"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:summoned_entity"
+        }
+    },
+    "display": {
+        "description": [
+            {
+                "translate": "advancements.adventure.summon_iron_golem.description"
+            },
+            {
+                "translate": "dsc.adv.score",
+                "with": [
+                    "10"
+                ]
+            }
+        ],
+        "frame": "goal",
+        "icon": {
+            "count": 1,
+            "id": "minecraft:carved_pumpkin"
+        },
+        "title": {
+            "translate": "advancements.adventure.summon_iron_golem.title"
+        }
+    },
+    "requirements": [
+        [
+            "summoned_golem"
+        ]
+    ],
+    "rewards": {
+        "function": "dsc_adv:minecraft/adventure/summon_iron_golem"
+    }
+}

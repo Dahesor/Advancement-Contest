@@ -1,0 +1,1 @@
+function dsc:module/adv_mod/rewards/recieve {namespace:"minecraft:adventure/lightning_rod_with_villager_no_fire",score:"10"}

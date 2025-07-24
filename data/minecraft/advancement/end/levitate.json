@@ -1,0 +1,45 @@
+{
+    "parent": "minecraft:end/find_end_city",
+    "criteria": {
+        "levitated": {
+            "conditions": {
+                "distance": {
+                    "y": {
+                        "min": 50.0
+                    }
+                }
+            },
+            "trigger": "minecraft:levitation"
+        }
+    },
+    "display": {
+        "description": [
+            {
+                "translate": "advancements.end.levitate.description"
+            },
+            {
+                "translate": "dsc.adv.score",
+                "with": [
+                    "10"
+                ]
+            }
+        ],
+        "frame": "challenge",
+        "icon": {
+            "count": 1,
+            "id": "minecraft:shulker_shell"
+        },
+        "title": {
+            "translate": "advancements.end.levitate.title"
+        }
+    },
+    "requirements": [
+        [
+            "levitated"
+        ]
+    ],
+    "rewards": {
+        "experience": 50,
+        "function": "dsc_adv:minecraft/end/levitate"
+    }
+}

@@ -1,0 +1,1 @@
+function dsc:module/adv_mod/rewards/recieve {namespace:"minecraft:adventure/kill_mob_near_sculk_catalyst",score:"10"}

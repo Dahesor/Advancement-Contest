@@ -1,0 +1,36 @@
+{
+    "parent": "minecraft:husbandry/root",
+    "criteria": {
+        "tamed_animal": {
+            "trigger": "minecraft:tame_animal"
+        }
+    },
+    "display": {
+        "description": [
+            {
+                "translate": "advancements.husbandry.tame_an_animal.description"
+            },
+            {
+                "translate": "dsc.adv.score",
+                "with": [
+                    "10"
+                ]
+            }
+        ],
+        "icon": {
+            "count": 1,
+            "id": "minecraft:lead"
+        },
+        "title": {
+            "translate": "advancements.husbandry.tame_an_animal.title"
+        }
+    },
+    "requirements": [
+        [
+            "tamed_animal"
+        ]
+    ],
+    "rewards": {
+        "function": "dsc_adv:minecraft/husbandry/tame_an_animal"
+    }
+}

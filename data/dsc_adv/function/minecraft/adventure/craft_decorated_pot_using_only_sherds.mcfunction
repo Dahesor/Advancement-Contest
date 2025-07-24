@@ -1,0 +1,1 @@
+function dsc:module/adv_mod/rewards/recieve {namespace:"minecraft:adventure/craft_decorated_pot_using_only_sherds",score:"10"}

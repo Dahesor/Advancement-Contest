@@ -1,0 +1,39 @@
+{
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+        "honey_block_slide": {
+            "conditions": {
+                "block": "minecraft:honey_block"
+            },
+            "trigger": "minecraft:slide_down_block"
+        }
+    },
+    "display": {
+        "description": [
+            {
+                "translate": "advancements.adventure.honey_block_slide.description"
+            },
+            {
+                "translate": "dsc.adv.score",
+                "with": [
+                    "10"
+                ]
+            }
+        ],
+        "icon": {
+            "count": 1,
+            "id": "minecraft:honey_block"
+        },
+        "title": {
+            "translate": "advancements.adventure.honey_block_slide.title"
+        }
+    },
+    "requirements": [
+        [
+            "honey_block_slide"
+        ]
+    ],
+    "rewards": {
+        "function": "dsc_adv:minecraft/adventure/honey_block_slide"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "env": {
+        "gameVersion": "1.21.8",
+        "useFilePolling": false,
+        "dependencies": [
+            "@vanilla-datapack",
+            "@vanilla-resourcepack",
+            "@vanilla-mcdoc"
+        ]
+    }
+}

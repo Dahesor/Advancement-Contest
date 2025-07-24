@@ -1,0 +1,47 @@
+{
+    "parent": "minecraft:end/root",
+    "criteria": {
+        "killed_dragon": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:ender_dragon"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "display": {
+        "description": [
+            {
+                "translate": "advancements.end.kill_dragon.description"
+            },
+            {
+                "translate": "dsc.adv.score",
+                "with": [
+                    "10"
+                ]
+            }
+        ],
+        "icon": {
+            "count": 1,
+            "id": "minecraft:dragon_head"
+        },
+        "title": {
+            "translate": "advancements.end.kill_dragon.title"
+        }
+    },
+    "requirements": [
+        [
+            "killed_dragon"
+        ]
+    ],
+    "rewards": {
+        "function": "dsc_adv:minecraft/end/kill_dragon"
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "parent": "minecraft:story/root",
+    "criteria": {
+        "get_stone": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:stone_tool_materials"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "description": [
+            {
+                "translate": "advancements.story.mine_stone.description"
+            },
+            {
+                "translate": "dsc.adv.score",
+                "with": [
+                    "10"
+                ]
+            }
+        ],
+        "icon": {
+            "count": 1,
+            "id": "minecraft:wooden_pickaxe"
+        },
+        "title": {
+            "translate": "advancements.story.mine_stone.title"
+        }
+    },
+    "requirements": [
+        [
+            "get_stone"
+        ]
+    ],
+    "rewards": {
+        "function": "dsc_adv:minecraft/story/mine_stone"
+    }
+}

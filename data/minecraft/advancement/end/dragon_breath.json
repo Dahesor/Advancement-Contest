@@ -1,0 +1,44 @@
+{
+    "parent": "minecraft:end/kill_dragon",
+    "criteria": {
+        "dragon_breath": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:dragon_breath"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "description": [
+            {
+                "translate": "advancements.end.dragon_breath.description"
+            },
+            {
+                "translate": "dsc.adv.score",
+                "with": [
+                    "10"
+                ]
+            }
+        ],
+        "frame": "goal",
+        "icon": {
+            "count": 1,
+            "id": "minecraft:dragon_breath"
+        },
+        "title": {
+            "translate": "advancements.end.dragon_breath.title"
+        }
+    },
+    "requirements": [
+        [
+            "dragon_breath"
+        ]
+    ],
+    "rewards": {
+        "function": "dsc_adv:minecraft/end/dragon_breath"
+    }
+}

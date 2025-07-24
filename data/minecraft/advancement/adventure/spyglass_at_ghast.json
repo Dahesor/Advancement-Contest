@@ -1,0 +1,55 @@
+{
+    "parent": "minecraft:adventure/spyglass_at_parrot",
+    "criteria": {
+        "spyglass_at_ghast": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:spyglass"
+                },
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "minecraft:player",
+                                "looking_at": {
+                                    "type": "minecraft:ghast"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:using_item"
+        }
+    },
+    "display": {
+        "description": [
+            {
+                "translate": "advancements.adventure.spyglass_at_ghast.description"
+            },
+            {
+                "translate": "dsc.adv.score",
+                "with": [
+                    "10"
+                ]
+            }
+        ],
+        "icon": {
+            "count": 1,
+            "id": "minecraft:spyglass"
+        },
+        "title": {
+            "translate": "advancements.adventure.spyglass_at_ghast.title"
+        }
+    },
+    "requirements": [
+        [
+            "spyglass_at_ghast"
+        ]
+    ],
+    "rewards": {
+        "function": "dsc_adv:minecraft/adventure/spyglass_at_ghast"
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "parent": "minecraft:story/iron_tools",
+    "criteria": {
+        "diamond": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:diamond"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "description": [
+            {
+                "translate": "advancements.story.mine_diamond.description"
+            },
+            {
+                "translate": "dsc.adv.score",
+                "with": [
+                    "10"
+                ]
+            }
+        ],
+        "icon": {
+            "count": 1,
+            "id": "minecraft:diamond"
+        },
+        "title": {
+            "translate": "advancements.story.mine_diamond.title"
+        }
+    },
+    "requirements": [
+        [
+            "diamond"
+        ]
+    ],
+    "rewards": {
+        "function": "dsc_adv:minecraft/story/mine_diamond"
+    }
+}

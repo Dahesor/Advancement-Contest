@@ -1,0 +1,1 @@
+function dsc:module/adv_mod/rewards/recieve {namespace:"minecraft:adventure/walk_on_powder_snow_with_leather_boots",score:"10"}

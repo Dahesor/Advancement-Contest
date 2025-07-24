@@ -1,0 +1,41 @@
+{
+    "parent": "minecraft:adventure/root",
+    "criteria": {
+        "shot_crossbow": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:crossbow"
+                }
+            },
+            "trigger": "minecraft:shot_crossbow"
+        }
+    },
+    "display": {
+        "description": [
+            {
+                "translate": "advancements.adventure.ol_betsy.description"
+            },
+            {
+                "translate": "dsc.adv.score",
+                "with": [
+                    "10"
+                ]
+            }
+        ],
+        "icon": {
+            "count": 1,
+            "id": "minecraft:crossbow"
+        },
+        "title": {
+            "translate": "advancements.adventure.ol_betsy.title"
+        }
+    },
+    "requirements": [
+        [
+            "shot_crossbow"
+        ]
+    ],
+    "rewards": {
+        "function": "dsc_adv:minecraft/adventure/ol_betsy"
+    }
+}

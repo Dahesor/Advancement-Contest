@@ -1,0 +1,41 @@
+{
+    "parent": "minecraft:nether/summon_wither",
+    "criteria": {
+        "beacon": {
+            "conditions": {
+                "level": {
+                    "min": 1
+                }
+            },
+            "trigger": "minecraft:construct_beacon"
+        }
+    },
+    "display": {
+        "description": [
+            {
+                "translate": "advancements.nether.create_beacon.description"
+            },
+            {
+                "translate": "dsc.adv.score",
+                "with": [
+                    "10"
+                ]
+            }
+        ],
+        "icon": {
+            "count": 1,
+            "id": "minecraft:beacon"
+        },
+        "title": {
+            "translate": "advancements.nether.create_beacon.title"
+        }
+    },
+    "requirements": [
+        [
+            "beacon"
+        ]
+    ],
+    "rewards": {
+        "function": "dsc_adv:minecraft/nether/create_beacon"
+    }
+}
