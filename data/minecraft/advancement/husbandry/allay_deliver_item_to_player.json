@@ -24,8 +24,12 @@
             {
                 "translate": "dsc.adv.score",
                 "with": [
-                    "10"
-                ]
+                    {
+                        "text": "10",
+                        "color": "yellow"
+                    }
+                ],
+                "color": "yellow"
             }
         ],
         "hidden": true,

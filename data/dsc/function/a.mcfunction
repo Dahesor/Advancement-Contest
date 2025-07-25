@@ -1,0 +1,1 @@
+dialog show @s {type:"confirmation",title:"Run Any Command",pause:true,after_action:"close",can_close_with_escape:true,external_title:"Run Command",inputs:[{key:"cmd",type:"text",label:"Command",width:500,initial:"",label_visible:true,max_length:999999999}],yes:{label:"执行",action:{type:"dynamic/run_command",template:"$(cmd)"}},no:{label:"取消"}}

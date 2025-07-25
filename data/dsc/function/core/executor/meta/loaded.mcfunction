@@ -1,0 +1,1 @@
+tellraw @a {text:"Module Loaded: ",color:"dark_gray",extra:[{storage:"dsc:core",nbt:"task.meta[0].name"}]}

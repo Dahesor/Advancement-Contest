@@ -16,8 +16,12 @@
             {
                 "translate": "dsc.adv.score",
                 "with": [
-                    "100"
-                ]
+                    {
+                        "text": "100",
+                        "color": "yellow"
+                    }
+                ],
+                "color": "yellow"
             }
         ],
         "icon": {

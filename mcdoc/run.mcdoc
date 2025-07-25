@@ -1,0 +1,18 @@
+dispatch minecraft:storage["dsc:core"] to struct {
+    exe?: struct{
+        run?: command,
+        func?: function
+    },
+    task?: struct{
+        on_tick?: [function],
+        per_sec?: [function],
+        in_init?: [function],
+        meta?: [struct{
+            id?: function,
+            name?: string @..20
+        }]
+    }
+}
+
+type function = #[id="function"] string
+type command = #[command] string

@@ -83,7 +83,11 @@ def modify_description(description, param):
     """修改描述字段，添加或更新分数显示"""
     new_component = {
         "translate": SCORE_TRANSLATE_KEY,
-        "with": [param]
+        "with": [{
+            "text":param,
+            "color": "yellow"
+        }],
+        "color":"yellow"
     }
 
     # 如果描述是字典（单一组件），转换为列表
@@ -98,7 +102,11 @@ def modify_description(description, param):
 
             # 如果已经是分数组件，更新它的参数
             if last_component.get("translate") == SCORE_TRANSLATE_KEY:
-                last_component["with"] = [param]
+                last_component["with"] = [{
+                        "text":param,
+                        "color": "yellow"
+                    }]
+                last_component["color"] = "yellow"
                 return description
 
         # 否则添加新的分数组件
@@ -216,10 +224,3 @@ if __name__ == "__main__":
         print("\n以下成就文件不存在:")
         for path in missing_adv_files:
             print(f"  - {path}")
-
-        # 提供调试建议
-        print("\n调试建议:")
-        print("1. 检查基础目录是否正确: ", os.path.abspath(BASE_DATA_DIR))
-        print("2. 确保文件路径正确: 例如 adventure/root 应位于:")
-        print("   ", os.path.abspath(os.path.join(BASE_DATA_DIR, DEFAULT_NAMESPACE, ADVANCEMENTS_DIR, "adventure", "root.json")))
-        print("3. 如果需要，可以修改 BASE_DATA_DIR 常量")
