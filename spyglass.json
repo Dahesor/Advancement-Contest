@@ -1,11 +1,12 @@
 {
     "env": {
-        "gameVersion": "1.21.8",
+        "gameVersion": "1.21.11",
         "useFilePolling": false,
         "dependencies": [
             "@vanilla-datapack",
             "@vanilla-resourcepack",
             "@vanilla-mcdoc"
-        ]
+        ],
+        "permissionLevel": 4
     }
 }
