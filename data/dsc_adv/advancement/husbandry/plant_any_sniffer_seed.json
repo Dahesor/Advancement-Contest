@@ -1,0 +1,104 @@
+{
+  "parent": "dsc_adv:husbandry/obtain_sniffer_egg",
+  "criteria": {
+    "pitcher_pod": {
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:pitcher_crop",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    },
+    "torchflower": {
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:torchflower_crop",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "description": [
+      {
+        "translate": "task.plant_any_sniffer_seed.1",
+        "italic": false,
+        "color": "gray"
+      },
+      "\n",
+      {
+        "translate": "task.reward",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "4"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "2"
+        ]
+      },
+      "\n",
+      {
+        "translate": "task.reward_first",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "5"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "4"
+        ]
+      }
+    ],
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:pitcher_pod"
+    },
+    "title": {
+      "translate": "task.plant_any_sniffer_seed",
+      "italic": false
+    },
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "requirements": [
+    [
+      "torchflower",
+      "pitcher_pod"
+    ]
+  ],
+  "rewards": {
+    "function": "dsc_adv:plant_any_sniffer_seed"
+  }
+}

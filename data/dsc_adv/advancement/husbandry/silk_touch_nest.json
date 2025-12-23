@@ -1,0 +1,99 @@
+{
+  "parent": "dsc_adv:husbandry/wax_on",
+  "criteria": {
+    "silk_touch_nest": {
+      "conditions": {
+        "block": "minecraft:bee_nest",
+        "item": {
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:silk_touch",
+                "levels": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        },
+        "num_bees_inside": 3
+      },
+      "trigger": "minecraft:bee_nest_destroyed"
+    }
+  },
+  "display": {
+    "description": [
+      {
+        "translate": "task.silk_touch_nest.1",
+        "italic": false,
+        "color": "gray"
+      },
+      "\n",
+      {
+        "translate": "task.reward",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "4"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "2"
+        ]
+      },
+      "\n",
+      {
+        "translate": "task.reward_first",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "5"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "4"
+        ]
+      }
+    ],
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bee_nest"
+    },
+    "title": {
+      "translate": "task.silk_touch_nest",
+      "italic": false
+    },
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "requirements": [
+    [
+      "silk_touch_nest"
+    ]
+  ],
+  "rewards": {
+    "function": "dsc_adv:silk_touch_nest"
+  }
+}

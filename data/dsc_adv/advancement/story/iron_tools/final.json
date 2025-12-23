@@ -1,0 +1,93 @@
+{
+  "parent": "dsc_adv:story/smelt_iron/final",
+  "criteria": {
+    "i": {
+      "trigger": "impossible"
+    }
+  },
+  "display": {
+    "description": [
+      {
+        "translate": "task.iron_tools.1",
+        "italic": false,
+        "color": "gray"
+      },
+      "\n",
+      {
+        "translate": "task.reward",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "2"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "2"
+        ]
+      },
+      "\n",
+      {
+        "translate": "task.reward_first",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "1"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "1"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.recipe",
+        "italic": false,
+        "color": "aqua"
+      },
+      "\n",
+      {
+        "text": "精良的铁质工具",
+        "italic": false,
+        "color": "gray"
+      }
+    ],
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_pickaxe"
+    },
+    "title": {
+      "translate": "task.first",
+      "color": "white",
+      "with": [
+        {
+          "translate": "task.iron_tools",
+          "italic": false
+        }
+      ]
+    },
+    "show_toast": false,
+    "announce_to_chat": false
+  }
+}

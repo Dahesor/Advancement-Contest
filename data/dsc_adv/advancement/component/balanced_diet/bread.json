@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "apple": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:bread"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "rewards": {
+    "function": "dsc:module/adv/trigger/balanced_diet"
+  }
+}

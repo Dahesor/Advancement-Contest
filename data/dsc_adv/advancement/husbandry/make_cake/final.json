@@ -1,0 +1,105 @@
+{
+  "parent": "dsc_adv:husbandry/plant_seed/final",
+  "criteria": {
+    "i": {
+      "trigger": "impossible"
+    }
+  },
+  "display": {
+    "description": [
+      {
+        "translate": "task.make_cake.1",
+        "italic": false,
+        "color": "gray"
+      },
+      "\n",
+      {
+        "translate": "task.reward",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "6"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "5"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.recipe",
+        "italic": false,
+        "color": "aqua"
+      },
+      "\n",
+      {
+        "text": "金胡萝卜，金苹果\n酿造台",
+        "italic": false,
+        "color": "gray"
+      },
+      "\n",
+      {
+        "translate": "task.reward_first",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "8"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "8"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.recipe",
+        "italic": false,
+        "color": "aqua"
+      },
+      "\n",
+      {
+        "text": "附魔金苹果\n绊线钩",
+        "italic": false,
+        "color": "gray"
+      }
+    ],
+    "icon": {
+      "count": 1,
+      "id": "minecraft:cake"
+    },
+    "title": {
+      "translate": "task.first",
+      "color": "white",
+      "with": [
+        {
+          "translate": "task.make_cake",
+          "italic": false
+        }
+      ]
+    },
+    "show_toast": false,
+    "announce_to_chat": false
+  }
+}

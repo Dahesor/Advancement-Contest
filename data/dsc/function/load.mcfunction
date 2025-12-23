@@ -6,6 +6,7 @@ scoreboard objectives add input trigger
 scoreboard objectives add screen dummy
 scoreboard objectives add team dummy
 scoreboard objectives add score dummy
+scoreboard objectives add trigger.balanced_diet dummy
 stopwatch create dsc:master
 execute unless score #init calc.DSC matches 1 run function dsc:initialize
 

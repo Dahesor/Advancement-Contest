@@ -1,0 +1,87 @@
+{
+  "parent": "dsc_adv:story/smelt_iron/final",
+  "criteria": {
+    "i": {
+      "trigger": "impossible"
+    }
+  },
+  "display": {
+    "description": [
+      {
+        "translate": "task.lava_bucket.1",
+        "italic": false,
+        "color": "gray"
+      },
+      "\n",
+      {
+        "translate": "task.reward",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "3"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.recipe",
+        "italic": false,
+        "color": "aqua"
+      },
+      "\n",
+      {
+        "text": "金靴子",
+        "italic": false,
+        "color": "gray"
+      },
+      "\n",
+      {
+        "translate": "task.reward_first",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "6"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.recipe",
+        "italic": false,
+        "color": "aqua"
+      },
+      "\n",
+      {
+        "text": "金头盔",
+        "italic": false,
+        "color": "gray"
+      }
+    ],
+    "icon": {
+      "count": 1,
+      "id": "minecraft:lava_bucket"
+    },
+    "title": {
+      "translate": "task.first",
+      "color": "white",
+      "with": [
+        {
+          "translate": "task.lava_bucket",
+          "italic": false
+        }
+      ]
+    },
+    "show_toast": false,
+    "announce_to_chat": false
+  }
+}

@@ -39,10 +39,13 @@ def insert_display(
     display["show_toast"] = True
     display["announce_to_chat"] = False
 
-    # NEW: 设置 rewards
+    # 设置 rewards
     data["rewards"] = {
         "function": f"dsc_adv:{reg_id}"
     }
+
+    if "sends_telemetry_event" in data:
+        data.pop("sends_telemetry_event")
 
     # 写回文件
     src_path.write_text(

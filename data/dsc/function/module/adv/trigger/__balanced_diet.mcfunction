@@ -1,0 +1,1 @@
+$advancement grant @s only dsc_adv:husbandry/balanced_diet $(i)

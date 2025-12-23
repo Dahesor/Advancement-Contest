@@ -1,7 +1,7 @@
 data modify storage dsc:task new append value {\
     advancement:"dsc_adv:story/mine_stone",\
-    all_reward:{emerald:5,score:5,recipe:"dsc_recipe:wooden_pickaxe"},\
-    first_reward:{emerald:10,score:10},\
+    all_reward:{emerald:2,score:4},\
+    first_reward:{emerald:4,score:5},\
     display:{lore_length:1},\
     additional_lore:{\
         all_:"",\

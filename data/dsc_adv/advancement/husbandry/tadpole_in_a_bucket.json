@@ -1,0 +1,88 @@
+{
+  "parent": "dsc_adv:husbandry/tactical_fishing",
+  "criteria": {
+    "tadpole_bucket": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:tadpole_bucket"
+        }
+      },
+      "trigger": "minecraft:filled_bucket"
+    }
+  },
+  "display": {
+    "description": [
+      {
+        "translate": "task.tadpole_in_a_bucket.1",
+        "italic": false,
+        "color": "gray"
+      },
+      "\n",
+      {
+        "translate": "task.reward",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "4"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "2"
+        ]
+      },
+      "\n",
+      {
+        "translate": "task.reward_first",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "5"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "4"
+        ]
+      }
+    ],
+    "icon": {
+      "count": 1,
+      "id": "minecraft:tadpole_bucket"
+    },
+    "title": {
+      "translate": "task.tadpole_in_a_bucket",
+      "italic": false
+    },
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "requirements": [
+    [
+      "tadpole_bucket"
+    ]
+  ],
+  "rewards": {
+    "function": "dsc_adv:tadpole_in_a_bucket"
+  }
+}

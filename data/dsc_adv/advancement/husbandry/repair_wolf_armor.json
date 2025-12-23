@@ -1,0 +1,105 @@
+{
+  "parent": "dsc_adv:husbandry/tame_an_animal",
+  "criteria": {
+    "repair_wolf_armor": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wolf",
+              "equipment": {
+                "body": {
+                  "components": {
+                    "minecraft:damage": 0
+                  },
+                  "items": "minecraft:wolf_armor"
+                }
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:armadillo_scute"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    }
+  },
+  "display": {
+    "description": [
+      {
+        "translate": "task.repair_wolf_armor.1",
+        "italic": false,
+        "color": "gray"
+      },
+      "\n",
+      {
+        "translate": "task.reward",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "4"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "2"
+        ]
+      },
+      "\n",
+      {
+        "translate": "task.reward_first",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "5"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "4"
+        ]
+      }
+    ],
+    "icon": {
+      "count": 1,
+      "id": "minecraft:wolf_armor"
+    },
+    "title": {
+      "translate": "task.repair_wolf_armor",
+      "italic": false
+    },
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "requirements": [
+    [
+      "repair_wolf_armor"
+    ]
+  ],
+  "rewards": {
+    "function": "dsc_adv:repair_wolf_armor"
+  }
+}

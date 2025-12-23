@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "apple": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:enchanted_golden_apple"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "rewards": {
+    "function": "dsc:module/adv/trigger/balanced_diet"
+  }
+}

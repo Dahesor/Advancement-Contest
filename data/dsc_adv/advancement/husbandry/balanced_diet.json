@@ -1,0 +1,160 @@
+{
+  "parent": "dsc_adv:husbandry/obtain_netherite_hoe",
+  "criteria": {
+    "1": {
+      "trigger": "impossible"
+    },
+    "2": {
+      "trigger": "impossible"
+    },
+    "3": {
+      "trigger": "impossible"
+    },
+    "4": {
+      "trigger": "impossible"
+    },
+    "5": {
+      "trigger": "impossible"
+    },
+    "6": {
+      "trigger": "impossible"
+    },
+    "7": {
+      "trigger": "impossible"
+    },
+    "8": {
+      "trigger": "impossible"
+    },
+    "9": {
+      "trigger": "impossible"
+    },
+    "10": {
+      "trigger": "impossible"
+    },
+    "11": {
+      "trigger": "impossible"
+    },
+    "12": {
+      "trigger": "impossible"
+    },
+    "13": {
+      "trigger": "impossible"
+    },
+    "14": {
+      "trigger": "impossible"
+    },
+    "15": {
+      "trigger": "impossible"
+    },
+    "16": {
+      "trigger": "impossible"
+    },
+    "17": {
+      "trigger": "impossible"
+    },
+    "18": {
+      "trigger": "impossible"
+    },
+    "19": {
+      "trigger": "impossible"
+    },
+    "20": {
+      "trigger": "impossible"
+    }
+  },
+  "display": {
+    "description": [
+      {
+        "translate": "task.balanced_diet.1",
+        "italic": false,
+        "color": "gray"
+      },
+      "\n",
+      {
+        "translate": "task.reward",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "16"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "10"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.recipe",
+        "italic": false,
+        "color": "aqua"
+      },
+      "\n",
+      {
+        "text": "不死图腾",
+        "italic": false,
+        "color": "gray"
+      },
+      "\n",
+      {
+        "translate": "task.reward_first",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "20"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "20"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.recipe",
+        "italic": false,
+        "color": "aqua"
+      },
+      "\n",
+      {
+        "text": "闪烁的西瓜",
+        "italic": false,
+        "color": "gray"
+      }
+    ],
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:apple"
+    },
+    "title": {
+      "translate": "task.balanced_diet",
+      "italic": false
+    },
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "rewards": {
+    "function": "dsc_adv:balanced_diet"
+  }
+}

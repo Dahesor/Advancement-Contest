@@ -20,21 +20,15 @@
       },
       "\n",
       {
-        "translate": "reward.score",
+        "translate": "reward.recipe",
         "italic": false,
-        "color": "gold",
-        "with": [
-          "5"
-        ]
+        "color": "aqua"
       },
       "\n",
       {
-        "translate": "reward.emerald",
+        "text": "铁质与铜制工具\n桶\n盾牌",
         "italic": false,
-        "color": "green",
-        "with": [
-          "5"
-        ]
+        "color": "gray"
       },
       "\n",
       {
@@ -48,16 +42,7 @@
         "italic": false,
         "color": "gold",
         "with": [
-          "10"
-        ]
-      },
-      "\n",
-      {
-        "translate": "reward.emerald",
-        "italic": false,
-        "color": "green",
-        "with": [
-          "10"
+          "2"
         ]
       }
     ],

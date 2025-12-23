@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:gold_block",
+    "X": "minecraft:golden_apple",
+    "+": "diamond",
+    "O": "shield"
+  },
+  "pattern": [
+    "+O+",
+    "#X#",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:totem_of_undying"
+  }
+}
