@@ -44,4 +44,8 @@ execute if score phase gen matches 43 run return run function gen:ter/loader/oce
 execute if score phase gen matches 44 run return run function gen:ter/loader/ocean__
 
 execute if score phase gen matches 100 run return run function gen:ac/port
+
+execute if score phase gen matches 200 run return run function gen:stronghold/place
+execute if score phase gen matches 201 run return run function gen:stronghold/recive
+execute if score phase gen matches 202 run return run function gen:stronghold/force
 function gen:abort
