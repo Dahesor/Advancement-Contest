@@ -1,0 +1,83 @@
+{
+  "parent": "dsc_adv:adventure/root",
+  "criteria": {
+    "avoid_vibration": {
+      "trigger": "minecraft:avoid_vibration"
+    }
+  },
+  "display": {
+    "description": [
+      {
+        "translate": "task.avoid_vibration.1",
+        "italic": false,
+        "color": "gray"
+      },
+      "\n",
+      {
+        "translate": "task.reward",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "4"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "2"
+        ]
+      },
+      "\n",
+      {
+        "translate": "task.reward_first",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "5"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "4"
+        ]
+      }
+    ],
+    "icon": {
+      "count": 1,
+      "id": "minecraft:sculk_sensor"
+    },
+    "title": {
+      "translate": "task.avoid_vibration",
+      "italic": false
+    },
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "requirements": [
+    [
+      "avoid_vibration"
+    ]
+  ],
+  "rewards": {
+    "function": "dsc_adv:avoid_vibration"
+  }
+}

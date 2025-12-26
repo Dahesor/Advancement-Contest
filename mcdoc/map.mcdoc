@@ -15,7 +15,10 @@ dispatch minecraft:storage["map:main"] to struct{
     dialog?: struct {
         dialog?: DialogMix
     },
-    num?: any
+    num?: any,
+    dec?: [struct dec{...vec2,char?: string}],
+    dec_temp?: [dec],
+    single_dec?: dec
 }
 
 struct ChunkData{

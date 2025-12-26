@@ -1,0 +1,1 @@
+data remove storage map:main text_ready[][-1].extra[][{bold:0b}]

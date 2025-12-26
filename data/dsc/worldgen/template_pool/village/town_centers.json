@@ -1,0 +1,14 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "legacy_single_pool_element",
+        "location": "dsc:center_1",
+        "processors": "mossify_10_percent",
+        "projection": "rigid"
+      },
+      "weight": 49
+    }
+  ],
+  "fallback": "empty"
+}

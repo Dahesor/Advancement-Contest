@@ -1,0 +1,7 @@
+scoreboard players set next gen 10
+scoreboard players set phase gen -202
+
+scoreboard players set success gen 0
+function gen:ter/place/__place with storage gen place
+
+tellraw @a [{text:"[gen:place] 开始尝试放置",color:"dark_gray"},{storage:"gen",nbt:"place.id"}," in ",{storage:"gen",nbt:"place.in"}, " at (",{storage:"gen",nbt:"place.x",color:"light_purple"},", ",{storage:"gen",nbt:"place.z",color:"light_purple"},")"]

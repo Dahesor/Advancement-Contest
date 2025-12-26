@@ -1,0 +1,109 @@
+{
+  "parent": "dsc_adv:adventure/whos_the_pillager",
+  "criteria": {
+    "two_birds": {
+      "conditions": {
+        "fired_from_weapon": {
+          "items": "minecraft:crossbow"
+        },
+        "victims": [
+          [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:phantom"
+              }
+            }
+          ],
+          [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:phantom"
+              }
+            }
+          ]
+        ]
+      },
+      "trigger": "minecraft:killed_by_arrow"
+    }
+  },
+  "display": {
+    "description": [
+      {
+        "translate": "task.two_birds.1",
+        "italic": false,
+        "color": "gray"
+      },
+      "\n",
+      {
+        "translate": "task.reward",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "4"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "2"
+        ]
+      },
+      "\n",
+      {
+        "translate": "task.reward_first",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "5"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "4"
+        ]
+      }
+    ],
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "task.two_birds",
+      "italic": false
+    },
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "requirements": [
+    [
+      "two_birds"
+    ]
+  ],
+  "rewards": {
+    "function": "dsc_adv:two_birds"
+  }
+}

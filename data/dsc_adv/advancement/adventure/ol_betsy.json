@@ -1,0 +1,88 @@
+{
+  "parent": "dsc_adv:adventure/sniper_duel",
+  "criteria": {
+    "shot_crossbow": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:crossbow"
+        }
+      },
+      "trigger": "minecraft:shot_crossbow"
+    }
+  },
+  "display": {
+    "description": [
+      {
+        "translate": "task.ol_betsy.1",
+        "italic": false,
+        "color": "gray"
+      },
+      "\n",
+      {
+        "translate": "task.reward",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "4"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "2"
+        ]
+      },
+      "\n",
+      {
+        "translate": "task.reward_first",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "5"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "4"
+        ]
+      }
+    ],
+    "icon": {
+      "count": 1,
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "task.ol_betsy",
+      "italic": false
+    },
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "requirements": [
+    [
+      "shot_crossbow"
+    ]
+  ],
+  "rewards": {
+    "function": "dsc_adv:ol_betsy"
+  }
+}

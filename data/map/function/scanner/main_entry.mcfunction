@@ -1,1 +1,1 @@
-$execute positioned $(x) ~ ~$(z) run function map:scanner/ticker
+$execute positioned $(x) ~ $(z) run function map:scanner/ticker

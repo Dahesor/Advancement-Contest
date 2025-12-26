@@ -1,0 +1,54 @@
+use::java::util::text::Text
+
+dispatch minecraft:storage["gen"] to struct{
+    locate?: find,
+    l?: find,
+    out?: Text,
+    private?: find,
+    vec2?: vec2,
+    vil?: struct{
+        a: [vec2],
+        m: [vec2],
+        n: vec2,
+    },
+    b_fetch?: struct{
+        id?: biome,
+        fallback?: int,
+        success?: boolean,
+        result?: vec2,
+    },
+    place?: struct{
+        id?: structure,
+        ...vec2,
+        fallback?: int,
+        success?: boolean,
+        in?: #[id="dimension"] string,
+    }
+}
+
+struct vec2{x: int,z: int}
+
+struct find{
+    type?: LocateTypes,
+    in?: #[id="dimension"] string,
+    x?: int,
+    z?: int,
+    step?: int,
+    ...dsc:find[[type]],
+}
+
+enum(string) LocateTypes{
+    biome = "biome",
+    structure = "structure",
+}
+
+type biome = #[id=(registry="worldgen/biome",tags="allowed")] string
+type structure = #[id=(registry="worldgen/structure",tags="allowed")] string
+
+dispatch dsc:find[biome] to struct{
+    id: biome
+}
+
+dispatch dsc:find[structure] to struct{
+    id: structure
+}

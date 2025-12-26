@@ -2,14 +2,15 @@ gamerule limited_crafting true
 recipe take @a *
 advancement revoke @a everything
 scoreboard players set MAP_UPDATE_SPEED calc.DSC 60
-forceload add 0 0
+forceload add 512 512
+setworldspawn 512 100 512
 scoreboard players set #init calc.DSC 1
 
 scoreboard players set $enable_adv calc.DSC 0
 scoreboard players set $package_amount calc.DSC 0
 scoreboard players set $new_score calc.DSC 0
 
-summon marker 0 0 0 {UUID:[I;0,0,0,0]}
+summon marker 512 0 512 {UUID:[I;0,0,0,0]}
 
 #temp
 scoreboard players set origin_x map 0

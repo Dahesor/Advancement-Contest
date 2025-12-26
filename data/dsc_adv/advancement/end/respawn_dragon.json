@@ -1,0 +1,95 @@
+{
+  "parent": "dsc_adv:end/kill_dragon",
+  "criteria": {
+    "summoned_dragon": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:ender_dragon"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "description": [
+      {
+        "translate": "task.respawn_dragon.1",
+        "italic": false,
+        "color": "gray"
+      },
+      "\n",
+      {
+        "translate": "task.reward",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "4"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "2"
+        ]
+      },
+      "\n",
+      {
+        "translate": "task.reward_first",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "5"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "4"
+        ]
+      }
+    ],
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:end_crystal"
+    },
+    "title": {
+      "translate": "task.respawn_dragon",
+      "italic": false
+    },
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "requirements": [
+    [
+      "summoned_dragon"
+    ]
+  ],
+  "rewards": {
+    "function": "dsc_adv:respawn_dragon"
+  }
+}

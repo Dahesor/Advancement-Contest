@@ -1,0 +1,1 @@
+summon falling_block ~ ~ ~ {Motion:[3d,0d,-5d],BlockState:{Name:"sculk_shrieker",Properties:{can_summon:"true"}},Time:1}

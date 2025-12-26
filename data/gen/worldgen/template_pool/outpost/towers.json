@@ -1,0 +1,28 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:list_pool_element",
+        "elements": [
+          {
+            "element_type": "minecraft:legacy_single_pool_element",
+            "location": "gen:outpost/p1",
+            "processors": {
+              "processors": []
+            },
+            "projection": "rigid"
+          },
+          {
+            "element_type": "minecraft:legacy_single_pool_element",
+            "location": "gen:outpost/p2",
+            "processors": "minecraft:outpost_rot",
+            "projection": "rigid"
+          }
+        ],
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}
