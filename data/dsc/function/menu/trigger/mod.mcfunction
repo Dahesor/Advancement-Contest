@@ -1,6 +1,7 @@
 scoreboard players operation $this dialog = @s dialog
 scoreboard players set @s dialog 0
 
+execute if score $this dialog matches -98 run function dsc:menu/map/refresh
 execute if score $this dialog matches -99 run function dsc:menu/map/auto
 execute if score $this dialog matches -100 run function dsc:menu/map/close
 execute if score $this dialog matches -101 run function dsc:menu/map/overworld

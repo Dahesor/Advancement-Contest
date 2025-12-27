@@ -6,6 +6,9 @@ forceload add 512 512
 setworldspawn 512 100 512
 scoreboard players set #init calc.DSC 1
 
+scoreboard players set LENGTH_SECTOIN_1 main 54000
+scoreboard players set LENGTH_SECTOIN_2 main 36000
+scoreboard players set LENGTH_SECTOIN_3 main 36000
 scoreboard players set $enable_adv calc.DSC 0
 scoreboard players set $package_amount calc.DSC 0
 scoreboard players set $new_score calc.DSC 0
@@ -36,45 +39,45 @@ team add red
 team add blue
 team add green
 team add yellow
-team add pink
+team add light_purple
 team add white
-team add orange
+team add gold
 team add gray
 
 team modify red color red
 team modify blue color aqua
 team modify green color green
 team modify yellow color yellow
-team modify pink color light_purple
+team modify light_purple color light_purple
 team modify white color white
-team modify orange color gold
+team modify gold color gold
 team modify gray color gray
 
 team modify red friendlyFire false
 team modify blue friendlyFire false
 team modify green friendlyFire false
 team modify yellow friendlyFire false
-team modify pink friendlyFire false
+team modify light_purple friendlyFire false
 team modify white friendlyFire false
-team modify orange friendlyFire false
+team modify gold friendlyFire false
 team modify gray friendlyFire false
 
 team modify red nametagVisibility hideForOtherTeams
 team modify blue nametagVisibility hideForOtherTeams
 team modify green nametagVisibility hideForOtherTeams
 team modify yellow nametagVisibility hideForOtherTeams
-team modify pink nametagVisibility hideForOtherTeams
+team modify light_purple nametagVisibility hideForOtherTeams
 team modify white nametagVisibility hideForOtherTeams
-team modify orange nametagVisibility hideForOtherTeams
+team modify gold nametagVisibility hideForOtherTeams
 team modify gray nametagVisibility hideForOtherTeams
 
 team modify red seeFriendlyInvisibles true
 team modify blue seeFriendlyInvisibles true
 team modify green seeFriendlyInvisibles true
 team modify yellow seeFriendlyInvisibles true
-team modify pink seeFriendlyInvisibles true
+team modify light_purple seeFriendlyInvisibles true
 team modify white seeFriendlyInvisibles true
-team modify orange seeFriendlyInvisibles true
+team modify gold seeFriendlyInvisibles true
 team modify gray seeFriendlyInvisibles true
 
 scoreboard players set red score 0

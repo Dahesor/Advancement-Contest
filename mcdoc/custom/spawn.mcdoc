@@ -1,0 +1,35 @@
+use::java::world::component::CustomData
+use::mcdoc::gen::vec3
+
+dispatch minecraft:storage["custom"] to struct {[any]: CustomData}
+
+dispatch mcdoc:custom_data["keeps_on_death"] to boolean
+dispatch mcdoc:custom_data["outpost"] to struct{
+    init?: boolean,
+    team?: #[color="named"] Teams,
+    id?: int,
+}
+
+dispatch minecraft:storage["team"] to struct {
+    outpost?: struct{
+        [Teams]?: [TeamOutpost],
+        new?: TeamOutpost
+    }
+}
+
+struct TeamOutpost{
+    ...vec3,
+    id?: int,
+    state?: int
+}
+
+enum(string) Teams{
+    red = "red",
+    blue = "blue",
+    green = "green",
+    yellow = "yellow",
+    pink = "light_purple",
+    white = "white",
+    gold = "gold",
+    gray = "gray",
+}

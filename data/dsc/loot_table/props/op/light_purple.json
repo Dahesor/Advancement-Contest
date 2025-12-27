@@ -1,0 +1,37 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "dsc:props/op/generic"
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_name",
+            "target": "item_name",
+            "name": {"translate": "outpost","color":"light_purple"}
+        },
+        {
+            "function": "set_components",
+            "components": {
+                "entity_data": {
+                    "id": "marker",
+                    "Tags": ["outpost","outpost_init"],
+                    "data": {"outpost": {"team": "light_purple"}}
+                }
+            }
+        },
+        {
+            "function": "set_custom_model_data",
+            "strings": {
+                "mode": "append","values": ["light_purple"]
+            }
+        }
+    ]
+}

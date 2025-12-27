@@ -19,7 +19,7 @@ dispatch minecraft:storage["map:main"] to struct{
         dialog?: DialogMix
     },
     num?: any,
-    dec?: [struct dec{...vec2,char?: string}],
+    dec?: [struct dec{...vec2,char?: string,id?: int}],
     dec_nether?: [dec],
     dec_end?: [dec],
     dec_temp?: [dec],

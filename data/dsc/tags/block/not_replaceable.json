@@ -1,0 +1,18 @@
+{
+    "values": [
+        "command_block",
+        "repeating_command_block",
+        "chain_command_block",
+        "structure_block",
+        "jigsaw",
+        "barrier",
+        "bedrock",
+        "moving_piston",
+        "test_block",
+        "light",
+        "end_portal",
+        "end_portal_frame",
+        "end_gateway",
+        "nether_portal"
+    ]
+}

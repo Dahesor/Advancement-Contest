@@ -1,0 +1,8 @@
+execute if score @s team matches 1 run return run data modify storage map:main dec[-1].char set value "R"
+execute if score @s team matches 2 run return run data modify storage map:main dec[-1].char set value "G"
+execute if score @s team matches 3 run return run data modify storage map:main dec[-1].char set value "B"
+execute if score @s team matches 4 run return run data modify storage map:main dec[-1].char set value "Y"
+execute if score @s team matches 5 run return run data modify storage map:main dec[-1].char set value "P"
+execute if score @s team matches 6 run return run data modify storage map:main dec[-1].char set value "W"
+execute if score @s team matches 7 run return run data modify storage map:main dec[-1].char set value "O"
+execute if score @s team matches 8 run return run data modify storage map:main dec[-1].char set value "L"

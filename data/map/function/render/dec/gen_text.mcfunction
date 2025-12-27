@@ -13,4 +13,5 @@ scoreboard players operation __font map %= #18 calc.DSC
 execute if score __font map matches 3..5 run return run data modify storage map:main t.extra[1].font set value "dsc:pl/2"
 execute if score __font map matches 6..8 run return run data modify storage map:main t.extra[1].font set value "dsc:pl/3"
 execute if score __font map matches 9..11 run return run data modify storage map:main t.extra[1].font set value "dsc:pl/4"
-data modify storage map:main t.extra[1].font set value "dsc:pl/5"
+execute if score __font map matches 12..15 run return run data modify storage map:main t.extra[1].font set value "dsc:pl/5"
+execute if score __font map matches 16.. run return run data modify storage map:main t.extra[1].font set value "dsc:pl/6"

@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "used":{
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": ["end_portal_frame"]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "dsc:module/end/fill/trigger"
+    }
+}

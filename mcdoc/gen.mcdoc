@@ -27,6 +27,7 @@ dispatch minecraft:storage["gen"] to struct{
 }
 
 struct vec2{x: int,z: int}
+struct vec3{...vec2,y: int}
 
 struct find{
     type?: LocateTypes,

@@ -1,0 +1,1 @@
+scoreboard players add time main 1

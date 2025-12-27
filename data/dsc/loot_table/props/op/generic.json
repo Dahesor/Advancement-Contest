@@ -1,0 +1,41 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "bat_spawn_egg"
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_custom_data",
+            "tag": {
+                "outpost": {"init": true},
+                "keeps_on_death": true
+            }
+        },
+        {
+            "function": "set_components",
+            "components": {
+                "entity_data": {
+                    "id": "marker",
+                    "Tags": ["outpost","outpost_init"]
+                },
+                "item_model": "dsc:outpost/mod"
+            }
+        },
+        {
+            "function": "set_lore",
+            "mode": "replace_all",
+            "lore": [
+                "",
+                {"translate": "keeps_on_death","color":"green","italic": false}
+            ]
+        }
+    ]
+}

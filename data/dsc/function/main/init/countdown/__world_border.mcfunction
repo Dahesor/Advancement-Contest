@@ -1,0 +1,1 @@
+worldborder set 1024 1000s

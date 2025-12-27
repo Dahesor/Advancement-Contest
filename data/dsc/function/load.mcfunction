@@ -9,6 +9,11 @@ scoreboard objectives add team dummy
 scoreboard objectives add score dummy
 scoreboard objectives add gen dummy
 scoreboard objectives add trigger.balanced_diet dummy
+scoreboard objectives add refreshCD dummy
+scoreboard objectives add outpost dummy
+scoreboard objectives add outpost.state dummy
+scoreboard objectives add main dummy
+scoreboard objectives add used.ender_eye used:ender_eye
 stopwatch create dsc:master
 
 
