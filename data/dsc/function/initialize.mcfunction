@@ -1,5 +1,5 @@
 function sidebar.dah:reload
-gamerule limited_crafting true
+gamerule spawn_wandering_traders false
 recipe take @a *
 advancement revoke @a everything
 scoreboard players set MAP_UPDATE_SPEED calc.DSC 60
@@ -15,6 +15,7 @@ scoreboard players set $package_amount calc.DSC 0
 scoreboard players set $new_score calc.DSC 0
 
 summon marker 512 0 512 {UUID:[I;0,0,0,0],CustomName:"ROOT"}
+scoreboard players set #read_height main 1
 
 #temp
 scoreboard players set origin_x map 0

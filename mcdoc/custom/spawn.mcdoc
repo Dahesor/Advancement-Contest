@@ -46,4 +46,5 @@ enum(string) Teams{
     white = "white",
     gold = "gold",
     gray = "gray",
+    black = "black"
 }

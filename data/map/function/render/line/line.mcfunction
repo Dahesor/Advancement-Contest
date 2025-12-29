@@ -1,6 +1,7 @@
+data modify storage map:main line set from storage map:main temp[0]
+execute if score on main matches 1 run function map:render/line/border/render
 execute unless data storage map:main temp[0][].update run return run function map:render/line/next_line
 
-data modify storage map:main line set from storage map:main temp[0]
 
 scoreboard players set __char_count map 0
 

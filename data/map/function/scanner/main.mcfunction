@@ -1,9 +1,9 @@
 scoreboard players operation __last_valid map = __valid map
 scoreboard players set __valid map 0
+execute if score __in_world map matches 0 run return fail
 execute unless loaded ~ ~ ~ run return fail
 scoreboard players add __sample map 1
 scoreboard players set __valid map 1
-
 data modify storage map:main chunk set value {color:[],height:0}
 
 scoreboard players set __cumulate_h map 0

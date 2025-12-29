@@ -3,6 +3,7 @@ use::mcdoc::dialog::dialog::DialogMix
 
 dispatch minecraft:storage["map:main"] to struct{
     main?: MapData,
+    final?: MapData,
     chunk?: ChunkData,
     color?: #[color="hex_rgb"] string,
     front_line?: [Text],
@@ -20,7 +21,8 @@ dispatch minecraft:storage["map:main"] to struct{
         dialog?: DialogMix
     },
     num?: any,
-    dec?: [struct dec{...vec2,char?: string,id?: int}],
+    dec?: [dec],
+    dec_koh?: dec,
     dec_nether?: [dec],
     dec_end?: [dec],
     dec_temp?: [dec],
@@ -30,6 +32,12 @@ dispatch minecraft:storage["map:main"] to struct{
         b?: #[color="hex_rgb"] string,
         key?: int
     }
+}
+
+struct dec{
+    ...vec2,
+    char?: string,
+    id?: int
 }
 
 struct StaticMap{

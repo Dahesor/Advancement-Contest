@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "enther_portal":{
+            "trigger": "enter_block",
+            "conditions": {
+                "block": "end_gateway"
+            }
+        }
+    },
+    "rewards": {
+        "function": "dsc:main/uhc/utils/shut_gateway"
+    }
+}

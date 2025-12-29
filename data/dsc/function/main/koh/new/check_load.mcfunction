@@ -1,0 +1,1 @@
+return run function dsc:main/koh/new/__check_load with storage koh locations[0]

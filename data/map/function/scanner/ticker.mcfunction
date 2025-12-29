@@ -1,5 +1,6 @@
+scoreboard players set __in_world map 1
+function map:scanner/in_border
 function map:scanner/main
-
 scoreboard players set __next_line map 0
 scoreboard players set __reset map 0
 

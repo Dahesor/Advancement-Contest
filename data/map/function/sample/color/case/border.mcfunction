@@ -1,0 +1,1 @@
+data modify storage map:main color set value "#ff0000"

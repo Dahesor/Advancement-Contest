@@ -1,4 +1,3 @@
-scoreboard players set #test calc.DSC 0
 scoreboard players set $__height map 0
 tp @s ~ ~ ~
 execute store result score __new_y map run data get entity @s Pos[1]

@@ -13,3 +13,6 @@ execute as @a[scores={team=1..}] run function dsc:main/init/countdown/spawn_self
 function dsc:main/init/countdown/__world_border
 
 function dsc:main/init/const
+
+#Stages
+function dsc:main/koh/pick/port

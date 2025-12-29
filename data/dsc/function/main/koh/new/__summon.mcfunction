@@ -1,0 +1,1 @@
+$execute rotated $(theta) 0 positioned ^ ^ ^$(radius) run function dsc:main/koh/new/summon

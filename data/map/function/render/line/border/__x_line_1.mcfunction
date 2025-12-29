@@ -1,0 +1,1 @@
+$data modify storage map:main line[$(i)].color set value ["#00c70a","#00c70a","#00c70a","#00c70a"]

@@ -1,0 +1,2 @@
+execute if score stage main matches 3.. run data modify storage map:main line[0].color set value ["#FF0000","#FF0000","#FF0000","#FF0000"]
+execute if score stage main matches ..2 run data modify storage map:main line[0].color set value ["#00c70a","#00c70a","#00c70a","#00c70a"]

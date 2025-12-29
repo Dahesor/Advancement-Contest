@@ -24,6 +24,7 @@ gamerule max_command_sequence_length 655360
 gamerule max_command_forks 655360
 gamerule immediate_respawn true
 gamerule keep_inventory true
+gamerule limited_crafting true
 
 #NUM
 scoreboard players set #-1 calc.DSC -1

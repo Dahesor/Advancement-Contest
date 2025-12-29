@@ -1,0 +1,10 @@
+dispatch minecraft:storage["koh"] to struct{
+    locations?: [Polar],
+    temp?: [Polar],
+    new?: Polar
+}
+
+struct Polar{
+    radius?: int,
+    theta?: int
+}
