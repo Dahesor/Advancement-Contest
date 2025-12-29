@@ -20,4 +20,5 @@ execute store result storage run tp.z int 1 run scoreboard players get $z calc.D
 execute if score @s md.dimension matches 2 run data modify storage run tp.in set value "the_nether"
 execute if score @s md.dimension matches 3 run data modify storage run tp.in set value "the_end"
 function dsc:menu/trigger/__tp with storage run tp
+dialog clear @s
 tag @s remove dsc.mapping

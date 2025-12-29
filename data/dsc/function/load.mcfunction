@@ -28,6 +28,7 @@ gamerule keep_inventory true
 #NUM
 scoreboard players set #-1 calc.DSC -1
 scoreboard players set #2 calc.DSC 2
+scoreboard players set #3 calc.DSC 3
 scoreboard players set #4 calc.DSC 4
 scoreboard players set #6 calc.DSC 6
 scoreboard players set #8 calc.DSC 8

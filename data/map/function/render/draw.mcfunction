@@ -8,7 +8,6 @@ function map:render/__get_data with storage run index
 
 function map:render/line/line
 
+scoreboard players add __line_count map 1
 
 function map:render/__remove_update with storage run index
-
-scoreboard players add __line_count map 1

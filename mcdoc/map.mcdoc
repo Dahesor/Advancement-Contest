@@ -12,6 +12,7 @@ dispatch minecraft:storage["map:main"] to struct{
     nether?: StaticMap,
     the_end?: StaticMap,
     text?: [Text],
+    text_template?:[Text],
     text_ready?: [Text],
     t?: Text,
     temp?: [[ChunkData]],
@@ -23,7 +24,12 @@ dispatch minecraft:storage["map:main"] to struct{
     dec_nether?: [dec],
     dec_end?: [dec],
     dec_temp?: [dec],
-    single_dec?: dec
+    single_dec?: dec,
+    last_color?: struct{
+        a?: #[color="hex_rgb"] string,
+        b?: #[color="hex_rgb"] string,
+        key?: int
+    }
 }
 
 struct StaticMap{
@@ -35,7 +41,8 @@ struct ChunkData{
     color?: [#[color="hex_rgb"] string] @..4,
     init?: boolean,
     location?: vec2,
-    update?: boolean
+    update?: boolean,
+    height?: int
 }
 
 struct MapData{
