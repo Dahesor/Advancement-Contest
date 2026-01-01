@@ -1,4 +1,3 @@
-forceload add ~ ~
 scoreboard players add time main 1
 execute if score invincible main matches 1 run function dsc:main/plugin/invincible
 execute if score time main = STAGE_2_START_TIME main run function dsc:main/koh/launch
@@ -6,6 +5,7 @@ execute if score time main = STAGE_3_START_TIME main run function dsc:main/uhc/l
 
 #Stage Main
 execute if score stage main matches 2 run function dsc:main/koh/tick
+execute if score stage main matches 3 run function dsc:main/uhc/tick
 
 #Player
 execute as @a[scores={team=1..}] at @s run function dsc:main/player/self

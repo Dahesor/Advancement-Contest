@@ -1,1 +1,1 @@
-$execute in overworld positioned $(x) 320 $(z) run tp @s ~ ~ ~
+$execute in overworld positioned $(x) 320 $(z) facing entity 0-0-0-0-0 eyes rotated ~ 0 positioned ^ ^ ^10 run tp @s ~ ~ ~

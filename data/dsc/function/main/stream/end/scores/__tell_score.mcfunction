@@ -1,0 +1,1 @@
+$tellraw @a {translate:"final_score",with:[{translate:"$(team)",color:"$(team)"},{score:{name:"$(team)",objective:"score"}}]}

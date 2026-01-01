@@ -7,7 +7,7 @@ function gen:locate/core/read
 execute if score distance gen matches ..4 unless score $p_post_att gen matches 8.. run return run scoreboard players remove $exe gen 1
 execute if score distance gen matches ..4 run return fail
 
-tellraw @a [{text:"\n[gen:main] 尝试决定放置一个掠夺者前哨站",color:"dark_gray"}]
+tellraw @a[tag=dev] [{text:"\n[gen:main] 尝试决定放置一个掠夺者前哨站",color:"dark_gray"}]
 
 function gen:ter/place/call
 

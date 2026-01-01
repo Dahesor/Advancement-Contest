@@ -1,3 +1,4 @@
+advancement revoke @a everything
 advancement revoke @a through dsc_adv:adventure/root
 advancement revoke @a through dsc_adv:adventure/root/final
 advancement revoke @a through dsc_adv:story/root

@@ -1,4 +1,4 @@
-#tp @s 0-0-0-0-0
+tp @s 0-0-0-0-0
 execute if score @s revive_time matches 2.. run scoreboard players remove @s revive_time 1
 execute if score @s revive_time matches 2 run tag @s[tag=!aced] add respawning
 execute if score @s revive_time matches 2 if entity @s[tag=!aced] run function dsc:main/player/death/menu/arrange

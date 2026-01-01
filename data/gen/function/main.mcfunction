@@ -1,4 +1,11 @@
 schedule function gen:main 1t replace
+title @a times 0 10 0
+title @a title "正在加载地图……"
+title @a subtitle "这大概需要三分钟"
+effect give @a blindness 5 0 true
+execute as @a run attribute @s block_interaction_range modifier add gen:block -100 add_value
+execute as @a at @s run tp @s ~ 500 ~
+
 execute if score next gen matches 1.. run return run scoreboard players remove next gen 1
 
 execute if score phase gen matches -100 run return run function gen:ter/b_fetch/start
@@ -53,4 +60,7 @@ execute if score phase gen matches 300 run return run function gen:nether/__fort
 execute if score phase gen matches 301 run return run function gen:nether/fortress
 execute if score phase gen matches 302 run return run function gen:nether/__bastion
 execute if score phase gen matches 303 run return run function gen:nether/bastion
+
+execute if score phase gen matches 310 run return run function gen:finish
+
 return run function gen:abort

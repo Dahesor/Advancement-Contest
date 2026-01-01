@@ -1,5 +1,6 @@
 scoreboard objectives remove gen
 scoreboard objectives add gen dummy
+scoreboard players set gen main 1
 
 stopwatch create gen:main
 

@@ -1,3 +1,4 @@
+
 function dsc:main/init/centers
 scoreboard players set stage main -1
 scoreboard players reset @a death
@@ -13,7 +14,7 @@ execute in the_end run worldborder damage amount 1
 execute in overworld run worldborder warning distance 2
 execute in the_nether run worldborder warning distance 2
 execute in the_end run worldborder warning distance 2
-
+function map:reset_main
 execute positioned over motion_blocking_no_leaves positioned ~-23 ~ ~-23 run place template gen:center
 
 schedule function dsc:main/init/countdown/10 1t

@@ -1,0 +1,1 @@
+$execute in overworld positioned $(x) 300 $(z) run function dsc:core/initialize/worldspawn

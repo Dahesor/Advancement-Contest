@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "inv_":{
+            "trigger": "inventory_changed"
+        }
+    },
+    "rewards": {
+        "function": "dsc:main/player/inv/cache"
+    }
+}

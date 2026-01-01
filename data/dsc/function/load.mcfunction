@@ -52,7 +52,8 @@ scoreboard players set #200 calc.DSC 200
 scoreboard players set #341 calc.DSC 341
 scoreboard players set #360 calc.DSC 360
 scoreboard players set #384 calc.DSC 384
-scoreboard players set #2667 calc.DSC 2667
 scoreboard players set #1000 calc.DSC 1000
+scoreboard players set #1024 calc.DSC 1024
+scoreboard players set #2667 calc.DSC 2667
 
 execute unless score #init calc.DSC matches 1 run function dsc:initialize
