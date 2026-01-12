@@ -75,3 +75,6 @@ def main():
             print(f"⚠️ 处理失败: {jp}\n   原因: {e}")
 
     print(f"完成。成功: {ok}，失败: {failed}，输出目录: {TARGET_DIR}")
+
+if __name__ == "__main__":
+    main()

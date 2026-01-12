@@ -1,27 +1,19 @@
 {
-  "parent": "dsc_adv:story/obtain_armor",
+  "parent": "dsc_adv:husbandry/tactical_fishing",
   "criteria": {
-    "deflected_projectile": {
+    "axolotl_bucket": {
       "conditions": {
-        "damage": {
-          "type": {
-            "tags": [
-              {
-                "expected": true,
-                "id": "minecraft:is_projectile"
-              }
-            ]
-          },
-          "blocked": true
+        "item": {
+          "items": "minecraft:axolotl_bucket"
         }
       },
-      "trigger": "minecraft:entity_hurt_player"
+      "trigger": "minecraft:filled_bucket"
     }
   },
   "display": {
     "description": [
       {
-        "translate": "task.deflect_arrow.1",
+        "translate": "task.bucket_axolotl.1",
         "italic": false,
         "color": "gray"
       },
@@ -46,20 +38,8 @@
         "italic": false,
         "color": "green",
         "with": [
-          "6"
+          "2"
         ]
-      },
-      "\n",
-      {
-        "translate": "reward.recipe",
-        "italic": false,
-        "color": "aqua"
-      },
-      "\n",
-      {
-        "text": "箭矢",
-        "italic": false,
-        "color": "gray"
       },
       "\n",
       {
@@ -73,34 +53,31 @@
         "italic": false,
         "color": "gold",
         "with": [
-          "10"
+          "5"
         ]
       },
       "\n",
       {
-        "translate": "reward.recipe",
+        "translate": "reward.emerald",
         "italic": false,
-        "color": "aqua"
-      },
-      "\n",
-      {
-        "text": "发射器",
-        "italic": false,
-        "color": "gray"
+        "color": "green",
+        "with": [
+          "4"
+        ]
       }
     ],
     "icon": {
       "count": 1,
-      "id": "minecraft:shield"
+      "id": "minecraft:axolotl_bucket"
     },
     "title": {
-      "translate": "task.deflect_arrow",
+      "translate": "task.bucket_axolotl",
       "italic": false
     },
     "show_toast": true,
     "announce_to_chat": false
   },
   "rewards": {
-    "function": "dsc_adv:deflect_arrow"
+    "function": "dsc_adv:bucket_axolotl"
   }
 }

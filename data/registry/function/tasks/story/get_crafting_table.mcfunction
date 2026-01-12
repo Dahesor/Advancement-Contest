@@ -1,6 +1,6 @@
 data modify storage dsc:task new append value {\
     advancement:"dsc_adv:story/make_crafting_table",\
-    all_reward:{emerald:2,score:4},\
+    all_reward:{emerald:2,score:4,recipe:"dsc_recipe:story/crafting_table"},\
     first_reward:{emerald:4,score:5},\
     display:{lore_length:1},\
     additional_lore:{\
@@ -23,8 +23,8 @@ data modify storage dsc:task new[-1] merge value {\
         recipe_name_first:[],\
     },\
     funcs:{\
-        give:"registry:null",\
-        take:"registry:null",\
+        give:"dsc_recipe:crafting_table/give",\
+        take:"dsc_recipe:crafting_table/take",\
         give_first:"registry:null",\
         take_first:"registry:null",\
     }\

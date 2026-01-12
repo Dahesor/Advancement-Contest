@@ -13,10 +13,10 @@ data modify storage dsc:task new append value {\
 
 
 data modify storage dsc:task new[-1] merge value {\
-    id:"block_arrow",\
+    id:"deflect_arrow",\
     display:{\
-        title:{"translate":"task.block_arrow","italic":false},\
-        lore:[{"translate":"task.block_arrow.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["6"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", {"text":"箭矢","italic":false,"color":"gray"}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["10"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", {"text":"发射器","italic":false,"color":"gray"}],\
+        title:{"translate":"task.deflect_arrow","italic":false},\
+        lore:[{"translate":"task.deflect_arrow.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["6"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", {"text":"箭矢","italic":false,"color":"gray"}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["10"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", {"text":"发射器","italic":false,"color":"gray"}],\
         \
         recipe_name_all:[],\
         \
