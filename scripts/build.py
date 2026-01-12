@@ -1,8 +1,8 @@
-from recipe import main
-from registry.read_files import main as read_files_main
-from registry.update_tag import main as update_tag_main
+from recipe import main as make_recipe_functions
+from registry.read_files import main as read_reg_files
+from registry.update_tag import main as update_tags
 
 if __name__ == "__main__":
-    read_files_main()
-    main()
-    update_tag_main()
+    make_recipe_functions()
+    read_reg_files()
+    update_tags()

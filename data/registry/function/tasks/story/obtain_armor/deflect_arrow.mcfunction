@@ -1,7 +1,7 @@
 data modify storage dsc:task new append value {\
     advancement:"dsc_adv:story/deflect_arrow",\
-    all_reward:{emerald:6,score:4,recipe:"dsc_recipe:block_arrow_first"},\
-    first_reward:{emerald:0,score:10,recipe:"dsc_recipe:block_arrow_first"},\
+    all_reward:{emerald:6,score:4,recipe:"dsc_recipe:story/adv/block_arrow_first"},\
+    first_reward:{emerald:0,score:10,recipe:"dsc_recipe:story/adv/block_arrow_first"},\
     display:{lore_length:1},\
     additional_lore:{\
         all_:"",\

@@ -1,7 +1,7 @@
 data modify storage dsc:task new append value {\
     advancement:"dsc_adv:story/lava_bucket",\
-    all_reward:{emerald:0,score:3,recipe:"dsc_recipe:lava_bucket"},\
-    first_reward:{emerald:0,score:6,recipe:"dsc_recipe:first_lava_bucket"},\
+    all_reward:{emerald:0,score:3,recipe:"dsc_recipe:story/lava_bucket"},\
+    first_reward:{emerald:0,score:6,recipe:"dsc_recipe:story/first_lava_bucket"},\
     display:{lore_length:1},\
     additional_lore:{\
         all_:"",\

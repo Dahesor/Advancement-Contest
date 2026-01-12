@@ -1,7 +1,7 @@
 data modify storage dsc:task new append value {\
     advancement:"dsc_adv:story/smelt_iron",\
     all_reward:{emerald:5,score:5},\
-    first_reward:{emerald:5,score:5,recipe:"dsc_recipe:first_iron_smelt"},\
+    first_reward:{emerald:5,score:5,recipe:"dsc_recipe:story/first_iron_smelt"},\
     display:{lore_length:1},\
     additional_lore:{\
         all_:"",\

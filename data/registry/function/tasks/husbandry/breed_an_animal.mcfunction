@@ -1,6 +1,6 @@
 data modify storage dsc:task new append value {\
     advancement:"dsc_adv:husbandry/breed_an_animal",\
-    all_reward:{emerald:2,score:4,recipe:"dsc_recipe:breed_animal"},\
+    all_reward:{emerald:2,score:4,recipe:"dsc_recipe:husbandry/breed_animal"},\
     first_reward:{emerald:4,score:5},\
     display:{lore_length:1},\
     additional_lore:{\

@@ -1,6 +1,6 @@
 data modify storage dsc:task new append value {\
     advancement:"dsc_adv:husbandry/plant_seed",\
-    all_reward:{emerald:2,score:4,recipe:"dsc_recipe:plant_seed"},\
+    all_reward:{emerald:2,score:4,recipe:"dsc_recipe:husbandry/plant_seed"},\
     first_reward:{emerald:4,score:5},\
     display:{lore_length:1},\
     additional_lore:{\

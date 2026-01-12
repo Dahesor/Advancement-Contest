@@ -1,6 +1,6 @@
 data modify storage dsc:task new append value {\
     advancement:"dsc_adv:story/upgrade_tools",\
-    all_reward:{emerald:0,score:0,recipe:"dsc_recipe:stone_pickaxe"},\
+    all_reward:{emerald:0,score:0,recipe:"dsc_recipe:story/stone_pickaxe"},\
     first_reward:{emerald:0,score:2},\
     display:{lore_length:1},\
     additional_lore:{\

@@ -1,7 +1,7 @@
 data modify storage dsc:task new append value {\
     advancement:"dsc_adv:husbandry/make_cake",\
-    all_reward:{emerald:5,score:6,recipe:"dsc_recipe:make_cake"},\
-    first_reward:{emerald:8,score:8,recipe:"dsc_recipe:make_cake_first"},\
+    all_reward:{emerald:5,score:6,recipe:"dsc_recipe:husbandry/make_cake"},\
+    first_reward:{emerald:8,score:8,recipe:"dsc_recipe:husbandry/make_cake_first"},\
     display:{lore_length:1},\
     additional_lore:{\
         all_:"",\

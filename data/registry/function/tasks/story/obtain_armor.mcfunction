@@ -1,7 +1,7 @@
 data modify storage dsc:task new append value {\
     advancement:"dsc_adv:story/obtain_armor",\
-    all_reward:{emerald:4,score:5,recipe:"dsc_recipe:iron_armor"},\
-    first_reward:{emerald:4,score:8,recipe:"dsc_recipe:first_iron_armor"},\
+    all_reward:{emerald:4,score:5,recipe:"dsc_recipe:story/iron_armor"},\
+    first_reward:{emerald:4,score:8,recipe:"dsc_recipe:story/first_iron_armor"},\
     display:{lore_length:2},\
     additional_lore:{\
         all_:"",\

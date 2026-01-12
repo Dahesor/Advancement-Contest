@@ -1,7 +1,7 @@
 data modify storage dsc:task new append value {\
     advancement:"dsc_adv:husbandry/balanced_diet",\
-    all_reward:{emerald:10,score:16,recipe:"dsc_recipe:balanced_diet"},\
-    first_reward:{emerald:20,score:20,recipe:"dsc_recipe:balanced_diet_first"},\
+    all_reward:{emerald:10,score:16,recipe:"dsc_recipe:husbandry/balanced_diet"},\
+    first_reward:{emerald:20,score:20,recipe:"dsc_recipe:husbandry/balanced_diet_first"},\
     display:{lore_length:1},\
     additional_lore:{\
         all_:"",\

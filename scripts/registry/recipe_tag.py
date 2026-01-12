@@ -50,7 +50,7 @@ def get_recipe_tag(registry: Path, lookfor: str) -> tuple[Optional[Path], Option
     tar_namespace = ns_id
 
     namespace, path_part = ns_id.split(":", 1)
-    file_name = path_part.split("/", 1)[-1]
+    file_name = path_part.split("/")[-1]
     file_name = "dsc_recipe:" + file_name
 
     # 组合为 ./data/<namespace>/tags/recipe/<path>.json

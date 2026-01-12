@@ -1,6 +1,6 @@
 data modify storage dsc:task new append value {\
     advancement:"dsc_adv:story/form_obsidian",\
-    all_reward:{emerald:2,score:2,recipe:"dsc_recipe:form_obsidian"},\
+    all_reward:{emerald:2,score:2,recipe:"dsc_recipe:story/adv/form_obsidian"},\
     first_reward:{emerald:4,score:5},\
     display:{lore_length:1},\
     additional_lore:{\
