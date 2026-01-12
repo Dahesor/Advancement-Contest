@@ -39,7 +39,8 @@
           "type": "mining_efficiency"
         }
       ],
-      "custom_name": {"text":"精良铁斧","italic": false}
+      "custom_name": {"text":"精良铁斧","italic": false},
+        "rarity": "uncommon"
     }
   }
 }

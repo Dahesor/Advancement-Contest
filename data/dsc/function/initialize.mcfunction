@@ -62,12 +62,12 @@ team modify gold seeFriendlyInvisibles true
 team modify gray seeFriendlyInvisibles true
 
 scoreboard players set red score 0
-scoreboard players set blue score 0
 scoreboard players set green score 0
+scoreboard players set blue score 0
 scoreboard players set yellow score 0
-scoreboard players set pink score 0
+scoreboard players set light_purple score 0
 scoreboard players set white score 0
-scoreboard players set orange score 0
+scoreboard players set gold score 0
 scoreboard players set gray score 0
 
 data modify storage temp time_text set value [{text:"",shadow_color:-16579829},{text:":"},{text:""},{text:""},{text:" "}]

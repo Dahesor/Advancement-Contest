@@ -38,6 +38,18 @@
       },
       "\n",
       {
+        "translate": "reward.recipe",
+        "italic": false,
+        "color": "aqua"
+      },
+      "\n",
+      {
+        "text": "下界合金升级模版复制\n盔甲纹饰锻造模板复制",
+        "italic": false,
+        "color": "gray"
+      },
+      "\n",
+      {
         "translate": "task.reward_first",
         "italic": false,
         "color": "light_purple"

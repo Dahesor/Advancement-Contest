@@ -1,6 +1,11 @@
 schedule function gen:main 1t replace
 title @a times 0 10 0
-title @a title "正在加载地图……"
+scoreboard players add $title gen 1
+execute if score $title gen matches 40.. run scoreboard players set $title gen 0
+execute if score $title gen matches ..9 run title @a title ["正在加载地图",{text:"\\",shadow_color:0,font:"dsc:slash"}]
+execute if score $title gen matches 10..19 run title @a title ["正在加载地图",{text:"|",shadow_color:0,font:"dsc:slash"}]
+execute if score $title gen matches 21..29 run title @a title ["正在加载地图",{text:"/",shadow_color:0,font:"dsc:slash"}]
+execute if score $title gen matches 31..39 run title @a title ["正在加载地图",{text:"|",shadow_color:0,font:"dsc:slash"}]
 title @a subtitle "这大概需要三分钟"
 effect give @a blindness 5 0 true
 execute as @a run attribute @s block_interaction_range modifier add gen:block -100 add_value

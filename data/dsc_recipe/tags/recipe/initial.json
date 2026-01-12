@@ -24,6 +24,22 @@
         "dsc:special/emerald_convert/5",
         "dsc:special/emerald_convert/6",
         "dsc:special/emerald_convert/7",
-        "dsc:special/emerald_convert/8"
+        "dsc:special/emerald_convert/8",
+        "decorated_pot",
+        "decorated_pot_simple",
+        "oak_sign",
+        "birch_sign",
+        "acacia_sign",
+        "bamboo_sign",
+        "cherry_sign",
+        "jungle_sign",
+        "warped_sign",
+        "crimson_sign",
+        "spruce_sign",
+        "dark_oak_sign",
+        "mangrove_sign",
+        "pale_oak_sign",
+        "torch",
+        "repair_item"
     ]
 }

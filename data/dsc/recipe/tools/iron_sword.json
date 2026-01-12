@@ -39,7 +39,8 @@
           "type": "sweeping_damage_ratio"
         }
       ],
-      "custom_name": {"text":"精良铁剑","italic": false}
+      "custom_name": {"text":"精良铁剑","italic": false},
+        "rarity": "uncommon"
     }
   }
 }

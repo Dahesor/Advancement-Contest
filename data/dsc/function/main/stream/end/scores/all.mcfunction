@@ -4,5 +4,5 @@ execute if score blue score matches 1.. run function dsc:main/stream/end/scores/
 execute if score yellow score matches 1.. run function dsc:main/stream/end/scores/__tell_score {team:"yellow"}
 execute if score light_purple score matches 1.. run function dsc:main/stream/end/scores/__tell_score {team:"light_purple"}
 execute if score white score matches 1.. run function dsc:main/stream/end/scores/__tell_score {team:"white"}
-execute if score orange score matches 1.. run function dsc:main/stream/end/scores/__tell_score {team:"orange"}
+execute if score gold score matches 1.. run function dsc:main/stream/end/scores/__tell_score {team:"gold"}
 execute if score gray score matches 1.. run function dsc:main/stream/end/scores/__tell_score {team:"gray"}

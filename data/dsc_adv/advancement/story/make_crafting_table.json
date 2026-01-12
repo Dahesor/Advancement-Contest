@@ -27,21 +27,15 @@
       },
       "\n",
       {
-        "translate": "reward.score",
+        "translate": "reward.recipe",
         "italic": false,
-        "color": "gold",
-        "with": [
-          "4"
-        ]
+        "color": "aqua"
       },
       "\n",
       {
-        "translate": "reward.emerald",
+        "text": "木质工具，皮革铠甲\n熔炉\n木桶\n梯子",
         "italic": false,
-        "color": "green",
-        "with": [
-          "2"
-        ]
+        "color": "gray"
       },
       "\n",
       {
@@ -55,16 +49,7 @@
         "italic": false,
         "color": "gold",
         "with": [
-          "5"
-        ]
-      },
-      "\n",
-      {
-        "translate": "reward.emerald",
-        "italic": false,
-        "color": "green",
-        "with": [
-          "4"
+          "10"
         ]
       }
     ],

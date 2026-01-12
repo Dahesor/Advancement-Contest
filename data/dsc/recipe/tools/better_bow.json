@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "minecraft:string",
+    "O": "gold_nugget"
+  },
+  "pattern": [
+    "O#X",
+    "# X",
+    "O#X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:bow",
+    "components": {
+        "item_model": "dsc:bow_p",
+        "attribute_modifiers": [
+            {
+                "slot": "hand",
+                "amount": 0.1,
+                "id": "dsc:bow_speed_boost",
+                "operation": "add_multiplied_base",
+                "type": "movement_speed"
+            }
+        ],
+        "custom_name": {"text":"精良弓","italic": false},
+        "rarity": "uncommon"
+    }
+  }
+}

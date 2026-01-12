@@ -60,15 +60,6 @@
         "with": [
           "2"
         ]
-      },
-      "\n",
-      {
-        "translate": "reward.emerald",
-        "italic": false,
-        "color": "green",
-        "with": [
-          "3"
-        ]
       }
     ],
     "icon": {

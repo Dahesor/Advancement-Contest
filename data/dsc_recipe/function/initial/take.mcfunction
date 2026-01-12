@@ -23,3 +23,17 @@ recipe take @s dsc:special/emerald_convert/5
 recipe take @s dsc:special/emerald_convert/6
 recipe take @s dsc:special/emerald_convert/7
 recipe take @s dsc:special/emerald_convert/8
+recipe take @s decorated_pot
+recipe take @s decorated_pot_simple
+recipe take @s oak_sign
+recipe take @s birch_sign
+recipe take @s acacia_sign
+recipe take @s bamboo_sign
+recipe take @s cherry_sign
+recipe take @s jungle_sign
+recipe take @s warped_sign
+recipe take @s crimson_sign
+recipe take @s spruce_sign
+recipe take @s dark_oak_sign
+recipe take @s mangrove_sign
+recipe take @s pale_oak_sign

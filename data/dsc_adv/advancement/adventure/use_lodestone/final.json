@@ -59,6 +59,18 @@
         "with": [
           "4"
         ]
+      },
+      "\n",
+      {
+        "translate": "reward.recipe",
+        "italic": false,
+        "color": "aqua"
+      },
+      "\n",
+      {
+        "text": "雕纹书架",
+        "italic": false,
+        "color": "gray"
       }
     ],
     "icon": {

@@ -38,6 +38,18 @@
       },
       "\n",
       {
+        "translate": "reward.recipe",
+        "italic": false,
+        "color": "aqua"
+      },
+      "\n",
+      {
+        "text": "栓绳",
+        "italic": false,
+        "color": "gray"
+      },
+      "\n",
+      {
         "translate": "task.reward_first",
         "italic": false,
         "color": "light_purple"

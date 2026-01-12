@@ -2,7 +2,7 @@
 
 execute if score $linked calc.DSC matches 1 run return fail
 scoreboard players set $linked calc.DSC 1
-    
+
 $data modify storage dsc:task this set from storage dsc:task entry[{id:"$(id)"}]
 $data modify storage dsc:task entry[{id:"$(id)"}].completed set value true
 function dsc:module/adv/rewards/__grant_final_adv with storage dsc:task this

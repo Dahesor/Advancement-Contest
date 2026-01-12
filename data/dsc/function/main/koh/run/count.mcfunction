@@ -6,7 +6,7 @@ scoreboard players set #light_purple calc.DSC 0
 scoreboard players set #white calc.DSC 0
 scoreboard players set #gold calc.DSC 0
 scoreboard players set #gray calc.DSC 0
-execute as @a[gamemode=creative,scores={team=1..},distance=..25] run function dsc:main/koh/run/add_self
+execute as @a[gamemode=survival,scores={team=1..},distance=..25] run function dsc:main/koh/run/add_self
 
 scoreboard players set #winning calc.DSC 0
 scoreboard players set #max calc.DSC 0

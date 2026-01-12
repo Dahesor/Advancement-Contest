@@ -1,6 +1,22 @@
 {
     "values": [
         "diamond_pickaxe",
-        "wind_charge"
+        "red_bed",
+        "cyan_bed",
+        "gray_bed",
+        "blue_bed",
+        "lime_bed",
+        "pink_bed",
+        "black_bed",
+        "brown_bed",
+        "green_bed",
+        "white_bed",
+        "orange_bed",
+        "purple_bed",
+        "yellow_bed",
+        "magenta_bed",
+        "light_blue_bed",
+        "light_gray_bed",
+        "lodestone"
     ]
 }

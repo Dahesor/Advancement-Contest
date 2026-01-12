@@ -631,6 +631,18 @@
       },
       "\n",
       {
+        "translate": "reward.recipe",
+        "italic": false,
+        "color": "aqua"
+      },
+      "\n",
+      {
+        "text": "铁胸甲，精良的铁剑\n木矛\n弓",
+        "italic": false,
+        "color": "gray"
+      },
+      "\n",
+      {
         "translate": "task.reward_first",
         "italic": false,
         "color": "light_purple"
