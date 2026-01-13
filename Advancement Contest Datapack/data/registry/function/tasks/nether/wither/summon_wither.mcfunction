@@ -1,7 +1,7 @@
 data modify storage dsc:task new append value {\
     advancement:"dsc_adv:nether/summon_wither",\
     all_reward:{emerald:2,score:4,recipe:"dsc_recipe:nether/fortress/summon_wither"},\
-    first_reward:{emerald:4,score:5},\
+    first_reward:{emerald:4,score:8},\
     display:{lore_length:1},\
     additional_lore:{\
         all_:"",\
@@ -16,7 +16,7 @@ data modify storage dsc:task new[-1] merge value {\
     id:"summon_wither",\
     display:{\
         title:{"translate":"task.summon_wither","italic":false},\
-        lore:[{"translate":"task.summon_wither.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", {"text":"钻石剑\n钻石护腿","italic":false,"color":"gray"}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}],\
+        lore:[{"translate":"task.summon_wither.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", {"text":"钻石剑\n钻石护腿","italic":false,"color":"gray"}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["8"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}],\
         \
         recipe_name_all:[],\
         \

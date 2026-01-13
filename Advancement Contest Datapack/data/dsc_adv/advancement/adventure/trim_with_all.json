@@ -69,16 +69,7 @@
         "italic": false,
         "color": "gold",
         "with": [
-          "4"
-        ]
-      },
-      "\n",
-      {
-        "translate": "reward.emerald",
-        "italic": false,
-        "color": "green",
-        "with": [
-          "2"
+          "30"
         ]
       },
       "\n",
@@ -93,7 +84,7 @@
         "italic": false,
         "color": "gold",
         "with": [
-          "5"
+          "30"
         ]
       },
       "\n",
@@ -102,7 +93,7 @@
         "italic": false,
         "color": "green",
         "with": [
-          "4"
+          "64"
         ]
       }
     ],

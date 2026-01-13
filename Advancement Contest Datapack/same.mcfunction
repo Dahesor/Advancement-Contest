@@ -2,4 +2,3 @@ give @s oak_sign[block_entity_data={id:"sign",is_waxed:1b,front_text:{messages:[
 
 
 say 红石比较器 弩 矛
-

@@ -111,7 +111,7 @@
         "italic": false,
         "color": "gold",
         "with": [
-          "4"
+          "20"
         ]
       },
       "\n",
@@ -120,7 +120,7 @@
         "italic": false,
         "color": "green",
         "with": [
-          "2"
+          "6"
         ]
       },
       "\n",
@@ -135,7 +135,7 @@
         "italic": false,
         "color": "gold",
         "with": [
-          "5"
+          "10"
         ]
       },
       "\n",
@@ -144,7 +144,7 @@
         "italic": false,
         "color": "green",
         "with": [
-          "4"
+          "8"
         ]
       }
     ],

@@ -1,7 +1,7 @@
 data modify storage dsc:task new append value {\
     advancement:"dsc_adv:adventure/kill_all_mobs",\
-    all_reward:{emerald:2,score:4},\
-    first_reward:{emerald:4,score:5},\
+    all_reward:{emerald:6,score:20},\
+    first_reward:{emerald:8,score:10},\
     display:{lore_length:1},\
     additional_lore:{\
         all_:"",\
@@ -15,7 +15,7 @@ data modify storage dsc:task new[-1] merge value {\
     id:"kill_all_mobs",\
     display:{\
         title:{"translate":"task.kill_all_mobs","italic":false},\
-        lore:[{"translate":"task.kill_all_mobs.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}],\
+        lore:[{"translate":"task.kill_all_mobs.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["20"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["6"]}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["10"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["8"]}],\
         \
         recipe_name_all:[],\
         \

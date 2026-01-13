@@ -1,7 +1,7 @@
 data modify storage dsc:task new append value {\
     advancement:"dsc_adv:husbandry/bred_all_animals",\
-    all_reward:{emerald:2,score:4},\
-    first_reward:{emerald:4,score:5},\
+    all_reward:{emerald:10,score:30},\
+    first_reward:{emerald:20,score:20},\
     display:{lore_length:1},\
     additional_lore:{\
         all_:"",\
@@ -16,7 +16,7 @@ data modify storage dsc:task new[-1] merge value {\
     id:"bred_all_animals",\
     display:{\
         title:{"translate":"task.bred_all_animals","italic":false},\
-        lore:[{"translate":"task.bred_all_animals.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}],\
+        lore:[{"translate":"task.bred_all_animals.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["30"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["10"]}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["20"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["20"]}],\
         \
         recipe_name_all:[],\
         \
