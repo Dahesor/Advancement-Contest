@@ -3,17 +3,9 @@
     "type": "minecraft:random_spread",
     "salt": 30084232,
     "separation": 4,
-    "spacing": 21,
-    "exclusion_zone": {
-      "chunk_count": 4,
-      "other_set": "fortress"
-    }
+    "spacing": 25
   },
   "structures": [
-    {
-      "structure": "minecraft:fortress",
-      "weight": 2
-    },
     {
       "structure": "minecraft:bastion_remnant",
       "weight": 3

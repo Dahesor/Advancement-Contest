@@ -23,8 +23,8 @@ data modify storage dsc:task new[-1] merge value {\
         recipe_name_first:[],\
     },\
     funcs:{\
-        give:"registry:null",\
-        take:"registry:null",\
+        give:"dsc_recipe:monster_hunter/give",\
+        take:"dsc_recipe:monster_hunter/take",\
         give_first:"dsc_recipe:monster_hunter/give",\
         take_first:"dsc_recipe:monster_hunter/take",\
     }\

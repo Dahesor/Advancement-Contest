@@ -1,5 +1,3 @@
-scoreboard players set centered main 1
-
 #Get corner
 execute store result score #x calc.DSC run data get entity @s Pos[0]
 execute store result score #z calc.DSC run data get entity @s Pos[2]

@@ -174,5 +174,8 @@
   "recipe.diamond_axe": "TEXTNOTFOUND",
   "recipe.anvil": "TEXTNOTFOUND",
   "recipe.diamond_block": "TEXTNOTFOUND",
-  "recipe.respawn_anchor": "TEXTNOTFOUND"
+  "recipe.respawn_anchor": "TEXTNOTFOUND",
+  "recipe.sugar_from_sugar_cane": "TEXTNOTFOUND",
+  "recipe.sugar_from_honey_bottle": "TEXTNOTFOUND",
+  "recipe.dsc:special/ender_eye": "TEXTNOTFOUND"
 }

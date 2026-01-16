@@ -18,6 +18,7 @@ function map:init/x
 scoreboard players set $it map 0
 function map:init/z
 
+scoreboard players set centered main 1
 
 return 1
 scoreboard players set origin_x map 0
