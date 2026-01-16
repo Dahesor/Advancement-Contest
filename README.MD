@@ -39,7 +39,7 @@
 
 #### 服务端准备
 
-修改[server.properties](https://zh.minecraft.wiki/w/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F)文件:
+修改[server.properties](https://zh.minecraft.wiki/w/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F)文件（单人或局域网请跳过）:
 ```
 function-permission-level=2
 gamemode=adventure
@@ -50,11 +50,18 @@ spawn-protection=0
 简单地开启一张原版生存地图，并安装提供的数据包。由于数据包更改了世界生成规则，你必须在**世界第一次加载的时候就已经安装数据包**。
 
 如果你不知道怎么做：
+**专用服务器**
  - 确保服务器已关闭
  - 找到服务器的目标世界文件夹（默认为world）
  - 若其中有内容，全部删除（如果需要记得备份）
  - 在文件夹内创建datapacks文件夹，将数据包放置于datapacks文件夹里
  - 启动服务器
+**单机/局域网**
+ - 进入创建新世界的页面
+ - 打开“更多”选项卡
+ - 打开“数据包”选项
+ - 导入数据包，并置于加载列表最上方
+ - 创建世界
 
 #### 地图加载
 
