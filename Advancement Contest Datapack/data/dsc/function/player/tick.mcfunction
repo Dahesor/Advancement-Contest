@@ -3,7 +3,6 @@ execute if score @s leave_game matches 1.. run function dsc:player/left_game
 execute unless score @s dialog matches 0 run function dsc:menu/trigger/mod
 execute unless score @s input matches 0 run function dsc:menu/trigger/input
 execute if score @s refreshCD matches 1.. run scoreboard players remove @s refreshCD 1
-execute unless score @s UID matches 1.. run function dsc:player/uid/new
 
 
 #REMOVE THIS LATER - FOR TESTING PURPOSES ONLY

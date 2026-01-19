@@ -5,6 +5,6 @@
         }
     },
     "rewards": {
-        "function": "dsc:main/player/inv/cache"
+        "function": "dsc:main/player/offline/cache_inv"
     }
 }

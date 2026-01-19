@@ -17,5 +17,6 @@
   },
   "rewards": {
     "function": "dsc:module/adv/trigger/bred_all_animals"
-  }
+  },
+  "parent": "dsc_adv:component/root"
 }

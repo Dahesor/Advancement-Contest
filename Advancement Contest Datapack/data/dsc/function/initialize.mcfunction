@@ -2,7 +2,7 @@ function sidebar.dah:reload
 gamerule spawn_wandering_traders false
 gamerule max_block_modifications 80000
 recipe take @a *
-advancement revoke @a everything
+
 scoreboard players set MAP_UPDATE_SPEED calc.DSC 60
 
 scoreboard players set #init calc.DSC 1

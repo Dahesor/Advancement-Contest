@@ -1,0 +1,11 @@
+{
+    "type": "crafting_shapeless",
+    "result": {
+        "id": "white_banner"
+    },
+    "ingredients": [
+        "#dsc:banners",
+        "white_dye"
+    ],
+    "group": "dsc:banner_dye"
+}

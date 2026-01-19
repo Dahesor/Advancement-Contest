@@ -11,5 +11,6 @@
   },
   "rewards": {
     "function": "dsc:module/adv/trigger/balanced_diet"
-  }
+  },
+  "parent": "dsc_adv:component/root"
 }

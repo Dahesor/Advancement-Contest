@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "new":{
+            "trigger": "tick"
+        }
+    },
+    "rewards": {
+        "function": "dsc:player/uid/new"
+    }
+}

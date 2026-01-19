@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "value": "dsc:id/op"
+          "value": "dsc:id/drop_from_outpost"
         }
       ]
     }

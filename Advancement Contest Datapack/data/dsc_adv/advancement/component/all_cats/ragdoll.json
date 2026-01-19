@@ -19,5 +19,6 @@
   },
   "rewards": {
     "function": "dsc:module/adv/trigger/tame_cats"
-  }
+  },
+  "parent": "dsc_adv:component/root"
 }

@@ -1,7 +1,22 @@
-use::mcdoc::gen::vec2
+use ::mcdoc::gen::vec2
+use ::mcdoc::gen::vec3
+use ::java::util::slot::SlottedItem
+use ::java::world::entity::mob::player::PlayerEquipment
 
 dispatch minecraft:storage["main:"] to struct{
     stronghold?: struct{
         pos?: vec2
-    }
+    },
+    player?: [PlayerData],
+}
+
+struct DoubleVec3{x: double,y: double,z: double,}
+
+struct PlayerData {
+    UID?: int,
+    UUID?: #[uuid] string,
+    Name?: string,
+    Inventory?: [SlottedItem<byte @ -106..106>] @ -106..106,
+    Pos?: DoubleVec3,
+    equipment?: PlayerEquipment,
 }

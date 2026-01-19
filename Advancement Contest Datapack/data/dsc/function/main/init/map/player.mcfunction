@@ -1,5 +1,5 @@
 loot give @s loot dsc:package/initial
-loot give @s loot dsc:id/op
+loot give @s loot dsc:props/op
 execute unless entity @s[tag=__give_map] run return fail
 scoreboard players operation $this team = @s team
 scoreboard players set #count calc.DSC 0

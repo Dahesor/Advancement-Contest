@@ -11,5 +11,6 @@
     },
     "rewards": {
         "function": "dsc:module/adv/trigger/kill_all_mobs"
-    }
+    },
+  "parent": "dsc_adv:component/root"
 }

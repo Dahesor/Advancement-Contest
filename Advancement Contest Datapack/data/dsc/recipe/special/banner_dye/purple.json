@@ -1,0 +1,11 @@
+{
+    "type": "crafting_shapeless",
+    "result": {
+        "id": "purple_banner"
+    },
+    "ingredients": [
+        "#dsc:banners",
+        "purple_dye"
+    ],
+    "group": "dsc:banner_dye"
+}

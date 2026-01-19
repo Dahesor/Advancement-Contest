@@ -19,5 +19,6 @@
     },
     "rewards": {
         "function": "dsc:module/adv/trigger/biomes"
-    }
+    },
+  "parent": "dsc_adv:component/root"
 }
