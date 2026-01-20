@@ -1,0 +1,1 @@
+$data modify storage team task_completed.$(color) append value {id:"$(id)"}

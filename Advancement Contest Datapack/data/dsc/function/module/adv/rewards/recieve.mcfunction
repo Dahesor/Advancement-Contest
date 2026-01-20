@@ -3,6 +3,18 @@
 execute unless score enable_adv main matches 1 run return fail
 execute unless score @s team matches 1.. run return fail
 execute if score $linked calc.DSC matches 1 run return fail
+
+#Duplicate check
+scoreboard players operation $this team = @s team
+function dsc:core/relate/score__team
+scoreboard players set #valid calc.DSC 1
+$data modify storage team misc.id set value "$(id)"
+function dsc:module/adv/rewards/__check_dupplicate with storage team misc
+execute if score #valid calc.DSC matches 0 run return fail
+
+#Add to completed list
+function dsc:module/adv/rewards/__add_to_list with storage team misc
+
 scoreboard players set $linked calc.DSC 1
 
 $data modify storage dsc:task this set from storage dsc:task entry[{id:"$(id)"}]

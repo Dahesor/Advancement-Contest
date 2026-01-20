@@ -30,7 +30,11 @@ dispatch minecraft:storage["team"] to struct {
         op_del?: struct{
             id?: int,
             team?: Team
-        }
+        },
+        id?: any
+    },
+    task_completed?: struct{
+        [Teams]?: [struct{id?: string}]
     }
 }
 
