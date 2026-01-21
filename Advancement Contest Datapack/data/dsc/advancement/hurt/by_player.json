@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "hurt_by_player": {
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "player"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dsc:main/player/hurt/triggers/by_player"
+    }
+}

@@ -5,20 +5,47 @@
     "after_action": "none",
     "actions": [
         {
-            "label": "旁观地图",
+            "label": "旁观者：打开地图",
             "width": 200,
             "action": {
                 "type": "run_command",
                 "command": "/trigger dialog set 2"
-            }
+            },
+            "tooltip": "打开地图，查看地形图与所有玩家和兴趣点的位置。\n点击地图的任意位置可以传送"
         },
         {
-            "label": "管理员页面",
+            "label": "",
+            "width": 200
+        },
+        {
+            "label": "玩家：重新部署",
+            "width": 200,
+            "action": {
+                "type": "run_command",
+                "command": "/trigger dialog set 10"
+            },
+            "tooltip": [
+                {
+                    "text": "立刻进入重生流程，且复活冷却只有20秒\n§c需要过去§e半分钟§c内没有受伤，且过去§e两分钟§c内没有被其他玩家攻击"
+                },
+                "\n\n",
+                {
+                    "text": "若您站在己方团队信标上，则不会掉落任何物品。否则正常掉落随机物品"
+                }
+            ]
+        },
+        {
+            "label": "",
+            "width": 200
+        },
+        {
+            "label": "管理员：管理员页面",
             "width": 200,
             "action": {
                 "type": "run_command",
                 "command": "/trigger dialog set -1"
-            }
+            },
+            "tooltip": "管理游戏。需要您有管理员权限"
         }
     ]
 }

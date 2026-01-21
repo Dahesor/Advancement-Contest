@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "hurt": {
+            "trigger": "entity_hurt_player"
+        }
+    },
+    "rewards": {
+        "function": "dsc:main/player/hurt/triggers/by_any"
+    }
+}

@@ -2,8 +2,9 @@
     "pack": {
         "pack_format": 80,
         "description": "Datapack For Survival Competition\n§aBy Dahesor",
-        "min_format": 96,
-        "max_format": 96
+        "min_format": 60,
+        "max_format": 98,
+        "supported_formats": [60,98]
     },
     "filter": {
         "block": [
