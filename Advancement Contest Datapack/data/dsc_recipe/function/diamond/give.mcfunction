@@ -16,3 +16,4 @@ recipe give @s magenta_bed
 recipe give @s light_blue_bed
 recipe give @s light_gray_bed
 recipe give @s lodestone
+recipe give @s diamond_leggings

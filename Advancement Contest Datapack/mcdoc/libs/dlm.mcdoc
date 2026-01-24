@@ -1,0 +1,53 @@
+dispatch minecraft:storage["dlm:"] to struct{
+    new?: NewRequest,
+    proc?: struct{
+        pos?: Position,
+        npos?: Position,
+        chunks?: [struct{x?: int, z?: int}]
+    },
+    data?: [DimensionData],
+    checks?: [Check]
+}
+
+struct Check{
+    dimension?: #[id="dimension"] string,
+    temp?: boolean,
+    on_pass?: #[command] string,
+    subcmd?: string
+}
+
+struct DimensionData{
+    dimension?: #[id="dimension"] string,
+    Tickets?: [Tickets]
+}
+
+struct Tickets{
+    pos?: Position,
+    to?: Position,
+    life?: life,
+    until?: long,
+    chunks?: [struct{x?: int, z?: int}],
+    id?: string
+}
+
+struct NewRequest{
+    id?: string,
+    pos?: Position,
+    to?: Position,
+    on_load?: #[command] string,
+    life?: life,
+    dimension?: #[id="dimension"] string
+}
+
+struct life{
+    type?: LifeTypes,
+    time?: CoordAllow
+}
+
+enum(string) LifeTypes{
+    indefinite = "indefinite",
+    temp = "temp",
+    wait = "wait"
+}
+type Position = ([CoordAllow] @ 1.. | byte[] @ 1..| int[] @ 1.. | long[] @ 1.. | struct{x?: CoordAllow, z?: CoordAllow})
+type CoordAllow = (int|float|double|long|short|byte)

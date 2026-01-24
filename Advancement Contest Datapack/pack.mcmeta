@@ -17,5 +17,14 @@
                 "path": "recipe/ender_eye.json"
             }
         ]
+    },
+    "overlays": {
+        "entries": [
+            {
+                "directory": "libs",
+                "min_format": [90, 0],
+                "max_format": [200, 0]
+            }
+        ]
     }
 }

@@ -1,5 +1,6 @@
 {
     "values": [
-        "dsc:tick"
+        "dsc:tick",
+        "dlm:tick"
     ]
 }
