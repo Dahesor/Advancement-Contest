@@ -32,8 +32,8 @@ scoreboard players add max_z gen 1024
 #Nether:
 scoreboard players operation nether_zero_x gen = zero_x gen
 scoreboard players operation nether_zero_z gen = zero_z gen
-scoreboard players operation nether_zero_x gen /= #8 calc.DSC
-scoreboard players operation nether_zero_z gen /= #8 calc.DSC
+scoreboard players operation nether_zero_x gen /= NETHER_SCALE main
+scoreboard players operation nether_zero_z gen /= NETHER_SCALE main
 
 scoreboard players operation nether_min_x gen = nether_x map
 scoreboard players operation nether_min_z gen = nether_z map

@@ -17,8 +17,8 @@ scoreboard players operation nether_x map = origin_x map
 scoreboard players operation nether_z map = origin_z map
 scoreboard players add nether_x map 512
 scoreboard players add nether_z map 512
-scoreboard players operation nether_x map /= #8 calc.DSC
-scoreboard players operation nether_z map /= #8 calc.DSC
+scoreboard players operation nether_x map /= NETHER_SCALE main
+scoreboard players operation nether_z map /= NETHER_SCALE main
 scoreboard players remove nether_x map 512
 scoreboard players remove nether_z map 512
 
