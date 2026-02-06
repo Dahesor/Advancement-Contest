@@ -1,0 +1,1687 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ӂ"
+      ],
+      "file": "dsc:font/tiles/nether_blackstone.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ҿ"
+      ],
+      "file": "dsc:font/tiles/nether_fortress.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ҟ"
+      ],
+      "file": "dsc:font/tiles/nether_lava.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "À"
+      ],
+      "file": "dsc:font/tiles/000000.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Á"
+      ],
+      "file": "dsc:font/tiles/005700.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Â"
+      ],
+      "file": "dsc:font/tiles/006a00.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ã"
+      ],
+      "file": "dsc:font/tiles/007c00.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ä"
+      ],
+      "file": "dsc:font/tiles/009928.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Å"
+      ],
+      "file": "dsc:font/tiles/00bb32.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Æ"
+      ],
+      "file": "dsc:font/tiles/00d93a.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ç"
+      ],
+      "file": "dsc:font/tiles/0e7f5d.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "È"
+      ],
+      "file": "dsc:font/tiles/0f585e.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "É"
+      ],
+      "file": "dsc:font/tiles/111111.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ê"
+      ],
+      "file": "dsc:font/tiles/119b72.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ë"
+      ],
+      "file": "dsc:font/tiles/126c73.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ì"
+      ],
+      "file": "dsc:font/tiles/14b485.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Í"
+      ],
+      "file": "dsc:font/tiles/151515.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Î"
+      ],
+      "file": "dsc:font/tiles/167e86.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ï"
+      ],
+      "file": "dsc:font/tiles/191919.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ð"
+      ],
+      "file": "dsc:font/tiles/1a0f0b.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ñ"
+      ],
+      "file": "dsc:font/tiles/1f120d.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ò"
+      ],
+      "file": "dsc:font/tiles/24357d.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ó"
+      ],
+      "file": "dsc:font/tiles/251610.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ô"
+      ],
+      "file": "dsc:font/tiles/281c18.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Õ"
+      ],
+      "file": "dsc:font/tiles/286462.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ö"
+      ],
+      "file": "dsc:font/tiles/2c4199.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "×"
+      ],
+      "file": "dsc:font/tiles/2d2db4.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ø"
+      ],
+      "file": "dsc:font/tiles/31231e.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ù"
+      ],
+      "file": "dsc:font/tiles/327a78.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ú"
+      ],
+      "file": "dsc:font/tiles/334cb2.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Û"
+      ],
+      "file": "dsc:font/tiles/345ab4.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ü"
+      ],
+      "file": "dsc:font/tiles/352318.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ý"
+      ],
+      "file": "dsc:font/tiles/352b40.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Þ"
+      ],
+      "file": "dsc:font/tiles/353535.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ß"
+      ],
+      "file": "dsc:font/tiles/35391d.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "à"
+      ],
+      "file": "dsc:font/tiles/35596c.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "á"
+      ],
+      "file": "dsc:font/tiles/3737dc.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "â"
+      ],
+      "file": "dsc:font/tiles/392923.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ã"
+      ],
+      "file": "dsc:font/tiles/3a8e8c.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ä"
+      ],
+      "file": "dsc:font/tiles/3c1f2b.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "å"
+      ],
+      "file": "dsc:font/tiles/3d4040.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "æ"
+      ],
+      "file": "dsc:font/tiles/3f6edc.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ç"
+      ],
+      "file": "dsc:font/tiles/401114.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "è"
+      ],
+      "file": "dsc:font/tiles/4040ff.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "é"
+      ],
+      "file": "dsc:font/tiles/409a96.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ê"
+      ],
+      "file": "dsc:font/tiles/412b1e.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ë"
+      ],
+      "file": "dsc:font/tiles/41354f.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ì"
+      ],
+      "file": "dsc:font/tiles/414141.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "í"
+      ],
+      "file": "dsc:font/tiles/414624.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "î"
+      ],
+      "file": "dsc:font/tiles/416d84.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ï"
+      ],
+      "file": "dsc:font/tiles/464646.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ð"
+      ],
+      "file": "dsc:font/tiles/483524.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ñ"
+      ],
+      "file": "dsc:font/tiles/485225.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ò"
+      ],
+      "file": "dsc:font/tiles/485924.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ó"
+      ],
+      "file": "dsc:font/tiles/486c98.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ô"
+      ],
+      "file": "dsc:font/tiles/4a2535.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "õ"
+      ],
+      "file": "dsc:font/tiles/4a80ff.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ö"
+      ],
+      "file": "dsc:font/tiles/4b4f4f.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "÷"
+      ],
+      "file": "dsc:font/tiles/4c3223.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ø"
+      ],
+      "file": "dsc:font/tiles/4c3e5c.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ù"
+      ],
+      "file": "dsc:font/tiles/4c4c4c.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ú"
+      ],
+      "file": "dsc:font/tiles/4c522a.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "û"
+      ],
+      "file": "dsc:font/tiles/4c7f99.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ü"
+      ],
+      "file": "dsc:font/tiles/4f0100.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ý"
+      ],
+      "file": "dsc:font/tiles/4f1519.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "þ"
+      ],
+      "file": "dsc:font/tiles/4f4c61.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ÿ"
+      ],
+      "file": "dsc:font/tiles/4f4f4f.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ā"
+      ],
+      "file": "dsc:font/tiles/4fbcb7.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ā"
+      ],
+      "file": "dsc:font/tiles/562c3e.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ă"
+      ],
+      "file": "dsc:font/tiles/56333e.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ă"
+      ],
+      "file": "dsc:font/tiles/565656.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ą"
+      ],
+      "file": "dsc:font/tiles/575c5c.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ą"
+      ],
+      "file": "dsc:font/tiles/58412c.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ć"
+      ],
+      "file": "dsc:font/tiles/58642d.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ć"
+      ],
+      "file": "dsc:font/tiles/586d2c.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ĉ"
+      ],
+      "file": "dsc:font/tiles/5884ba.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ĉ"
+      ],
+      "file": "dsc:font/tiles/592c7d.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ċ"
+      ],
+      "file": "dsc:font/tiles/597569.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ċ"
+      ],
+      "file": "dsc:font/tiles/597d27.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Č"
+      ],
+      "file": "dsc:font/tiles/599011.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "č"
+      ],
+      "file": "dsc:font/tiles/5b3c22.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ď"
+      ],
+      "file": "dsc:font/tiles/5c191d.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ď"
+      ],
+      "file": "dsc:font/tiles/5cdbd5.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Đ"
+      ],
+      "file": "dsc:font/tiles/5f4b45.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "đ"
+      ],
+      "file": "dsc:font/tiles/600100.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ē"
+      ],
+      "file": "dsc:font/tiles/605d77.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ē"
+      ],
+      "file": "dsc:font/tiles/606060.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ĕ"
+      ],
+      "file": "dsc:font/tiles/642a20.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ĕ"
+      ],
+      "file": "dsc:font/tiles/645432.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ė"
+      ],
+      "file": "dsc:font/tiles/646464.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ė"
+      ],
+      "file": "dsc:font/tiles/664c33.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ę"
+      ],
+      "file": "dsc:font/tiles/667f33.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ę"
+      ],
+      "file": "dsc:font/tiles/6699d8.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ě"
+      ],
+      "file": "dsc:font/tiles/677535.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ě"
+      ],
+      "file": "dsc:font/tiles/682c44.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ĝ"
+      ],
+      "file": "dsc:font/tiles/693d4c.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ĝ"
+      ],
+      "file": "dsc:font/tiles/693e4b.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ğ"
+      ],
+      "file": "dsc:font/tiles/6a4c36.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ğ"
+      ],
+      "file": "dsc:font/tiles/6c2424.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ġ"
+      ],
+      "file": "dsc:font/tiles/6c6c6c.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ġ"
+      ],
+      "file": "dsc:font/tiles/6d3699.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ģ"
+      ],
+      "file": "dsc:font/tiles/6d9081.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ģ"
+      ],
+      "file": "dsc:font/tiles/6d9930.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ĥ"
+      ],
+      "file": "dsc:font/tiles/6db015.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ĥ"
+      ],
+      "file": "dsc:font/tiles/6f4a2a.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ħ"
+      ],
+      "file": "dsc:font/tiles/700200.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ħ"
+      ],
+      "file": "dsc:font/tiles/703637.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ĩ"
+      ],
+      "file": "dsc:font/tiles/703919.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ĩ"
+      ],
+      "file": "dsc:font/tiles/706c8a.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ī"
+      ],
+      "file": "dsc:font/tiles/707070.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ī"
+      ],
+      "file": "dsc:font/tiles/7070b4.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ĭ"
+      ],
+      "file": "dsc:font/tiles/737681.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ĭ"
+      ],
+      "file": "dsc:font/tiles/745c54.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Į"
+      ],
+      "file": "dsc:font/tiles/757575.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "į"
+      ],
+      "file": "dsc:font/tiles/7a3327.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "İ"
+      ],
+      "file": "dsc:font/tiles/7a4958.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ı"
+      ],
+      "file": "dsc:font/tiles/7b663e.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ĳ"
+      ],
+      "file": "dsc:font/tiles/7d3598.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ĳ"
+      ],
+      "file": "dsc:font/tiles/7f3653.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ĵ"
+      ],
+      "file": "dsc:font/tiles/7f3fb2.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ĵ"
+      ],
+      "file": "dsc:font/tiles/7fa796.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ķ"
+      ],
+      "file": "dsc:font/tiles/7fb238.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ķ"
+      ],
+      "file": "dsc:font/tiles/7fcc19.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ĸ"
+      ],
+      "file": "dsc:font/tiles/804b5d.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ĺ"
+      ],
+      "file": "dsc:font/tiles/815631.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ĺ"
+      ],
+      "file": "dsc:font/tiles/825e42.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ļ"
+      ],
+      "file": "dsc:font/tiles/835d19.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ļ"
+      ],
+      "file": "dsc:font/tiles/842c2c.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ľ"
+      ],
+      "file": "dsc:font/tiles/848484.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ľ"
+      ],
+      "file": "dsc:font/tiles/852122.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ŀ"
+      ],
+      "file": "dsc:font/tiles/876b62.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ŀ"
+      ],
+      "file": "dsc:font/tiles/89461f.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ł"
+      ],
+      "file": "dsc:font/tiles/8a4243.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ł"
+      ],
+      "file": "dsc:font/tiles/8a8adc.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ń"
+      ],
+      "file": "dsc:font/tiles/8c8c8c.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ń"
+      ],
+      "file": "dsc:font/tiles/8d909e.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ņ"
+      ],
+      "file": "dsc:font/tiles/8e3c2e.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ņ"
+      ],
+      "file": "dsc:font/tiles/8f7748.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ň"
+      ],
+      "file": "dsc:font/tiles/909090.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ň"
+      ],
+      "file": "dsc:font/tiles/937c71.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ŉ"
+      ],
+      "file": "dsc:font/tiles/943f61.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ŋ"
+      ],
+      "file": "dsc:font/tiles/95576c.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ŋ"
+      ],
+      "file": "dsc:font/tiles/976d4d.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ō"
+      ],
+      "file": "dsc:font/tiles/985924.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ō"
+      ],
+      "file": "dsc:font/tiles/987b67.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ŏ"
+      ],
+      "file": "dsc:font/tiles/993333.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ŏ"
+      ],
+      "file": "dsc:font/tiles/9941ba.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ő"
+      ],
+      "file": "dsc:font/tiles/999999.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ő"
+      ],
+      "file": "dsc:font/tiles/9f5224.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Œ"
+      ],
+      "file": "dsc:font/tiles/a04d4e.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "œ"
+      ],
+      "file": "dsc:font/tiles/a0721f.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ŕ"
+      ],
+      "file": "dsc:font/tiles/a0a0ff.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ŕ"
+      ],
+      "file": "dsc:font/tiles/a1a124.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ŗ"
+      ],
+      "file": "dsc:font/tiles/a3292a.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ŗ"
+      ],
+      "file": "dsc:font/tiles/a4a8b8.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ř"
+      ],
+      "file": "dsc:font/tiles/a7a7a7.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ř"
+      ],
+      "file": "dsc:font/tiles/aa5974.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ś"
+      ],
+      "file": "dsc:font/tiles/ababab.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ś"
+      ],
+      "file": "dsc:font/tiles/aea473.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ŝ"
+      ],
+      "file": "dsc:font/tiles/b0a836.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ŝ"
+      ],
+      "file": "dsc:font/tiles/b24cd8.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ş"
+      ],
+      "file": "dsc:font/tiles/b40000.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ş"
+      ],
+      "file": "dsc:font/tiles/b4988a.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Š"
+      ],
+      "file": "dsc:font/tiles/b4b1ac.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "š"
+      ],
+      "file": "dsc:font/tiles/b4b4b4.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ţ"
+      ],
+      "file": "dsc:font/tiles/ba6d2c.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ţ"
+      ],
+      "file": "dsc:font/tiles/ba8524.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ť"
+      ],
+      "file": "dsc:font/tiles/ba967e.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ť"
+      ],
+      "file": "dsc:font/tiles/bd3031.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ŧ"
+      ],
+      "file": "dsc:font/tiles/c5c52c.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ŧ"
+      ],
+      "file": "dsc:font/tiles/c7c7c7.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ũ"
+      ],
+      "file": "dsc:font/tiles/d06d8e.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ũ"
+      ],
+      "file": "dsc:font/tiles/d1b1a1.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ū"
+      ],
+      "file": "dsc:font/tiles/d5c98c.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ū"
+      ],
+      "file": "dsc:font/tiles/d7cd42.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ŭ"
+      ],
+      "file": "dsc:font/tiles/d87f33.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ŭ"
+      ],
+      "file": "dsc:font/tiles/d8af93.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ů"
+      ],
+      "file": "dsc:font/tiles/dc0000.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ů"
+      ],
+      "file": "dsc:font/tiles/dcd9d3.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ű"
+      ],
+      "file": "dsc:font/tiles/dcdcdc.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ű"
+      ],
+      "file": "dsc:font/tiles/e5e533.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ų"
+      ],
+      "file": "dsc:font/tiles/f27fa5.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ų"
+      ],
+      "file": "dsc:font/tiles/f7e9a3.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ŵ"
+      ],
+      "file": "dsc:font/tiles/faee4d.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ŵ"
+      ],
+      "file": "dsc:font/tiles/ff0000.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "Ŷ"
+      ],
+      "file": "dsc:font/tiles/fffcf5.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": 1,
+      "height": 3,
+      "chars": [
+        "ŷ"
+      ],
+      "file": "dsc:font/tiles/ffffff.png"
+    }
+  ]
+}

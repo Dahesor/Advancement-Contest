@@ -18,6 +18,7 @@ execute as @a[scores={team=1..}] run function dsc:main/init/countdown/spawn_self
 
 #misc
 scoreboard players operation expected_player_count main = starting_player_count main
+data modify storage team filled_map set value [{team:"red",status:"unknown"},{team:"green",status:"unknown"},{team:"blue",status:"unknown"},{team:"yellow",status:"unknown"},{team:"light_purple",status:"unknown"},{team:"white",status:"unknown"},{team:"gold",status:"unknown"},{team:"gray",status:"unknown"}]
 
 #Expand Worldborder
 #data modify storage run temp set value {time:0}

@@ -9,10 +9,12 @@ scoreboard players operation $z calc.DSC *= #48 calc.DSC
 scoreboard players remove $x calc.DSC 24
 scoreboard players remove $z calc.DSC 24
 
-execute unless score @s md.dimension matches 2 run scoreboard players operation $x calc.DSC += origin_x map
-execute unless score @s md.dimension matches 2 run scoreboard players operation $z calc.DSC += origin_z map
+execute if score @s md.dimension matches 1 run scoreboard players operation $x calc.DSC += origin_x map
+execute if score @s md.dimension matches 1 run scoreboard players operation $z calc.DSC += origin_z map
 execute if score @s md.dimension matches 2 run scoreboard players operation $x calc.DSC += nether_x map
 execute if score @s md.dimension matches 2 run scoreboard players operation $z calc.DSC += nether_z map
+execute if score @s md.dimension matches 3 run scoreboard players remove $x calc.DSC 512
+execute if score @s md.dimension matches 3 run scoreboard players remove $z calc.DSC 150
 
 data modify storage run tp set value {x:0,z:0,in:"overworld"}
 execute store result storage run tp.x int 1 run scoreboard players get $x calc.DSC

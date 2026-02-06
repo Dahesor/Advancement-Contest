@@ -1,0 +1,1 @@
+function map:sample/ascii/bin/5/5fffft

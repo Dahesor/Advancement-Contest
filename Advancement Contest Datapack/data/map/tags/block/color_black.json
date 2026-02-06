@@ -1,8 +1,6 @@
 {
     "values": [
         "ancient_debris",
-        "basalt",
-        "smooth_basalt",
         "black_candle_cake",
         "black_concrete",
         "black_concrete_powder",
@@ -27,7 +25,6 @@
         "end_portal",
         "netherite_block",
         "obsidian",
-        "polished_basalt",
         "polished_blackstone_pressure_plate",
         "respawn_anchor",
         "sculk",

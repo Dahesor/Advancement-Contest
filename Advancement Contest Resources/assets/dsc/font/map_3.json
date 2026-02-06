@@ -2,7 +2,7 @@
     "providers": [
         {
             "type": "bitmap",
-            "ascent": -4,
+            "ascent": -5,
             "height": 3,
             "chars": ["█"],
             "file": "dsc:font/map.png"
@@ -14,6 +14,10 @@
         {
             "type": "reference",
             "id": "dsc:button"
+        },
+        {
+            "type": "reference",
+            "id": "dsc:map/3"
         }
     ]
 }

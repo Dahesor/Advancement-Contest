@@ -18,9 +18,14 @@ function map:init/x
 scoreboard players set $it map 0
 function map:init/z
 
+data modify storage map:main the_nether set from storage map:main main
+data modify storage map:main overworld set from storage map:main main
+data modify storage map:main the_end set from storage map:main main
+
 scoreboard players set centered main 1
 
 return 1
 scoreboard players set origin_x map 0
 scoreboard players set origin_z map 0
 scoreboard players set size map 64
+function map:reset_main

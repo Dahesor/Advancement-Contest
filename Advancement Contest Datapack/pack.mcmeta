@@ -15,6 +15,10 @@
             {
                 "namespace": "minecraft",
                 "path": "recipe/ender_eye.json"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/crafter.json"
             }
         ]
     },

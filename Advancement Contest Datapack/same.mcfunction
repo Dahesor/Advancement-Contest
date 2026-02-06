@@ -1,4 +1,5 @@
 give @s oak_sign[block_entity_data={id:"sign",is_waxed:1b,front_text:{messages:["",{text:"旁观游戏",color:"aqua",bold:1b,click_event:{action:"run_command",command:"/function dsc:module/team/select/spectate"}},"",""]}}]
 
+give @s map[custom_data={keeps_on_death:true}]
 
 say 红石比较器 弩 矛

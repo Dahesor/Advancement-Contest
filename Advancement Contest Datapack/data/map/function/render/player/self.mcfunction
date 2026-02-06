@@ -1,9 +1,11 @@
 execute summon marker run function map:render/player/get_coord
 
-execute unless dimension minecraft:the_nether run scoreboard players operation x map -= origin_x map
-execute unless dimension minecraft:the_nether run scoreboard players operation z map -= origin_z map
-execute if dimension minecraft:the_nether run scoreboard players operation x map -= nether_x map
-execute if dimension minecraft:the_nether run scoreboard players operation z map -= nether_z map
+execute if dimension overworld run scoreboard players operation x map -= origin_x map
+execute if dimension overworld run scoreboard players operation z map -= origin_z map
+execute if dimension the_nether run scoreboard players operation x map -= nether_x map
+execute if dimension the_nether run scoreboard players operation z map -= nether_z map
+execute if dimension the_end run scoreboard players add x map 512
+execute if dimension the_end run scoreboard players add z map 150
 
 #Out of Bounds
 execute unless score x map matches -200..1224 unless score z map matches -200..1224 run return fail

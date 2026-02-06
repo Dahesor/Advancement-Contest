@@ -1,1 +1,1 @@
-$data modify storage map:main nether.final[$(z)][-1].extra[-2] append from storage map:main t
+$data modify storage map:main render.the_nether[$(z)][-1].extra[-2] append from storage map:main t

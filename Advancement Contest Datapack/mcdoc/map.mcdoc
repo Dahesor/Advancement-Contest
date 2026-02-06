@@ -3,18 +3,25 @@ use::mcdoc::dialog::dialog::DialogMix
 
 dispatch minecraft:storage["map:main"] to struct{
     main?: MapData,
-    final?: MapData,
+    overworld?: MapData,
+    the_nether?: MapData,
+    the_end?: MapData,
     chunk?: ChunkData,
     color?: #[color="hex_rgb"] string,
+    ascii?: string,
     front_line?: [Text],
     back_line?: [Text],
     line?: [ChunkData],
     static?: StaticMap,
     nether?: StaticMap,
-    the_end?: StaticMap,
     text?: [Text],
     text_template?:[Text],
     text_ready?: [Text],
+    render?: struct{
+        overworld?: [Text],
+        the_nether?: [Text],
+        the_end?: [Text]
+    },
     t?: Text,
     temp?: [[ChunkData]],
     dialog?: struct {
@@ -31,7 +38,22 @@ dispatch minecraft:storage["map:main"] to struct{
         a?: #[color="hex_rgb"] string,
         b?: #[color="hex_rgb"] string,
         key?: int
-    }
+    },
+    chars?: [string],
+    tchars?: [string],
+    fchars?: [string],
+    concat?: struct{[concat]: string, res?: string}
+}
+
+enum(string) concat{
+    char1 = "c1",
+    char2 = "c2",
+    char3 = "c3",
+    char4 = "c4",
+    char5 = "c5",
+    char6 = "c6",
+    char7 = "c7",
+    char8 = "c8",
 }
 
 struct dec{
@@ -47,6 +69,7 @@ struct StaticMap{
 
 struct ChunkData{
     color?: [#[color="hex_rgb"] string] @..4,
+    ascii?: [string] @..4,
     init?: boolean,
     location?: vec2,
     update?: boolean,

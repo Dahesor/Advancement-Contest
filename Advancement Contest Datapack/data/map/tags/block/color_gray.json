@@ -1,6 +1,9 @@
 {
     "values": [
         "acacia_wood",
+        "basalt",
+        "smooth_basalt",
+        "polished_basalt",
         "dead_brain_coral",
         "dead_brain_coral_block",
         "dead_brain_coral_fan",

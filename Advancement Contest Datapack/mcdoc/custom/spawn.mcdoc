@@ -36,7 +36,16 @@ dispatch minecraft:storage["team"] to struct {
     },
     task_completed?: struct{
         [Teams]?: [struct{id?: string}]
-    }
+    },
+    filled_map?: [struct{
+        id?: int,
+        team?: Team,
+        status?: ("unknown"|"processing"|"complete")
+    }],
+    map_task?: [struct{
+        for_team?: Team,
+        scale?: byte
+    }],
 }
 
 struct TeamOutpost{
@@ -53,12 +62,11 @@ type Team = #[color="named"] Teams
 
 enum(string) Teams{
     red = "red",
-    blue = "blue",
     green = "green",
+    blue = "blue",
     yellow = "yellow",
     pink = "light_purple",
     white = "white",
     gold = "gold",
-    gray = "gray",
-    black = "black"
+    gray = "gray"
 }

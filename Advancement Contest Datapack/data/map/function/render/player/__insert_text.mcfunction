@@ -1,1 +1,1 @@
-$data modify storage map:main text_ready[$(z)][-1].extra[-2] append from storage map:main t
+$data modify storage map:main render.overworld[$(z)][-1].extra[-2] append from storage map:main t

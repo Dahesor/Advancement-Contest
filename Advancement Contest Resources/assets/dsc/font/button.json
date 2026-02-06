@@ -3,7 +3,7 @@
         {
             "type": "bitmap",
             "height": 18,
-            "ascent": 11,
+            "ascent": 9,
             "chars": ["*"],
             "file": "dsc:font/button.png"
         }

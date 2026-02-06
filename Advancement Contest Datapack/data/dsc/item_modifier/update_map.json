@@ -2,7 +2,8 @@
     {
         "function": "set_custom_data",
         "tag": {
-            "keeps_on_death": true
+            "keeps_on_death": true,
+            "team_map": true
         }
     },
     {
