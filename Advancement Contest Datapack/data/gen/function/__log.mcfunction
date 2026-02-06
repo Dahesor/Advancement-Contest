@@ -1,0 +1,1 @@
+$dialog show @a[tag=dev] $(dialog)

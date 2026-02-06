@@ -1,1 +1,5 @@
-dialog show @s {type:"confirmation",title:"选择比赛区域",body:[{type:"plain_message",contents:"§c先不要让玩家进入！"},{type:"plain_message",contents:"点击下方的“选择”按钮，将会把您当前所在区域设置为比赛区域。"},{type:"plain_message",contents:"比赛区域为1024*1024大的正方形区域，刚好能装在一张3阶段缩放的地图中。"},{type:"plain_message",contents:"如果有需要，可以自行合成一张三阶地图，并检查这片区域的海洋占比是否过高"},{type:"plain_message",contents:"如果您不希望游戏场地的确认有主观因素，可以直接点击“选择”"}],after_action:"close",no:{label:"取消"},yes:{label:"选择",action:{type:"run_command",command:"/function dsc:core/initialize/here"}}}
+dialog show @s {type:"multi_action",title:"选择比赛区域",body:[{type:"plain_message",contents:"§c先不要让玩家进入！"},{type:"plain_message",contents:"选择比赛区域以开始。\n比赛区域为1024*1024大的正方形区域，刚好能装在一张3阶段缩放的地图中。",width:350},{type:"plain_message",contents:"点击“自动选择”，系统将自动根据陆地占比等因素自动寻找合适区域\n点击“强制选择当前位置”，您当前的区域将会成为游戏场地",width:300},{type:"plain_message",contents:{text:"我需要在加载时查看日志",color:"green",underlined:true,click_event:{action:"run_command",command:"/trigger dialog set 1001"},hover_event:{action:"show_text",value:"查看加载地图过程中产生的日志。\n这可能有助于您了解情况，然而日志会提前透露有关地图的信息。\n因此若您打算参与进游戏中，则不应该查看以保证公平"}},width:300}],after_action:"close",exit_action:{label:"取消"},actions:[{label:"自动选择",action:{type:"run_command",command:"/function dsc:core/initialize/auto"}},{label:"强制选择当前位置",action:{type:"run_command",command:"/function dsc:core/initialize/here"}}]}
+
+
+return 1
+function dsc:menu/admin/center

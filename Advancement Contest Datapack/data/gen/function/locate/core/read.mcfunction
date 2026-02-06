@@ -13,7 +13,7 @@ execute store result score z gen run data get storage minecraft:gen out.extra[0]
 
 execute unless score success gen matches 1 run return run function gen:locate/core/not_found
 
-tellraw @a[tag=dev] [{text:"[gen:locator] 在 (",color:"dark_gray"},{score:{name:"x",objective:"gen"}}, ", ",{score:{name:"z",objective:"gen"}},")","发现目标，距离",{score:{name:"distance",objective:"gen"}},{text:"",color:"gray",extra:[" (",{score:{name:"time",objective:"gen"}},"ms)"]}]
+data modify storage gen gen_log prepend value [{text:"\n[gen:locator] 在 (",color:"gray"},{score:{name:"x",objective:"gen"}}, ", ",{score:{name:"z",objective:"gen"}},")","发现目标，距离",{score:{name:"distance",objective:"gen"}},{text:"",color:"white",extra:[" (",{score:{name:"time",objective:"gen"}},"ms)"]}]
 
 
 execute if score distance gen matches 1500.. run return run function gen:locate/core/outside

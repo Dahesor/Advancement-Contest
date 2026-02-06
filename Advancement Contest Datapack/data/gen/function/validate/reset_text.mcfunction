@@ -1,0 +1,1 @@
+data modify storage gen validate_log set value ["\n"]

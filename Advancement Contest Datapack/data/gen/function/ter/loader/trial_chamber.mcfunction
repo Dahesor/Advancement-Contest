@@ -1,6 +1,6 @@
 execute if score has_trial_chamber gen matches 1.. run return fail
 
-tellraw @a[tag=dev] [{text:"\n[gen:main] 尝试决定放置一个试炼密室",color:"dark_gray"}]
+data modify storage gen gen_log prepend value [{text:"\n[gen:main] 尝试决定放置一个试炼密室\n",color:"gray"}]
 
 function gen:ter/place/call
 

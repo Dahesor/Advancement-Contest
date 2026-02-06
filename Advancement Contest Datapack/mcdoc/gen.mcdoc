@@ -23,7 +23,10 @@ dispatch minecraft:storage["gen"] to struct{
         fallback?: int,
         success?: boolean,
         in?: #[id="dimension"] string,
-    }
+    },
+    validate_log?: Text,
+    gen_log?: Text,
+    gen_log_parsed?: Text,
 }
 
 struct vec2{x: int,z: int}

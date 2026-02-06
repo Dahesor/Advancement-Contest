@@ -7,4 +7,4 @@ scoreboard players set phase gen -203
 function gen:ter/place/__tp with storage gen place
 scoreboard players set $wait gen 120
 
-tellraw @a[tag=dev] [{text:"[gen:place] 即将重试……",color:"dark_gray"}," Attempt",{text:"(",color:"red",extra:[{score:{"name":"$attempt",objective:"gen"}},"/2)"]}]
+data modify storage gen gen_log prepend value [{text:"\n[gen:place] 即将重试……",color:"gray"}," Attempt",{text:" (",color:"red",extra:[{score:{"name":"$attempt",objective:"gen"}},"/2)"]}]

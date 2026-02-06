@@ -12,3 +12,4 @@ execute unless score acy gen matches -16.. run return 1
 #Next
 scoreboard players add $exe gen 1
 scoreboard players set acy gen -51
+data modify storage gen gen_log prepend value [{text:"\n[gen:ac] 整顿古城生态……",color:"gray"}]

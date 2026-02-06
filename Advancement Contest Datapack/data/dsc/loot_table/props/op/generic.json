@@ -34,6 +34,13 @@
             "mode": "replace_all",
             "lore": [
                 "",
+                {"translate": "op.lore.1","color":"gray","italic": false},
+                {"translate": "op.lore.2","color":"gray","italic": false},
+                {"translate": "op.lore.3","color":"gray","italic": false},
+                {"translate": "op.lore.4","color":"gray","italic": false},
+                {"translate": "op.lore.5","color":"gray","italic": false},
+                {"translate": "op.lore.6","color":"gray","italic": false},
+                "",
                 {"translate": "keeps_on_death","color":"green","italic": false}
             ]
         }

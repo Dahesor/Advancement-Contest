@@ -4,6 +4,8 @@ scoreboard players set gen main 1
 
 stopwatch create gen:main
 
+data modify storage gen gen_log set value [""]
+data modify storage gen gen_log_parsed set value [""]
 data modify storage map:main dec set value []
 data modify storage map:main dec_nether set value [{x:0,z:0,char:"~"}]
 data modify storage map:main dec_end set value [{x:0,z:0,char:"~"}]

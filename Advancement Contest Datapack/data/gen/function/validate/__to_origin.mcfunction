@@ -1,0 +1,1 @@
+$execute in overworld positioned $(x) 100 $(z) run function gen:validate/main

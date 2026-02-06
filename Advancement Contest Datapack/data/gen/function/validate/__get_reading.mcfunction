@@ -1,0 +1,1 @@
+$execute positioned $(x) 100 $(z) store result score #vmo.result calc.DSC run locate biome #is_ocean

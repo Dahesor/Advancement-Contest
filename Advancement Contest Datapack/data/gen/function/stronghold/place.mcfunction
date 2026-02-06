@@ -5,8 +5,8 @@ scoreboard players set phase gen 200
 scoreboard players add $stronghold_attempt gen 1
 execute if score $stronghold_attempt gen matches 5.. run return run scoreboard players set phase gen 202
 
-execute if score $stronghold_attempt gen matches 1 run tellraw @a[tag=dev] "\n"
-tellraw @a[tag=dev] [{text:"[gen:main] 开始放置要塞",color:"dark_gray"}," Attepmt (",{score:{name:"$stronghold_attempt",objective:"gen"},color:"red",extra:["/4"]},")"]
+execute if score $stronghold_attempt gen matches 1 run data modify storage gen gen_log prepend value "\n"
+data modify storage gen gen_log prepend value [{text:"\n[gen:main] 开始放置要塞",color:"gray"}," Attepmt (",{score:{name:"$stronghold_attempt",objective:"gen"},color:"red",extra:["/4"]},")"]
 
 function gen:ter/place/call
 

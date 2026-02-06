@@ -1,4 +1,4 @@
-execute summon marker run function map:render/player/get_coord
+execute as 0-0-0-0-0 run function map:render/player/get_coord
 
 execute if dimension overworld run scoreboard players operation x map -= origin_x map
 execute if dimension overworld run scoreboard players operation z map -= origin_z map

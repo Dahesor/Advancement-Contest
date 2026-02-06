@@ -1,5 +1,5 @@
 ##-51 -> -20
-tellraw @a[tag=dev] [{text:"\n[gen:ac] 正在让远古城市变得危险……",color:"gray"}]
+data modify storage gen gen_log prepend value [{text:"\n[gen:ac] 正在让远古城市变得危险……\n",color:"white"}]
 
 scoreboard players operation acx1 gen = acx gen
 scoreboard players operation acz1 gen = acz gen

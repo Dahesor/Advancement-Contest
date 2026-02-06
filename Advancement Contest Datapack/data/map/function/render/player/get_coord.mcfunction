@@ -10,4 +10,3 @@ execute store result score rx map run data get entity @s Rotation[0]
 scoreboard players add rx map 180
 scoreboard players operation rx map %= #360 calc.DSC
 scoreboard players remove rx map 180
-kill
