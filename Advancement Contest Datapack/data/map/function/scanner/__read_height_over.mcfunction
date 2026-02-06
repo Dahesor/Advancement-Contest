@@ -1,0 +1,2 @@
+$execute if data storage map:main main.data[$(z)][$(x)].height store result score __next_y map run data get storage map:main main.data[$(z)][$(x)].height
+

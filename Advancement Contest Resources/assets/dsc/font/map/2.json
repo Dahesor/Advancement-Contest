@@ -5,6 +5,15 @@
       "ascent": -2,
       "height": 3,
       "chars": [
+        "Ӻ"
+      ],
+      "file": "dsc:font/tiles/nether_lava_dark.png"
+    },
+    {
+      "type": "bitmap",
+      "ascent": -2,
+      "height": 3,
+      "chars": [
         "ӂ"
       ],
       "file": "dsc:font/tiles/nether_blackstone.png"

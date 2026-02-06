@@ -10,7 +10,7 @@ scoreboard players set __cumulate_h map 0
 execute if score __cx map matches 0 run scoreboard players set __last_y map -1000
 execute if score __last_valid map matches 0 unless score __last_y map matches -1000 run function map:scanner/get_height
 
-execute if score SAMPLER map matches 1 run function map:scanner/types/ascii_spread_player
+execute if score SAMPLER map matches 1 run function map:scanner/types/ascii_lookdown
 execute unless score SAMPLER map matches 1.. run function map:scanner/types/ascii
 
 execute store result score __last_y map run scoreboard players operation __cumulate_h map /= #4 calc.DSC
