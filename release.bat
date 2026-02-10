@@ -13,6 +13,14 @@ set "verNoV=%ver%"
 set "PACK1=Advancement Contest Datapack"
 set "PACK2=Advancement Contest Resources"
 
+if not exist "%CD%\%PACK1%\libs\" (
+  echo ERROR: "%PACK1%\libs" not found.
+  exit /b 1
+)
+if not exist "%CD%\%PACK1%\edat\" (
+  echo ERROR: "%PACK1%\edat" not found.
+  exit /b 1
+)
 if not exist "%CD%\%PACK1%\" (
   echo ERROR: Folder not found: "%CD%\%PACK1%"
   exit /b 1
@@ -70,7 +78,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -Command ^
   "}" ^
   "$pack1=Join-Path $PWD '%PACK1%';" ^
   "$pack2=Join-Path $PWD '%PACK2%';" ^
-  "ZipPaths @((Join-Path $pack1 'data'),(Join-Path $pack1 'pack.mcmeta')) '%ZIP1%';" ^
+  "ZipPaths @((Join-Path $pack1 'data'),(Join-Path $pack1 'libs'),(Join-Path $pack1 'edat'),(Join-Path $pack1 'pack.mcmeta')) '%ZIP1%';" ^
   "ZipFolderContents $pack2 '%ZIP2%';"
 
 if errorlevel 1 (

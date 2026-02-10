@@ -28,6 +28,11 @@
                 "directory": "libs",
                 "min_format": [90, 0],
                 "max_format": [200, 0]
+            },
+            {
+                "directory": "edat",
+                "min_format": [90, 0],
+                "max_format": [200, 0]
             }
         ]
     }
