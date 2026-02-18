@@ -71,6 +71,12 @@
       },
       "\n",
       {
+        "translate": "task.balanced_diet.2",
+        "italic": false,
+        "color": "gray"
+      },
+      "\n",
+      {
         "translate": "task.reward",
         "italic": false,
         "color": "light_purple"

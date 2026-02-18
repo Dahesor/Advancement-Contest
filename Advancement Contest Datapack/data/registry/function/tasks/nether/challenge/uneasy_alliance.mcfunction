@@ -2,7 +2,7 @@ data modify storage dsc:task new append value {\
     advancement:"dsc_adv:nether/uneasy_alliance",\
     all_reward:{emerald:4,score:20},\
     first_reward:{emerald:4,score:10},\
-    display:{lore_length:1},\
+    display:{lore_length:3},\
     additional_lore:{\
         all_:"",\
         first_:"",\
@@ -16,7 +16,7 @@ data modify storage dsc:task new[-1] merge value {\
     id:"uneasy_alliance",\
     display:{\
         title:{"translate":"task.uneasy_alliance","italic":false},\
-        lore:[{"translate":"task.uneasy_alliance.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["20"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["10"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}],\
+        lore:[{"translate":"task.uneasy_alliance.1","italic":false,"color":"gray"}, "\n", {"translate":"task.uneasy_alliance.2","italic":false,"color":"gray"}, "\n", {"translate":"task.uneasy_alliance.3","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["20"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["10"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}],\
         \
         recipe_name_all:[],\
         \

@@ -1,4 +1,5 @@
-execute as 0-0-0-0-0 run function map:render/player/get_coord
+execute if dimension overworld as 0-0-0-0-0 run function map:render/player/get_coord
+execute unless dimension overworld positioned ~ 400 ~ summon marker run function map:render/player/get_coord_temp
 
 execute if dimension overworld run scoreboard players operation x map -= origin_x map
 execute if dimension overworld run scoreboard players operation z map -= origin_z map

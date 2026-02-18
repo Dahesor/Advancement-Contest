@@ -35,8 +35,12 @@
             ]
         },
         {
-            "label": "",
-            "width": 200
+            "label": "玩家：查看任务",
+            "width": 200,
+            "action": {
+                "type": "run_command",
+                "command": "/trigger dialog set 20"
+            }
         },
         {
             "label": "管理员：管理员页面",

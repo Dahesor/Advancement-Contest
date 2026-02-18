@@ -2,7 +2,7 @@ data modify storage dsc:task new append value {\
     advancement:"dsc_adv:nether/fast_travel",\
     all_reward:{emerald:10,score:5},\
     first_reward:{emerald:0,score:20},\
-    display:{lore_length:1},\
+    display:{lore_length:2},\
     additional_lore:{\
         all_:"",\
         first_:"",\
@@ -16,7 +16,7 @@ data modify storage dsc:task new[-1] merge value {\
     id:"fast_travel",\
     display:{\
         title:{"translate":"task.fast_travel","italic":false},\
-        lore:[{"translate":"task.fast_travel.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["10"]}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["20"]}],\
+        lore:[{"translate":"task.fast_travel.1","italic":false,"color":"gray"}, "\n", {"translate":"task.fast_travel.2","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["10"]}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["20"]}],\
         \
         recipe_name_all:[],\
         \

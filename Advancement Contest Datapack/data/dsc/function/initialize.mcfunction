@@ -16,7 +16,6 @@ scoreboard players set $new_score calc.DSC 0
 
 scoreboard players set #read_height main 1
 
-
 team add red
 team add blue
 team add green

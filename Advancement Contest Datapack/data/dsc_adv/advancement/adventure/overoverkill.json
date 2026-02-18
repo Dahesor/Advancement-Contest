@@ -37,6 +37,12 @@
       },
       "\n",
       {
+        "translate": "task.overoverkill.2",
+        "italic": false,
+        "color": "gray"
+      },
+      "\n",
+      {
         "translate": "task.reward",
         "italic": false,
         "color": "light_purple"
