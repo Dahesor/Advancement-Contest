@@ -8,7 +8,8 @@ data modify storage dsc:task new append value {\
         first_:"",\
         recipe_sum_all:"指南针，时钟",\
         recipe_sum_first:"火焰弹，发射器",\
-    }\
+    },\
+    node:{node:"node",children:["dsc_adv:nether/find_fortress","dsc_adv:nether/find_bastion","dsc_adv:nether/explore_nether","dsc_adv:nether/return_to_sender","dsc_adv:nether/fast_travel","dsc_adv:nether/uneasy_alliance","dsc_adv:nether/ride_strider","dsc_adv:nether/obtain_crying_obsidian","dsc_adv:nether/obtain_ancient_debris"]}\
 }
 
 

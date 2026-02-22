@@ -8,7 +8,8 @@ data modify storage dsc:task new append value {\
         first_:"",\
         recipe_sum_all:"烈焰粉\n末影之眼",\
         recipe_sum_first:"",\
-    }\
+    },\
+    node:{node:"node",children:["dsc_adv:nether/brew_potion","dsc_adv:story/follow_ender_eye"]}\
 }
 
 

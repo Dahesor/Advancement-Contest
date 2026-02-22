@@ -8,7 +8,8 @@ data modify storage dsc:task new append value {\
         first_:"",\
         recipe_sum_all:"钻石斧\n钻石胸甲",\
         recipe_sum_first:"",\
-    }\
+    },\
+    node:{node:"node",children:["dsc_adv:end/kill_dragon","dsc_adv:adventure/spyglass_at_dragon"]}\
 }
 
 

@@ -8,7 +8,8 @@ data modify storage dsc:task new append value {\
         first_:"",\
         recipe_sum_all:"钻石剑\n钻石斧",\
         recipe_sum_first:"",\
-    }\
+    },\
+    node:{node:"node",children:["dsc_adv:nether/get_nether_star"]}\
 }
 
 

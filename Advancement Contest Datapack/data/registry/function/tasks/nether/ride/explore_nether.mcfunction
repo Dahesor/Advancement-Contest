@@ -8,7 +8,8 @@ data modify storage dsc:task new append value {\
         first_:"",\
         recipe_sum_all:"重生锚",\
         recipe_sum_first:"",\
-    }\
+    },\
+    node:{node:"challenge"}\
 }
 
 

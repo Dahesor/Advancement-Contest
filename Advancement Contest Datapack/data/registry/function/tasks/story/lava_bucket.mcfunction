@@ -8,7 +8,8 @@ data modify storage dsc:task new append value {\
         first_:"",\
         recipe_sum_all:"金靴子",\
         recipe_sum_first:"金头盔",\
-    }\
+    },\
+    node:{node:"node",children:["dsc_adv:story/form_obsidian"]}\
 }
 
 

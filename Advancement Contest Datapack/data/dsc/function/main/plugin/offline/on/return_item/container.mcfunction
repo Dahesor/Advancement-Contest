@@ -2,7 +2,6 @@
 execute store result storage run num.i int 1 run data get storage temp Inv[0].Slot
 data remove storage temp Inv[0].Slot
 data modify entity 0-0-0-0-2 item set from storage temp Inv[0]
-#function #bs.dump:var {var:["storage temp Inv[0]","entity 0-0-0-0-2 item"]}
 function dsc:main/plugin/offline/on/return_item/__item_item with storage run num
 
 

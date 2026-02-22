@@ -8,7 +8,8 @@ data modify storage dsc:task new append value {\
         first_:"",\
         recipe_sum_all:"钻石锄头",\
         recipe_sum_first:"",\
-    }\
+    },\
+    node:{node:"root",children:["dsc_adv:adventure/trade_at_world_height","dsc_adv:adventure/voluntary_exile","dsc_adv:adventure/summon_iron_golem"]}\
 }
 
 

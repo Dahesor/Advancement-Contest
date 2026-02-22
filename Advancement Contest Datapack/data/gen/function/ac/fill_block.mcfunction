@@ -5,6 +5,9 @@ execute store result storage run acy.y int 1 run scoreboard players get acy gen
 
 function gen:ac/__fillbiome with storage run acy
 
+data remove storage gen gen_log_parsed[0]
+data modify storage gen gen_log prepend value [{text:"\n[gen:ac] 正在让远古城市变得危险…… ",color:"white"},{score:{name:"acy",objective:"gen"}},"(-51..-20) \n"]
+
 scoreboard players add acy gen 1
 scoreboard players set $cd gen 1
 execute unless score acy gen matches -16.. run return 1

@@ -1,0 +1,26 @@
+{
+    "model": {
+        "type": "select",
+        "property": "display_context",
+        "cases": [
+            {
+                "when": "gui",
+                "model": {
+                    "type": "model",
+                    "model": "item/diamond"
+                }
+            },
+            {
+                "when": "firstperson_righthand",
+                "model": {
+                    "type": "model",
+                    "model": "item/diamond"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "empty"
+        }
+    },
+    "oversized_in_gui": true
+}

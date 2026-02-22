@@ -8,7 +8,8 @@ data modify storage dsc:task new append value {\
         first_:"",\
         recipe_sum_all:"蜂蜜块, 蜂蜜瓶\n蜜脾块\n糖（蜂蜜瓶）",\
         recipe_sum_first:"",\
-    }\
+    },\
+    node:{node:"node",children:["dsc_adv:adventure/honey_block_slide","dsc_adv:husbandry/wax_on","dsc_adv:husbandry/silk_touch_nest"]}\
 }
 
 

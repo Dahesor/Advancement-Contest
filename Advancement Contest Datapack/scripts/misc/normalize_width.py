@@ -93,6 +93,7 @@ def adjust_string_width(text: str, char_widths: Dict[str, float], fillup: int, f
     for i, char in enumerate(text):
         # 获取字符宽度，如果未定义则默认为0
         char_width = char_widths.get(char, 0.0)
+        char_width = math.ceil(char_width)  # 向上取整，确保宽度为整数
         total_width += char_width
         
         # 如果不是最后一个字符，添加分割宽度
@@ -183,4 +184,6 @@ if __name__ == "__main__":
     target = Path("../../../../resourcepacks/Survival Competition Resources/lang/assets/task_f/lang")
     width_file = Path("./scripts/__data/width.json")
     
-    normalize_width(source, target, width_file, fillup=120, scale=0.56)
+    normalize_width(source, target, width_file, fillup=120, scale=0.5)
+
+

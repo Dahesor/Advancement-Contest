@@ -18,7 +18,7 @@ execute if score __reset map matches 1 run return run scoreboard players set __m
 scoreboard players add __loop map 1
 execute if score __loop map >= __lookup map run return fail
 
-execute if score __sample map >= THIS_SAMPLE_MAX map run return fail
+execute if score __sample map >= max_sample map run return fail
 
 execute if score __next_line map matches 1 positioned ~-1008 ~ ~16 run return run function map:scanner/ticker
 execute positioned ~16 ~ ~ run function map:scanner/ticker

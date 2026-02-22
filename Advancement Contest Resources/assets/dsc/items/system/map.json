@@ -1,0 +1,28 @@
+{
+    "model": {
+        "type": "composite",
+        "models": [
+            {
+                "type": "model",
+                "model": "item/filled_map"
+            },
+            {
+                "type": "select",
+                "property": "display_context",
+                "cases": [
+                    {
+                        "when": "gui",
+                        "model": {
+                            "type": "model",
+                            "model": "dsc:subscript/star"
+                        }
+                    }
+                ],
+                "fallback": {
+                    "type": "empty"
+                }
+            }
+        ]
+    },
+    "oversized_in_gui": true
+}

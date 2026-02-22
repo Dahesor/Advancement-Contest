@@ -44,7 +44,7 @@ dispatch minecraft:storage["team"] to struct {
     }],
     map_task?: [struct{
         for_team?: Team,
-        scale?: byte
+        initial?: int
     }],
 }
 

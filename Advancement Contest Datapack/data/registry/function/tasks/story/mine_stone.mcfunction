@@ -8,7 +8,8 @@ data modify storage dsc:task new append value {\
         first_:"",\
         recipe_sum_all:"石制工具",\
         recipe_sum_first:"",\
-    }\
+    },\
+    node:{node:"node",children:["dsc_adv:story/upgrade_tools"]}\
 }
 
 
@@ -22,7 +23,6 @@ data modify storage dsc:task new[-1] merge value {\
         \
         recipe_name_first:[],\
     },\
-    leader_advancement:"adventure/adventuring_time",\
     funcs:{\
         give:"dsc_recipe:wooden_pickaxe/give",\
         take:"dsc_recipe:wooden_pickaxe/take",\

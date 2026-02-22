@@ -8,7 +8,8 @@ data modify storage dsc:task new append value {\
         first_:"",\
         recipe_sum_all:"木质工具，皮革铠甲\n熔炉\n木桶\n梯子",\
         recipe_sum_first:"",\
-    }\
+    },\
+    node:{node:"root",children:["dsc_adv:story/mine_stone","dsc_adv:adventure/adventuring_time","dsc_adv:adventure/sleep_in_bed","dsc_adv:husbandry/safely_harvest_honey"]}\
 }
 
 

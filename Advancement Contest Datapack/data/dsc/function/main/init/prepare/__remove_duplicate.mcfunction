@@ -1,0 +1,1 @@
+$data remove storage team map_task[{for_team:"$(color)"}]

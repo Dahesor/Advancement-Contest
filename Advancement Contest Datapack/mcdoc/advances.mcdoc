@@ -4,16 +4,23 @@ dispatch minecraft:storage["dsc:task"] to struct{
     entry?: [TaskEntry],
     new?: [TaskEntry],
     this?: TaskEntry,
+    temp?: [TaskEntry],
     reward?: struct{
         function?: #[id(registry="function")] string,
         recipe?: #[id(registry="function")] string,
     },
+    proc_list:[#[id(registry="advancement")] string],
+}
+
+struct TaskNode{
+    node?: ("root"|"node"|"challenge"),
+    default_pin?: boolean,
+    children?: [#[id(registry="advancement")] string],
 }
 
 struct TaskEntryMod{
     id?: string,
     advancement?: #[id(registry="advancement")] string,
-    leader_advancement?: #[id(registry="advancement")] string,
     first_reward?: TaskReward,
     all_reward?: TaskReward,
     additional_lore?: struct{
@@ -21,7 +28,8 @@ struct TaskEntryMod{
         all_?: Text,
         recipe_sum_first?: Text,
         recipe_sum_all?: Text,
-    }
+    },
+    node?: TaskNode,
 }
 
 struct TaskEntry{
@@ -33,7 +41,8 @@ struct TaskEntry{
         take_first?: #[id(registry="function")] string,
     },
     display?: TaskDisplay,
-    completed?: boolean
+    completed?: boolean,
+    linked?: boolean,
 }
 
 struct TaskDisplay{

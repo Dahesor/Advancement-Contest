@@ -8,7 +8,8 @@ data modify storage dsc:task new append value {\
         first_:"",\
         recipe_sum_all:"附魔台，雕纹书架",\
         recipe_sum_first:"",\
-    }\
+    },\
+    node:{node:"node",children:["dsc_adv:adventure/unlock_vault","dsc_adv:adventure/use_wind_charge"]}\
 }
 
 

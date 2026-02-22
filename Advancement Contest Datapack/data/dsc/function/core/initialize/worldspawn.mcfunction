@@ -8,9 +8,11 @@ function map:render/init
 function map:init/nether
 
 scoreboard players set SHADER_TYPE map 1
+tp @a ~ ~ ~
+forceload add ~-20 ~-20 ~20 ~20
 
 schedule function map:reset_main 1s
-tp @a ~ ~ ~
 
+#return run schedule function gen:finish 2s
+schedule clear gen:finish
 schedule function gen:entry 2s
-forceload add ~-20 ~-20 ~20 ~20

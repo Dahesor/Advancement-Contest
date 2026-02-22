@@ -8,7 +8,8 @@ data modify storage dsc:task new append value {\
         first_:"",\
         recipe_sum_all:"箭矢，标靶",\
         recipe_sum_first:"精良弓",\
-    }\
+    },\
+    node:{node:"node",children:["dsc_adv:adventure/bullseye","dsc_adv:adventure/sniper_duel","dsc_adv:adventure/ol_betsy"]}\
 }
 
 

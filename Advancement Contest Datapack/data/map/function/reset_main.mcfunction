@@ -11,6 +11,8 @@ scoreboard players operation __lookup map /= #32 calc.DSC
 scoreboard players set __cx map 0
 scoreboard players set __cz map 0
 scoreboard players set SAMPLE_MAX map 24
+scoreboard players set HEIGHT_MAP_SAMPLE map 4
+scoreboard players set LOOKUP_SAMPLE map 1
 
 data modify storage run l set value []
 scoreboard players set $it map 0

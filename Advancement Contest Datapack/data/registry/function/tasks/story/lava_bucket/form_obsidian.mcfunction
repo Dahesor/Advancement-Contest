@@ -8,7 +8,8 @@ data modify storage dsc:task new append value {\
         first_:"",\
         recipe_sum_all:"纸，书\n打火石\n高炉",\
         recipe_sum_first:"切石机",\
-    }\
+    },\
+    node:{node:"node",children:["dsc_adv:story/enter_the_nether"]}\
 }
 
 

@@ -8,7 +8,8 @@ data modify storage dsc:task new append value {\
         first_:"",\
         recipe_sum_all:"钻石护腿, 钻石镐\n床\n磁石",\
         recipe_sum_first:"金苹果, 钓鱼竿\n指南针, 风弹",\
-    }\
+    },\
+    node:{node:"node",children:["dsc_adv:story/shiny_gear"]}\
 }
 
 

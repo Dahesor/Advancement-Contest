@@ -8,7 +8,8 @@ data modify storage dsc:task new append value {\
         first_:"",\
         recipe_sum_all:"锁链护腿与靴子",\
         recipe_sum_first:"全套铁质盔甲",\
-    }\
+    },\
+    node:{node:"node",children:["dsc_adv:story/deflect_arrow"]}\
 }
 
 
