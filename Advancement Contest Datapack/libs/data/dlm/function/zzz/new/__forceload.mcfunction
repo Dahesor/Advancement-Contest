@@ -1,0 +1,1 @@
+$execute in $(dimension) run forceload add $(x) $(z) $(dx) $(dz)

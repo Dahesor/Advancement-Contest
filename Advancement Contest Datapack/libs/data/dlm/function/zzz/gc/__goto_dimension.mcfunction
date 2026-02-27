@@ -1,0 +1,1 @@
+$execute in $(dimension) run function dlm:zzz/gc/each_chunk

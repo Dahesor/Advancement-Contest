@@ -1,0 +1,1 @@
+$data modify storage dlm: validations[-1].tests append value "execute in $(dimension) if loaded $(x) 0 $(z) run scoreboard players set #test_pass dlm__ 1"

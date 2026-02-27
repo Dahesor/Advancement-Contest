@@ -1,0 +1,1 @@
+$function dlm:close_ticket {id:"$(from_ticket)"}
