@@ -1,0 +1,1 @@
+$bossbar set dsc:pl/$(UID) name {storage:"main:",nbt:"bossbar",interpret: true}

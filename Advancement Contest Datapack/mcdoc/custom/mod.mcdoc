@@ -2,6 +2,7 @@ use ::mcdoc::gen::vec2
 use ::mcdoc::gen::vec3
 use ::java::util::slot::SlottedItem
 use ::java::world::entity::mob::player::PlayerEquipment
+use ::java::util::text::Text
 
 dispatch minecraft:storage["main:"] to struct{
     stronghold?: struct{
@@ -11,6 +12,7 @@ dispatch minecraft:storage["main:"] to struct{
     online?: [identity],
     offline?: [identity],
     temp?: [PlayerData],
+    bossbar?: Text,
 }
 
 struct DoubleVec3{x: double,y: double,z: double}
@@ -31,4 +33,10 @@ struct PlayerData {
         offline_punish?: byte,
     },
     Dimension?: #[id="dimension"] string,
+    spectating?: struct{
+        x?: int,
+        y?: int,
+        z?: int,
+        in?: #[id="dimension"] string,
+    }
 }

@@ -5,12 +5,13 @@ dialog show @s {type:"notice",title:"任务列表",\
     can_close_with_escape:true,pause:false,after_action:none,\
     body:[\
         {type:"plain_message",contents:{text:"><"},width:500},\
-        {type:"plain_message",contents:[{text:">\uE778"},{translate:"ask.balanced_diet.1",font:"dsc:bitmap/line"},"<"],width:500},\
-        {type:"plain_message",contents:[{text:">\uE778"},{translate:"ask.stone_pickaxe.1",font:"dsc:bitmap/line"},"<"],width:500},\
-        {type:"plain_message",contents:[{text:">\uE778"},{translate:"ask.use_wind_charge",font:"dsc:bitmap/line"},"<"],width:500},\
-        {type:"plain_message",contents:[{text:">\uE778"},{translate:"ask.make_a_sign_glow",font:"dsc:bitmap/line"},"<"],width:500},\
-        {type:"plain_message",contents:[{text:">\uE778"},{translate:"ask.respawn_dragon",font:"dsc:bitmap/line"},"<"],width:500},\
-        {type:"plain_message",contents:[{text:">\uE778"},{translate:"ask.trial_chamber",font:"dsc:bitmap/line"},"<"],width:500}\
+        {type:"plain_message",contents:[{text:">"},[{text:"\uE778",font:"dsc:bitmap/line_1"},{translate:"ask.balanced_diet.1",font:"dsc:bitmap/line_1"},"\uE778",{translate:"ask.balanced_diet.2",font:"dsc:bitmap/line_2"},"\uE778",{translate:"ask.balanced_diet.2",font:"dsc:bitmap/line_3"},"\uE778",{translate:"ask.use_wind_charge.1",font:"dsc:bitmap/line_2"},"\uE778",{translate:"ask.trial_chamber",font:"dsc:bitmap/line_1"},"\uE778",{translate:"ask.respawn_dragon.1",font:"dsc:bitmap/line_2"}],"<"],width:500},\
+        \
+        {type:"plain_message",contents:[{text:">"},{text:"\uE778",font:"dsc:bitmap/line_1"},{translate:"ask.stone_pickaxe.1",font:"dsc:bitmap/line_1"},"<"],width:500},\
+        {type:"plain_message",contents:[{text:">"},{text:"\uE778",font:"dsc:bitmap/line_1"},{translate:"ask.use_wind_charge",font:"dsc:bitmap/line_1"},"<"],width:500},\
+        {type:"plain_message",contents:[{text:">"},{text:"\uE778",font:"dsc:bitmap/line_1"},{translate:"ask.make_a_sign_glow",font:"dsc:bitmap/line_1"},"<"],width:500},\
+        {type:"plain_message",contents:[{text:">"},{text:"\uE778",font:"dsc:bitmap/line_1"},{translate:"ask.respawn_dragon",font:"dsc:bitmap/line_1"},"<"],width:500},\
+        {type:"plain_message",contents:[{text:">"},{text:"\uE778",font:"dsc:bitmap/line_1"},{translate:"ask.trial_chamber",font:"dsc:bitmap/line_1"},"<"],width:500}\
     ]\
     ,action:{label:{translate:"gui.done"},action:{type:"run_command",command:"/trigger dialog set -999"}}\
 }

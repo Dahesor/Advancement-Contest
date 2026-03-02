@@ -14,7 +14,6 @@ data modify storage run ac set value {x:0,z:0}
 execute store result storage run ac.x int 1 run scoreboard players get acx gen
 execute store result storage run ac.z int 1 run scoreboard players get acz gen
 
-schedule function gen:ac/ticker 5s replace
 function gen:ac/__forceload_add with storage run ac
 
 scoreboard players set $exe gen 1

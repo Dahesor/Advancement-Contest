@@ -1,0 +1,32 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "height": 24,
+            "ascent": 10,
+            "file": "dsc:font/dec/back_thin.png",
+            "chars": ["\uEAAA"]
+        },
+        {
+            "type": "bitmap",
+            "height": 34,
+            "ascent": 10,
+            "file": "dsc:font/dec/back_wide.png",
+            "chars": ["\uEAAB"]
+        },
+        {
+            "type": "bitmap",
+            "height": 24,
+            "ascent": 10,
+            "file": "dsc:font/dec/back_thin_long.png",
+            "chars": ["\uEAAC"]
+        },
+        {
+            "type": "bitmap",
+            "height": 34,
+            "ascent": 10,
+            "file": "dsc:font/dec/back_wide_long.png",
+            "chars": ["\uEAAD"]
+        }
+    ]
+}

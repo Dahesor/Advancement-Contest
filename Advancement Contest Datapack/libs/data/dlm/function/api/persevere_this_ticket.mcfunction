@@ -1,5 +1,3 @@
-#> function dlm:api/persevere_this_ticket
-# Callable only during on_load
-# If the ticket is of life:{type:"temp"}, persevere this ticket and do not unload the chunk
+#> Deprecated. Use preserve_this_tick
 
-scoreboard players set #persevere dlm__ 1
+function dlm:api/preserve_this_tick

@@ -1,0 +1,1 @@
+$bossbar set dsc:pl/$(UID) visible false

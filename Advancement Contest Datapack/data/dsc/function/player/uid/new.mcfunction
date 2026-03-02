@@ -5,6 +5,7 @@ data modify storage main: player append value {UID:-1,Pos:{x:0d,y:0d,z:0d}}
 execute store result storage main: player[-1].UID int 1 run scoreboard players get @s UID
 function dsc:core/math/gu/generate
 data modify storage main: player[-1].UUID set from storage gu:main out
+function dsc:player/bossbar/create with storage main: player[-1]
 
 #Player Name
 tag @s add map.__name

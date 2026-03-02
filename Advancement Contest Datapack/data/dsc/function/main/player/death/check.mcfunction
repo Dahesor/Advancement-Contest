@@ -5,7 +5,6 @@ function dsc:main/player/death/keys
 function dsc:main/player/death/spectate/verify
 execute if entity @s[tag=!aced] run function dsc:main/player/death/actionbar
 
-
 execute if entity @s[tag=__dead_prepare] run tag @s remove __dead_prepare
 
 execute if score @s revive_time matches 2.. run scoreboard players remove @s revive_time 1

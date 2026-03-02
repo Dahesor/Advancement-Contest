@@ -3,7 +3,6 @@ execute store result storage team outpost.ztemp.x int 1 run scoreboard players g
 execute store result storage team outpost.ztemp.y int 1 run scoreboard players get @s died.locked_y
 execute store result storage team outpost.ztemp.z int 1 run scoreboard players get @s died.locked_z
 
-
 execute if score @s died.expected_time = $gametime calc.DSC run return run function dsc:main/player/death/op/respawn/go
 
 scoreboard players operation #time_left calc.DSC = @s died.expected_time

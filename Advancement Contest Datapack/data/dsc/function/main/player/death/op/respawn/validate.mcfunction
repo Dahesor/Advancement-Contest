@@ -17,4 +17,19 @@ execute store result score @s died.locked_x run data get storage team outpost.zt
 execute store result score @s died.locked_y run data get storage team outpost.ztemp.y
 execute store result score @s died.locked_z run data get storage team outpost.ztemp.z
 
+data modify storage dlm: ticket set value {life:{type:"wait",time:100},pos:[0,0],to:[0,0]}
+data modify storage dlm: ticket.dimension set from storage main: player[0].spectating.in
+scoreboard players operation #x calc.DSC = @s died.locked_x
+scoreboard players operation #z calc.DSC = @s died.locked_z
+scoreboard players remove #x calc.DSC 16
+scoreboard players remove #z calc.DSC 16
+execute store result storage dlm: ticket.pos[0] int 1 run scoreboard players get #x calc.DSC
+execute store result storage dlm: ticket.pos[1] int 1 run scoreboard players get #z calc.DSC
+scoreboard players add #x calc.DSC 32
+scoreboard players add #z calc.DSC 32
+execute store result storage dlm: ticket.to[0] int 1 run scoreboard players get #x calc.DSC
+execute store result storage dlm: ticket.to[1] int 1 run scoreboard players get #z calc.DSC
+function dlm:new_ticket
+
+
 function dsc:main/player/death/menu/close

@@ -3,7 +3,7 @@ from pathlib import Path
 from typing import Dict, Union, Optional
 import math
 
-def normalize_width(source_dir: Path, target_dir: Path, width_json: Path, fillup: int, scale: float = 1.0):
+def normalize_width(source_dir: Path, target_dir: Path, width_json: Path, fillup: int, scale: float = 1.0, stem: int = 1):
     """
     规范化JSON文件中字符串的宽度，通过添加空格使每个字符串达到指定宽度
     
@@ -34,7 +34,7 @@ def normalize_width(source_dir: Path, target_dir: Path, width_json: Path, fillup
                 data = json.load(f)
             
             # 处理每个key（删除第一个字符）和对应的value
-            processed_data = process_json_keys_and_values(data, char_widths, fillup, json_file.name)
+            processed_data = process_json_keys_and_values(data, char_widths, fillup, json_file.name, stem)
             
             # 写入目标文件
             target_file = target_dir / json_file.name
@@ -47,7 +47,7 @@ def normalize_width(source_dir: Path, target_dir: Path, width_json: Path, fillup
             print(f"处理文件 {json_file.name} 时出错: {e}")
 
 
-def process_json_keys_and_values(data, char_widths: Dict[str, float], fillup: int, filename: str):
+def process_json_keys_and_values(data, char_widths: Dict[str, float], fillup: int, filename: str, stem: int = 1):
     """
     递归处理JSON数据，删除每个key的第一个字符并调整字符串宽度
     """
@@ -55,7 +55,7 @@ def process_json_keys_and_values(data, char_widths: Dict[str, float], fillup: in
         new_dict = {}
         for key, value in data.items():
             # 删除key的第一个字符
-            new_key = key[1:] if key and len(key) > 0 else key
+            new_key = key[stem:] if key and len(key) > stem - 1 else key
             
             # 递归处理value
             if isinstance(value, str):
@@ -184,6 +184,7 @@ if __name__ == "__main__":
     target = Path("../../../../resourcepacks/Survival Competition Resources/lang/assets/task_f/lang")
     width_file = Path("./scripts/__data/width.json")
     
-    normalize_width(source, target, width_file, fillup=120, scale=0.5)
-
+    normalize_width(source, target, width_file, fillup=100, scale=0.5)
+    target = Path("../../../../resourcepacks/Survival Competition Resources/lang/assets/task_t/lang")
+    normalize_width(source, target, width_file, fillup=100, scale=0.25, stem=2)
 

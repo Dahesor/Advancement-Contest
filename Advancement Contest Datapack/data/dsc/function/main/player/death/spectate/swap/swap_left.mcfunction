@@ -1,5 +1,7 @@
-execute as @a[gamemode=!spectator] if score @s team = $this team if score @s UID < #base died.spectating run tag @s add __targets
-execute if entity @a[tag=__targets,limit=1] run return run function dsc:main/player/death/spectate/swap/highest
+scoreboard players set #result UID -2147483648
+function dsc:main/player/death/spectate/swap/find_lower
 
-execute as @a[gamemode=!spectator] if score @s team = $this team run tag @s add __targets
-execute if entity @a[tag=__targets,limit=1] run return run function dsc:main/player/death/spectate/swap/highest
+execute if score #has_result died.spectating matches 1 run return 1
+
+scoreboard players set #result UID -2147483648
+function dsc:main/player/death/spectate/swap/highest
