@@ -31,16 +31,16 @@ function dsc:module/respawn/op/new/get_char
 execute store result storage map:main dec[-1].x int 1 run data get entity @s Pos[0]
 execute store result storage map:main dec[-1].z int 1 run data get entity @s Pos[2]
 
-data modify storage team outpost.new set value {id:-1,x:0,y:0,z:0,state:0,count:0,marker:"f-f-f-f-f",start_time:0,next_spawn:-1}
-execute store result storage team outpost.new.start_time int 1 run scoreboard players get $gametime calc.DSC
+data modify storage team: outpost.new set value {id:-1,x:0,y:0,z:0,state:0,count:0,marker:"f-f-f-f-f",start_time:0,next_spawn:-1}
+execute store result storage team: outpost.new.start_time int 1 run scoreboard players get $gametime calc.DSC
 function dsc:core/math/gu/generate
-data modify storage team outpost.new.marker set from storage gu:main out
-execute store result storage team outpost.new.x int 1 run data get entity @s Pos[0]
-execute store result storage team outpost.new.y int 1 run data get entity @s Pos[1]
-execute store result storage team outpost.new.z int 1 run data get entity @s Pos[2]
-execute store result storage team outpost.new.id int 1 run scoreboard players get #new outpost
+data modify storage team: outpost.new.marker set from storage gu:main out
+execute store result storage team: outpost.new.x int 1 run data get entity @s Pos[0]
+execute store result storage team: outpost.new.y int 1 run data get entity @s Pos[1]
+execute store result storage team: outpost.new.z int 1 run data get entity @s Pos[2]
+execute store result storage team: outpost.new.id int 1 run scoreboard players get #new outpost
 
-execute store result storage team outpost.new.count int 1 run function dsc:module/respawn/op/new/__update_count with storage custom data.outpost
+execute store result storage team: outpost.new.count int 1 run function dsc:module/respawn/op/new/__update_count with storage custom data.outpost
 
 function dsc:module/respawn/op/new/__insert_entry with storage custom data.outpost
 

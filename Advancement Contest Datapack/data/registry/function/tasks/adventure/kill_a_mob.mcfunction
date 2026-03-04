@@ -9,7 +9,7 @@ data modify storage dsc:task new append value {\
         recipe_sum_all:"铁胸甲，精良的铁剑\n木矛\n弓",\
         recipe_sum_first:"",\
     },\
-    node:{node:"root",children:["dsc_adv:adventure/kill_all_mobs","dsc_adv:adventure/shoot_arrow","dsc_adv:adventure/throw_trident"]}\
+    node:{node:"root",default_pin:true,children:["dsc_adv:adventure/kill_all_mobs","dsc_adv:adventure/shoot_arrow","dsc_adv:adventure/throw_trident"]}\
 }
 
 

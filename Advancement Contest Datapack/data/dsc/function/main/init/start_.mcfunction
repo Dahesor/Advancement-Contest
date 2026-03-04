@@ -11,7 +11,7 @@ scoreboard players set starting_player_count main 0
 execute as @a[team=!] run function dsc:core/relate/team_assign_score
 execute as @a[scores={team=1..},sort=random] run function dsc:main/init/map/player
 function dsc:core/util/team/friendly_invisible/on
-execute store result score #loop_count calc.DSC run data get storage team filled_map
+execute store result score #loop_count calc.DSC run data get storage team: filled_map
 function dsc:main/init/team/give_map/loop
 
 #Spawn Players

@@ -68,5 +68,10 @@
     "op.lore.3":"若敌人靠近§e75§r格，信标会发出警告；",
     "op.lore.4":"靠近§650§r格以内，信标和敌人均会被高亮；",
     "op.lore.5":"靠近§c25§r格以内，信标无法使用，直到敌人离开",
-    "op.lore.6":"可被敌人摧毁"
+    "op.lore.6":"可被敌人摧毁",
+    "track_list.score":"分数奖励：%s",
+    "track_list.emerald":"绿宝石奖励：%s",
+    "track_list.recipe":"配方奖励：\n",
+    "track_list.pin":"点击置顶",
+    "track_list.unpin":"点击取消置顶"
 }

@@ -8,7 +8,7 @@ data modify storage dsc:task new append value {\
         first_:"",\
         recipe_sum_all:"望远镜\n钓鱼竿\n碗",\
         recipe_sum_first:"",\
-    }\
+    },node:{default_pin:true,node:"node"}\
 }
 
 

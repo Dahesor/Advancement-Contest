@@ -4,7 +4,7 @@ use ::java::world::entity::mob::player::PlayerEquipment
 use ::java::util::text::Text
 use ::mcdoc::dialog::dialog::DialogMix
 use ::mcdoc::dialog::dialog::DialogBodyMix
-use ::mcdoc::custom::spawn::Team
+use ::mcdoc::custom::team::Team
 
 dispatch minecraft:storage["temp"] to struct {
     Inv?: [SlottedItem<byte @ -106..106>] @ -106..106,
@@ -21,5 +21,8 @@ dispatch minecraft:storage["temp"] to struct {
     team?: Team,
     time_text?: Text,
     time_holder?: int,
-    i?: int
+    i?: int,
+    l?: [any],
+    e?: [any],
+    t?: [Text],
 }

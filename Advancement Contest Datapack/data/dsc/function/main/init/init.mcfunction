@@ -26,4 +26,10 @@ schedule function dsc:main/init/countdown/2 8s
 schedule function dsc:main/init/countdown/1 9s
 schedule function dsc:main/init/countdown/start 10s
 
+data modify storage team: track_list.team set value [{team:"blue",data:[]},{team:"red",data:[]},{team:"green",data:[]},{team:"gold",data:[]},{team:"gray",data:[]},{team:"light_purple",data:[]},{team:"yellow",data:[]},{team:"white",data:[]}]
+data modify storage team: track_list.team[].data set from storage team: track_list.cache
+
+execute as @a[scores={team=1..}] run function dsc:menu/tasks/bar/pull
+execute as @a[scores={team=1..}] run function dsc:player/bossbar/show_self
+
 execute positioned over motion_blocking run tp @a[team=] ~ ~5 ~

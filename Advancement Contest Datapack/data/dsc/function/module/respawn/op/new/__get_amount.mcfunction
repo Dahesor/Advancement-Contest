@@ -1,1 +1,1 @@
-$return run execute if data storage team outpost.$(team)[]
+$return run execute if data storage team: outpost.$(team)[]

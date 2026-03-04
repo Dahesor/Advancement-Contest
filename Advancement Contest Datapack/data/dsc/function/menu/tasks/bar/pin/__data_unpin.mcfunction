@@ -1,0 +1,1 @@
+$execute if data storage main: player[0].task.result[{id:"$(id)"}] run data remove storage main: player[0].task.result[{id:"$(id)"}].pin

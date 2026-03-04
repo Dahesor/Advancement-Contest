@@ -1,2 +1,2 @@
-$data modify storage team outpost.this set from storage team outpost.$(color)
-$execute if data storage team outpost.next_update.$(color) store result score #next_update calc.DSC run data get storage team outpost.next_update.$(color)
+$data modify storage team: outpost.this set from storage team: outpost.$(color)
+$execute if data storage team: outpost.next_update.$(color) store result score #next_update calc.DSC run data get storage team: outpost.next_update.$(color)

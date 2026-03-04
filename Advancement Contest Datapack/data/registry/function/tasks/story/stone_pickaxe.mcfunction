@@ -9,7 +9,7 @@ data modify storage dsc:task new append value {\
         recipe_sum_all:"铁质与铜制工具\n桶\n盾牌",\
         recipe_sum_first:"",\
     },\
-    node:{node:"node",children:["dsc_adv:story/smelt_iron"]}\
+    node:{node:"node",default_pin:true,children:["dsc_adv:story/smelt_iron"]}\
 }
 
 

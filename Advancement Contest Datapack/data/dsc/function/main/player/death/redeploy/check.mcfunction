@@ -1,4 +1,5 @@
-execute unless score on main matches 1.. unless entity @s[scores={team=1..}] run return fail
+execute unless score on main matches 1.. run return fail
+execute unless entity @s[scores={team=1..}] run return fail
 dialog clear @s
 execute if entity @s[gamemode=spectator] run return run tellraw @s {text:"您已死亡",color:"red"}
 
@@ -24,9 +25,10 @@ scoreboard players reset @s death
 gamemode spectator
 tag @s add dead
 tag @s add __dead_prepare
+scoreboard players set @s revive_time 400
 scoreboard players set @s died.revive_target -1
 scoreboard players set @s died.expected_time -1
 function dsc:main/player/death/op/find/available
+scoreboard players reset @s hurt_penalty
 
 #
-scoreboard players set @s revive_time 400

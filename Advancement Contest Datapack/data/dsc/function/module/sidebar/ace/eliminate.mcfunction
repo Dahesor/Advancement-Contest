@@ -1,10 +1,10 @@
 data modify storage temp text set value [{"translate":"head.game",color:"yellow"},{translate:"",color:"aqua"},"被淘汰！"]
-data modify storage temp text[1].translate set from storage team misc.color
-data modify storage temp text[1].color set from storage team misc.color
+data modify storage temp text[1].translate set from storage team: misc.color
+data modify storage temp text[1].color set from storage team: misc.color
 tellraw @a {storage:"temp",nbt:"text",interpret:true}
 
 #Hide Sidebar
-function sidebar.dah:visible/hide_color with storage team misc
+function sidebar.dah:visible/hide_color with storage team: misc
 
 #Scale Score
 execute unless score on main matches 1 run return 42
@@ -17,4 +17,4 @@ execute if score #count team matches 4 run scoreboard players set #scale calc.DS
 execute if score #count team matches 5 run scoreboard players set #scale calc.DSC 120
 execute if score #count team matches 6 run scoreboard players set #scale calc.DSC 110
 execute if score #count team matches 7 run scoreboard players set #scale calc.DSC 100
-function dsc:core/relate/__scale_score with storage team misc
+function dsc:core/relate/__scale_score with storage team: misc

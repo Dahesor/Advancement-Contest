@@ -3,7 +3,7 @@ execute as @a if score @s team = $this team run tag @s add uhc_winner
 
 function dsc:core/relate/score__team
 scoreboard players set #scale calc.DSC 200
-function dsc:core/relate/__scale_score with storage team misc
+function dsc:core/relate/__scale_score with storage team: misc
 
 scoreboard players set on main 0
 gamemode spectator @a

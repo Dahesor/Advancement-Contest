@@ -1,5 +1,5 @@
 tag @a[team=gray] add sidebar_player
-data modify storage team outpost.this set from storage team outpost.gray
+data modify storage team: outpost.this set from storage team: outpost.gray
 scoreboard players operation $this team = @s team
 execute unless entity @s[tag=aced] run function dsc:module/sidebar/ace/ask
 scoreboard players operation $this score = gray score

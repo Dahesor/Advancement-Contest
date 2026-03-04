@@ -4,6 +4,7 @@ dispatch minecraft:storage["dsc:task"] to struct{
     entry?: [TaskEntry],
     new?: [TaskEntry],
     this?: TaskEntry,
+    run?: TaskEntry,
     temp?: [TaskEntry],
     reward?: struct{
         function?: #[id(registry="function")] string,

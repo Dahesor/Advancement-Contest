@@ -9,7 +9,7 @@ data modify storage dsc:task new append value {\
         recipe_sum_all:"石制工具",\
         recipe_sum_first:"",\
     },\
-    node:{node:"node",children:["dsc_adv:story/upgrade_tools"]}\
+    node:{node:"node",default_pin:true,children:["dsc_adv:story/upgrade_tools"]}\
 }
 
 

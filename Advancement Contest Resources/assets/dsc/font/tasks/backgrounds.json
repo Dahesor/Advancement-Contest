@@ -27,6 +27,13 @@
             "ascent": 10,
             "file": "dsc:font/dec/back_wide_long.png",
             "chars": ["\uEAAD"]
+        },
+        {
+            "type": "bitmap",
+            "height": 34,
+            "ascent": 10,
+            "file": "dsc:font/dec/back_alpha.png",
+            "chars": ["\uEAA0"]
         }
     ]
 }

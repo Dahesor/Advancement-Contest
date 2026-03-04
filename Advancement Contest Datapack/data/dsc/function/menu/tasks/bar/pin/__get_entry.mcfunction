@@ -1,0 +1,1 @@
+$data modify storage main: track set from storage main: player[0].task.result[$(index)]

@@ -9,7 +9,7 @@ data modify storage dsc:task new append value {\
         recipe_sum_all:"",\
         recipe_sum_first:"高炉，烟熏炉，制箭台\n炼药锅\n切石机",\
     },\
-    node:{node:"node",children:["dsc_adv:story/iron_tools","dsc_adv:story/obtain_armor","dsc_adv:story/lava_bucket"]}\
+    node:{node:"node",default_pin:true,children:["dsc_adv:story/iron_tools","dsc_adv:story/obtain_armor","dsc_adv:story/lava_bucket"]}\
 }
 
 

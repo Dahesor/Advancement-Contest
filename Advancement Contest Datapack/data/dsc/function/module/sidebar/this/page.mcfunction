@@ -7,7 +7,7 @@ execute store result storage run num.i int 1 run scoreboard players get $this sc
 data modify storage sidebar.dah:data ui.lore[1][2].with[0] set string storage run num.i
 
 #Outpost
-execute if data storage team outpost.this[0] run function dsc:module/sidebar/this/outpost
+execute if data storage team: outpost.this[0] run function dsc:module/sidebar/this/outpost
 
 #===
 data modify storage sidebar.dah:data ui.lore append value {text:""}

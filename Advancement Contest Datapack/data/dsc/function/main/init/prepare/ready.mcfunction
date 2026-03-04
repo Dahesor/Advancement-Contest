@@ -9,10 +9,10 @@ tag @s remove preparing
 
 scoreboard players operation $this team = @s team
 function dsc:core/relate/score__team
-function dsc:main/init/prepare/__remove_duplicate with storage team misc
-data modify storage team map_task append value {initial:-1}
-data modify storage team map_task[-1].for_team set from storage team misc.color
-execute store result storage team map_task[-1].initial int 1 run scoreboard players get $map_id calc.DSC
+function dsc:main/init/prepare/__remove_duplicate with storage team: misc
+data modify storage team: map_task append value {initial:-1}
+data modify storage team: map_task[-1].for_team set from storage team: misc.color
+execute store result storage team: map_task[-1].initial int 1 run scoreboard players get $map_id calc.DSC
 
 tag @s add __NonInclude
 scoreboard players operation $this team = @s team

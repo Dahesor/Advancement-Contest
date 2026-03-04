@@ -1,6 +1,6 @@
 scoreboard players operation $this team = @s team
 function dsc:core/relate/score__team
-function dsc:module/respawn/op/__read_data with storage team misc
+function dsc:module/respawn/op/__read_data with storage team: misc
 
 function dsc:main/player/death/spectate/swap/get_target
 
@@ -23,6 +23,6 @@ data modify storage run run set value {id:0}
 execute store result storage run run.id int -1 run scoreboard players get @s died.spectating
 function dsc:module/respawn/op/__read_from_id with storage run run
 tellraw @s {"text":"[!] 正在旁观",color:"gray",extra:[{text:"复活点#",color:"white"},{color:"green",storage:"team",nbt:"outpost.ztemp.count"}]}
-data modify storage main: player[0].spectating.x set from storage team outpost.ztemp.x
-data modify storage main: player[0].spectating.y set from storage team outpost.ztemp.y
-data modify storage main: player[0].spectating.z set from storage team outpost.ztemp.z
+data modify storage main: player[0].spectating.x set from storage team: outpost.ztemp.x
+data modify storage main: player[0].spectating.y set from storage team: outpost.ztemp.y
+data modify storage main: player[0].spectating.z set from storage team: outpost.ztemp.z

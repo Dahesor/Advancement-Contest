@@ -16,7 +16,7 @@ execute if score @s died.revive_target matches -1 run data modify storage temp d
 execute unless score @s died.revive_target matches -1 run data modify storage temp dialog.body set value [{type:"plain_message",contents:{text:"点击以暂时观望（不复活）",color:"yellow",underlined:true,click_event:{action:"run_command",command:"/trigger input set -999"}}}]
 
 data modify storage temp i set value 0
-execute if data storage team outpost.this[0] run function dsc:main/player/death/menu/each
+execute if data storage team: outpost.this[0] run function dsc:main/player/death/menu/each
 
 execute if data storage temp dialog.body[1] run data modify storage temp dialog.dialog.body set from storage temp dialog.body
 

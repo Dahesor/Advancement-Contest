@@ -1,7 +1,7 @@
 scoreboard players add #NEXT UID 1
 scoreboard players operation @s UID = #NEXT UID
 
-data modify storage main: player append value {UID:-1,Pos:{x:0d,y:0d,z:0d}}
+data modify storage main: player append value {UID:-1,Pos:{x:0d,y:0d,z:0d},task:{result:[],raw:[],pin:[],unpin:[]}}
 execute store result storage main: player[-1].UID int 1 run scoreboard players get @s UID
 function dsc:core/math/gu/generate
 data modify storage main: player[-1].UUID set from storage gu:main out

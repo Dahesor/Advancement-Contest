@@ -1,1 +1,1 @@
-$data modify storage team outpost.ztemp set from storage team outpost.this[{id:$(id)}]
+$data modify storage team: outpost.ztemp set from storage team: outpost.this[{id:$(id)}]

@@ -1,5 +1,6 @@
 use ::mcdoc::gen::vec2
 use ::mcdoc::gen::vec3
+use ::mcdoc::custom::team::TeamTrackList
 use ::java::util::slot::SlottedItem
 use ::java::world::entity::mob::player::PlayerEquipment
 use ::java::util::text::Text
@@ -13,6 +14,9 @@ dispatch minecraft:storage["main:"] to struct{
     offline?: [identity],
     temp?: [PlayerData],
     bossbar?: Text,
+    ebt?: Text,
+    track?: TeamTrackList,
+    p_tracks?: [TeamTrackList],
 }
 
 struct DoubleVec3{x: double,y: double,z: double}
@@ -38,5 +42,17 @@ struct PlayerData {
         y?: int,
         z?: int,
         in?: #[id="dimension"] string,
-    }
+    },
+    task?: PlayerTaskTrack
+}
+
+struct PlayerPin {
+    id?: string,
+}
+
+struct PlayerTaskTrack{
+    raw?: [TeamTrackList],
+    result?: [TeamTrackList],
+    pin?: [PlayerPin],
+    unpin?: [PlayerPin],
 }

@@ -1,0 +1,1 @@
+$execute if data storage team: track_list.run[{advancement:"$(id)"}] run scoreboard players set #valid calc.DSC 0

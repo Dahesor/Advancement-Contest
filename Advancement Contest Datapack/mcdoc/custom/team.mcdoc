@@ -1,6 +1,7 @@
-use::java::world::component::CustomData
-use::mcdoc::gen::vec3
+use ::java::world::component::CustomData
 use ::java::util::slot::SlottedItem
+use ::java::util::text::Text
+use ::mcdoc::gen::vec3
 
 dispatch minecraft:storage["custom"] to struct {[any]: CustomData}
 dispatch mcdoc:custom_data["beacon_lock"] to boolean
@@ -14,7 +15,7 @@ dispatch mcdoc:custom_data["outpost"] to struct{
     id?: int,
 }
 
-dispatch minecraft:storage["team"] to struct {
+dispatch minecraft:storage["team:"] to struct {
     outpost?: struct{
         [Teams]?: [TeamOutpost],
         new?: TeamOutpost,
@@ -22,9 +23,7 @@ dispatch minecraft:storage["team"] to struct {
         run?: [TeamOutpost],
         ztemp?: TeamOutpost,
         fetch_cache?: [TeamOutpost],
-        next_update?: struct{
-            [Teams]?: int
-        }
+        next_update?: struct{[Teams]?: int}
     },
     misc?: struct{
         color?: Team,
@@ -34,20 +33,32 @@ dispatch minecraft:storage["team"] to struct {
         },
         id?: any
     },
-    task_completed?: struct{
-        [Teams]?: [struct{id?: string}]
-    },
-    filled_map?: [struct{
-        id?: int,
-        team?: Team,
-        status?: ("unknown"|"processing"|"complete")
-    }],
-    map_task?: [struct{
-        for_team?: Team,
-        initial?: int
-    }],
+    task_completed?: struct{[Teams]?: [struct{id?: string}]},
+    filled_map?: [struct{id?: int,team?: Team,status?: ("unknown"|"processing"|"complete")}],
+    map_task?: [struct{for_team?: Team,initial?: int}],
+    track_list?: struct{
+        mod?: [TeamTrackList],
+        this?: TeamTrackList,
+        run?: [TeamTrackList],
+        team?: [struct{team?: Team, data?: [TeamTrackList]}],
+        cache?: [TeamTrackList],
+    }
 }
 
+struct TeamTrackList{
+    node?: ("root"|"node"|"challenge"),
+    pin?: boolean,
+    id?: string,
+    advancement?: #[id(registry="advancement")] string,
+    title?: #[translation_key] string,
+    lore?: [#[translation_key] string],
+    icon?: #[translation_key] string,
+    completed?: boolean,
+    reward?: struct{
+        first?: [Text],
+        all?: [Text]
+    }
+}
 struct TeamOutpost{
     ...vec3,
     id?: int,

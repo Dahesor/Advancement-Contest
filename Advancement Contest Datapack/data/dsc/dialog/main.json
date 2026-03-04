@@ -5,6 +5,15 @@
     "after_action": "none",
     "actions": [
         {
+            "label": {"text": "进度列表","color": "aqua"},
+            "width": 200,
+            "action": {
+                "type": "run_command",
+                "command": "/trigger dialog set 20"
+            },
+            "tooltip": "查看您的队伍可以完成的进度"
+        },
+        {
             "label": "旁观者：打开地图",
             "width": 200,
             "action": {
@@ -12,6 +21,15 @@
                 "command": "/trigger dialog set 2"
             },
             "tooltip": "打开地图，查看地形图与所有玩家和兴趣点的位置。\n点击地图的任意位置可以传送"
+        },
+        {
+            "label": "管理员：管理员页面",
+            "width": 200,
+            "action": {
+                "type": "run_command",
+                "command": "/trigger dialog set -1"
+            },
+            "tooltip": "管理游戏。需要您有管理员权限"
         },
         {
             "label": "",
@@ -33,23 +51,6 @@
                     "text": "若您站在己方团队信标上，则不会掉落任何物品。否则正常掉落随机物品"
                 }
             ]
-        },
-        {
-            "label": "玩家：查看任务",
-            "width": 200,
-            "action": {
-                "type": "run_command",
-                "command": "/trigger dialog set 20"
-            }
-        },
-        {
-            "label": "管理员：管理员页面",
-            "width": 200,
-            "action": {
-                "type": "run_command",
-                "command": "/trigger dialog set -1"
-            },
-            "tooltip": "管理游戏。需要您有管理员权限"
         }
     ]
 }

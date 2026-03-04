@@ -9,7 +9,7 @@ data modify storage dsc:task new append value {\
         recipe_sum_all:"",\
         recipe_sum_first:"精良的铁质工具",\
     },\
-    node:{node:"node",children:["dsc_adv:story/mine_diamond","dsc_adv:adventure/use_lodestone"]}\
+    node:{node:"node",default_pin:true,children:["dsc_adv:story/mine_diamond","dsc_adv:adventure/use_lodestone"]}\
 }
 
 

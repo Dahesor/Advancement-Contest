@@ -13,4 +13,4 @@ execute if score $this dialog matches 1001 unless score centered main matches 1 
 
 execute if score $this dialog matches 2 run return run function dsc:menu/map/request
 execute if score $this dialog matches 10 run return run function dsc:main/player/death/redeploy/check
-execute if score $this dialog matches 20 run return run function dsc:menu/tasks/build
+execute if score $this dialog matches 20 run return run function dsc:menu/tasks/make

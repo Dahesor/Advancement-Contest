@@ -1,1 +1,1 @@
-$execute if data storage team task_completed.$(color)[{id:"$(id)"}] run scoreboard players set #valid calc.DSC 0
+$execute if data storage team: task_completed.$(color)[{id:"$(id)"}] run scoreboard players set #valid calc.DSC 0
