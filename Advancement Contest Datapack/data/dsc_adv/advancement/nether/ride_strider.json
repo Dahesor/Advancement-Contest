@@ -73,7 +73,10 @@
           "color": "white"
         },
         {
-          "translate": "si.bone_meal"
+          "translate": "si.bone_meal",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

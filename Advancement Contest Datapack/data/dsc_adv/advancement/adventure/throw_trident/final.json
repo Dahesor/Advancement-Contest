@@ -63,13 +63,22 @@
           "color": "white"
         },
         {
-          "translate": "si.copper_bars"
+          "translate": "si.copper_bars",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.copper_chain"
+          "translate": "si.copper_chain",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.lightning_rod"
+          "translate": "si.lightning_rod",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

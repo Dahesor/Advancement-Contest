@@ -81,10 +81,16 @@
           "color": "white"
         },
         {
-          "translate": "si.tripwire_hook"
+          "translate": "si.tripwire_hook",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.crossbow"
+          "translate": "si.crossbow",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

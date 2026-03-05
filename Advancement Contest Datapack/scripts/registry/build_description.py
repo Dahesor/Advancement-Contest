@@ -37,7 +37,7 @@ def build_reward (emerald, score, text, recipe)-> str:
     json_res = []
     for s in recipe_data:
         s = "si." + s
-        json_res.append({"translate": s})
+        json_res.append({"translate": s,"extra":["-"]})
     if len(json_res) > 0:
         json_res.insert(0, {"text":"","font": "dsc:tasks/recipe","underlined":False,"color":"white"})
 

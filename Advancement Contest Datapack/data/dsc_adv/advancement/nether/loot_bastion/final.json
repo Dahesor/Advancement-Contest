@@ -51,13 +51,22 @@
           "color": "white"
         },
         {
-          "translate": "si.enchanting_table"
+          "translate": "si.enchanting_table",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.comparator"
+          "translate": "si.comparator",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.repeater"
+          "translate": "si.repeater",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",
@@ -99,7 +108,10 @@
           "color": "white"
         },
         {
-          "translate": "si.observer"
+          "translate": "si.observer",
+          "extra": [
+            "-"
+          ]
         }
       ]
     ],

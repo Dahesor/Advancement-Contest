@@ -56,7 +56,11 @@ struct TeamTrackList{
     completed?: boolean,
     reward?: struct{
         first?: [Text],
-        all?: [Text]
+        all?: [Text],
+    },
+    recipe_icon?: struct{
+        first?: [Text],
+        all?: [Text],
     }
 }
 struct TeamOutpost{

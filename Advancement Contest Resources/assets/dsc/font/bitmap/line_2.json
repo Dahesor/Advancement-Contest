@@ -8,7 +8,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_00.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
         "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
@@ -32,7 +32,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_01.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u0100\u0101\u0102\u0103\u0104\u0105\u0106\u0107\u0108\u0109\u010a\u010b\u010c\u010d\u010e\u010f",
         "\u0110\u0111\u0112\u0113\u0114\u0115\u0116\u0117\u0118\u0119\u011a\u011b\u011c\u011d\u011e\u011f",
@@ -56,7 +56,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_02.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u0200\u0201\u0202\u0203\u0204\u0205\u0206\u0207\u0208\u0209\u020a\u020b\u020c\u020d\u020e\u020f",
         "\u0210\u0211\u0212\u0213\u0214\u0215\u0216\u0217\u0218\u0219\u021a\u021b\u021c\u021d\u021e\u021f",
@@ -80,7 +80,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_03.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u0300\u0301\u0302\u0303\u0304\u0305\u0306\u0307\u0308\u0309\u030a\u030b\u030c\u030d\u030e\u030f",
         "\u0310\u0311\u0312\u0313\u0314\u0315\u0316\u0317\u0318\u0319\u031a\u031b\u031c\u031d\u031e\u031f",
@@ -104,7 +104,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_04.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u0400\u0401\u0402\u0403\u0404\u0405\u0406\u0407\u0408\u0409\u040a\u040b\u040c\u040d\u040e\u040f",
         "\u0410\u0411\u0412\u0413\u0414\u0415\u0416\u0417\u0418\u0419\u041a\u041b\u041c\u041d\u041e\u041f",
@@ -128,7 +128,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_05.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u0500\u0501\u0502\u0503\u0504\u0505\u0506\u0507\u0508\u0509\u050a\u050b\u050c\u050d\u050e\u050f",
         "\u0510\u0511\u0512\u0513\u0514\u0515\u0516\u0517\u0518\u0519\u051a\u051b\u051c\u051d\u051e\u051f",
@@ -152,7 +152,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_06.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u0600\u0601\u0602\u0603\u0604\u0605\u0606\u0607\u0608\u0609\u060a\u060b\u060c\u060d\u060e\u060f",
         "\u0610\u0611\u0612\u0613\u0614\u0615\u0616\u0617\u0618\u0619\u061a\u061b\u061c\u061d\u061e\u061f",
@@ -176,7 +176,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_07.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u0700\u0701\u0702\u0703\u0704\u0705\u0706\u0707\u0708\u0709\u070a\u070b\u070c\u070d\u070e\u070f",
         "\u0710\u0711\u0712\u0713\u0714\u0715\u0716\u0717\u0718\u0719\u071a\u071b\u071c\u071d\u071e\u071f",
@@ -200,7 +200,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_09.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u0900\u0901\u0902\u0903\u0904\u0905\u0906\u0907\u0908\u0909\u090a\u090b\u090c\u090d\u090e\u090f",
         "\u0910\u0911\u0912\u0913\u0914\u0915\u0916\u0917\u0918\u0919\u091a\u091b\u091c\u091d\u091e\u091f",
@@ -224,7 +224,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_0a.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u0a00\u0a01\u0a02\u0a03\u0a04\u0a05\u0a06\u0a07\u0a08\u0a09\u0a0a\u0a0b\u0a0c\u0a0d\u0a0e\u0a0f",
         "\u0a10\u0a11\u0a12\u0a13\u0a14\u0a15\u0a16\u0a17\u0a18\u0a19\u0a1a\u0a1b\u0a1c\u0a1d\u0a1e\u0a1f",
@@ -248,7 +248,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_0b.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u0b00\u0b01\u0b02\u0b03\u0b04\u0b05\u0b06\u0b07\u0b08\u0b09\u0b0a\u0b0b\u0b0c\u0b0d\u0b0e\u0b0f",
         "\u0b10\u0b11\u0b12\u0b13\u0b14\u0b15\u0b16\u0b17\u0b18\u0b19\u0b1a\u0b1b\u0b1c\u0b1d\u0b1e\u0b1f",
@@ -272,7 +272,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_0c.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u0c00\u0c01\u0c02\u0c03\u0c04\u0c05\u0c06\u0c07\u0c08\u0c09\u0c0a\u0c0b\u0c0c\u0c0d\u0c0e\u0c0f",
         "\u0c10\u0c11\u0c12\u0c13\u0c14\u0c15\u0c16\u0c17\u0c18\u0c19\u0c1a\u0c1b\u0c1c\u0c1d\u0c1e\u0c1f",
@@ -296,7 +296,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_0d.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u0d00\u0d01\u0d02\u0d03\u0d04\u0d05\u0d06\u0d07\u0d08\u0d09\u0d0a\u0d0b\u0d0c\u0d0d\u0d0e\u0d0f",
         "\u0d10\u0d11\u0d12\u0d13\u0d14\u0d15\u0d16\u0d17\u0d18\u0d19\u0d1a\u0d1b\u0d1c\u0d1d\u0d1e\u0d1f",
@@ -320,7 +320,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_0e.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u0e00\u0e01\u0e02\u0e03\u0e04\u0e05\u0e06\u0e07\u0e08\u0e09\u0e0a\u0e0b\u0e0c\u0e0d\u0e0e\u0e0f",
         "\u0e10\u0e11\u0e12\u0e13\u0e14\u0e15\u0e16\u0e17\u0e18\u0e19\u0e1a\u0e1b\u0e1c\u0e1d\u0e1e\u0e1f",
@@ -344,7 +344,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_0f.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u0f00\u0f01\u0f02\u0f03\u0f04\u0f05\u0f06\u0f07\u0f08\u0f09\u0f0a\u0f0b\u0f0c\u0f0d\u0f0e\u0f0f",
         "\u0f10\u0f11\u0f12\u0f13\u0f14\u0f15\u0f16\u0f17\u0f18\u0f19\u0f1a\u0f1b\u0f1c\u0f1d\u0f1e\u0f1f",
@@ -368,7 +368,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_10.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u1000\u1001\u1002\u1003\u1004\u1005\u1006\u1007\u1008\u1009\u100a\u100b\u100c\u100d\u100e\u100f",
         "\u1010\u1011\u1012\u1013\u1014\u1015\u1016\u1017\u1018\u1019\u101a\u101b\u101c\u101d\u101e\u101f",
@@ -392,7 +392,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_11.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u1100\u1101\u1102\u1103\u1104\u1105\u1106\u1107\u1108\u1109\u110a\u110b\u110c\u110d\u110e\u110f",
         "\u1110\u1111\u1112\u1113\u1114\u1115\u1116\u1117\u1118\u1119\u111a\u111b\u111c\u111d\u111e\u111f",
@@ -416,7 +416,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_12.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u1200\u1201\u1202\u1203\u1204\u1205\u1206\u1207\u1208\u1209\u120a\u120b\u120c\u120d\u120e\u120f",
         "\u1210\u1211\u1212\u1213\u1214\u1215\u1216\u1217\u1218\u1219\u121a\u121b\u121c\u121d\u121e\u121f",
@@ -440,7 +440,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_13.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u1300\u1301\u1302\u1303\u1304\u1305\u1306\u1307\u1308\u1309\u130a\u130b\u130c\u130d\u130e\u130f",
         "\u1310\u1311\u1312\u1313\u1314\u1315\u1316\u1317\u1318\u1319\u131a\u131b\u131c\u131d\u131e\u131f",
@@ -464,7 +464,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_14.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u1400\u1401\u1402\u1403\u1404\u1405\u1406\u1407\u1408\u1409\u140a\u140b\u140c\u140d\u140e\u140f",
         "\u1410\u1411\u1412\u1413\u1414\u1415\u1416\u1417\u1418\u1419\u141a\u141b\u141c\u141d\u141e\u141f",
@@ -488,7 +488,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_15.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u1500\u1501\u1502\u1503\u1504\u1505\u1506\u1507\u1508\u1509\u150a\u150b\u150c\u150d\u150e\u150f",
         "\u1510\u1511\u1512\u1513\u1514\u1515\u1516\u1517\u1518\u1519\u151a\u151b\u151c\u151d\u151e\u151f",
@@ -512,7 +512,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_16.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u1600\u1601\u1602\u1603\u1604\u1605\u1606\u1607\u1608\u1609\u160a\u160b\u160c\u160d\u160e\u160f",
         "\u1610\u1611\u1612\u1613\u1614\u1615\u1616\u1617\u1618\u1619\u161a\u161b\u161c\u161d\u161e\u161f",
@@ -536,7 +536,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_17.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u1700\u1701\u1702\u1703\u1704\u1705\u1706\u1707\u1708\u1709\u170a\u170b\u170c\u170d\u170e\u170f",
         "\u1710\u1711\u1712\u1713\u1714\u1715\u1716\u1717\u1718\u1719\u171a\u171b\u171c\u171d\u171e\u171f",
@@ -560,7 +560,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_18.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u1800\u1801\u1802\u1803\u1804\u1805\u1806\u1807\u1808\u1809\u180a\u180b\u180c\u180d\u180e\u180f",
         "\u1810\u1811\u1812\u1813\u1814\u1815\u1816\u1817\u1818\u1819\u181a\u181b\u181c\u181d\u181e\u181f",
@@ -584,7 +584,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_19.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u1900\u1901\u1902\u1903\u1904\u1905\u1906\u1907\u1908\u1909\u190a\u190b\u190c\u190d\u190e\u190f",
         "\u1910\u1911\u1912\u1913\u1914\u1915\u1916\u1917\u1918\u1919\u191a\u191b\u191c\u191d\u191e\u191f",
@@ -608,7 +608,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_1a.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u1a00\u1a01\u1a02\u1a03\u1a04\u1a05\u1a06\u1a07\u1a08\u1a09\u1a0a\u1a0b\u1a0c\u1a0d\u1a0e\u1a0f",
         "\u1a10\u1a11\u1a12\u1a13\u1a14\u1a15\u1a16\u1a17\u1a18\u1a19\u1a1a\u1a1b\u1a1c\u1a1d\u1a1e\u1a1f",
@@ -632,7 +632,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_1b.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u1b00\u1b01\u1b02\u1b03\u1b04\u1b05\u1b06\u1b07\u1b08\u1b09\u1b0a\u1b0b\u1b0c\u1b0d\u1b0e\u1b0f",
         "\u1b10\u1b11\u1b12\u1b13\u1b14\u1b15\u1b16\u1b17\u1b18\u1b19\u1b1a\u1b1b\u1b1c\u1b1d\u1b1e\u1b1f",
@@ -656,7 +656,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_1c.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u1c00\u1c01\u1c02\u1c03\u1c04\u1c05\u1c06\u1c07\u1c08\u1c09\u1c0a\u1c0b\u1c0c\u1c0d\u1c0e\u1c0f",
         "\u1c10\u1c11\u1c12\u1c13\u1c14\u1c15\u1c16\u1c17\u1c18\u1c19\u1c1a\u1c1b\u1c1c\u1c1d\u1c1e\u1c1f",
@@ -680,7 +680,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_1d.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u1d00\u1d01\u1d02\u1d03\u1d04\u1d05\u1d06\u1d07\u1d08\u1d09\u1d0a\u1d0b\u1d0c\u1d0d\u1d0e\u1d0f",
         "\u1d10\u1d11\u1d12\u1d13\u1d14\u1d15\u1d16\u1d17\u1d18\u1d19\u1d1a\u1d1b\u1d1c\u1d1d\u1d1e\u1d1f",
@@ -704,7 +704,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_1e.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u1e00\u1e01\u1e02\u1e03\u1e04\u1e05\u1e06\u1e07\u1e08\u1e09\u1e0a\u1e0b\u1e0c\u1e0d\u1e0e\u1e0f",
         "\u1e10\u1e11\u1e12\u1e13\u1e14\u1e15\u1e16\u1e17\u1e18\u1e19\u1e1a\u1e1b\u1e1c\u1e1d\u1e1e\u1e1f",
@@ -728,7 +728,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_1f.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u1f00\u1f01\u1f02\u1f03\u1f04\u1f05\u1f06\u1f07\u1f08\u1f09\u1f0a\u1f0b\u1f0c\u1f0d\u1f0e\u1f0f",
         "\u1f10\u1f11\u1f12\u1f13\u1f14\u1f15\u1f16\u1f17\u1f18\u1f19\u1f1a\u1f1b\u1f1c\u1f1d\u1f1e\u1f1f",
@@ -752,7 +752,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_20.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200a\u200b\u200c\u200d\u200e\u200f",
         "\u2010\u2011\u2012\u2013\u2014\u2015\u2016\u2017\u2018\u2019\u201a\u201b\u201c\u201d\u201e\u201f",
@@ -776,7 +776,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_21.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u2100\u2101\u2102\u2103\u2104\u2105\u2106\u2107\u2108\u2109\u210a\u210b\u210c\u210d\u210e\u210f",
         "\u2110\u2111\u2112\u2113\u2114\u2115\u2116\u2117\u2118\u2119\u211a\u211b\u211c\u211d\u211e\u211f",
@@ -800,7 +800,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_22.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u2200\u2201\u2202\u2203\u2204\u2205\u2206\u2207\u2208\u2209\u220a\u220b\u220c\u220d\u220e\u220f",
         "\u2210\u2211\u2212\u2213\u2214\u2215\u2216\u2217\u2218\u2219\u221a\u221b\u221c\u221d\u221e\u221f",
@@ -824,7 +824,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_23.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u2300\u2301\u2302\u2303\u2304\u2305\u2306\u2307\u2308\u2309\u230a\u230b\u230c\u230d\u230e\u230f",
         "\u2310\u2311\u2312\u2313\u2314\u2315\u2316\u2317\u2318\u2319\u231a\u231b\u231c\u231d\u231e\u231f",
@@ -848,7 +848,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_24.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u2400\u2401\u2402\u2403\u2404\u2405\u2406\u2407\u2408\u2409\u240a\u240b\u240c\u240d\u240e\u240f",
         "\u2410\u2411\u2412\u2413\u2414\u2415\u2416\u2417\u2418\u2419\u241a\u241b\u241c\u241d\u241e\u241f",
@@ -872,7 +872,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_25.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u2500\u2501\u2502\u2503\u2504\u2505\u2506\u2507\u2508\u2509\u250a\u250b\u250c\u250d\u250e\u250f",
         "\u2510\u2511\u2512\u2513\u2514\u2515\u2516\u2517\u2518\u2519\u251a\u251b\u251c\u251d\u251e\u251f",
@@ -896,7 +896,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_26.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u2600\u2601\u2602\u2603\u2604\u2605\u2606\u2607\u2608\u2609\u260a\u260b\u260c\u260d\u260e\u260f",
         "\u2610\u2611\u2612\u2613\u2614\u2615\u2616\u2617\u2618\u2619\u261a\u261b\u261c\u261d\u261e\u261f",
@@ -920,7 +920,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_27.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u2700\u2701\u2702\u2703\u2704\u2705\u2706\u2707\u2708\u2709\u270a\u270b\u270c\u270d\u270e\u270f",
         "\u2710\u2711\u2712\u2713\u2714\u2715\u2716\u2717\u2718\u2719\u271a\u271b\u271c\u271d\u271e\u271f",
@@ -944,7 +944,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_28.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u2800\u2801\u2802\u2803\u2804\u2805\u2806\u2807\u2808\u2809\u280a\u280b\u280c\u280d\u280e\u280f",
         "\u2810\u2811\u2812\u2813\u2814\u2815\u2816\u2817\u2818\u2819\u281a\u281b\u281c\u281d\u281e\u281f",
@@ -968,7 +968,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_29.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u2900\u2901\u2902\u2903\u2904\u2905\u2906\u2907\u2908\u2909\u290a\u290b\u290c\u290d\u290e\u290f",
         "\u2910\u2911\u2912\u2913\u2914\u2915\u2916\u2917\u2918\u2919\u291a\u291b\u291c\u291d\u291e\u291f",
@@ -992,7 +992,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_2a.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u2a00\u2a01\u2a02\u2a03\u2a04\u2a05\u2a06\u2a07\u2a08\u2a09\u2a0a\u2a0b\u2a0c\u2a0d\u2a0e\u2a0f",
         "\u2a10\u2a11\u2a12\u2a13\u2a14\u2a15\u2a16\u2a17\u2a18\u2a19\u2a1a\u2a1b\u2a1c\u2a1d\u2a1e\u2a1f",
@@ -1016,7 +1016,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_2b.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u2b00\u2b01\u2b02\u2b03\u2b04\u2b05\u2b06\u2b07\u2b08\u2b09\u2b0a\u2b0b\u2b0c\u2b0d\u2b0e\u2b0f",
         "\u2b10\u2b11\u2b12\u2b13\u2b14\u2b15\u2b16\u2b17\u2b18\u2b19\u2b1a\u2b1b\u2b1c\u2b1d\u2b1e\u2b1f",
@@ -1040,7 +1040,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_2c.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u2c00\u2c01\u2c02\u2c03\u2c04\u2c05\u2c06\u2c07\u2c08\u2c09\u2c0a\u2c0b\u2c0c\u2c0d\u2c0e\u2c0f",
         "\u2c10\u2c11\u2c12\u2c13\u2c14\u2c15\u2c16\u2c17\u2c18\u2c19\u2c1a\u2c1b\u2c1c\u2c1d\u2c1e\u2c1f",
@@ -1064,7 +1064,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_2d.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u2d00\u2d01\u2d02\u2d03\u2d04\u2d05\u2d06\u2d07\u2d08\u2d09\u2d0a\u2d0b\u2d0c\u2d0d\u2d0e\u2d0f",
         "\u2d10\u2d11\u2d12\u2d13\u2d14\u2d15\u2d16\u2d17\u2d18\u2d19\u2d1a\u2d1b\u2d1c\u2d1d\u2d1e\u2d1f",
@@ -1088,7 +1088,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_2e.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u2e00\u2e01\u2e02\u2e03\u2e04\u2e05\u2e06\u2e07\u2e08\u2e09\u2e0a\u2e0b\u2e0c\u2e0d\u2e0e\u2e0f",
         "\u2e10\u2e11\u2e12\u2e13\u2e14\u2e15\u2e16\u2e17\u2e18\u2e19\u2e1a\u2e1b\u2e1c\u2e1d\u2e1e\u2e1f",
@@ -1112,7 +1112,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_2f.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u2f00\u2f01\u2f02\u2f03\u2f04\u2f05\u2f06\u2f07\u2f08\u2f09\u2f0a\u2f0b\u2f0c\u2f0d\u2f0e\u2f0f",
         "\u2f10\u2f11\u2f12\u2f13\u2f14\u2f15\u2f16\u2f17\u2f18\u2f19\u2f1a\u2f1b\u2f1c\u2f1d\u2f1e\u2f1f",
@@ -1136,7 +1136,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_30.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u3000\u3001\u3002\u3003\u3004\u3005\u3006\u3007\u3008\u3009\u300a\u300b\u300c\u300d\u300e\u300f",
         "\u3010\u3011\u3012\u3013\u3014\u3015\u3016\u3017\u3018\u3019\u301a\u301b\u301c\u301d\u301e\u301f",
@@ -1160,7 +1160,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_31.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u3100\u3101\u3102\u3103\u3104\u3105\u3106\u3107\u3108\u3109\u310a\u310b\u310c\u310d\u310e\u310f",
         "\u3110\u3111\u3112\u3113\u3114\u3115\u3116\u3117\u3118\u3119\u311a\u311b\u311c\u311d\u311e\u311f",
@@ -1184,7 +1184,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_32.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u3200\u3201\u3202\u3203\u3204\u3205\u3206\u3207\u3208\u3209\u320a\u320b\u320c\u320d\u320e\u320f",
         "\u3210\u3211\u3212\u3213\u3214\u3215\u3216\u3217\u3218\u3219\u321a\u321b\u321c\u321d\u321e\u321f",
@@ -1208,7 +1208,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_33.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u3300\u3301\u3302\u3303\u3304\u3305\u3306\u3307\u3308\u3309\u330a\u330b\u330c\u330d\u330e\u330f",
         "\u3310\u3311\u3312\u3313\u3314\u3315\u3316\u3317\u3318\u3319\u331a\u331b\u331c\u331d\u331e\u331f",
@@ -1232,7 +1232,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_34.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u3400\u3401\u3402\u3403\u3404\u3405\u3406\u3407\u3408\u3409\u340a\u340b\u340c\u340d\u340e\u340f",
         "\u3410\u3411\u3412\u3413\u3414\u3415\u3416\u3417\u3418\u3419\u341a\u341b\u341c\u341d\u341e\u341f",
@@ -1256,7 +1256,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_35.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u3500\u3501\u3502\u3503\u3504\u3505\u3506\u3507\u3508\u3509\u350a\u350b\u350c\u350d\u350e\u350f",
         "\u3510\u3511\u3512\u3513\u3514\u3515\u3516\u3517\u3518\u3519\u351a\u351b\u351c\u351d\u351e\u351f",
@@ -1280,7 +1280,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_36.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u3600\u3601\u3602\u3603\u3604\u3605\u3606\u3607\u3608\u3609\u360a\u360b\u360c\u360d\u360e\u360f",
         "\u3610\u3611\u3612\u3613\u3614\u3615\u3616\u3617\u3618\u3619\u361a\u361b\u361c\u361d\u361e\u361f",
@@ -1304,7 +1304,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_37.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u3700\u3701\u3702\u3703\u3704\u3705\u3706\u3707\u3708\u3709\u370a\u370b\u370c\u370d\u370e\u370f",
         "\u3710\u3711\u3712\u3713\u3714\u3715\u3716\u3717\u3718\u3719\u371a\u371b\u371c\u371d\u371e\u371f",
@@ -1328,7 +1328,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_38.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u3800\u3801\u3802\u3803\u3804\u3805\u3806\u3807\u3808\u3809\u380a\u380b\u380c\u380d\u380e\u380f",
         "\u3810\u3811\u3812\u3813\u3814\u3815\u3816\u3817\u3818\u3819\u381a\u381b\u381c\u381d\u381e\u381f",
@@ -1352,7 +1352,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_39.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u3900\u3901\u3902\u3903\u3904\u3905\u3906\u3907\u3908\u3909\u390a\u390b\u390c\u390d\u390e\u390f",
         "\u3910\u3911\u3912\u3913\u3914\u3915\u3916\u3917\u3918\u3919\u391a\u391b\u391c\u391d\u391e\u391f",
@@ -1376,7 +1376,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_3a.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u3a00\u3a01\u3a02\u3a03\u3a04\u3a05\u3a06\u3a07\u3a08\u3a09\u3a0a\u3a0b\u3a0c\u3a0d\u3a0e\u3a0f",
         "\u3a10\u3a11\u3a12\u3a13\u3a14\u3a15\u3a16\u3a17\u3a18\u3a19\u3a1a\u3a1b\u3a1c\u3a1d\u3a1e\u3a1f",
@@ -1400,7 +1400,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_3b.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u3b00\u3b01\u3b02\u3b03\u3b04\u3b05\u3b06\u3b07\u3b08\u3b09\u3b0a\u3b0b\u3b0c\u3b0d\u3b0e\u3b0f",
         "\u3b10\u3b11\u3b12\u3b13\u3b14\u3b15\u3b16\u3b17\u3b18\u3b19\u3b1a\u3b1b\u3b1c\u3b1d\u3b1e\u3b1f",
@@ -1424,7 +1424,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_3c.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u3c00\u3c01\u3c02\u3c03\u3c04\u3c05\u3c06\u3c07\u3c08\u3c09\u3c0a\u3c0b\u3c0c\u3c0d\u3c0e\u3c0f",
         "\u3c10\u3c11\u3c12\u3c13\u3c14\u3c15\u3c16\u3c17\u3c18\u3c19\u3c1a\u3c1b\u3c1c\u3c1d\u3c1e\u3c1f",
@@ -1448,7 +1448,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_3d.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u3d00\u3d01\u3d02\u3d03\u3d04\u3d05\u3d06\u3d07\u3d08\u3d09\u3d0a\u3d0b\u3d0c\u3d0d\u3d0e\u3d0f",
         "\u3d10\u3d11\u3d12\u3d13\u3d14\u3d15\u3d16\u3d17\u3d18\u3d19\u3d1a\u3d1b\u3d1c\u3d1d\u3d1e\u3d1f",
@@ -1472,7 +1472,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_3e.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u3e00\u3e01\u3e02\u3e03\u3e04\u3e05\u3e06\u3e07\u3e08\u3e09\u3e0a\u3e0b\u3e0c\u3e0d\u3e0e\u3e0f",
         "\u3e10\u3e11\u3e12\u3e13\u3e14\u3e15\u3e16\u3e17\u3e18\u3e19\u3e1a\u3e1b\u3e1c\u3e1d\u3e1e\u3e1f",
@@ -1496,7 +1496,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_3f.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u3f00\u3f01\u3f02\u3f03\u3f04\u3f05\u3f06\u3f07\u3f08\u3f09\u3f0a\u3f0b\u3f0c\u3f0d\u3f0e\u3f0f",
         "\u3f10\u3f11\u3f12\u3f13\u3f14\u3f15\u3f16\u3f17\u3f18\u3f19\u3f1a\u3f1b\u3f1c\u3f1d\u3f1e\u3f1f",
@@ -1520,7 +1520,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_40.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u4000\u4001\u4002\u4003\u4004\u4005\u4006\u4007\u4008\u4009\u400a\u400b\u400c\u400d\u400e\u400f",
         "\u4010\u4011\u4012\u4013\u4014\u4015\u4016\u4017\u4018\u4019\u401a\u401b\u401c\u401d\u401e\u401f",
@@ -1544,7 +1544,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_41.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u4100\u4101\u4102\u4103\u4104\u4105\u4106\u4107\u4108\u4109\u410a\u410b\u410c\u410d\u410e\u410f",
         "\u4110\u4111\u4112\u4113\u4114\u4115\u4116\u4117\u4118\u4119\u411a\u411b\u411c\u411d\u411e\u411f",
@@ -1568,7 +1568,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_42.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u4200\u4201\u4202\u4203\u4204\u4205\u4206\u4207\u4208\u4209\u420a\u420b\u420c\u420d\u420e\u420f",
         "\u4210\u4211\u4212\u4213\u4214\u4215\u4216\u4217\u4218\u4219\u421a\u421b\u421c\u421d\u421e\u421f",
@@ -1592,7 +1592,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_43.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u4300\u4301\u4302\u4303\u4304\u4305\u4306\u4307\u4308\u4309\u430a\u430b\u430c\u430d\u430e\u430f",
         "\u4310\u4311\u4312\u4313\u4314\u4315\u4316\u4317\u4318\u4319\u431a\u431b\u431c\u431d\u431e\u431f",
@@ -1616,7 +1616,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_44.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u4400\u4401\u4402\u4403\u4404\u4405\u4406\u4407\u4408\u4409\u440a\u440b\u440c\u440d\u440e\u440f",
         "\u4410\u4411\u4412\u4413\u4414\u4415\u4416\u4417\u4418\u4419\u441a\u441b\u441c\u441d\u441e\u441f",
@@ -1640,7 +1640,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_45.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u4500\u4501\u4502\u4503\u4504\u4505\u4506\u4507\u4508\u4509\u450a\u450b\u450c\u450d\u450e\u450f",
         "\u4510\u4511\u4512\u4513\u4514\u4515\u4516\u4517\u4518\u4519\u451a\u451b\u451c\u451d\u451e\u451f",
@@ -1664,7 +1664,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_46.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u4600\u4601\u4602\u4603\u4604\u4605\u4606\u4607\u4608\u4609\u460a\u460b\u460c\u460d\u460e\u460f",
         "\u4610\u4611\u4612\u4613\u4614\u4615\u4616\u4617\u4618\u4619\u461a\u461b\u461c\u461d\u461e\u461f",
@@ -1688,7 +1688,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_47.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u4700\u4701\u4702\u4703\u4704\u4705\u4706\u4707\u4708\u4709\u470a\u470b\u470c\u470d\u470e\u470f",
         "\u4710\u4711\u4712\u4713\u4714\u4715\u4716\u4717\u4718\u4719\u471a\u471b\u471c\u471d\u471e\u471f",
@@ -1712,7 +1712,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_48.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u4800\u4801\u4802\u4803\u4804\u4805\u4806\u4807\u4808\u4809\u480a\u480b\u480c\u480d\u480e\u480f",
         "\u4810\u4811\u4812\u4813\u4814\u4815\u4816\u4817\u4818\u4819\u481a\u481b\u481c\u481d\u481e\u481f",
@@ -1736,7 +1736,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_49.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u4900\u4901\u4902\u4903\u4904\u4905\u4906\u4907\u4908\u4909\u490a\u490b\u490c\u490d\u490e\u490f",
         "\u4910\u4911\u4912\u4913\u4914\u4915\u4916\u4917\u4918\u4919\u491a\u491b\u491c\u491d\u491e\u491f",
@@ -1760,7 +1760,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_4a.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u4a00\u4a01\u4a02\u4a03\u4a04\u4a05\u4a06\u4a07\u4a08\u4a09\u4a0a\u4a0b\u4a0c\u4a0d\u4a0e\u4a0f",
         "\u4a10\u4a11\u4a12\u4a13\u4a14\u4a15\u4a16\u4a17\u4a18\u4a19\u4a1a\u4a1b\u4a1c\u4a1d\u4a1e\u4a1f",
@@ -1784,7 +1784,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_4b.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u4b00\u4b01\u4b02\u4b03\u4b04\u4b05\u4b06\u4b07\u4b08\u4b09\u4b0a\u4b0b\u4b0c\u4b0d\u4b0e\u4b0f",
         "\u4b10\u4b11\u4b12\u4b13\u4b14\u4b15\u4b16\u4b17\u4b18\u4b19\u4b1a\u4b1b\u4b1c\u4b1d\u4b1e\u4b1f",
@@ -1808,7 +1808,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_4c.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u4c00\u4c01\u4c02\u4c03\u4c04\u4c05\u4c06\u4c07\u4c08\u4c09\u4c0a\u4c0b\u4c0c\u4c0d\u4c0e\u4c0f",
         "\u4c10\u4c11\u4c12\u4c13\u4c14\u4c15\u4c16\u4c17\u4c18\u4c19\u4c1a\u4c1b\u4c1c\u4c1d\u4c1e\u4c1f",
@@ -1832,7 +1832,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_4d.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u4d00\u4d01\u4d02\u4d03\u4d04\u4d05\u4d06\u4d07\u4d08\u4d09\u4d0a\u4d0b\u4d0c\u4d0d\u4d0e\u4d0f",
         "\u4d10\u4d11\u4d12\u4d13\u4d14\u4d15\u4d16\u4d17\u4d18\u4d19\u4d1a\u4d1b\u4d1c\u4d1d\u4d1e\u4d1f",
@@ -1856,7 +1856,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_4e.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u4e00\u4e01\u4e02\u4e03\u4e04\u4e05\u4e06\u4e07\u4e08\u4e09\u4e0a\u4e0b\u4e0c\u4e0d\u4e0e\u4e0f",
         "\u4e10\u4e11\u4e12\u4e13\u4e14\u4e15\u4e16\u4e17\u4e18\u4e19\u4e1a\u4e1b\u4e1c\u4e1d\u4e1e\u4e1f",
@@ -1880,7 +1880,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_4f.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u4f00\u4f01\u4f02\u4f03\u4f04\u4f05\u4f06\u4f07\u4f08\u4f09\u4f0a\u4f0b\u4f0c\u4f0d\u4f0e\u4f0f",
         "\u4f10\u4f11\u4f12\u4f13\u4f14\u4f15\u4f16\u4f17\u4f18\u4f19\u4f1a\u4f1b\u4f1c\u4f1d\u4f1e\u4f1f",
@@ -1904,7 +1904,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_50.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u5000\u5001\u5002\u5003\u5004\u5005\u5006\u5007\u5008\u5009\u500a\u500b\u500c\u500d\u500e\u500f",
         "\u5010\u5011\u5012\u5013\u5014\u5015\u5016\u5017\u5018\u5019\u501a\u501b\u501c\u501d\u501e\u501f",
@@ -1928,7 +1928,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_51.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u5100\u5101\u5102\u5103\u5104\u5105\u5106\u5107\u5108\u5109\u510a\u510b\u510c\u510d\u510e\u510f",
         "\u5110\u5111\u5112\u5113\u5114\u5115\u5116\u5117\u5118\u5119\u511a\u511b\u511c\u511d\u511e\u511f",
@@ -1952,7 +1952,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_52.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u5200\u5201\u5202\u5203\u5204\u5205\u5206\u5207\u5208\u5209\u520a\u520b\u520c\u520d\u520e\u520f",
         "\u5210\u5211\u5212\u5213\u5214\u5215\u5216\u5217\u5218\u5219\u521a\u521b\u521c\u521d\u521e\u521f",
@@ -1976,7 +1976,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_53.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u5300\u5301\u5302\u5303\u5304\u5305\u5306\u5307\u5308\u5309\u530a\u530b\u530c\u530d\u530e\u530f",
         "\u5310\u5311\u5312\u5313\u5314\u5315\u5316\u5317\u5318\u5319\u531a\u531b\u531c\u531d\u531e\u531f",
@@ -2000,7 +2000,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_54.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u5400\u5401\u5402\u5403\u5404\u5405\u5406\u5407\u5408\u5409\u540a\u540b\u540c\u540d\u540e\u540f",
         "\u5410\u5411\u5412\u5413\u5414\u5415\u5416\u5417\u5418\u5419\u541a\u541b\u541c\u541d\u541e\u541f",
@@ -2024,7 +2024,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_55.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u5500\u5501\u5502\u5503\u5504\u5505\u5506\u5507\u5508\u5509\u550a\u550b\u550c\u550d\u550e\u550f",
         "\u5510\u5511\u5512\u5513\u5514\u5515\u5516\u5517\u5518\u5519\u551a\u551b\u551c\u551d\u551e\u551f",
@@ -2048,7 +2048,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_56.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u5600\u5601\u5602\u5603\u5604\u5605\u5606\u5607\u5608\u5609\u560a\u560b\u560c\u560d\u560e\u560f",
         "\u5610\u5611\u5612\u5613\u5614\u5615\u5616\u5617\u5618\u5619\u561a\u561b\u561c\u561d\u561e\u561f",
@@ -2072,7 +2072,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_57.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u5700\u5701\u5702\u5703\u5704\u5705\u5706\u5707\u5708\u5709\u570a\u570b\u570c\u570d\u570e\u570f",
         "\u5710\u5711\u5712\u5713\u5714\u5715\u5716\u5717\u5718\u5719\u571a\u571b\u571c\u571d\u571e\u571f",
@@ -2096,7 +2096,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_58.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u5800\u5801\u5802\u5803\u5804\u5805\u5806\u5807\u5808\u5809\u580a\u580b\u580c\u580d\u580e\u580f",
         "\u5810\u5811\u5812\u5813\u5814\u5815\u5816\u5817\u5818\u5819\u581a\u581b\u581c\u581d\u581e\u581f",
@@ -2120,7 +2120,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_59.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u5900\u5901\u5902\u5903\u5904\u5905\u5906\u5907\u5908\u5909\u590a\u590b\u590c\u590d\u590e\u590f",
         "\u5910\u5911\u5912\u5913\u5914\u5915\u5916\u5917\u5918\u5919\u591a\u591b\u591c\u591d\u591e\u591f",
@@ -2144,7 +2144,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_5a.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u5a00\u5a01\u5a02\u5a03\u5a04\u5a05\u5a06\u5a07\u5a08\u5a09\u5a0a\u5a0b\u5a0c\u5a0d\u5a0e\u5a0f",
         "\u5a10\u5a11\u5a12\u5a13\u5a14\u5a15\u5a16\u5a17\u5a18\u5a19\u5a1a\u5a1b\u5a1c\u5a1d\u5a1e\u5a1f",
@@ -2168,7 +2168,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_5b.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u5b00\u5b01\u5b02\u5b03\u5b04\u5b05\u5b06\u5b07\u5b08\u5b09\u5b0a\u5b0b\u5b0c\u5b0d\u5b0e\u5b0f",
         "\u5b10\u5b11\u5b12\u5b13\u5b14\u5b15\u5b16\u5b17\u5b18\u5b19\u5b1a\u5b1b\u5b1c\u5b1d\u5b1e\u5b1f",
@@ -2192,7 +2192,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_5c.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u5c00\u5c01\u5c02\u5c03\u5c04\u5c05\u5c06\u5c07\u5c08\u5c09\u5c0a\u5c0b\u5c0c\u5c0d\u5c0e\u5c0f",
         "\u5c10\u5c11\u5c12\u5c13\u5c14\u5c15\u5c16\u5c17\u5c18\u5c19\u5c1a\u5c1b\u5c1c\u5c1d\u5c1e\u5c1f",
@@ -2216,7 +2216,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_5d.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u5d00\u5d01\u5d02\u5d03\u5d04\u5d05\u5d06\u5d07\u5d08\u5d09\u5d0a\u5d0b\u5d0c\u5d0d\u5d0e\u5d0f",
         "\u5d10\u5d11\u5d12\u5d13\u5d14\u5d15\u5d16\u5d17\u5d18\u5d19\u5d1a\u5d1b\u5d1c\u5d1d\u5d1e\u5d1f",
@@ -2240,7 +2240,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_5e.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u5e00\u5e01\u5e02\u5e03\u5e04\u5e05\u5e06\u5e07\u5e08\u5e09\u5e0a\u5e0b\u5e0c\u5e0d\u5e0e\u5e0f",
         "\u5e10\u5e11\u5e12\u5e13\u5e14\u5e15\u5e16\u5e17\u5e18\u5e19\u5e1a\u5e1b\u5e1c\u5e1d\u5e1e\u5e1f",
@@ -2264,7 +2264,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_5f.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u5f00\u5f01\u5f02\u5f03\u5f04\u5f05\u5f06\u5f07\u5f08\u5f09\u5f0a\u5f0b\u5f0c\u5f0d\u5f0e\u5f0f",
         "\u5f10\u5f11\u5f12\u5f13\u5f14\u5f15\u5f16\u5f17\u5f18\u5f19\u5f1a\u5f1b\u5f1c\u5f1d\u5f1e\u5f1f",
@@ -2288,7 +2288,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_60.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u6000\u6001\u6002\u6003\u6004\u6005\u6006\u6007\u6008\u6009\u600a\u600b\u600c\u600d\u600e\u600f",
         "\u6010\u6011\u6012\u6013\u6014\u6015\u6016\u6017\u6018\u6019\u601a\u601b\u601c\u601d\u601e\u601f",
@@ -2312,7 +2312,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_61.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u6100\u6101\u6102\u6103\u6104\u6105\u6106\u6107\u6108\u6109\u610a\u610b\u610c\u610d\u610e\u610f",
         "\u6110\u6111\u6112\u6113\u6114\u6115\u6116\u6117\u6118\u6119\u611a\u611b\u611c\u611d\u611e\u611f",
@@ -2336,7 +2336,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_62.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u6200\u6201\u6202\u6203\u6204\u6205\u6206\u6207\u6208\u6209\u620a\u620b\u620c\u620d\u620e\u620f",
         "\u6210\u6211\u6212\u6213\u6214\u6215\u6216\u6217\u6218\u6219\u621a\u621b\u621c\u621d\u621e\u621f",
@@ -2360,7 +2360,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_63.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u6300\u6301\u6302\u6303\u6304\u6305\u6306\u6307\u6308\u6309\u630a\u630b\u630c\u630d\u630e\u630f",
         "\u6310\u6311\u6312\u6313\u6314\u6315\u6316\u6317\u6318\u6319\u631a\u631b\u631c\u631d\u631e\u631f",
@@ -2384,7 +2384,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_64.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u6400\u6401\u6402\u6403\u6404\u6405\u6406\u6407\u6408\u6409\u640a\u640b\u640c\u640d\u640e\u640f",
         "\u6410\u6411\u6412\u6413\u6414\u6415\u6416\u6417\u6418\u6419\u641a\u641b\u641c\u641d\u641e\u641f",
@@ -2408,7 +2408,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_65.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u6500\u6501\u6502\u6503\u6504\u6505\u6506\u6507\u6508\u6509\u650a\u650b\u650c\u650d\u650e\u650f",
         "\u6510\u6511\u6512\u6513\u6514\u6515\u6516\u6517\u6518\u6519\u651a\u651b\u651c\u651d\u651e\u651f",
@@ -2432,7 +2432,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_66.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u6600\u6601\u6602\u6603\u6604\u6605\u6606\u6607\u6608\u6609\u660a\u660b\u660c\u660d\u660e\u660f",
         "\u6610\u6611\u6612\u6613\u6614\u6615\u6616\u6617\u6618\u6619\u661a\u661b\u661c\u661d\u661e\u661f",
@@ -2456,7 +2456,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_67.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u6700\u6701\u6702\u6703\u6704\u6705\u6706\u6707\u6708\u6709\u670a\u670b\u670c\u670d\u670e\u670f",
         "\u6710\u6711\u6712\u6713\u6714\u6715\u6716\u6717\u6718\u6719\u671a\u671b\u671c\u671d\u671e\u671f",
@@ -2480,7 +2480,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_68.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u6800\u6801\u6802\u6803\u6804\u6805\u6806\u6807\u6808\u6809\u680a\u680b\u680c\u680d\u680e\u680f",
         "\u6810\u6811\u6812\u6813\u6814\u6815\u6816\u6817\u6818\u6819\u681a\u681b\u681c\u681d\u681e\u681f",
@@ -2504,7 +2504,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_69.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u6900\u6901\u6902\u6903\u6904\u6905\u6906\u6907\u6908\u6909\u690a\u690b\u690c\u690d\u690e\u690f",
         "\u6910\u6911\u6912\u6913\u6914\u6915\u6916\u6917\u6918\u6919\u691a\u691b\u691c\u691d\u691e\u691f",
@@ -2528,7 +2528,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_6a.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u6a00\u6a01\u6a02\u6a03\u6a04\u6a05\u6a06\u6a07\u6a08\u6a09\u6a0a\u6a0b\u6a0c\u6a0d\u6a0e\u6a0f",
         "\u6a10\u6a11\u6a12\u6a13\u6a14\u6a15\u6a16\u6a17\u6a18\u6a19\u6a1a\u6a1b\u6a1c\u6a1d\u6a1e\u6a1f",
@@ -2552,7 +2552,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_6b.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u6b00\u6b01\u6b02\u6b03\u6b04\u6b05\u6b06\u6b07\u6b08\u6b09\u6b0a\u6b0b\u6b0c\u6b0d\u6b0e\u6b0f",
         "\u6b10\u6b11\u6b12\u6b13\u6b14\u6b15\u6b16\u6b17\u6b18\u6b19\u6b1a\u6b1b\u6b1c\u6b1d\u6b1e\u6b1f",
@@ -2576,7 +2576,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_6c.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u6c00\u6c01\u6c02\u6c03\u6c04\u6c05\u6c06\u6c07\u6c08\u6c09\u6c0a\u6c0b\u6c0c\u6c0d\u6c0e\u6c0f",
         "\u6c10\u6c11\u6c12\u6c13\u6c14\u6c15\u6c16\u6c17\u6c18\u6c19\u6c1a\u6c1b\u6c1c\u6c1d\u6c1e\u6c1f",
@@ -2600,7 +2600,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_6d.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u6d00\u6d01\u6d02\u6d03\u6d04\u6d05\u6d06\u6d07\u6d08\u6d09\u6d0a\u6d0b\u6d0c\u6d0d\u6d0e\u6d0f",
         "\u6d10\u6d11\u6d12\u6d13\u6d14\u6d15\u6d16\u6d17\u6d18\u6d19\u6d1a\u6d1b\u6d1c\u6d1d\u6d1e\u6d1f",
@@ -2624,7 +2624,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_6e.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u6e00\u6e01\u6e02\u6e03\u6e04\u6e05\u6e06\u6e07\u6e08\u6e09\u6e0a\u6e0b\u6e0c\u6e0d\u6e0e\u6e0f",
         "\u6e10\u6e11\u6e12\u6e13\u6e14\u6e15\u6e16\u6e17\u6e18\u6e19\u6e1a\u6e1b\u6e1c\u6e1d\u6e1e\u6e1f",
@@ -2648,7 +2648,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_6f.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u6f00\u6f01\u6f02\u6f03\u6f04\u6f05\u6f06\u6f07\u6f08\u6f09\u6f0a\u6f0b\u6f0c\u6f0d\u6f0e\u6f0f",
         "\u6f10\u6f11\u6f12\u6f13\u6f14\u6f15\u6f16\u6f17\u6f18\u6f19\u6f1a\u6f1b\u6f1c\u6f1d\u6f1e\u6f1f",
@@ -2672,7 +2672,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_70.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u7000\u7001\u7002\u7003\u7004\u7005\u7006\u7007\u7008\u7009\u700a\u700b\u700c\u700d\u700e\u700f",
         "\u7010\u7011\u7012\u7013\u7014\u7015\u7016\u7017\u7018\u7019\u701a\u701b\u701c\u701d\u701e\u701f",
@@ -2696,7 +2696,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_71.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u7100\u7101\u7102\u7103\u7104\u7105\u7106\u7107\u7108\u7109\u710a\u710b\u710c\u710d\u710e\u710f",
         "\u7110\u7111\u7112\u7113\u7114\u7115\u7116\u7117\u7118\u7119\u711a\u711b\u711c\u711d\u711e\u711f",
@@ -2720,7 +2720,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_72.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u7200\u7201\u7202\u7203\u7204\u7205\u7206\u7207\u7208\u7209\u720a\u720b\u720c\u720d\u720e\u720f",
         "\u7210\u7211\u7212\u7213\u7214\u7215\u7216\u7217\u7218\u7219\u721a\u721b\u721c\u721d\u721e\u721f",
@@ -2744,7 +2744,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_73.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u7300\u7301\u7302\u7303\u7304\u7305\u7306\u7307\u7308\u7309\u730a\u730b\u730c\u730d\u730e\u730f",
         "\u7310\u7311\u7312\u7313\u7314\u7315\u7316\u7317\u7318\u7319\u731a\u731b\u731c\u731d\u731e\u731f",
@@ -2768,7 +2768,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_74.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u7400\u7401\u7402\u7403\u7404\u7405\u7406\u7407\u7408\u7409\u740a\u740b\u740c\u740d\u740e\u740f",
         "\u7410\u7411\u7412\u7413\u7414\u7415\u7416\u7417\u7418\u7419\u741a\u741b\u741c\u741d\u741e\u741f",
@@ -2792,7 +2792,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_75.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u7500\u7501\u7502\u7503\u7504\u7505\u7506\u7507\u7508\u7509\u750a\u750b\u750c\u750d\u750e\u750f",
         "\u7510\u7511\u7512\u7513\u7514\u7515\u7516\u7517\u7518\u7519\u751a\u751b\u751c\u751d\u751e\u751f",
@@ -2816,7 +2816,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_76.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u7600\u7601\u7602\u7603\u7604\u7605\u7606\u7607\u7608\u7609\u760a\u760b\u760c\u760d\u760e\u760f",
         "\u7610\u7611\u7612\u7613\u7614\u7615\u7616\u7617\u7618\u7619\u761a\u761b\u761c\u761d\u761e\u761f",
@@ -2840,7 +2840,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_77.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u7700\u7701\u7702\u7703\u7704\u7705\u7706\u7707\u7708\u7709\u770a\u770b\u770c\u770d\u770e\u770f",
         "\u7710\u7711\u7712\u7713\u7714\u7715\u7716\u7717\u7718\u7719\u771a\u771b\u771c\u771d\u771e\u771f",
@@ -2864,7 +2864,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_78.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u7800\u7801\u7802\u7803\u7804\u7805\u7806\u7807\u7808\u7809\u780a\u780b\u780c\u780d\u780e\u780f",
         "\u7810\u7811\u7812\u7813\u7814\u7815\u7816\u7817\u7818\u7819\u781a\u781b\u781c\u781d\u781e\u781f",
@@ -2888,7 +2888,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_79.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u7900\u7901\u7902\u7903\u7904\u7905\u7906\u7907\u7908\u7909\u790a\u790b\u790c\u790d\u790e\u790f",
         "\u7910\u7911\u7912\u7913\u7914\u7915\u7916\u7917\u7918\u7919\u791a\u791b\u791c\u791d\u791e\u791f",
@@ -2912,7 +2912,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_7a.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u7a00\u7a01\u7a02\u7a03\u7a04\u7a05\u7a06\u7a07\u7a08\u7a09\u7a0a\u7a0b\u7a0c\u7a0d\u7a0e\u7a0f",
         "\u7a10\u7a11\u7a12\u7a13\u7a14\u7a15\u7a16\u7a17\u7a18\u7a19\u7a1a\u7a1b\u7a1c\u7a1d\u7a1e\u7a1f",
@@ -2936,7 +2936,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_7b.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u7b00\u7b01\u7b02\u7b03\u7b04\u7b05\u7b06\u7b07\u7b08\u7b09\u7b0a\u7b0b\u7b0c\u7b0d\u7b0e\u7b0f",
         "\u7b10\u7b11\u7b12\u7b13\u7b14\u7b15\u7b16\u7b17\u7b18\u7b19\u7b1a\u7b1b\u7b1c\u7b1d\u7b1e\u7b1f",
@@ -2960,7 +2960,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_7c.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u7c00\u7c01\u7c02\u7c03\u7c04\u7c05\u7c06\u7c07\u7c08\u7c09\u7c0a\u7c0b\u7c0c\u7c0d\u7c0e\u7c0f",
         "\u7c10\u7c11\u7c12\u7c13\u7c14\u7c15\u7c16\u7c17\u7c18\u7c19\u7c1a\u7c1b\u7c1c\u7c1d\u7c1e\u7c1f",
@@ -2984,7 +2984,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_7d.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u7d00\u7d01\u7d02\u7d03\u7d04\u7d05\u7d06\u7d07\u7d08\u7d09\u7d0a\u7d0b\u7d0c\u7d0d\u7d0e\u7d0f",
         "\u7d10\u7d11\u7d12\u7d13\u7d14\u7d15\u7d16\u7d17\u7d18\u7d19\u7d1a\u7d1b\u7d1c\u7d1d\u7d1e\u7d1f",
@@ -3008,7 +3008,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_7e.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u7e00\u7e01\u7e02\u7e03\u7e04\u7e05\u7e06\u7e07\u7e08\u7e09\u7e0a\u7e0b\u7e0c\u7e0d\u7e0e\u7e0f",
         "\u7e10\u7e11\u7e12\u7e13\u7e14\u7e15\u7e16\u7e17\u7e18\u7e19\u7e1a\u7e1b\u7e1c\u7e1d\u7e1e\u7e1f",
@@ -3032,7 +3032,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_7f.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u7f00\u7f01\u7f02\u7f03\u7f04\u7f05\u7f06\u7f07\u7f08\u7f09\u7f0a\u7f0b\u7f0c\u7f0d\u7f0e\u7f0f",
         "\u7f10\u7f11\u7f12\u7f13\u7f14\u7f15\u7f16\u7f17\u7f18\u7f19\u7f1a\u7f1b\u7f1c\u7f1d\u7f1e\u7f1f",
@@ -3056,7 +3056,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_80.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u8000\u8001\u8002\u8003\u8004\u8005\u8006\u8007\u8008\u8009\u800a\u800b\u800c\u800d\u800e\u800f",
         "\u8010\u8011\u8012\u8013\u8014\u8015\u8016\u8017\u8018\u8019\u801a\u801b\u801c\u801d\u801e\u801f",
@@ -3080,7 +3080,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_81.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u8100\u8101\u8102\u8103\u8104\u8105\u8106\u8107\u8108\u8109\u810a\u810b\u810c\u810d\u810e\u810f",
         "\u8110\u8111\u8112\u8113\u8114\u8115\u8116\u8117\u8118\u8119\u811a\u811b\u811c\u811d\u811e\u811f",
@@ -3104,7 +3104,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_82.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u8200\u8201\u8202\u8203\u8204\u8205\u8206\u8207\u8208\u8209\u820a\u820b\u820c\u820d\u820e\u820f",
         "\u8210\u8211\u8212\u8213\u8214\u8215\u8216\u8217\u8218\u8219\u821a\u821b\u821c\u821d\u821e\u821f",
@@ -3128,7 +3128,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_83.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u8300\u8301\u8302\u8303\u8304\u8305\u8306\u8307\u8308\u8309\u830a\u830b\u830c\u830d\u830e\u830f",
         "\u8310\u8311\u8312\u8313\u8314\u8315\u8316\u8317\u8318\u8319\u831a\u831b\u831c\u831d\u831e\u831f",
@@ -3152,7 +3152,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_84.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u8400\u8401\u8402\u8403\u8404\u8405\u8406\u8407\u8408\u8409\u840a\u840b\u840c\u840d\u840e\u840f",
         "\u8410\u8411\u8412\u8413\u8414\u8415\u8416\u8417\u8418\u8419\u841a\u841b\u841c\u841d\u841e\u841f",
@@ -3176,7 +3176,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_85.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u8500\u8501\u8502\u8503\u8504\u8505\u8506\u8507\u8508\u8509\u850a\u850b\u850c\u850d\u850e\u850f",
         "\u8510\u8511\u8512\u8513\u8514\u8515\u8516\u8517\u8518\u8519\u851a\u851b\u851c\u851d\u851e\u851f",
@@ -3200,7 +3200,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_86.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u8600\u8601\u8602\u8603\u8604\u8605\u8606\u8607\u8608\u8609\u860a\u860b\u860c\u860d\u860e\u860f",
         "\u8610\u8611\u8612\u8613\u8614\u8615\u8616\u8617\u8618\u8619\u861a\u861b\u861c\u861d\u861e\u861f",
@@ -3224,7 +3224,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_87.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u8700\u8701\u8702\u8703\u8704\u8705\u8706\u8707\u8708\u8709\u870a\u870b\u870c\u870d\u870e\u870f",
         "\u8710\u8711\u8712\u8713\u8714\u8715\u8716\u8717\u8718\u8719\u871a\u871b\u871c\u871d\u871e\u871f",
@@ -3248,7 +3248,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_88.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u8800\u8801\u8802\u8803\u8804\u8805\u8806\u8807\u8808\u8809\u880a\u880b\u880c\u880d\u880e\u880f",
         "\u8810\u8811\u8812\u8813\u8814\u8815\u8816\u8817\u8818\u8819\u881a\u881b\u881c\u881d\u881e\u881f",
@@ -3272,7 +3272,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_89.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u8900\u8901\u8902\u8903\u8904\u8905\u8906\u8907\u8908\u8909\u890a\u890b\u890c\u890d\u890e\u890f",
         "\u8910\u8911\u8912\u8913\u8914\u8915\u8916\u8917\u8918\u8919\u891a\u891b\u891c\u891d\u891e\u891f",
@@ -3296,7 +3296,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_8a.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u8a00\u8a01\u8a02\u8a03\u8a04\u8a05\u8a06\u8a07\u8a08\u8a09\u8a0a\u8a0b\u8a0c\u8a0d\u8a0e\u8a0f",
         "\u8a10\u8a11\u8a12\u8a13\u8a14\u8a15\u8a16\u8a17\u8a18\u8a19\u8a1a\u8a1b\u8a1c\u8a1d\u8a1e\u8a1f",
@@ -3320,7 +3320,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_8b.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u8b00\u8b01\u8b02\u8b03\u8b04\u8b05\u8b06\u8b07\u8b08\u8b09\u8b0a\u8b0b\u8b0c\u8b0d\u8b0e\u8b0f",
         "\u8b10\u8b11\u8b12\u8b13\u8b14\u8b15\u8b16\u8b17\u8b18\u8b19\u8b1a\u8b1b\u8b1c\u8b1d\u8b1e\u8b1f",
@@ -3344,7 +3344,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_8c.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u8c00\u8c01\u8c02\u8c03\u8c04\u8c05\u8c06\u8c07\u8c08\u8c09\u8c0a\u8c0b\u8c0c\u8c0d\u8c0e\u8c0f",
         "\u8c10\u8c11\u8c12\u8c13\u8c14\u8c15\u8c16\u8c17\u8c18\u8c19\u8c1a\u8c1b\u8c1c\u8c1d\u8c1e\u8c1f",
@@ -3368,7 +3368,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_8d.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u8d00\u8d01\u8d02\u8d03\u8d04\u8d05\u8d06\u8d07\u8d08\u8d09\u8d0a\u8d0b\u8d0c\u8d0d\u8d0e\u8d0f",
         "\u8d10\u8d11\u8d12\u8d13\u8d14\u8d15\u8d16\u8d17\u8d18\u8d19\u8d1a\u8d1b\u8d1c\u8d1d\u8d1e\u8d1f",
@@ -3392,7 +3392,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_8e.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u8e00\u8e01\u8e02\u8e03\u8e04\u8e05\u8e06\u8e07\u8e08\u8e09\u8e0a\u8e0b\u8e0c\u8e0d\u8e0e\u8e0f",
         "\u8e10\u8e11\u8e12\u8e13\u8e14\u8e15\u8e16\u8e17\u8e18\u8e19\u8e1a\u8e1b\u8e1c\u8e1d\u8e1e\u8e1f",
@@ -3416,7 +3416,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_8f.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u8f00\u8f01\u8f02\u8f03\u8f04\u8f05\u8f06\u8f07\u8f08\u8f09\u8f0a\u8f0b\u8f0c\u8f0d\u8f0e\u8f0f",
         "\u8f10\u8f11\u8f12\u8f13\u8f14\u8f15\u8f16\u8f17\u8f18\u8f19\u8f1a\u8f1b\u8f1c\u8f1d\u8f1e\u8f1f",
@@ -3440,7 +3440,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_90.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u9000\u9001\u9002\u9003\u9004\u9005\u9006\u9007\u9008\u9009\u900a\u900b\u900c\u900d\u900e\u900f",
         "\u9010\u9011\u9012\u9013\u9014\u9015\u9016\u9017\u9018\u9019\u901a\u901b\u901c\u901d\u901e\u901f",
@@ -3464,7 +3464,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_91.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u9100\u9101\u9102\u9103\u9104\u9105\u9106\u9107\u9108\u9109\u910a\u910b\u910c\u910d\u910e\u910f",
         "\u9110\u9111\u9112\u9113\u9114\u9115\u9116\u9117\u9118\u9119\u911a\u911b\u911c\u911d\u911e\u911f",
@@ -3488,7 +3488,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_92.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u9200\u9201\u9202\u9203\u9204\u9205\u9206\u9207\u9208\u9209\u920a\u920b\u920c\u920d\u920e\u920f",
         "\u9210\u9211\u9212\u9213\u9214\u9215\u9216\u9217\u9218\u9219\u921a\u921b\u921c\u921d\u921e\u921f",
@@ -3512,7 +3512,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_93.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u9300\u9301\u9302\u9303\u9304\u9305\u9306\u9307\u9308\u9309\u930a\u930b\u930c\u930d\u930e\u930f",
         "\u9310\u9311\u9312\u9313\u9314\u9315\u9316\u9317\u9318\u9319\u931a\u931b\u931c\u931d\u931e\u931f",
@@ -3536,7 +3536,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_94.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u9400\u9401\u9402\u9403\u9404\u9405\u9406\u9407\u9408\u9409\u940a\u940b\u940c\u940d\u940e\u940f",
         "\u9410\u9411\u9412\u9413\u9414\u9415\u9416\u9417\u9418\u9419\u941a\u941b\u941c\u941d\u941e\u941f",
@@ -3560,7 +3560,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_95.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u9500\u9501\u9502\u9503\u9504\u9505\u9506\u9507\u9508\u9509\u950a\u950b\u950c\u950d\u950e\u950f",
         "\u9510\u9511\u9512\u9513\u9514\u9515\u9516\u9517\u9518\u9519\u951a\u951b\u951c\u951d\u951e\u951f",
@@ -3584,7 +3584,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_96.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u9600\u9601\u9602\u9603\u9604\u9605\u9606\u9607\u9608\u9609\u960a\u960b\u960c\u960d\u960e\u960f",
         "\u9610\u9611\u9612\u9613\u9614\u9615\u9616\u9617\u9618\u9619\u961a\u961b\u961c\u961d\u961e\u961f",
@@ -3608,7 +3608,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_97.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u9700\u9701\u9702\u9703\u9704\u9705\u9706\u9707\u9708\u9709\u970a\u970b\u970c\u970d\u970e\u970f",
         "\u9710\u9711\u9712\u9713\u9714\u9715\u9716\u9717\u9718\u9719\u971a\u971b\u971c\u971d\u971e\u971f",
@@ -3632,7 +3632,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_98.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u9800\u9801\u9802\u9803\u9804\u9805\u9806\u9807\u9808\u9809\u980a\u980b\u980c\u980d\u980e\u980f",
         "\u9810\u9811\u9812\u9813\u9814\u9815\u9816\u9817\u9818\u9819\u981a\u981b\u981c\u981d\u981e\u981f",
@@ -3656,7 +3656,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_99.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u9900\u9901\u9902\u9903\u9904\u9905\u9906\u9907\u9908\u9909\u990a\u990b\u990c\u990d\u990e\u990f",
         "\u9910\u9911\u9912\u9913\u9914\u9915\u9916\u9917\u9918\u9919\u991a\u991b\u991c\u991d\u991e\u991f",
@@ -3680,7 +3680,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_9a.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u9a00\u9a01\u9a02\u9a03\u9a04\u9a05\u9a06\u9a07\u9a08\u9a09\u9a0a\u9a0b\u9a0c\u9a0d\u9a0e\u9a0f",
         "\u9a10\u9a11\u9a12\u9a13\u9a14\u9a15\u9a16\u9a17\u9a18\u9a19\u9a1a\u9a1b\u9a1c\u9a1d\u9a1e\u9a1f",
@@ -3704,7 +3704,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_9b.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u9b00\u9b01\u9b02\u9b03\u9b04\u9b05\u9b06\u9b07\u9b08\u9b09\u9b0a\u9b0b\u9b0c\u9b0d\u9b0e\u9b0f",
         "\u9b10\u9b11\u9b12\u9b13\u9b14\u9b15\u9b16\u9b17\u9b18\u9b19\u9b1a\u9b1b\u9b1c\u9b1d\u9b1e\u9b1f",
@@ -3728,7 +3728,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_9c.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u9c00\u9c01\u9c02\u9c03\u9c04\u9c05\u9c06\u9c07\u9c08\u9c09\u9c0a\u9c0b\u9c0c\u9c0d\u9c0e\u9c0f",
         "\u9c10\u9c11\u9c12\u9c13\u9c14\u9c15\u9c16\u9c17\u9c18\u9c19\u9c1a\u9c1b\u9c1c\u9c1d\u9c1e\u9c1f",
@@ -3752,7 +3752,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_9d.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u9d00\u9d01\u9d02\u9d03\u9d04\u9d05\u9d06\u9d07\u9d08\u9d09\u9d0a\u9d0b\u9d0c\u9d0d\u9d0e\u9d0f",
         "\u9d10\u9d11\u9d12\u9d13\u9d14\u9d15\u9d16\u9d17\u9d18\u9d19\u9d1a\u9d1b\u9d1c\u9d1d\u9d1e\u9d1f",
@@ -3776,7 +3776,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_9e.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u9e00\u9e01\u9e02\u9e03\u9e04\u9e05\u9e06\u9e07\u9e08\u9e09\u9e0a\u9e0b\u9e0c\u9e0d\u9e0e\u9e0f",
         "\u9e10\u9e11\u9e12\u9e13\u9e14\u9e15\u9e16\u9e17\u9e18\u9e19\u9e1a\u9e1b\u9e1c\u9e1d\u9e1e\u9e1f",
@@ -3800,7 +3800,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_9f.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\u9f00\u9f01\u9f02\u9f03\u9f04\u9f05\u9f06\u9f07\u9f08\u9f09\u9f0a\u9f0b\u9f0c\u9f0d\u9f0e\u9f0f",
         "\u9f10\u9f11\u9f12\u9f13\u9f14\u9f15\u9f16\u9f17\u9f18\u9f19\u9f1a\u9f1b\u9f1c\u9f1d\u9f1e\u9f1f",
@@ -3824,7 +3824,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_a0.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ua000\ua001\ua002\ua003\ua004\ua005\ua006\ua007\ua008\ua009\ua00a\ua00b\ua00c\ua00d\ua00e\ua00f",
         "\ua010\ua011\ua012\ua013\ua014\ua015\ua016\ua017\ua018\ua019\ua01a\ua01b\ua01c\ua01d\ua01e\ua01f",
@@ -3848,7 +3848,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_a1.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ua100\ua101\ua102\ua103\ua104\ua105\ua106\ua107\ua108\ua109\ua10a\ua10b\ua10c\ua10d\ua10e\ua10f",
         "\ua110\ua111\ua112\ua113\ua114\ua115\ua116\ua117\ua118\ua119\ua11a\ua11b\ua11c\ua11d\ua11e\ua11f",
@@ -3872,7 +3872,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_a2.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ua200\ua201\ua202\ua203\ua204\ua205\ua206\ua207\ua208\ua209\ua20a\ua20b\ua20c\ua20d\ua20e\ua20f",
         "\ua210\ua211\ua212\ua213\ua214\ua215\ua216\ua217\ua218\ua219\ua21a\ua21b\ua21c\ua21d\ua21e\ua21f",
@@ -3896,7 +3896,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_a3.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ua300\ua301\ua302\ua303\ua304\ua305\ua306\ua307\ua308\ua309\ua30a\ua30b\ua30c\ua30d\ua30e\ua30f",
         "\ua310\ua311\ua312\ua313\ua314\ua315\ua316\ua317\ua318\ua319\ua31a\ua31b\ua31c\ua31d\ua31e\ua31f",
@@ -3920,7 +3920,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_a4.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ua400\ua401\ua402\ua403\ua404\ua405\ua406\ua407\ua408\ua409\ua40a\ua40b\ua40c\ua40d\ua40e\ua40f",
         "\ua410\ua411\ua412\ua413\ua414\ua415\ua416\ua417\ua418\ua419\ua41a\ua41b\ua41c\ua41d\ua41e\ua41f",
@@ -3944,7 +3944,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_a5.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ua500\ua501\ua502\ua503\ua504\ua505\ua506\ua507\ua508\ua509\ua50a\ua50b\ua50c\ua50d\ua50e\ua50f",
         "\ua510\ua511\ua512\ua513\ua514\ua515\ua516\ua517\ua518\ua519\ua51a\ua51b\ua51c\ua51d\ua51e\ua51f",
@@ -3968,7 +3968,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_a6.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ua600\ua601\ua602\ua603\ua604\ua605\ua606\ua607\ua608\ua609\ua60a\ua60b\ua60c\ua60d\ua60e\ua60f",
         "\ua610\ua611\ua612\ua613\ua614\ua615\ua616\ua617\ua618\ua619\ua61a\ua61b\ua61c\ua61d\ua61e\ua61f",
@@ -3992,7 +3992,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_a7.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ua700\ua701\ua702\ua703\ua704\ua705\ua706\ua707\ua708\ua709\ua70a\ua70b\ua70c\ua70d\ua70e\ua70f",
         "\ua710\ua711\ua712\ua713\ua714\ua715\ua716\ua717\ua718\ua719\ua71a\ua71b\ua71c\ua71d\ua71e\ua71f",
@@ -4016,7 +4016,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_a8.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ua800\ua801\ua802\ua803\ua804\ua805\ua806\ua807\ua808\ua809\ua80a\ua80b\ua80c\ua80d\ua80e\ua80f",
         "\ua810\ua811\ua812\ua813\ua814\ua815\ua816\ua817\ua818\ua819\ua81a\ua81b\ua81c\ua81d\ua81e\ua81f",
@@ -4040,7 +4040,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_a9.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ua900\ua901\ua902\ua903\ua904\ua905\ua906\ua907\ua908\ua909\ua90a\ua90b\ua90c\ua90d\ua90e\ua90f",
         "\ua910\ua911\ua912\ua913\ua914\ua915\ua916\ua917\ua918\ua919\ua91a\ua91b\ua91c\ua91d\ua91e\ua91f",
@@ -4064,7 +4064,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_aa.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\uaa00\uaa01\uaa02\uaa03\uaa04\uaa05\uaa06\uaa07\uaa08\uaa09\uaa0a\uaa0b\uaa0c\uaa0d\uaa0e\uaa0f",
         "\uaa10\uaa11\uaa12\uaa13\uaa14\uaa15\uaa16\uaa17\uaa18\uaa19\uaa1a\uaa1b\uaa1c\uaa1d\uaa1e\uaa1f",
@@ -4088,7 +4088,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_ab.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\uab00\uab01\uab02\uab03\uab04\uab05\uab06\uab07\uab08\uab09\uab0a\uab0b\uab0c\uab0d\uab0e\uab0f",
         "\uab10\uab11\uab12\uab13\uab14\uab15\uab16\uab17\uab18\uab19\uab1a\uab1b\uab1c\uab1d\uab1e\uab1f",
@@ -4112,7 +4112,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_ac.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\uac00\uac01\uac02\uac03\uac04\uac05\uac06\uac07\uac08\uac09\uac0a\uac0b\uac0c\uac0d\uac0e\uac0f",
         "\uac10\uac11\uac12\uac13\uac14\uac15\uac16\uac17\uac18\uac19\uac1a\uac1b\uac1c\uac1d\uac1e\uac1f",
@@ -4136,7 +4136,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_ad.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\uad00\uad01\uad02\uad03\uad04\uad05\uad06\uad07\uad08\uad09\uad0a\uad0b\uad0c\uad0d\uad0e\uad0f",
         "\uad10\uad11\uad12\uad13\uad14\uad15\uad16\uad17\uad18\uad19\uad1a\uad1b\uad1c\uad1d\uad1e\uad1f",
@@ -4160,7 +4160,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_ae.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\uae00\uae01\uae02\uae03\uae04\uae05\uae06\uae07\uae08\uae09\uae0a\uae0b\uae0c\uae0d\uae0e\uae0f",
         "\uae10\uae11\uae12\uae13\uae14\uae15\uae16\uae17\uae18\uae19\uae1a\uae1b\uae1c\uae1d\uae1e\uae1f",
@@ -4184,7 +4184,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_af.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\uaf00\uaf01\uaf02\uaf03\uaf04\uaf05\uaf06\uaf07\uaf08\uaf09\uaf0a\uaf0b\uaf0c\uaf0d\uaf0e\uaf0f",
         "\uaf10\uaf11\uaf12\uaf13\uaf14\uaf15\uaf16\uaf17\uaf18\uaf19\uaf1a\uaf1b\uaf1c\uaf1d\uaf1e\uaf1f",
@@ -4208,7 +4208,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_b0.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ub000\ub001\ub002\ub003\ub004\ub005\ub006\ub007\ub008\ub009\ub00a\ub00b\ub00c\ub00d\ub00e\ub00f",
         "\ub010\ub011\ub012\ub013\ub014\ub015\ub016\ub017\ub018\ub019\ub01a\ub01b\ub01c\ub01d\ub01e\ub01f",
@@ -4232,7 +4232,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_b1.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ub100\ub101\ub102\ub103\ub104\ub105\ub106\ub107\ub108\ub109\ub10a\ub10b\ub10c\ub10d\ub10e\ub10f",
         "\ub110\ub111\ub112\ub113\ub114\ub115\ub116\ub117\ub118\ub119\ub11a\ub11b\ub11c\ub11d\ub11e\ub11f",
@@ -4256,7 +4256,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_b2.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ub200\ub201\ub202\ub203\ub204\ub205\ub206\ub207\ub208\ub209\ub20a\ub20b\ub20c\ub20d\ub20e\ub20f",
         "\ub210\ub211\ub212\ub213\ub214\ub215\ub216\ub217\ub218\ub219\ub21a\ub21b\ub21c\ub21d\ub21e\ub21f",
@@ -4280,7 +4280,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_b3.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ub300\ub301\ub302\ub303\ub304\ub305\ub306\ub307\ub308\ub309\ub30a\ub30b\ub30c\ub30d\ub30e\ub30f",
         "\ub310\ub311\ub312\ub313\ub314\ub315\ub316\ub317\ub318\ub319\ub31a\ub31b\ub31c\ub31d\ub31e\ub31f",
@@ -4304,7 +4304,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_b4.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ub400\ub401\ub402\ub403\ub404\ub405\ub406\ub407\ub408\ub409\ub40a\ub40b\ub40c\ub40d\ub40e\ub40f",
         "\ub410\ub411\ub412\ub413\ub414\ub415\ub416\ub417\ub418\ub419\ub41a\ub41b\ub41c\ub41d\ub41e\ub41f",
@@ -4328,7 +4328,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_b5.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ub500\ub501\ub502\ub503\ub504\ub505\ub506\ub507\ub508\ub509\ub50a\ub50b\ub50c\ub50d\ub50e\ub50f",
         "\ub510\ub511\ub512\ub513\ub514\ub515\ub516\ub517\ub518\ub519\ub51a\ub51b\ub51c\ub51d\ub51e\ub51f",
@@ -4352,7 +4352,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_b6.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ub600\ub601\ub602\ub603\ub604\ub605\ub606\ub607\ub608\ub609\ub60a\ub60b\ub60c\ub60d\ub60e\ub60f",
         "\ub610\ub611\ub612\ub613\ub614\ub615\ub616\ub617\ub618\ub619\ub61a\ub61b\ub61c\ub61d\ub61e\ub61f",
@@ -4376,7 +4376,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_b7.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ub700\ub701\ub702\ub703\ub704\ub705\ub706\ub707\ub708\ub709\ub70a\ub70b\ub70c\ub70d\ub70e\ub70f",
         "\ub710\ub711\ub712\ub713\ub714\ub715\ub716\ub717\ub718\ub719\ub71a\ub71b\ub71c\ub71d\ub71e\ub71f",
@@ -4400,7 +4400,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_b8.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ub800\ub801\ub802\ub803\ub804\ub805\ub806\ub807\ub808\ub809\ub80a\ub80b\ub80c\ub80d\ub80e\ub80f",
         "\ub810\ub811\ub812\ub813\ub814\ub815\ub816\ub817\ub818\ub819\ub81a\ub81b\ub81c\ub81d\ub81e\ub81f",
@@ -4424,7 +4424,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_b9.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ub900\ub901\ub902\ub903\ub904\ub905\ub906\ub907\ub908\ub909\ub90a\ub90b\ub90c\ub90d\ub90e\ub90f",
         "\ub910\ub911\ub912\ub913\ub914\ub915\ub916\ub917\ub918\ub919\ub91a\ub91b\ub91c\ub91d\ub91e\ub91f",
@@ -4448,7 +4448,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_ba.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\uba00\uba01\uba02\uba03\uba04\uba05\uba06\uba07\uba08\uba09\uba0a\uba0b\uba0c\uba0d\uba0e\uba0f",
         "\uba10\uba11\uba12\uba13\uba14\uba15\uba16\uba17\uba18\uba19\uba1a\uba1b\uba1c\uba1d\uba1e\uba1f",
@@ -4472,7 +4472,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_bb.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ubb00\ubb01\ubb02\ubb03\ubb04\ubb05\ubb06\ubb07\ubb08\ubb09\ubb0a\ubb0b\ubb0c\ubb0d\ubb0e\ubb0f",
         "\ubb10\ubb11\ubb12\ubb13\ubb14\ubb15\ubb16\ubb17\ubb18\ubb19\ubb1a\ubb1b\ubb1c\ubb1d\ubb1e\ubb1f",
@@ -4496,7 +4496,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_bc.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ubc00\ubc01\ubc02\ubc03\ubc04\ubc05\ubc06\ubc07\ubc08\ubc09\ubc0a\ubc0b\ubc0c\ubc0d\ubc0e\ubc0f",
         "\ubc10\ubc11\ubc12\ubc13\ubc14\ubc15\ubc16\ubc17\ubc18\ubc19\ubc1a\ubc1b\ubc1c\ubc1d\ubc1e\ubc1f",
@@ -4520,7 +4520,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_bd.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ubd00\ubd01\ubd02\ubd03\ubd04\ubd05\ubd06\ubd07\ubd08\ubd09\ubd0a\ubd0b\ubd0c\ubd0d\ubd0e\ubd0f",
         "\ubd10\ubd11\ubd12\ubd13\ubd14\ubd15\ubd16\ubd17\ubd18\ubd19\ubd1a\ubd1b\ubd1c\ubd1d\ubd1e\ubd1f",
@@ -4544,7 +4544,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_be.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ube00\ube01\ube02\ube03\ube04\ube05\ube06\ube07\ube08\ube09\ube0a\ube0b\ube0c\ube0d\ube0e\ube0f",
         "\ube10\ube11\ube12\ube13\ube14\ube15\ube16\ube17\ube18\ube19\ube1a\ube1b\ube1c\ube1d\ube1e\ube1f",
@@ -4568,7 +4568,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_bf.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ubf00\ubf01\ubf02\ubf03\ubf04\ubf05\ubf06\ubf07\ubf08\ubf09\ubf0a\ubf0b\ubf0c\ubf0d\ubf0e\ubf0f",
         "\ubf10\ubf11\ubf12\ubf13\ubf14\ubf15\ubf16\ubf17\ubf18\ubf19\ubf1a\ubf1b\ubf1c\ubf1d\ubf1e\ubf1f",
@@ -4592,7 +4592,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_c0.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\uc000\uc001\uc002\uc003\uc004\uc005\uc006\uc007\uc008\uc009\uc00a\uc00b\uc00c\uc00d\uc00e\uc00f",
         "\uc010\uc011\uc012\uc013\uc014\uc015\uc016\uc017\uc018\uc019\uc01a\uc01b\uc01c\uc01d\uc01e\uc01f",
@@ -4616,7 +4616,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_c1.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\uc100\uc101\uc102\uc103\uc104\uc105\uc106\uc107\uc108\uc109\uc10a\uc10b\uc10c\uc10d\uc10e\uc10f",
         "\uc110\uc111\uc112\uc113\uc114\uc115\uc116\uc117\uc118\uc119\uc11a\uc11b\uc11c\uc11d\uc11e\uc11f",
@@ -4640,7 +4640,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_c2.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\uc200\uc201\uc202\uc203\uc204\uc205\uc206\uc207\uc208\uc209\uc20a\uc20b\uc20c\uc20d\uc20e\uc20f",
         "\uc210\uc211\uc212\uc213\uc214\uc215\uc216\uc217\uc218\uc219\uc21a\uc21b\uc21c\uc21d\uc21e\uc21f",
@@ -4664,7 +4664,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_c3.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\uc300\uc301\uc302\uc303\uc304\uc305\uc306\uc307\uc308\uc309\uc30a\uc30b\uc30c\uc30d\uc30e\uc30f",
         "\uc310\uc311\uc312\uc313\uc314\uc315\uc316\uc317\uc318\uc319\uc31a\uc31b\uc31c\uc31d\uc31e\uc31f",
@@ -4688,7 +4688,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_c4.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\uc400\uc401\uc402\uc403\uc404\uc405\uc406\uc407\uc408\uc409\uc40a\uc40b\uc40c\uc40d\uc40e\uc40f",
         "\uc410\uc411\uc412\uc413\uc414\uc415\uc416\uc417\uc418\uc419\uc41a\uc41b\uc41c\uc41d\uc41e\uc41f",
@@ -4712,7 +4712,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_c5.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\uc500\uc501\uc502\uc503\uc504\uc505\uc506\uc507\uc508\uc509\uc50a\uc50b\uc50c\uc50d\uc50e\uc50f",
         "\uc510\uc511\uc512\uc513\uc514\uc515\uc516\uc517\uc518\uc519\uc51a\uc51b\uc51c\uc51d\uc51e\uc51f",
@@ -4736,7 +4736,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_c6.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\uc600\uc601\uc602\uc603\uc604\uc605\uc606\uc607\uc608\uc609\uc60a\uc60b\uc60c\uc60d\uc60e\uc60f",
         "\uc610\uc611\uc612\uc613\uc614\uc615\uc616\uc617\uc618\uc619\uc61a\uc61b\uc61c\uc61d\uc61e\uc61f",
@@ -4760,7 +4760,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_c7.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\uc700\uc701\uc702\uc703\uc704\uc705\uc706\uc707\uc708\uc709\uc70a\uc70b\uc70c\uc70d\uc70e\uc70f",
         "\uc710\uc711\uc712\uc713\uc714\uc715\uc716\uc717\uc718\uc719\uc71a\uc71b\uc71c\uc71d\uc71e\uc71f",
@@ -4784,7 +4784,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_c8.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\uc800\uc801\uc802\uc803\uc804\uc805\uc806\uc807\uc808\uc809\uc80a\uc80b\uc80c\uc80d\uc80e\uc80f",
         "\uc810\uc811\uc812\uc813\uc814\uc815\uc816\uc817\uc818\uc819\uc81a\uc81b\uc81c\uc81d\uc81e\uc81f",
@@ -4808,7 +4808,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_c9.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\uc900\uc901\uc902\uc903\uc904\uc905\uc906\uc907\uc908\uc909\uc90a\uc90b\uc90c\uc90d\uc90e\uc90f",
         "\uc910\uc911\uc912\uc913\uc914\uc915\uc916\uc917\uc918\uc919\uc91a\uc91b\uc91c\uc91d\uc91e\uc91f",
@@ -4832,7 +4832,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_ca.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\uca00\uca01\uca02\uca03\uca04\uca05\uca06\uca07\uca08\uca09\uca0a\uca0b\uca0c\uca0d\uca0e\uca0f",
         "\uca10\uca11\uca12\uca13\uca14\uca15\uca16\uca17\uca18\uca19\uca1a\uca1b\uca1c\uca1d\uca1e\uca1f",
@@ -4856,7 +4856,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_cb.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ucb00\ucb01\ucb02\ucb03\ucb04\ucb05\ucb06\ucb07\ucb08\ucb09\ucb0a\ucb0b\ucb0c\ucb0d\ucb0e\ucb0f",
         "\ucb10\ucb11\ucb12\ucb13\ucb14\ucb15\ucb16\ucb17\ucb18\ucb19\ucb1a\ucb1b\ucb1c\ucb1d\ucb1e\ucb1f",
@@ -4880,7 +4880,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_cc.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ucc00\ucc01\ucc02\ucc03\ucc04\ucc05\ucc06\ucc07\ucc08\ucc09\ucc0a\ucc0b\ucc0c\ucc0d\ucc0e\ucc0f",
         "\ucc10\ucc11\ucc12\ucc13\ucc14\ucc15\ucc16\ucc17\ucc18\ucc19\ucc1a\ucc1b\ucc1c\ucc1d\ucc1e\ucc1f",
@@ -4904,7 +4904,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_cd.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ucd00\ucd01\ucd02\ucd03\ucd04\ucd05\ucd06\ucd07\ucd08\ucd09\ucd0a\ucd0b\ucd0c\ucd0d\ucd0e\ucd0f",
         "\ucd10\ucd11\ucd12\ucd13\ucd14\ucd15\ucd16\ucd17\ucd18\ucd19\ucd1a\ucd1b\ucd1c\ucd1d\ucd1e\ucd1f",
@@ -4928,7 +4928,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_ce.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\uce00\uce01\uce02\uce03\uce04\uce05\uce06\uce07\uce08\uce09\uce0a\uce0b\uce0c\uce0d\uce0e\uce0f",
         "\uce10\uce11\uce12\uce13\uce14\uce15\uce16\uce17\uce18\uce19\uce1a\uce1b\uce1c\uce1d\uce1e\uce1f",
@@ -4952,7 +4952,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_cf.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ucf00\ucf01\ucf02\ucf03\ucf04\ucf05\ucf06\ucf07\ucf08\ucf09\ucf0a\ucf0b\ucf0c\ucf0d\ucf0e\ucf0f",
         "\ucf10\ucf11\ucf12\ucf13\ucf14\ucf15\ucf16\ucf17\ucf18\ucf19\ucf1a\ucf1b\ucf1c\ucf1d\ucf1e\ucf1f",
@@ -4976,7 +4976,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_d0.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ud000\ud001\ud002\ud003\ud004\ud005\ud006\ud007\ud008\ud009\ud00a\ud00b\ud00c\ud00d\ud00e\ud00f",
         "\ud010\ud011\ud012\ud013\ud014\ud015\ud016\ud017\ud018\ud019\ud01a\ud01b\ud01c\ud01d\ud01e\ud01f",
@@ -5000,7 +5000,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_d1.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ud100\ud101\ud102\ud103\ud104\ud105\ud106\ud107\ud108\ud109\ud10a\ud10b\ud10c\ud10d\ud10e\ud10f",
         "\ud110\ud111\ud112\ud113\ud114\ud115\ud116\ud117\ud118\ud119\ud11a\ud11b\ud11c\ud11d\ud11e\ud11f",
@@ -5024,7 +5024,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_d2.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ud200\ud201\ud202\ud203\ud204\ud205\ud206\ud207\ud208\ud209\ud20a\ud20b\ud20c\ud20d\ud20e\ud20f",
         "\ud210\ud211\ud212\ud213\ud214\ud215\ud216\ud217\ud218\ud219\ud21a\ud21b\ud21c\ud21d\ud21e\ud21f",
@@ -5048,7 +5048,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_d3.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ud300\ud301\ud302\ud303\ud304\ud305\ud306\ud307\ud308\ud309\ud30a\ud30b\ud30c\ud30d\ud30e\ud30f",
         "\ud310\ud311\ud312\ud313\ud314\ud315\ud316\ud317\ud318\ud319\ud31a\ud31b\ud31c\ud31d\ud31e\ud31f",
@@ -5072,7 +5072,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_d4.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ud400\ud401\ud402\ud403\ud404\ud405\ud406\ud407\ud408\ud409\ud40a\ud40b\ud40c\ud40d\ud40e\ud40f",
         "\ud410\ud411\ud412\ud413\ud414\ud415\ud416\ud417\ud418\ud419\ud41a\ud41b\ud41c\ud41d\ud41e\ud41f",
@@ -5096,7 +5096,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_d5.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ud500\ud501\ud502\ud503\ud504\ud505\ud506\ud507\ud508\ud509\ud50a\ud50b\ud50c\ud50d\ud50e\ud50f",
         "\ud510\ud511\ud512\ud513\ud514\ud515\ud516\ud517\ud518\ud519\ud51a\ud51b\ud51c\ud51d\ud51e\ud51f",
@@ -5120,7 +5120,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_d6.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ud600\ud601\ud602\ud603\ud604\ud605\ud606\ud607\ud608\ud609\ud60a\ud60b\ud60c\ud60d\ud60e\ud60f",
         "\ud610\ud611\ud612\ud613\ud614\ud615\ud616\ud617\ud618\ud619\ud61a\ud61b\ud61c\ud61d\ud61e\ud61f",
@@ -5144,7 +5144,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_d7.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ud700\ud701\ud702\ud703\ud704\ud705\ud706\ud707\ud708\ud709\ud70a\ud70b\ud70c\ud70d\ud70e\ud70f",
         "\ud710\ud711\ud712\ud713\ud714\ud715\ud716\ud717\ud718\ud719\ud71a\ud71b\ud71c\ud71d\ud71e\ud71f",
@@ -5168,7 +5168,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_f9.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\uf900\uf901\uf902\uf903\uf904\uf905\uf906\uf907\uf908\uf909\uf90a\uf90b\uf90c\uf90d\uf90e\uf90f",
         "\uf910\uf911\uf912\uf913\uf914\uf915\uf916\uf917\uf918\uf919\uf91a\uf91b\uf91c\uf91d\uf91e\uf91f",
@@ -5192,7 +5192,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_fa.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ufa00\ufa01\ufa02\ufa03\ufa04\ufa05\ufa06\ufa07\ufa08\ufa09\ufa0a\ufa0b\ufa0c\ufa0d\ufa0e\ufa0f",
         "\ufa10\ufa11\ufa12\ufa13\ufa14\ufa15\ufa16\ufa17\ufa18\ufa19\ufa1a\ufa1b\ufa1c\ufa1d\ufa1e\ufa1f",
@@ -5216,7 +5216,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_fb.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ufb00\ufb01\ufb02\ufb03\ufb04\ufb05\ufb06\ufb07\ufb08\ufb09\ufb0a\ufb0b\ufb0c\ufb0d\ufb0e\ufb0f",
         "\ufb10\ufb11\ufb12\ufb13\ufb14\ufb15\ufb16\ufb17\ufb18\ufb19\ufb1a\ufb1b\ufb1c\ufb1d\ufb1e\ufb1f",
@@ -5240,7 +5240,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_fc.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ufc00\ufc01\ufc02\ufc03\ufc04\ufc05\ufc06\ufc07\ufc08\ufc09\ufc0a\ufc0b\ufc0c\ufc0d\ufc0e\ufc0f",
         "\ufc10\ufc11\ufc12\ufc13\ufc14\ufc15\ufc16\ufc17\ufc18\ufc19\ufc1a\ufc1b\ufc1c\ufc1d\ufc1e\ufc1f",
@@ -5264,7 +5264,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_fd.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ufd00\ufd01\ufd02\ufd03\ufd04\ufd05\ufd06\ufd07\ufd08\ufd09\ufd0a\ufd0b\ufd0c\ufd0d\ufd0e\ufd0f",
         "\ufd10\ufd11\ufd12\ufd13\ufd14\ufd15\ufd16\ufd17\ufd18\ufd19\ufd1a\ufd1b\ufd1c\ufd1d\ufd1e\ufd1f",
@@ -5288,7 +5288,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_fe.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\ufe00\ufe01\ufe02\ufe03\ufe04\ufe05\ufe06\ufe07\ufe08\ufe09\ufe0a\ufe0b\ufe0c\ufe0d\ufe0e\ufe0f",
         "\ufe10\ufe11\ufe12\ufe13\ufe14\ufe15\ufe16\ufe17\ufe18\ufe19\ufe1a\ufe1b\ufe1c\ufe1d\ufe1e\ufe1f",
@@ -5312,7 +5312,7 @@
       "type": "bitmap",
       "file": "sidebar.dah:font/unicode/unicode_page_ff.png",
       "height": 4,
-      "ascent": -3,
+      "ascent": -12,
       "chars": [
         "\uff00\uff01\uff02\uff03\uff04\uff05\uff06\uff07\uff08\uff09\uff0a\uff0b\uff0c\uff0d\uff0e\uff0f",
         "\uff10\uff11\uff12\uff13\uff14\uff15\uff16\uff17\uff18\uff19\uff1a\uff1b\uff1c\uff1d\uff1e\uff1f",

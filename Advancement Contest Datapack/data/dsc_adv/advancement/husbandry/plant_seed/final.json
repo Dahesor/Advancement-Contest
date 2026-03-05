@@ -57,25 +57,46 @@
           "color": "white"
         },
         {
-          "translate": "si.golden_hoe"
+          "translate": "si.golden_hoe",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.bread"
+          "translate": "si.bread",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.cookie"
+          "translate": "si.cookie",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.pumpkin_pie"
+          "translate": "si.pumpkin_pie",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.cake"
+          "translate": "si.cake",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.mushroom_stew"
+          "translate": "si.mushroom_stew",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.beetroot_soup"
+          "translate": "si.beetroot_soup",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

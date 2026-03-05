@@ -75,10 +75,16 @@
           "color": "white"
         },
         {
-          "translate": "si.calibrated_sculk_sensor"
+          "translate": "si.calibrated_sculk_sensor",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.comparator"
+          "translate": "si.comparator",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

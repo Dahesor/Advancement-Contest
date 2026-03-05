@@ -73,5 +73,6 @@ scoreboard players set gray score 0
 data modify storage temp time_text set value [{text:"",shadow_color:-16579829},{text:":"},{text:""},{text:""},{text:" "}]
 data modify storage temp time_holder set value -1
 
+tag @a remove hide_task_lore
 gamemode creative @a
 dialog show @a {type:"notice",title:"准备你的游戏",body:[{type:"plain_message",contents:{text:"先不要让玩家进入你的服务器！",color:"red"}},{type:"plain_message",contents:[{text:"关闭本页面后，请管理员按"},{keybind:"key.quickActions"},"键，然后打开管理员面板。根据其指示选择游戏的区域。在那之后，游戏将会需要三分钟左右的时间来准备。准备完成后，再让玩家进入服务器"]}]}

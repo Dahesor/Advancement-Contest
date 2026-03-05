@@ -57,19 +57,34 @@
           "color": "white"
         },
         {
-          "translate": "si.glass_pane"
+          "translate": "si.glass_pane",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.glass_bottle"
+          "translate": "si.glass_bottle",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.shears"
+          "translate": "si.shears",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.campfire"
+          "translate": "si.campfire",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.soul_campfire"
+          "translate": "si.soul_campfire",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

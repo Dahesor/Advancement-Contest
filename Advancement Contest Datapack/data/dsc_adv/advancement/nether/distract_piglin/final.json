@@ -51,7 +51,10 @@
           "color": "white"
         },
         {
-          "translate": "si.gold_block"
+          "translate": "si.gold_block",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

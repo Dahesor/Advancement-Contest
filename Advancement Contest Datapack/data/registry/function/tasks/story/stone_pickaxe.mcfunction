@@ -17,7 +17,7 @@ data modify storage dsc:task new[-1] merge value {\
     id:"stone_pickaxe",\
     display:{\
         title:{"translate":"task.stone_pickaxe","italic":false},\
-        lore:[{"translate":"task.stone_pickaxe.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", [{"text": "", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.iron_pickaxe"}, {"translate": "si.copper_pickaxe"}, {"translate": "si.bucket"}, {"translate": "si.shield"}, {"translate": "si.copper_chestplate"}, {"translate": "si.copper_sword"}], "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["2"]}],\
+        lore:[{"translate":"task.stone_pickaxe.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", [{"text": "", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.iron_pickaxe", "extra": ["-"]}, {"translate": "si.copper_pickaxe", "extra": ["-"]}, {"translate": "si.bucket", "extra": ["-"]}, {"translate": "si.shield", "extra": ["-"]}, {"translate": "si.copper_chestplate", "extra": ["-"]}, {"translate": "si.copper_sword", "extra": ["-"]}], "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["2"]}],\
         \
         recipe_name_all:[],\
         \

@@ -73,13 +73,22 @@
           "color": "white"
         },
         {
-          "translate": "si.fire_charge"
+          "translate": "si.fire_charge",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.dispenser"
+          "translate": "si.dispenser",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.dropper"
+          "translate": "si.dropper",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

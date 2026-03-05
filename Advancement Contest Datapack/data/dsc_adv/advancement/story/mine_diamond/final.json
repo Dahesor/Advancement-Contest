@@ -51,16 +51,28 @@
           "color": "white"
         },
         {
-          "translate": "si.diamond_leggings"
+          "translate": "si.diamond_leggings",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.diamond_pickaxe"
+          "translate": "si.diamond_pickaxe",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.white_bed"
+          "translate": "si.white_bed",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.lodestone"
+          "translate": "si.lodestone",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",
@@ -102,16 +114,28 @@
           "color": "white"
         },
         {
-          "translate": "si.golden_apple"
+          "translate": "si.golden_apple",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.fishing_rod"
+          "translate": "si.fishing_rod",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.compass"
+          "translate": "si.compass",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.wind_charge"
+          "translate": "si.wind_charge",
+          "extra": [
+            "-"
+          ]
         }
       ]
     ],

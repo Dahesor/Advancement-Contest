@@ -42,19 +42,34 @@
           "color": "white"
         },
         {
-          "translate": "si.stone_pickaxe"
+          "translate": "si.stone_pickaxe",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.stone_axe"
+          "translate": "si.stone_axe",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.stone_sword"
+          "translate": "si.stone_sword",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.stone_shovel"
+          "translate": "si.stone_shovel",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.stone_hoe"
+          "translate": "si.stone_hoe",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

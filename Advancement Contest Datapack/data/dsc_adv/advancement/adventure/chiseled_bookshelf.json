@@ -214,7 +214,10 @@
           "color": "white"
         },
         {
-          "translate": "si.brush"
+          "translate": "si.brush",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

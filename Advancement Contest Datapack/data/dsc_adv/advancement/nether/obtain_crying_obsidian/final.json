@@ -51,7 +51,10 @@
           "color": "white"
         },
         {
-          "translate": "si.glowstone"
+          "translate": "si.glowstone",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

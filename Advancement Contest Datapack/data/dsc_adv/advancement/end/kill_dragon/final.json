@@ -51,7 +51,10 @@
           "color": "white"
         },
         {
-          "translate": "si.end_crystal"
+          "translate": "si.end_crystal",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

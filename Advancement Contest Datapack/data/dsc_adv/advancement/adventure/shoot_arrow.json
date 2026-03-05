@@ -66,10 +66,16 @@
           "color": "white"
         },
         {
-          "translate": "si.arrow"
+          "translate": "si.arrow",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.target"
+          "translate": "si.target",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",
@@ -111,7 +117,10 @@
           "color": "white"
         },
         {
-          "translate": "si.dsc:bow_p"
+          "translate": "si.dsc:bow_p",
+          "extra": [
+            "-"
+          ]
         }
       ]
     ],

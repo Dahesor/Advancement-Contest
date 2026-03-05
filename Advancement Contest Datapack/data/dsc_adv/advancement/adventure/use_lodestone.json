@@ -69,16 +69,28 @@
           "color": "white"
         },
         {
-          "translate": "si.piston"
+          "translate": "si.piston",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.redstone_torch"
+          "translate": "si.redstone_torch",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.redstone_block"
+          "translate": "si.redstone_block",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.comparator"
+          "translate": "si.comparator",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",
@@ -120,7 +132,10 @@
           "color": "white"
         },
         {
-          "translate": "si.chiseled_bookshelf"
+          "translate": "si.chiseled_bookshelf",
+          "extra": [
+            "-"
+          ]
         }
       ]
     ],

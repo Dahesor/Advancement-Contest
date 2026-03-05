@@ -114,7 +114,10 @@
           "color": "white"
         },
         {
-          "translate": "si.totem_of_undying"
+          "translate": "si.totem_of_undying",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",
@@ -156,7 +159,10 @@
           "color": "white"
         },
         {
-          "translate": "si.glistering_melon_slice"
+          "translate": "si.glistering_melon_slice",
+          "extra": [
+            "-"
+          ]
         }
       ]
     ],

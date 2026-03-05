@@ -62,10 +62,16 @@
           "color": "white"
         },
         {
-          "translate": "si.jukebox"
+          "translate": "si.jukebox",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.note_block"
+          "translate": "si.note_block",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

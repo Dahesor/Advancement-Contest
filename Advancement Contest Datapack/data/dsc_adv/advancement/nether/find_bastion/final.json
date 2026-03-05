@@ -51,7 +51,10 @@
           "color": "white"
         },
         {
-          "translate": "si.chest"
+          "translate": "si.chest",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

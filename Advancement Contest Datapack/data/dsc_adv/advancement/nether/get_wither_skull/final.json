@@ -51,10 +51,16 @@
           "color": "white"
         },
         {
-          "translate": "si.enchanting_table"
+          "translate": "si.enchanting_table",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.brewing_stand"
+          "translate": "si.brewing_stand",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

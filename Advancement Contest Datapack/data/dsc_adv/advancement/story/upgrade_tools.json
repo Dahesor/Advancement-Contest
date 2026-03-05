@@ -40,22 +40,40 @@
           "color": "white"
         },
         {
-          "translate": "si.iron_pickaxe"
+          "translate": "si.iron_pickaxe",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.copper_pickaxe"
+          "translate": "si.copper_pickaxe",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.bucket"
+          "translate": "si.bucket",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.shield"
+          "translate": "si.shield",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.copper_chestplate"
+          "translate": "si.copper_chestplate",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.copper_sword"
+          "translate": "si.copper_sword",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

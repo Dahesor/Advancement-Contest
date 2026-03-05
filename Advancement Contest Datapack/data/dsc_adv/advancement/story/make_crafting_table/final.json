@@ -33,22 +33,40 @@
           "color": "white"
         },
         {
-          "translate": "si.wooden_pickaxe"
+          "translate": "si.wooden_pickaxe",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.wooden_axe"
+          "translate": "si.wooden_axe",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.leather_chestplate"
+          "translate": "si.leather_chestplate",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.furnace"
+          "translate": "si.furnace",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.ladder"
+          "translate": "si.ladder",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.barrel"
+          "translate": "si.barrel",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

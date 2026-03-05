@@ -54,10 +54,16 @@
           "color": "white"
         },
         {
-          "translate": "si.diamond_axe"
+          "translate": "si.diamond_axe",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.diamond_chestplate"
+          "translate": "si.diamond_chestplate",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

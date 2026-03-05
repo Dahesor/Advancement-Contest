@@ -220,7 +220,7 @@ def make_icons(parsing_file: Path, output_dir: Path, source_image_dir: Path, sou
         prev_value = data[key]
         if not isinstance(prev_value,str):
             continue
-        if re.match(r"\\u[eE][fF]",prev_value.encode("unicode_escape").decode()):
+        if re.match(r"\\u[eE][fFeE]",prev_value.encode("unicode_escape").decode()):
             continue
 
         name = m.group(1)

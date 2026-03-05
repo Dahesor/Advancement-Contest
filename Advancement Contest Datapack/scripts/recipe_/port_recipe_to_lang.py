@@ -65,7 +65,7 @@ def port_recipe_to_lang(source_file: Path, target_file: Path) -> None:
         prev_value = data[key]
         if not isinstance(prev_value,str):
             continue
-        if re.match(r"\\u[eE][fF]",prev_value.encode("unicode_escape").decode()):
+        if re.match(r"\\u[eE][fFeE]",prev_value.encode("unicode_escape").decode()):
             continue
         data[key] = ""
 

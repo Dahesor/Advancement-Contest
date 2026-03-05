@@ -57,7 +57,10 @@
           "color": "white"
         },
         {
-          "translate": "si.mace"
+          "translate": "si.mace",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

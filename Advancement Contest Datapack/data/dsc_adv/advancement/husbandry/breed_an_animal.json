@@ -51,13 +51,22 @@
           "color": "white"
         },
         {
-          "translate": "si.wheat"
+          "translate": "si.wheat",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.hay_block"
+          "translate": "si.hay_block",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.sugar"
+          "translate": "si.sugar",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

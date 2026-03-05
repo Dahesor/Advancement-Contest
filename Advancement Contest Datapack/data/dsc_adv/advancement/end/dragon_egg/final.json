@@ -66,22 +66,40 @@
           "color": "white"
         },
         {
-          "translate": "si.diamond_chestplate"
+          "translate": "si.diamond_chestplate",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.diamond_leggings"
+          "translate": "si.diamond_leggings",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.diamond_helmet"
+          "translate": "si.diamond_helmet",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.bookshelf"
+          "translate": "si.bookshelf",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.anvil"
+          "translate": "si.anvil",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.totem_of_undying"
+          "translate": "si.totem_of_undying",
+          "extra": [
+            "-"
+          ]
         }
       ]
     ],

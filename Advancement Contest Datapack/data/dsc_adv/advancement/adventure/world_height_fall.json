@@ -92,10 +92,16 @@
           "color": "white"
         },
         {
-          "translate": "si.bookshelf"
+          "translate": "si.bookshelf",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.chiseled_bookshelf"
+          "translate": "si.chiseled_bookshelf",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

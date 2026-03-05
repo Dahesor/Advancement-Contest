@@ -75,19 +75,34 @@
           "color": "white"
         },
         {
-          "translate": "si.blast_furnace"
+          "translate": "si.blast_furnace",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.smoker"
+          "translate": "si.smoker",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.fletching_table"
+          "translate": "si.fletching_table",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.cauldron"
+          "translate": "si.cauldron",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.stonecutter"
+          "translate": "si.stonecutter",
+          "extra": [
+            "-"
+          ]
         }
       ]
     ],

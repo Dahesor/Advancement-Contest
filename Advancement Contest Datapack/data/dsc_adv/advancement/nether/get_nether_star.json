@@ -70,10 +70,16 @@
           "color": "white"
         },
         {
-          "translate": "si.diamond_chestplate"
+          "translate": "si.diamond_chestplate",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.diamond_spear"
+          "translate": "si.diamond_spear",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

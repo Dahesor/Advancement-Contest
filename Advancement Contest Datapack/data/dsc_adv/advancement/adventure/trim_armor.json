@@ -162,10 +162,16 @@
           "color": "white"
         },
         {
-          "translate": "si.netherite_upgrade_smithing_template"
+          "translate": "si.netherite_upgrade_smithing_template",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.eye_armor_trim_smithing_template"
+          "translate": "si.eye_armor_trim_smithing_template",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

@@ -56,16 +56,28 @@
           "color": "white"
         },
         {
-          "translate": "si.slime_block"
+          "translate": "si.slime_block",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.honey_block"
+          "translate": "si.honey_block",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.sticky_piston"
+          "translate": "si.sticky_piston",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.observer"
+          "translate": "si.observer",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

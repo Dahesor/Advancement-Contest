@@ -72,7 +72,10 @@
           "color": "white"
         },
         {
-          "translate": "si.wind_charge"
+          "translate": "si.wind_charge",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

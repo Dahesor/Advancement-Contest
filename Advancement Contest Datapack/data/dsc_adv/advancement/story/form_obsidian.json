@@ -58,16 +58,28 @@
           "color": "white"
         },
         {
-          "translate": "si.paper"
+          "translate": "si.paper",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.book"
+          "translate": "si.book",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.flint_and_steel"
+          "translate": "si.flint_and_steel",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.blast_furnace"
+          "translate": "si.blast_furnace",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",
@@ -109,7 +121,10 @@
           "color": "white"
         },
         {
-          "translate": "si.stonecutter"
+          "translate": "si.stonecutter",
+          "extra": [
+            "-"
+          ]
         }
       ]
     ],

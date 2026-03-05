@@ -57,13 +57,22 @@
           "color": "white"
         },
         {
-          "translate": "si.golden_carrot"
+          "translate": "si.golden_carrot",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.golden_apple"
+          "translate": "si.golden_apple",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.brewing_stand"
+          "translate": "si.brewing_stand",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",
@@ -105,10 +114,16 @@
           "color": "white"
         },
         {
-          "translate": "si.enchanted_golden_apple"
+          "translate": "si.enchanted_golden_apple",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.tripwire_hook"
+          "translate": "si.tripwire_hook",
+          "extra": [
+            "-"
+          ]
         }
       ]
     ],

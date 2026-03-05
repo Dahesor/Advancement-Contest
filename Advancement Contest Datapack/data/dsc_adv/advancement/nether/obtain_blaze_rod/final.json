@@ -57,10 +57,16 @@
           "color": "white"
         },
         {
-          "translate": "si.blaze_powder"
+          "translate": "si.blaze_powder",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.ender_eye"
+          "translate": "si.ender_eye",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

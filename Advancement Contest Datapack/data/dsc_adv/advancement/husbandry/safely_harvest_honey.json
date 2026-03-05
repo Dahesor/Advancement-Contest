@@ -82,16 +82,28 @@
           "color": "white"
         },
         {
-          "translate": "si.honey_block"
+          "translate": "si.honey_block",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.honey_bottle"
+          "translate": "si.honey_bottle",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.honeycomb_block"
+          "translate": "si.honeycomb_block",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.sugar"
+          "translate": "si.sugar",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

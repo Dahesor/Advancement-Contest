@@ -56,7 +56,10 @@
           "color": "white"
         },
         {
-          "translate": "si.lead"
+          "translate": "si.lead",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

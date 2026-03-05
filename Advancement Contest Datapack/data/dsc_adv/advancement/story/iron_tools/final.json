@@ -75,16 +75,28 @@
           "color": "white"
         },
         {
-          "translate": "si.dsc:iron_axe_p"
+          "translate": "si.dsc:iron_axe_p",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.dsc:iron_pick_p"
+          "translate": "si.dsc:iron_pick_p",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.dsc:iron_shovel_p"
+          "translate": "si.dsc:iron_shovel_p",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.dsc:iron_sword_p"
+          "translate": "si.dsc:iron_sword_p",
+          "extra": [
+            "-"
+          ]
         }
       ]
     ],

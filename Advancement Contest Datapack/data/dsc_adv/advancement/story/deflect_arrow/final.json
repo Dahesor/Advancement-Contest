@@ -42,7 +42,10 @@
           "color": "white"
         },
         {
-          "translate": "si.arrow"
+          "translate": "si.arrow",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",
@@ -75,7 +78,10 @@
           "color": "white"
         },
         {
-          "translate": "si.dispenser"
+          "translate": "si.dispenser",
+          "extra": [
+            "-"
+          ]
         }
       ]
     ],

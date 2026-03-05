@@ -88,10 +88,16 @@
           "color": "white"
         },
         {
-          "translate": "si.chainmail_boots"
+          "translate": "si.chainmail_boots",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.chainmail_leggings"
+          "translate": "si.chainmail_leggings",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",
@@ -124,16 +130,28 @@
           "color": "white"
         },
         {
-          "translate": "si.iron_helmet"
+          "translate": "si.iron_helmet",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.iron_chestplate"
+          "translate": "si.iron_chestplate",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.iron_leggings"
+          "translate": "si.iron_leggings",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.iron_boots"
+          "translate": "si.iron_boots",
+          "extra": [
+            "-"
+          ]
         }
       ]
     ],

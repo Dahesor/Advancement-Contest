@@ -11,8 +11,8 @@ execute store result storage run b.3 int 1 run scoreboard players add #e calc.DS
 execute store result storage run b.4 int 1 run scoreboard players add #e calc.DSC 1
 function dsc:menu/tasks/make/triggers with storage run b
 
-data modify storage temp dialog.dialog.body[0].contents append from storage main: bossbar
-data modify storage temp dialog.dialog.body[0].contents append value "\n\n\n"
+data modify storage temp dialog.dialog.body[-1].contents append from storage main: bossbar
+data modify storage temp dialog.dialog.body[-1].contents append value "\n\n\n\n"
 #data modify storage temp dialog.dialog.body[0].contents append value {text:"\uE77A",font:"dsc:bitmap/space"}
 
 function dsc:menu/tasks/make/entries

@@ -51,13 +51,22 @@
           "color": "white"
         },
         {
-          "translate": "si.diamond_helmet"
+          "translate": "si.diamond_helmet",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.diamond_boots"
+          "translate": "si.diamond_boots",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.tnt"
+          "translate": "si.tnt",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

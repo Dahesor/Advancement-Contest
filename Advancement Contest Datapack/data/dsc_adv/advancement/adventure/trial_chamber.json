@@ -93,10 +93,16 @@
           "color": "white"
         },
         {
-          "translate": "si.enchanting_table"
+          "translate": "si.enchanting_table",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.chiseled_bookshelf"
+          "translate": "si.chiseled_bookshelf",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

@@ -63,13 +63,22 @@
           "color": "white"
         },
         {
-          "translate": "si.spyglass"
+          "translate": "si.spyglass",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.fishing_rod"
+          "translate": "si.fishing_rod",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.bowl"
+          "translate": "si.bowl",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

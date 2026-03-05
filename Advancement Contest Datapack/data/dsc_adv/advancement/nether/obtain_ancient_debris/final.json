@@ -51,7 +51,10 @@
           "color": "white"
         },
         {
-          "translate": "si.netherite_ingot"
+          "translate": "si.netherite_ingot",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

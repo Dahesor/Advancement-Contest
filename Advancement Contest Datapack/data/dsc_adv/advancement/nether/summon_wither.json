@@ -62,10 +62,16 @@
           "color": "white"
         },
         {
-          "translate": "si.diamond_sword"
+          "translate": "si.diamond_sword",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.diamond_axe"
+          "translate": "si.diamond_axe",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",

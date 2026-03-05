@@ -2,14 +2,14 @@
     "providers": [
         {
             "type": "bitmap",
-            "height": 24,
+            "height": 33,
             "ascent": 10,
             "file": "dsc:font/dec/back_thin.png",
             "chars": ["\uEAAA"]
         },
         {
             "type": "bitmap",
-            "height": 34,
+            "height": 43,
             "ascent": 10,
             "file": "dsc:font/dec/back_wide.png",
             "chars": ["\uEAAB"]
@@ -34,6 +34,13 @@
             "ascent": 10,
             "file": "dsc:font/dec/back_alpha.png",
             "chars": ["\uEAA0"]
+        },
+        {
+            "type": "bitmap",
+            "height": 34,
+            "ascent": 10,
+            "file": "dsc:font/dec/back_loreless.png",
+            "chars": ["\uEAAE"]
         }
     ]
 }

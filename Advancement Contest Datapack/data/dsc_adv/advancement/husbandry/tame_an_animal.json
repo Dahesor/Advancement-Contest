@@ -51,13 +51,22 @@
           "color": "white"
         },
         {
-          "translate": "si.carrot_on_a_stick"
+          "translate": "si.carrot_on_a_stick",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.warped_fungus_on_a_stick"
+          "translate": "si.warped_fungus_on_a_stick",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.compass"
+          "translate": "si.compass",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",
@@ -99,10 +108,16 @@
           "color": "white"
         },
         {
-          "translate": "si.shears"
+          "translate": "si.shears",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.saddle"
+          "translate": "si.saddle",
+          "extra": [
+            "-"
+          ]
         }
       ]
     ],

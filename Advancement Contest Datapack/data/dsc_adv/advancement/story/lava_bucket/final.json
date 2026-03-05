@@ -42,7 +42,10 @@
           "color": "white"
         },
         {
-          "translate": "si.golden_boots"
+          "translate": "si.golden_boots",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",
@@ -75,7 +78,10 @@
           "color": "white"
         },
         {
-          "translate": "si.golden_helmet"
+          "translate": "si.golden_helmet",
+          "extra": [
+            "-"
+          ]
         }
       ]
     ],

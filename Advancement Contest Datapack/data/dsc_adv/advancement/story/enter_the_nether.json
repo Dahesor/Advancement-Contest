@@ -54,10 +54,16 @@
           "color": "white"
         },
         {
-          "translate": "si.compass"
+          "translate": "si.compass",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.clock"
+          "translate": "si.clock",
+          "extra": [
+            "-"
+          ]
         }
       ],
       "\n",
@@ -99,10 +105,16 @@
           "color": "white"
         },
         {
-          "translate": "si.fire_charge"
+          "translate": "si.fire_charge",
+          "extra": [
+            "-"
+          ]
         },
         {
-          "translate": "si.dispenser"
+          "translate": "si.dispenser",
+          "extra": [
+            "-"
+          ]
         }
       ]
     ],
