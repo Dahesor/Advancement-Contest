@@ -36,6 +36,8 @@ def _glyph_width_rgba_16x16(cell_rgba: Image.Image) -> int:
     # Pure-PIL fallback (no numpy)
     alpha = cell_rgba.getchannel("A")  # 16x16, 0..255
     px = alpha.load()
+    if px == None:
+        return 0
     max_x = -1
     for x in range(16):
         for y in range(16):

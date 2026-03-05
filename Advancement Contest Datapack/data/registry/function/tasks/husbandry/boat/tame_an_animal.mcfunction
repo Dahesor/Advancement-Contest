@@ -6,8 +6,8 @@ data modify storage dsc:task new append value {\
     additional_lore:{\
         all_:"",\
         first_:"",\
-        recipe_sum_all:"胡萝卜与诡异菌吊杆\n指南针",\
-        recipe_sum_first:"剪刀\n鞍",\
+        recipe_sum_all:["carrot_on_a_stick","warped_fungus_on_a_stick","compass"],\
+        recipe_sum_first:["shears","saddle"],\
     }\
 }
 
@@ -16,7 +16,7 @@ data modify storage dsc:task new[-1] merge value {\
     id:"tame_an_animal",\
     display:{\
         title:{"translate":"task.tame_an_animal","italic":false},\
-        lore:[{"translate":"task.tame_an_animal.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", {"text":"胡萝卜与诡异菌吊杆\n指南针","italic":false,"color":"gray"}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", {"text":"剪刀\n鞍","italic":false,"color":"gray"}],\
+        lore:[{"translate":"task.tame_an_animal.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", [{"text": "", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.carrot_on_a_stick"}, {"translate": "si.warped_fungus_on_a_stick"}, {"translate": "si.compass"}], "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", [{"text": "", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.shears"}, {"translate": "si.saddle"}]],\
         \
         recipe_name_all:[],\
         \

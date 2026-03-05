@@ -6,8 +6,8 @@ data modify storage dsc:task new append value {\
     additional_lore:{\
         all_:"",\
         first_:"",\
-        recipe_sum_all:"",\
-        recipe_sum_first:"精良的铁质工具",\
+        recipe_sum_all:[],\
+        recipe_sum_first:["dsc:iron_axe_p","dsc:iron_pick_p","dsc:iron_shovel_p","dsc:iron_sword_p"],\
     },\
     node:{node:"node",default_pin:true,children:["dsc_adv:story/mine_diamond","dsc_adv:adventure/use_lodestone"]}\
 }
@@ -17,7 +17,7 @@ data modify storage dsc:task new[-1] merge value {\
     id:"iron_tools",\
     display:{\
         title:{"translate":"task.iron_tools","italic":false},\
-        lore:[{"translate":"task.iron_tools.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["2"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["1"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["1"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", {"text":"精良的铁质工具","italic":false,"color":"gray"}],\
+        lore:[{"translate":"task.iron_tools.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["2"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["1"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["1"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", [{"text": "", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.dsc:iron_axe_p"}, {"translate": "si.dsc:iron_pick_p"}, {"translate": "si.dsc:iron_shovel_p"}, {"translate": "si.dsc:iron_sword_p"}]],\
         \
         recipe_name_all:[],\
         \

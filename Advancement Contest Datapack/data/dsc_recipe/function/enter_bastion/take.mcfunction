@@ -1,1 +1,1 @@
-recipe take @s gold_nugget
+recipe take @s chest

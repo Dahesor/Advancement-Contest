@@ -123,11 +123,35 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "金锄头\n面包，曲奇饼，南瓜派\n蛋糕，蘑菇煲，甜菜汤",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.golden_hoe"
+        },
+        {
+          "translate": "si.bread"
+        },
+        {
+          "translate": "si.cookie"
+        },
+        {
+          "translate": "si.pumpkin_pie"
+        },
+        {
+          "translate": "si.cake"
+        },
+        {
+          "translate": "si.mushroom_stew"
+        },
+        {
+          "translate": "si.beetroot_soup"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",

@@ -65,11 +65,23 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "火焰弹\n发射器，投掷器",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.fire_charge"
+        },
+        {
+          "translate": "si.dispenser"
+        },
+        {
+          "translate": "si.dropper"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",

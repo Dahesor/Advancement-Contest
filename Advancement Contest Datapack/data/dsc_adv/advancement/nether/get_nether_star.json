@@ -62,11 +62,20 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "钻石胸甲\n钻石长矛",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.diamond_chestplate"
+        },
+        {
+          "translate": "si.diamond_spear"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",

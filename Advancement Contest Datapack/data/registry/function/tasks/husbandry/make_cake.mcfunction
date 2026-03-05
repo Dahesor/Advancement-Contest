@@ -6,9 +6,9 @@ data modify storage dsc:task new append value {\
     additional_lore:{\
         all_:"",\
         first_:"",\
-        recipe_sum_all:"金胡萝卜，金苹果\n酿造台",\
-        recipe_sum_first:"附魔金苹果\n绊线钩",\
-    }\
+        recipe_sum_all:["golden_carrot","golden_apple","brewing_stand"],\
+        recipe_sum_first:["enchanted_golden_apple","tripwire_hook"],\
+    },node:{children:["dsc_adv:nether/brew_potion"],node:"node"}\
 }
 
 
@@ -16,7 +16,7 @@ data modify storage dsc:task new[-1] merge value {\
     id:"make_cake",\
     display:{\
         title:{"translate":"task.make_cake","italic":false},\
-        lore:[{"translate":"task.make_cake.1","italic":false,"color":"gray"}, "\n", {"translate":"task.make_cake.2","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["6"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["5"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", {"text":"金胡萝卜，金苹果\n酿造台","italic":false,"color":"gray"}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["8"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["8"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", {"text":"附魔金苹果\n绊线钩","italic":false,"color":"gray"}],\
+        lore:[{"translate":"task.make_cake.1","italic":false,"color":"gray"}, "\n", {"translate":"task.make_cake.2","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["6"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["5"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", [{"text": "", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.golden_carrot"}, {"translate": "si.golden_apple"}, {"translate": "si.brewing_stand"}], "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["8"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["8"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", [{"text": "", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.enchanted_golden_apple"}, {"translate": "si.tripwire_hook"}]],\
         \
         recipe_name_all:[],\
         \

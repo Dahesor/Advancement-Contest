@@ -1,1 +1,1 @@
-recipe give @s gold_nugget
+recipe give @s chest

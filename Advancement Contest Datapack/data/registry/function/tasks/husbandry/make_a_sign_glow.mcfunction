@@ -6,9 +6,9 @@ data modify storage dsc:task new append value {\
     additional_lore:{\
         all_:"",\
         first_:"",\
-        recipe_sum_all:"玻璃板，玻璃瓶\n剪刀\n篝火，灵魂篝火",\
-        recipe_sum_first:"",\
-    }\
+        recipe_sum_all:["glass_pane","glass_bottle","shears","campfire","soul_campfire"],\
+        recipe_sum_first:[],\
+    },node:{children:["dsc_adv:husbandry/safely_harvest_honey","dsc_adv:nether/brew_potion"],node:"node"}\
 }
 
 
@@ -16,7 +16,7 @@ data modify storage dsc:task new[-1] merge value {\
     id:"make_a_sign_glow",\
     display:{\
         title:{"translate":"task.make_a_sign_glow","italic":false},\
-        lore:[{"translate":"task.make_a_sign_glow.1","italic":false,"color":"gray"}, "\n", {"translate":"task.make_a_sign_glow.2","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", {"text":"玻璃板，玻璃瓶\n剪刀\n篝火，灵魂篝火","italic":false,"color":"gray"}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}],\
+        lore:[{"translate":"task.make_a_sign_glow.1","italic":false,"color":"gray"}, "\n", {"translate":"task.make_a_sign_glow.2","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", [{"text": "", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.glass_pane"}, {"translate": "si.glass_bottle"}, {"translate": "si.shears"}, {"translate": "si.campfire"}, {"translate": "si.soul_campfire"}], "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}],\
         \
         recipe_name_all:[],\
         \

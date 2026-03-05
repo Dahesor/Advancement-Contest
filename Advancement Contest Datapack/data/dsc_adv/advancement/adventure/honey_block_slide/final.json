@@ -49,11 +49,26 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "蜂蜜块，粘液块\n粘性活塞\n观察者",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.honey_block"
+        },
+        {
+          "translate": "si.slime_block"
+        },
+        {
+          "translate": "si.sticky_piston"
+        },
+        {
+          "translate": "si.observer"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",

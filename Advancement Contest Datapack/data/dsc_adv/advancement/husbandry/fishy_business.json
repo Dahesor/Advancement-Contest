@@ -72,11 +72,17 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "桶",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.bucket"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",

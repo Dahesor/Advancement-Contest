@@ -6,8 +6,8 @@ data modify storage dsc:task new append value {\
     additional_lore:{\
         all_:"",\
         first_:"",\
-        recipe_sum_all:"箭矢，标靶",\
-        recipe_sum_first:"精良弓",\
+        recipe_sum_all:["arrow","target"],\
+        recipe_sum_first:["dsc:bow_p"],\
     },\
     node:{node:"node",children:["dsc_adv:adventure/bullseye","dsc_adv:adventure/sniper_duel","dsc_adv:adventure/ol_betsy"]}\
 }
@@ -17,7 +17,7 @@ data modify storage dsc:task new[-1] merge value {\
     id:"shoot_arrow",\
     display:{\
         title:{"translate":"task.shoot_arrow","italic":false},\
-        lore:[{"translate":"task.shoot_arrow.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", {"text":"箭矢，标靶","italic":false,"color":"gray"}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", {"text":"精良弓","italic":false,"color":"gray"}],\
+        lore:[{"translate":"task.shoot_arrow.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", [{"text": "", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.arrow"}, {"translate": "si.target"}], "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", [{"text": "", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.dsc:bow_p"}]],\
         \
         recipe_name_all:[],\
         \

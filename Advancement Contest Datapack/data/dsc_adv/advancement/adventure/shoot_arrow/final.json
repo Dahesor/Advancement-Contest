@@ -43,11 +43,20 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "箭矢，标靶",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.arrow"
+        },
+        {
+          "translate": "si.target"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",
@@ -79,11 +88,17 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "精良弓",
-        "italic": false,
-        "color": "gray"
-      }
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.dsc:bow_p"
+        }
+      ]
     ],
     "icon": {
       "count": 1,

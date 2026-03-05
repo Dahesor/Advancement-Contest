@@ -49,11 +49,17 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "骨粉（骨块合成）",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.bone_meal"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",

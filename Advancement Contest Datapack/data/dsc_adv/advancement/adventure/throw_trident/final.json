@@ -55,11 +55,23 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "铜栏杆，铜锁链\n避雷针",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.copper_bars"
+        },
+        {
+          "translate": "si.copper_chain"
+        },
+        {
+          "translate": "si.lightning_rod"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",

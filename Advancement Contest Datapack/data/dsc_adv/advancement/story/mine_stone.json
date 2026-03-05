@@ -41,11 +41,29 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "石制工具",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.stone_pickaxe"
+        },
+        {
+          "translate": "si.stone_axe"
+        },
+        {
+          "translate": "si.stone_sword"
+        },
+        {
+          "translate": "si.stone_shovel"
+        },
+        {
+          "translate": "si.stone_hoe"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",

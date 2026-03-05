@@ -58,11 +58,32 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "全套钻石装备\n书架，铁砧\n不死图腾",
-        "italic": false,
-        "color": "gray"
-      }
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.diamond_chestplate"
+        },
+        {
+          "translate": "si.diamond_leggings"
+        },
+        {
+          "translate": "si.diamond_helmet"
+        },
+        {
+          "translate": "si.bookshelf"
+        },
+        {
+          "translate": "si.anvil"
+        },
+        {
+          "translate": "si.totem_of_undying"
+        }
+      ]
     ],
     "frame": "goal",
     "icon": {

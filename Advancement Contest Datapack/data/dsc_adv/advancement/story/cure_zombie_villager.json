@@ -43,11 +43,23 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "钻石头盔，钻石靴子\nTNT",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.diamond_helmet"
+        },
+        {
+          "translate": "si.diamond_boots"
+        },
+        {
+          "translate": "si.tnt"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",

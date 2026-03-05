@@ -25,11 +25,32 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "木质工具，皮革铠甲\n熔炉\n木桶\n梯子",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.wooden_pickaxe"
+        },
+        {
+          "translate": "si.wooden_axe"
+        },
+        {
+          "translate": "si.leather_chestplate"
+        },
+        {
+          "translate": "si.furnace"
+        },
+        {
+          "translate": "si.ladder"
+        },
+        {
+          "translate": "si.barrel"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",

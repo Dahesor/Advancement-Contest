@@ -43,11 +43,20 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "钻石剑\n钻石斧",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.diamond_sword"
+        },
+        {
+          "translate": "si.diamond_axe"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",

@@ -6,9 +6,9 @@ data modify storage dsc:task new append value {\
     additional_lore:{\
         all_:"",\
         first_:"",\
-        recipe_sum_all:"火焰弹\n发射器，投掷器",\
-        recipe_sum_first:"",\
-    }\
+        recipe_sum_all:["fire_charge","dispenser","dropper"],\
+        recipe_sum_first:[],\
+    },node:{children:["dsc_adv:nether/uneasy_alliance"],node:"node"}\
 }
 
 
@@ -16,7 +16,7 @@ data modify storage dsc:task new[-1] merge value {\
     id:"return_to_sender",\
     display:{\
         title:{"translate":"task.return_to_sender","italic":false},\
-        lore:[{"translate":"task.return_to_sender.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", {"text":"火焰弹\n发射器，投掷器","italic":false,"color":"gray"}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["7"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}],\
+        lore:[{"translate":"task.return_to_sender.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", [{"text": "", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.fire_charge"}, {"translate": "si.dispenser"}, {"translate": "si.dropper"}], "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["7"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}],\
         \
         recipe_name_all:[],\
         \

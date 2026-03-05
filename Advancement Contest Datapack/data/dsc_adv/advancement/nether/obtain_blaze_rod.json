@@ -56,11 +56,20 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "烈焰粉\n末影之眼",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.blaze_powder"
+        },
+        {
+          "translate": "si.ender_eye"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",

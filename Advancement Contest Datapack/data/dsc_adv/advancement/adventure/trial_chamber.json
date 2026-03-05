@@ -85,11 +85,20 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "附魔台，雕纹书架",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.enchanting_table"
+        },
+        {
+          "translate": "si.chiseled_bookshelf"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",

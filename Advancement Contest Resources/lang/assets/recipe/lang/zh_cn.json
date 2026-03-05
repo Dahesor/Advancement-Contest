@@ -177,5 +177,6 @@
   "recipe.respawn_anchor": "TEXTNOTFOUND",
   "recipe.sugar_from_sugar_cane": "TEXTNOTFOUND",
   "recipe.sugar_from_honey_bottle": "TEXTNOTFOUND",
-  "recipe.dsc:special/ender_eye": "TEXTNOTFOUND"
+  "recipe.dsc:special/ender_eye": "TEXTNOTFOUND",
+  "recipe.chest": "TEXTNOTFOUND"
 }

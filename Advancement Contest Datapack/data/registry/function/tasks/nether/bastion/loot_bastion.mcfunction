@@ -6,9 +6,9 @@ data modify storage dsc:task new append value {\
     additional_lore:{\
         all_:"",\
         first_:"",\
-        recipe_sum_all:"附魔台\n红石比较器，红石中继器",\
-        recipe_sum_first:"观察者",\
-    }\
+        recipe_sum_all:["enchanting_table","comparator","repeater"],\
+        recipe_sum_first:["observer"],\
+    },node:{children:["dsc_adv:story/enchant_item"],node:"node"}\
 }
 
 
@@ -16,7 +16,7 @@ data modify storage dsc:task new[-1] merge value {\
     id:"loot_bastion",\
     display:{\
         title:{"translate":"task.loot_bastion","italic":false},\
-        lore:[{"translate":"task.loot_bastion.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", {"text":"附魔台\n红石比较器，红石中继器","italic":false,"color":"gray"}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", {"text":"观察者","italic":false,"color":"gray"}],\
+        lore:[{"translate":"task.loot_bastion.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", [{"text": "", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.enchanting_table"}, {"translate": "si.comparator"}, {"translate": "si.repeater"}], "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", [{"text": "", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.observer"}]],\
         \
         recipe_name_all:[],\
         \

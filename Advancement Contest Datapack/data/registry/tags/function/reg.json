@@ -65,6 +65,7 @@
         "registry:tasks/husbandry/challenge/obtain_netherite_hoe",
         "registry:tasks/husbandry/challenge/whole_pack",
         "registry:tasks/husbandry/fish/bucket_axolotl",
+        "registry:tasks/husbandry/fish/kill_axolotl_target",
         "registry:tasks/husbandry/fish/tactical_fishing",
         "registry:tasks/husbandry/fish/tadpole_in_a_bucket",
         "registry:tasks/husbandry/fishy_business",

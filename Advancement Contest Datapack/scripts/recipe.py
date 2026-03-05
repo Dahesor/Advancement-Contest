@@ -34,7 +34,7 @@ def write_mcfunction_lines(out_path: Path, verb: str, values: list[str]) -> None
     out_path.write_text(content, encoding="utf-8")
 
 
-def process_json_file(json_path: Path, target_root: Path) -> None:
+def process_json_file(json_path: Path, target_root: Path) -> list[str]:
     file_id = json_path.stem  # 去掉 .json 的文件名
     try:
         data = json.loads(json_path.read_text(encoding="utf-8"))
@@ -45,10 +45,13 @@ def process_json_file(json_path: Path, target_root: Path) -> None:
     values = data.get("values")
     if not isinstance(values, list):
         raise ValueError(f"'values' 不是列表: {json_path}")
+    #if values is not list[str]:
+        #raise ValueError(f"'values' 列表中包含非字符串元素: {json_path}")
 
     out_dir = target_root / file_id
-    write_mcfunction_lines(out_dir / "take.mcfunction", "take", values)
-    write_mcfunction_lines(out_dir / "give.mcfunction", "give", values)
+    write_mcfunction_lines(out_dir / "take.mcfunction", "take", values.copy())
+    write_mcfunction_lines(out_dir / "give.mcfunction", "give", values.copy())
+    return values
 
 
 def main():
@@ -65,14 +68,17 @@ def main():
 
     ok = 0
     failed = 0
+    all_recipes: list[str] = []
 
     for jp in json_files:
         try:
-            process_json_file(jp, TARGET_DIR)
+            all_recipes += process_json_file(jp, TARGET_DIR)
             ok += 1
         except Exception as e:
             failed += 1
             print(f"⚠️ 处理失败: {jp}\n   原因: {e}")
+    out_dir = TARGET_DIR / "init_remove"
+    write_mcfunction_lines(out_dir / "take.mcfunction", "take", all_recipes)
 
     print(f"完成。成功: {ok}，失败: {failed}，输出目录: {TARGET_DIR}")
 

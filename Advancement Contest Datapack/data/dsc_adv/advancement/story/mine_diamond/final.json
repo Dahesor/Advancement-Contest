@@ -43,11 +43,26 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "钻石护腿, 钻石镐\n床\n磁石",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.diamond_leggings"
+        },
+        {
+          "translate": "si.diamond_pickaxe"
+        },
+        {
+          "translate": "si.white_bed"
+        },
+        {
+          "translate": "si.lodestone"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",
@@ -79,11 +94,26 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "金苹果, 钓鱼竿\n指南针, 风弹",
-        "italic": false,
-        "color": "gray"
-      }
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.golden_apple"
+        },
+        {
+          "translate": "si.fishing_rod"
+        },
+        {
+          "translate": "si.compass"
+        },
+        {
+          "translate": "si.wind_charge"
+        }
+      ]
     ],
     "icon": {
       "count": 1,

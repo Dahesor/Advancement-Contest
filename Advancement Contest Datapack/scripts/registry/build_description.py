@@ -1,5 +1,6 @@
 from pathlib import Path
 import re
+import json
 
 def description(registry:Path, lore_text:str):
     lines = registry.read_text(encoding="utf-8").splitlines(keepends=True)
@@ -26,6 +27,21 @@ def description(registry:Path, lore_text:str):
     return lore_text
 
 def build_reward (emerald, score, text, recipe)-> str:
+    try:
+        recipe_data = json.loads(recipe)
+    except json.JSONDecodeError:
+        recipe_data = []
+    if not isinstance(recipe_data, list):
+        recipe_data = []
+
+    json_res = []
+    for s in recipe_data:
+        s = "si." + s
+        json_res.append({"translate": s})
+    if len(json_res) > 0:
+        json_res.insert(0, {"text":"","font": "dsc:tasks/recipe","underlined":False,"color":"white"})
+
+    #print(json.dumps(json_res, ensure_ascii=False))
     result = ""
     nl = ', "\\n", '
     if score > 0:
@@ -37,11 +53,12 @@ def build_reward (emerald, score, text, recipe)-> str:
     if text != "":
         result += nl
         result += f'{{"text":"{text}","italic":false,"color":"gray"}}'
-    if recipe != "":
+    if len(recipe_data) > 0:
         result += nl
         result += '{"translate":"reward.recipe","italic":false,"color":"aqua"}'
-        result += nl
-        result += f'{{"text":"{recipe}","italic":false,"color":"gray"}}'
+        if len(json_res) > 0:
+            result += nl
+            result += json.dumps(json_res, ensure_ascii=False)
     return result
 
 def read_lores(lines):
@@ -62,19 +79,15 @@ def read_lores(lines):
             m = re.search(r'first_:\s*(.*?),\\', stripped)
             addtion_first = m.group(1) if m else ""
         elif stripped.startswith("recipe_sum_all:"):
-            m = re.search(r'recipe_sum_all:\s*(.*?),\\', stripped)
+            m = re.search(r'recipe_sum_all:\s*(\[[^\]]*\])', stripped)
             recipe_sum_all = m.group(1) if m else ""
         elif stripped.startswith("recipe_sum_first:"):
-            m = re.search(r'recipe_sum_first:\s*(.*?),\\', stripped)
+            m = re.search(r'recipe_sum_first:\s*(\[[^\]]*\])', stripped)
             recipe_sum_first = m.group(1) if m else ""
     if addtion_all != "":
         addtion_all = addtion_all[1:-1]
     if addtion_first != "":
         addtion_first = addtion_first[1:-1]
-    if recipe_sum_all != "":
-        recipe_sum_all = recipe_sum_all[1:-1]
-    if recipe_sum_first != "":
-        recipe_sum_first = recipe_sum_first[1:-1]
     return all_emerald, all_score, first_emerald, first_score, addtion_all, addtion_first, recipe_sum_all, recipe_sum_first
 
 def get_reward_values(line:str) -> tuple[int, int]:

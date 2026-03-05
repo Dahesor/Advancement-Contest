@@ -27,8 +27,8 @@ struct TaskEntryMod{
     additional_lore?: struct{
         first_?: Text,
         all_?: Text,
-        recipe_sum_first?: Text,
-        recipe_sum_all?: Text,
+        recipe_sum_first?: [#[id=item_definition] string],
+        recipe_sum_all?: [#[id=item_definition] string],
     },
     node?: TaskNode,
 }

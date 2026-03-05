@@ -6,10 +6,10 @@ data modify storage dsc:task new append value {\
     additional_lore:{\
         all_:"",\
         first_:"",\
-        recipe_sum_all:"",\
-        recipe_sum_first:"",\
+        recipe_sum_all:[],\
+        recipe_sum_first:[],\
     },\
-    node:{node:"node",children:["dsc_adv:adventure/hero_of_the_village","dsc_adv:adventure/totem_of_undying"]}\
+    node:{node:"node",children:["dsc_adv:adventure/hero_of_the_village","dsc_adv:adventure/totem_of_undying","dsc_adv:husbandry/allay_deliver_item"]}\
 }
 
 

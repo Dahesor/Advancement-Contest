@@ -642,11 +642,26 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "铁胸甲，精良的铁剑\n木矛\n弓",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.iron_chestplate"
+        },
+        {
+          "translate": "si.dsc:iron_sword_p"
+        },
+        {
+          "translate": "si.wooden_spear"
+        },
+        {
+          "translate": "si.bow"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",

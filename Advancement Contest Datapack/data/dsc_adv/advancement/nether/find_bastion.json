@@ -56,11 +56,17 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "金粒",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.chest"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",

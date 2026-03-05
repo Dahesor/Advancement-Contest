@@ -50,11 +50,26 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "纸，书\n打火石\n高炉",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.paper"
+        },
+        {
+          "translate": "si.book"
+        },
+        {
+          "translate": "si.flint_and_steel"
+        },
+        {
+          "translate": "si.blast_furnace"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",
@@ -86,11 +101,17 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "切石机",
-        "italic": false,
-        "color": "gray"
-      }
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.stonecutter"
+        }
+      ]
     ],
     "icon": {
       "count": 1,

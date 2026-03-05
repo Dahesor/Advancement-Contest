@@ -49,11 +49,20 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "下界合金升级模版复制\n盔甲纹饰锻造模板复制",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.netherite_upgrade_smithing_template"
+        },
+        {
+          "translate": "si.eye_armor_trim_smithing_template"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",

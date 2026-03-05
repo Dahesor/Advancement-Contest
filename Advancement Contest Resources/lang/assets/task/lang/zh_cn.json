@@ -296,5 +296,7 @@
   "task.deflect_arrow": "不吃这套，谢谢",
   "task.deflect_arrow.1": "用盾牌反弹一个弹射物",
   "task.bucket_axolotl": "最萌捕食者",
-  "task.bucket_axolotl.1": "用铁桶捕获一只美西螈"
+  "task.bucket_axolotl.1": "用铁桶捕获一只美西螈",
+  "task.kill_axolotl_target": "TEXTNOTFOUND",
+  "task.kill_axolotl_target.1": "TEXTNOTFOUND"
 }

@@ -61,11 +61,26 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "活塞\n红石火把，红石块，红石比较器",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.piston"
+        },
+        {
+          "translate": "si.redstone_torch"
+        },
+        {
+          "translate": "si.redstone_block"
+        },
+        {
+          "translate": "si.comparator"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",
@@ -97,11 +112,17 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "雕纹书架",
-        "italic": false,
-        "color": "gray"
-      }
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.chiseled_bookshelf"
+        }
+      ]
     ],
     "icon": {
       "count": 1,

@@ -6,8 +6,8 @@ data modify storage dsc:task new append value {\
     additional_lore:{\
         all_:"",\
         first_:"",\
-        recipe_sum_all:"",\
-        recipe_sum_first:"",\
+        recipe_sum_all:[],\
+        recipe_sum_first:[],\
     },\
     node:{node:"node",children:["dsc_adv:adventure/whos_the_pillager","dsc_adv:adventure/two_birds","dsc_adv:adventure/arbalistic"]}\
 }

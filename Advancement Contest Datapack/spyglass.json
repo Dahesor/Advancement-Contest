@@ -8,5 +8,8 @@
             "file:///C:/Users/dahes/Documents/.minecraft/versions/Survival%20Competiton/resourcepacks/Survival%20Competition%20Resources"
         ],
         "permissionLevel": 4
+    },
+    "lint": {
+        "nbtStringQuote":"double"
     }
 }

@@ -49,11 +49,17 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "重锤",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.mace"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",

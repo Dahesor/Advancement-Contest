@@ -2,18 +2,6 @@ from pathlib import Path
 import re
 import json
 
-def write_recipe_display(registry: Path, all_reward: str, first_reward: str):
-    return
-    lines = registry.read_text(encoding="utf-8").splitlines(keepends=True)
-
-    for i, line in enumerate(lines):
-        stripped = line.lstrip(" \t")
-        if stripped.startswith("recipe_name_all:"):
-            lines[i] = f'        recipe_name_all:{all_reward},\\\n'
-        elif stripped.startswith("recipe_name_first:"):
-            lines[i] = f'        recipe_name_first:{first_reward},\\\n'
-    registry.write_text("".join(lines), encoding="utf-8")
-
 def insert_id(registry: Path):
     file_name = registry.stem  # 不带扩展名
 

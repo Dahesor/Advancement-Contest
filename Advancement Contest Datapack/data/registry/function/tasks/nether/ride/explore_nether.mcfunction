@@ -6,10 +6,10 @@ data modify storage dsc:task new append value {\
     additional_lore:{\
         all_:"",\
         first_:"",\
-        recipe_sum_all:"重生锚",\
-        recipe_sum_first:"",\
+        recipe_sum_all:["respawn_anchor"],\
+        recipe_sum_first:[],\
     },\
-    node:{node:"challenge"}\
+    node:{node:"challenge",children:["dsc_adv:nether/charge_respawn_anchor"]}\
 }
 
 
@@ -17,7 +17,7 @@ data modify storage dsc:task new[-1] merge value {\
     id:"explore_nether",\
     display:{\
         title:{"translate":"task.explore_nether","italic":false},\
-        lore:[{"translate":"task.explore_nether.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["8"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["5"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", {"text":"重生锚","italic":false,"color":"gray"}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["16"]}],\
+        lore:[{"translate":"task.explore_nether.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["8"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["5"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", [{"text": "", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.respawn_anchor"}], "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["16"]}],\
         \
         recipe_name_all:[],\
         \

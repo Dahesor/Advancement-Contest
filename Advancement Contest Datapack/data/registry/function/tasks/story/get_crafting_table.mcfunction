@@ -6,8 +6,8 @@ data modify storage dsc:task new append value {\
     additional_lore:{\
         all_:"",\
         first_:"",\
-        recipe_sum_all:"木质工具，皮革铠甲\n熔炉\n木桶\n梯子",\
-        recipe_sum_first:"",\
+        recipe_sum_all:["wooden_pickaxe","wooden_axe","leather_chestplate","furnace","ladder","barrel"],\
+        recipe_sum_first:[],\
     },\
     node:{node:"root",default_pin:true,children:["dsc_adv:story/mine_stone","dsc_adv:adventure/adventuring_time","dsc_adv:adventure/sleep_in_bed","dsc_adv:husbandry/safely_harvest_honey"]}\
 }
@@ -17,7 +17,7 @@ data modify storage dsc:task new[-1] merge value {\
     id:"get_crafting_table",\
     display:{\
         title:{"translate":"task.get_crafting_table","italic":false},\
-        lore:[{"translate":"task.get_crafting_table.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", {"text":"木质工具，皮革铠甲\n熔炉\n木桶\n梯子","italic":false,"color":"gray"}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["10"]}],\
+        lore:[{"translate":"task.get_crafting_table.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", [{"text": "", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.wooden_pickaxe"}, {"translate": "si.wooden_axe"}, {"translate": "si.leather_chestplate"}, {"translate": "si.furnace"}, {"translate": "si.ladder"}, {"translate": "si.barrel"}], "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["10"]}],\
         \
         recipe_name_all:[],\
         \

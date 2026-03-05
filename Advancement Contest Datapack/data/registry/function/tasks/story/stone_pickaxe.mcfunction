@@ -6,10 +6,10 @@ data modify storage dsc:task new append value {\
     additional_lore:{\
         all_:"",\
         first_:"",\
-        recipe_sum_all:"铁质与铜制工具\n桶\n盾牌",\
-        recipe_sum_first:"",\
+        recipe_sum_all:["iron_pickaxe","copper_pickaxe","bucket","shield","copper_chestplate","copper_sword"],\
+        recipe_sum_first:[],\
     },\
-    node:{node:"node",default_pin:true,children:["dsc_adv:story/smelt_iron"]}\
+    node:{node:"node",default_pin:true,children:["dsc_adv:story/smelt_iron","dsc_adv:husbandry/tactical_fishing"]}\
 }
 
 
@@ -17,7 +17,7 @@ data modify storage dsc:task new[-1] merge value {\
     id:"stone_pickaxe",\
     display:{\
         title:{"translate":"task.stone_pickaxe","italic":false},\
-        lore:[{"translate":"task.stone_pickaxe.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", {"text":"铁质与铜制工具\n桶\n盾牌","italic":false,"color":"gray"}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["2"]}],\
+        lore:[{"translate":"task.stone_pickaxe.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", [{"text": "", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.iron_pickaxe"}, {"translate": "si.copper_pickaxe"}, {"translate": "si.bucket"}, {"translate": "si.shield"}, {"translate": "si.copper_chestplate"}, {"translate": "si.copper_sword"}], "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["2"]}],\
         \
         recipe_name_all:[],\
         \

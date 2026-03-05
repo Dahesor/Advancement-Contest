@@ -38,7 +38,6 @@ def parse_registry(registry, LANGUAGE_DIR, LANGUAGE_DIR_TASK):
         write_recipe_func(registry, recipe_file_name, "_first")
 
     final_keys = list(set(trans_list or []) | set(trans_list_2 or []))
-    write_recipe_display(registry, result_text, result_text_2)
     insert_trans_key(LANGUAGE_DIR, final_keys)
     insert_trans_key(LANGUAGE_DIR_TASK, task_trans_list)
 

@@ -64,11 +64,23 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "附魔台\n红石比较器，红石中继器",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.enchanting_table"
+        },
+        {
+          "translate": "si.comparator"
+        },
+        {
+          "translate": "si.repeater"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",
@@ -100,11 +112,17 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "观察者",
-        "italic": false,
-        "color": "gray"
-      }
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.observer"
+        }
+      ]
     ],
     "icon": {
       "count": 1,

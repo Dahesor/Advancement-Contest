@@ -49,11 +49,17 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "不死图腾",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.totem_of_undying"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",
@@ -85,11 +91,17 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "闪烁的西瓜",
-        "italic": false,
-        "color": "gray"
-      }
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.glistering_melon_slice"
+        }
+      ]
     ],
     "frame": "challenge",
     "icon": {

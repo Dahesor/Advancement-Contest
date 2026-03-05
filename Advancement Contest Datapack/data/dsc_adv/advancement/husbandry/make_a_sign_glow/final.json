@@ -49,11 +49,29 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "玻璃板，玻璃瓶\n剪刀\n篝火，灵魂篝火",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.glass_pane"
+        },
+        {
+          "translate": "si.glass_bottle"
+        },
+        {
+          "translate": "si.shears"
+        },
+        {
+          "translate": "si.campfire"
+        },
+        {
+          "translate": "si.soul_campfire"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",

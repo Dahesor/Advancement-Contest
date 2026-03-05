@@ -49,11 +49,20 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "绊线钩\n弩",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.tripwire_hook"
+        },
+        {
+          "translate": "si.crossbow"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",

@@ -46,11 +46,20 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "指南针，时钟",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.compass"
+        },
+        {
+          "translate": "si.clock"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",
@@ -82,11 +91,20 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "火焰弹，发射器",
-        "italic": false,
-        "color": "gray"
-      }
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.fire_charge"
+        },
+        {
+          "translate": "si.dispenser"
+        }
+      ]
     ],
     "icon": {
       "count": 1,

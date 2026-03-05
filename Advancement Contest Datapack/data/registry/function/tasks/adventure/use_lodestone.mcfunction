@@ -6,9 +6,9 @@ data modify storage dsc:task new append value {\
     additional_lore:{\
         all_:"",\
         first_:"",\
-        recipe_sum_all:"活塞\n红石火把，红石块，红石比较器",\
-        recipe_sum_first:"雕纹书架",\
-    }\
+        recipe_sum_all:["piston","redstone_torch","redstone_block","comparator"],\
+        recipe_sum_first:["chiseled_bookshelf"],\
+    },node:{children:["dsc_adv:adventure/chiseled_bookshelf"],node:"node"}\
 }
 
 
@@ -16,7 +16,7 @@ data modify storage dsc:task new[-1] merge value {\
     id:"use_lodestone",\
     display:{\
         title:{"translate":"task.use_lodestone","italic":false},\
-        lore:[{"translate":"task.use_lodestone.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", {"text":"活塞\n红石火把，红石块，红石比较器","italic":false,"color":"gray"}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", {"text":"雕纹书架","italic":false,"color":"gray"}],\
+        lore:[{"translate":"task.use_lodestone.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", [{"text": "", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.piston"}, {"translate": "si.redstone_torch"}, {"translate": "si.redstone_block"}, {"translate": "si.comparator"}], "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", [{"text": "", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.chiseled_bookshelf"}]],\
         \
         recipe_name_all:[],\
         \

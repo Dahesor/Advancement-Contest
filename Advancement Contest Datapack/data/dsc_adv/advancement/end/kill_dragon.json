@@ -54,11 +54,17 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "末地水晶",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.end_crystal"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",

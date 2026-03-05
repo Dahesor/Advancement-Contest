@@ -55,11 +55,23 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "望远镜\n钓鱼竿\n碗",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.spyglass"
+        },
+        {
+          "translate": "si.fishing_rod"
+        },
+        {
+          "translate": "si.bowl"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",

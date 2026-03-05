@@ -74,11 +74,26 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "精良的铁质工具",
-        "italic": false,
-        "color": "gray"
-      }
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.dsc:iron_axe_p"
+        },
+        {
+          "translate": "si.dsc:iron_pick_p"
+        },
+        {
+          "translate": "si.dsc:iron_shovel_p"
+        },
+        {
+          "translate": "si.dsc:iron_sword_p"
+        }
+      ]
     ],
     "icon": {
       "count": 1,

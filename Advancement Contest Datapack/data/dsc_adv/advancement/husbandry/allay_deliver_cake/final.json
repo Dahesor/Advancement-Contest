@@ -49,11 +49,20 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "校频幽匿感测体\n红石比较器",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.calibrated_sculk_sensor"
+        },
+        {
+          "translate": "si.comparator"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",

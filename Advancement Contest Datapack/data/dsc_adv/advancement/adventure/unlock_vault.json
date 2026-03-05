@@ -64,11 +64,17 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "风弹",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.wind_charge"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",

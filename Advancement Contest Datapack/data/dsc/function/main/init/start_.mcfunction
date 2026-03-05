@@ -33,4 +33,5 @@ function dsc:main/koh/pick/port
 #Bounty
 scoreboard objectives setdisplay list player_bounty
 scoreboard objectives modify player_bounty displayname {text:"赏金"}
-execute as @a[scores={team=1..}] run function dsc_recipe:initial/give
+recipe give @a *
+execute as @a[scores={team=1..}] run function dsc_recipe:init_remove/take

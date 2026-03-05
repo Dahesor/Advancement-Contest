@@ -67,11 +67,29 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "高炉，烟熏炉，制箭台\n炼药锅\n切石机",
-        "italic": false,
-        "color": "gray"
-      }
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.blast_furnace"
+        },
+        {
+          "translate": "si.smoker"
+        },
+        {
+          "translate": "si.fletching_table"
+        },
+        {
+          "translate": "si.cauldron"
+        },
+        {
+          "translate": "si.stonecutter"
+        }
+      ]
     ],
     "icon": {
       "count": 1,

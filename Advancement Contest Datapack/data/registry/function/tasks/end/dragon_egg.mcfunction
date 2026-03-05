@@ -6,8 +6,8 @@ data modify storage dsc:task new append value {\
     additional_lore:{\
         all_:"",\
         first_:"",\
-        recipe_sum_all:"",\
-        recipe_sum_first:"全套钻石装备\n书架，铁砧\n不死图腾",\
+        recipe_sum_all:[],\
+        recipe_sum_first:["diamond_chestplate","diamond_leggings","diamond_helmet","bookshelf","anvil","totem_of_undying"],\
     }\
 }
 
@@ -16,7 +16,7 @@ data modify storage dsc:task new[-1] merge value {\
     id:"dragon_egg",\
     display:{\
         title:{"translate":"task.dragon_egg","italic":false},\
-        lore:[{"translate":"task.dragon_egg.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["1"]}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["24"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["20"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", {"text":"全套钻石装备\n书架，铁砧\n不死图腾","italic":false,"color":"gray"}],\
+        lore:[{"translate":"task.dragon_egg.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["1"]}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["24"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["20"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", [{"text": "", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.diamond_chestplate"}, {"translate": "si.diamond_leggings"}, {"translate": "si.diamond_helmet"}, {"translate": "si.bookshelf"}, {"translate": "si.anvil"}, {"translate": "si.totem_of_undying"}]],\
         \
         recipe_name_all:[],\
         \

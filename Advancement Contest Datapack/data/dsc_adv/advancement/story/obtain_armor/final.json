@@ -14,12 +14,6 @@
       },
       "\n",
       {
-        "translate": "task.obtain_armor.2",
-        "italic": false,
-        "color": "gray"
-      },
-      "\n",
-      {
         "translate": "task.reward",
         "italic": false,
         "color": "light_purple"
@@ -49,11 +43,20 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "锁链护腿与靴子",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.chainmail_boots"
+        },
+        {
+          "translate": "si.chainmail_leggings"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",
@@ -76,11 +79,26 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "全套铁质盔甲",
-        "italic": false,
-        "color": "gray"
-      }
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.iron_helmet"
+        },
+        {
+          "translate": "si.iron_chestplate"
+        },
+        {
+          "translate": "si.iron_leggings"
+        },
+        {
+          "translate": "si.iron_boots"
+        }
+      ]
     ],
     "icon": {
       "count": 1,

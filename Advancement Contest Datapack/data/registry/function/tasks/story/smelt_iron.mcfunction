@@ -6,8 +6,8 @@ data modify storage dsc:task new append value {\
     additional_lore:{\
         all_:"",\
         first_:"",\
-        recipe_sum_all:"",\
-        recipe_sum_first:"高炉，烟熏炉，制箭台\n炼药锅\n切石机",\
+        recipe_sum_all:[],\
+        recipe_sum_first:["blast_furnace","smoker","fletching_table","cauldron","stonecutter"],\
     },\
     node:{node:"node",default_pin:true,children:["dsc_adv:story/iron_tools","dsc_adv:story/obtain_armor","dsc_adv:story/lava_bucket"]}\
 }
@@ -17,7 +17,7 @@ data modify storage dsc:task new[-1] merge value {\
     id:"smelt_iron",\
     display:{\
         title:{"translate":"task.smelt_iron","italic":false},\
-        lore:[{"translate":"task.smelt_iron.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", {"text":"高炉，烟熏炉，制箭台\n炼药锅\n切石机","italic":false,"color":"gray"}],\
+        lore:[{"translate":"task.smelt_iron.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", [{"text": "", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.blast_furnace"}, {"translate": "si.smoker"}, {"translate": "si.fletching_table"}, {"translate": "si.cauldron"}, {"translate": "si.stonecutter"}]],\
         \
         recipe_name_all:[],\
         \

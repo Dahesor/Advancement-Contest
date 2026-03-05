@@ -54,11 +54,20 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "唱片机，音符盒",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.jukebox"
+        },
+        {
+          "translate": "si.note_block"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",

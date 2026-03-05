@@ -32,11 +32,32 @@
         "color": "aqua"
       },
       "\n",
-      {
-        "text": "铁质与铜制工具\n桶\n盾牌",
-        "italic": false,
-        "color": "gray"
-      },
+      [
+        {
+          "text": "",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.iron_pickaxe"
+        },
+        {
+          "translate": "si.copper_pickaxe"
+        },
+        {
+          "translate": "si.bucket"
+        },
+        {
+          "translate": "si.shield"
+        },
+        {
+          "translate": "si.copper_chestplate"
+        },
+        {
+          "translate": "si.copper_sword"
+        }
+      ],
       "\n",
       {
         "translate": "task.reward_first",
