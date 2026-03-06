@@ -1,1 +1,2 @@
-$data remove storage main: player[0].Inventory[{Slot:$(i)b}]
+$data modify storage main: player[0].Inventory[{Slot:$(i)b}].count set value 1
+$execute store result storage main: player[0].Inventory[{Slot:$(i)b}].count int 1 run scoreboard players get #count calc.DSC

@@ -8,7 +8,7 @@ data modify storage dsc:task new append value {\
         first_:"",\
         recipe_sum_all:[],\
         recipe_sum_first:[],\
-    }\
+    },node:{node:"node",children:["dsc_adv:adventure/craft_decorated_pot","dsc_adv:husbandry/obtain_sniffer_egg"]}\
 }
 
 

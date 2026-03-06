@@ -8,7 +8,7 @@ data modify storage dsc:task new append value {\
         first_:"",\
         recipe_sum_all:["slime_block","honey_block","sticky_piston","observer"],\
         recipe_sum_first:[],\
-    },node:{children:["dsc_adv:adventure/honey_block_slide"],node:"node"}\
+    },node:{children:["dsc_adv:adventure/honey_block_slide","dsc_adv:husbandry/leash_all_frog_variants"],node:"node"}\
 }
 
 
@@ -16,7 +16,7 @@ data modify storage dsc:task new[-1] merge value {\
     id:"tadpole_in_a_bucket",\
     display:{\
         title:{"translate":"task.tadpole_in_a_bucket","italic":false},\
-        lore:[{"translate":"task.tadpole_in_a_bucket.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", [{"text": "", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.slime_block", "extra": ["-"]}, {"translate": "si.honey_block", "extra": ["-"]}, {"translate": "si.sticky_piston", "extra": ["-"]}, {"translate": "si.observer", "extra": ["-"]}], "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}],\
+        lore:[{"translate":"task.tadpole_in_a_bucket.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, [{"text": "=====", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.slime_block", "extra": ["-"], "fallback": ""}, {"translate": "si.honey_block", "extra": ["-"], "fallback": ""}, {"translate": "si.sticky_piston", "extra": ["-"], "fallback": ""}, {"translate": "si.observer", "extra": ["-"], "fallback": ""}], "\n", "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}],\
         \
         recipe_name_all:[],\
         \

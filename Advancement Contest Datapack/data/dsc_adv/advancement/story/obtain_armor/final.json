@@ -42,10 +42,9 @@
         "italic": false,
         "color": "aqua"
       },
-      "\n",
       [
         {
-          "text": "",
+          "text": "=====",
           "font": "dsc:tasks/recipe",
           "underlined": false,
           "color": "white"
@@ -54,15 +53,18 @@
           "translate": "si.chainmail_boots",
           "extra": [
             "-"
-          ]
+          ],
+          "fallback": ""
         },
         {
           "translate": "si.chainmail_leggings",
           "extra": [
             "-"
-          ]
+          ],
+          "fallback": ""
         }
       ],
+      "\n",
       "\n",
       {
         "translate": "task.reward_first",
@@ -84,10 +86,9 @@
         "italic": false,
         "color": "aqua"
       },
-      "\n",
       [
         {
-          "text": "",
+          "text": "=====",
           "font": "dsc:tasks/recipe",
           "underlined": false,
           "color": "white"
@@ -96,27 +97,32 @@
           "translate": "si.iron_helmet",
           "extra": [
             "-"
-          ]
+          ],
+          "fallback": ""
         },
         {
           "translate": "si.iron_chestplate",
           "extra": [
             "-"
-          ]
+          ],
+          "fallback": ""
         },
         {
           "translate": "si.iron_leggings",
           "extra": [
             "-"
-          ]
+          ],
+          "fallback": ""
         },
         {
           "translate": "si.iron_boots",
           "extra": [
             "-"
-          ]
+          ],
+          "fallback": ""
         }
-      ]
+      ],
+      "\n"
     ],
     "icon": {
       "count": 1,

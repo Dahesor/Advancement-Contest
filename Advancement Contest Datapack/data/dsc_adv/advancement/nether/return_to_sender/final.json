@@ -42,10 +42,9 @@
         "italic": false,
         "color": "aqua"
       },
-      "\n",
       [
         {
-          "text": "",
+          "text": "=====",
           "font": "dsc:tasks/recipe",
           "underlined": false,
           "color": "white"
@@ -54,21 +53,25 @@
           "translate": "si.fire_charge",
           "extra": [
             "-"
-          ]
+          ],
+          "fallback": ""
         },
         {
           "translate": "si.dispenser",
           "extra": [
             "-"
-          ]
+          ],
+          "fallback": ""
         },
         {
           "translate": "si.dropper",
           "extra": [
             "-"
-          ]
+          ],
+          "fallback": ""
         }
       ],
+      "\n",
       "\n",
       {
         "translate": "task.reward_first",

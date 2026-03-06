@@ -42,10 +42,9 @@
         "italic": false,
         "color": "aqua"
       },
-      "\n",
       [
         {
-          "text": "",
+          "text": "=====",
           "font": "dsc:tasks/recipe",
           "underlined": false,
           "color": "white"
@@ -54,21 +53,25 @@
           "translate": "si.enchanting_table",
           "extra": [
             "-"
-          ]
+          ],
+          "fallback": ""
         },
         {
           "translate": "si.comparator",
           "extra": [
             "-"
-          ]
+          ],
+          "fallback": ""
         },
         {
           "translate": "si.repeater",
           "extra": [
             "-"
-          ]
+          ],
+          "fallback": ""
         }
       ],
+      "\n",
       "\n",
       {
         "translate": "task.reward_first",
@@ -99,10 +102,9 @@
         "italic": false,
         "color": "aqua"
       },
-      "\n",
       [
         {
-          "text": "",
+          "text": "=====",
           "font": "dsc:tasks/recipe",
           "underlined": false,
           "color": "white"
@@ -111,9 +113,11 @@
           "translate": "si.observer",
           "extra": [
             "-"
-          ]
+          ],
+          "fallback": ""
         }
-      ]
+      ],
+      "\n"
     ],
     "icon": {
       "count": 1,

@@ -1,1 +1,1 @@
-$item replace entity @s container.$(i) with air
+$item modify entity @s container.$(i) dsc:set_count

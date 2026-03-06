@@ -48,10 +48,9 @@
         "italic": false,
         "color": "aqua"
       },
-      "\n",
       [
         {
-          "text": "",
+          "text": "=====",
           "font": "dsc:tasks/recipe",
           "underlined": false,
           "color": "white"
@@ -60,21 +59,25 @@
           "translate": "si.golden_carrot",
           "extra": [
             "-"
-          ]
+          ],
+          "fallback": ""
         },
         {
           "translate": "si.golden_apple",
           "extra": [
             "-"
-          ]
+          ],
+          "fallback": ""
         },
         {
           "translate": "si.brewing_stand",
           "extra": [
             "-"
-          ]
+          ],
+          "fallback": ""
         }
       ],
+      "\n",
       "\n",
       {
         "translate": "task.reward_first",
@@ -105,10 +108,9 @@
         "italic": false,
         "color": "aqua"
       },
-      "\n",
       [
         {
-          "text": "",
+          "text": "=====",
           "font": "dsc:tasks/recipe",
           "underlined": false,
           "color": "white"
@@ -117,15 +119,18 @@
           "translate": "si.enchanted_golden_apple",
           "extra": [
             "-"
-          ]
+          ],
+          "fallback": ""
         },
         {
           "translate": "si.tripwire_hook",
           "extra": [
             "-"
-          ]
+          ],
+          "fallback": ""
         }
-      ]
+      ],
+      "\n"
     ],
     "icon": {
       "count": 1,

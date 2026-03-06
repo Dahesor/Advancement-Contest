@@ -47,10 +47,9 @@
         "italic": false,
         "color": "aqua"
       },
-      "\n",
       [
         {
-          "text": "",
+          "text": "=====",
           "font": "dsc:tasks/recipe",
           "underlined": false,
           "color": "white"
@@ -59,27 +58,32 @@
           "translate": "si.slime_block",
           "extra": [
             "-"
-          ]
+          ],
+          "fallback": ""
         },
         {
           "translate": "si.honey_block",
           "extra": [
             "-"
-          ]
+          ],
+          "fallback": ""
         },
         {
           "translate": "si.sticky_piston",
           "extra": [
             "-"
-          ]
+          ],
+          "fallback": ""
         },
         {
           "translate": "si.observer",
           "extra": [
             "-"
-          ]
+          ],
+          "fallback": ""
         }
       ],
+      "\n",
       "\n",
       {
         "translate": "task.reward_first",

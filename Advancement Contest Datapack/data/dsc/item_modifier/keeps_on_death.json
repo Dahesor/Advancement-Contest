@@ -1,0 +1,17 @@
+[
+    {
+        "function": "set_custom_data",
+        "tag": {
+            "keeps_on_death": true
+        }
+    },
+    {
+        "function": "set_lore",
+        "entity": "this",
+        "mode": "append",
+        "lore": [
+            "",
+            {"translate": "keeps_on_death","color":"green","italic": false}
+        ]
+    }
+]

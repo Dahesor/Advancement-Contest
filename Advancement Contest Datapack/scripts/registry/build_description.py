@@ -37,9 +37,9 @@ def build_reward (emerald, score, text, recipe)-> str:
     json_res = []
     for s in recipe_data:
         s = "si." + s
-        json_res.append({"translate": s,"extra":["-"]})
+        json_res.append({"translate": s,"extra":["-"],"fallback":"\ueeff"})
     if len(json_res) > 0:
-        json_res.insert(0, {"text":"","font": "dsc:tasks/recipe","underlined":False,"color":"white"})
+        json_res.insert(0, {"text":"=====","font": "dsc:tasks/recipe","underlined":False,"color":"white"})
 
     #print(json.dumps(json_res, ensure_ascii=False))
     result = ""
@@ -57,8 +57,9 @@ def build_reward (emerald, score, text, recipe)-> str:
         result += nl
         result += '{"translate":"reward.recipe","italic":false,"color":"aqua"}'
         if len(json_res) > 0:
-            result += nl
+            result += ', '
             result += json.dumps(json_res, ensure_ascii=False)
+            result += ', "\\n"'
     return result
 
 def read_lores(lines):

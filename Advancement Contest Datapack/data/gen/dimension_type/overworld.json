@@ -49,5 +49,6 @@
     "min_inclusive": 0
   },
   "timelines": "#minecraft:in_overworld",
-  "default_clock": "minecraft:overworld"
+  "default_clock": "minecraft:overworld",
+  "has_ender_dragon_fight": false
 }

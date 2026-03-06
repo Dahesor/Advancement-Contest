@@ -73,5 +73,11 @@
     "track_list.emerald":"绿宝石奖励：%s",
     "track_list.recipe":"配方奖励：\n",
     "track_list.pin":"点击置顶",
-    "track_list.unpin":"点击取消置顶"
+    "track_list.unpin":"点击取消置顶",
+    "track_list.completed":"已被某队率先完成",
+    "item.dsc.invi_run":"神隐药水",
+    "item.dsc.invi_run.1":"无粒子效果隐身 (00:30) ",
+    "item.dsc.invi_run.2":"速度II (00:08)",
+    "item.dsc.invi_run.3":"抗性提升II (00:08)",
+    "item.dsc.invi_run.4":"可急速使用"
 }

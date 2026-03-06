@@ -42,10 +42,9 @@
         "italic": false,
         "color": "aqua"
       },
-      "\n",
       [
         {
-          "text": "",
+          "text": "=====",
           "font": "dsc:tasks/recipe",
           "underlined": false,
           "color": "white"
@@ -54,15 +53,18 @@
           "translate": "si.arrow",
           "extra": [
             "-"
-          ]
+          ],
+          "fallback": ""
         },
         {
           "translate": "si.target",
           "extra": [
             "-"
-          ]
+          ],
+          "fallback": ""
         }
       ],
+      "\n",
       "\n",
       {
         "translate": "task.reward_first",
@@ -93,10 +95,9 @@
         "italic": false,
         "color": "aqua"
       },
-      "\n",
       [
         {
-          "text": "",
+          "text": "=====",
           "font": "dsc:tasks/recipe",
           "underlined": false,
           "color": "white"
@@ -105,9 +106,11 @@
           "translate": "si.dsc:bow_p",
           "extra": [
             "-"
-          ]
+          ],
+          "fallback": ""
         }
-      ]
+      ],
+      "\n"
     ],
     "icon": {
       "count": 1,

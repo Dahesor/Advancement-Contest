@@ -16,7 +16,7 @@
             "recipes":[
                 "dsc:special/op/unlocked"
             ],
-            "item_model": "dsc:outpost/gift_card",
+            "item_model": "beacon",
             "max_stack_size": 1,
             "rarity":"epic",
             "item_name": {"text": "团队信标兑换器"},

@@ -114,5 +114,6 @@
   "k.all_effects": "\u11D8",
   "k.all_potions": "\u11E1",
   "k.deflect_arrow": "\u11E2",
-  "k.bucket_axolotl": "\u11E3"
+  "k.bucket_axolotl": "\u11E3",
+  "k.kill_axolotl_target": "\u11E4"
 }

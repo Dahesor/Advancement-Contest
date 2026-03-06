@@ -6,9 +6,9 @@ data modify storage dsc:task new append value {\
     additional_lore:{\
         all_:"",\
         first_:"",\
-        recipe_sum_all:["carrot_on_a_stick","warped_fungus_on_a_stick","compass"],\
+        recipe_sum_all:["carrot_on_a_stick","warped_fungus_on_a_stick","compass_17"],\
         recipe_sum_first:["shears","saddle"],\
-    }\
+    },node:{children:["dsc_adv:nether/ride_strider","dsc_adv:husbandry/complete_catalogue","dsc_adv:husbandry/whole_pack"],node:"node"}\
 }
 
 
@@ -16,7 +16,7 @@ data modify storage dsc:task new[-1] merge value {\
     id:"tame_an_animal",\
     display:{\
         title:{"translate":"task.tame_an_animal","italic":false},\
-        lore:[{"translate":"task.tame_an_animal.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", [{"text": "", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.carrot_on_a_stick", "extra": ["-"]}, {"translate": "si.warped_fungus_on_a_stick", "extra": ["-"]}, {"translate": "si.compass", "extra": ["-"]}], "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", [{"text": "", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.shears", "extra": ["-"]}, {"translate": "si.saddle", "extra": ["-"]}]],\
+        lore:[{"translate":"task.tame_an_animal.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, [{"text": "=====", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.carrot_on_a_stick", "extra": ["-"], "fallback": ""}, {"translate": "si.warped_fungus_on_a_stick", "extra": ["-"], "fallback": ""}, {"translate": "si.compass_17", "extra": ["-"], "fallback": ""}], "\n", "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, [{"text": "=====", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.shears", "extra": ["-"], "fallback": ""}, {"translate": "si.saddle", "extra": ["-"], "fallback": ""}], "\n"],\
         \
         recipe_name_all:[],\
         \

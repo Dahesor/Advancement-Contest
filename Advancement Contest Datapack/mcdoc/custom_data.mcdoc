@@ -1,2 +1,3 @@
 dispatch mcdoc:custom_data["team_map"] to boolean
 dispatch mcdoc:custom_data["__prepare_item"] to boolean
+dispatch mcdoc:custom_data["__binomial"] to boolean

@@ -102,12 +102,27 @@
                     ]
                 }
             ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "dried_kelp",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 64
+                        }
+                    ]
+                }
+            ]
         }
     ],
     "functions": [
         {
             "function": "reference",
-            "name": "dsc:update_map"
+            "name": "dsc:keeps_on_death"
         }
     ]
 }

@@ -8,7 +8,7 @@ data modify storage dsc:task new append value {\
         first_:"",\
         recipe_sum_all:[],\
         recipe_sum_first:[],\
-    }\
+    },node:{children:["dsc_adv:adventure/catalize_sculk","dsc_adv:adventure/hurt_warden"],node:"conditional"}\
 }
 
 

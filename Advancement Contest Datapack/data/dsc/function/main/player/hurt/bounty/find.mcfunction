@@ -1,4 +1,5 @@
 execute if score #attacker UID = $this UID run return fail
+execute if score #attacker UID matches ..0 run return fail
 execute unless score $this player_bounty matches 1.. run return fail
 
 scoreboard players operation #gain player_bounty = $this player_bounty

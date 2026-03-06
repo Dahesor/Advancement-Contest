@@ -5,5 +5,7 @@ tag @s add hide_task_lore
 execute if entity @s[tag=__hide_task_lore] run tag @s remove hide_task_lore
 tag @s remove __hide_task_lore
 
+scoreboard players add @s task_build_ver 1
+
 function dsc:menu/tasks/bar/render/render
 function dsc:menu/tasks/make

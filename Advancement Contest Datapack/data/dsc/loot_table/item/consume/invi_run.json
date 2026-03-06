@@ -1,0 +1,83 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "potion"
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_name",
+            "target": "custom_name",
+            "name": {"translate": "item.dsc.invi_run","italic": false,"color": "yellow"}
+        },
+        {
+            "function": "set_lore",
+            "entity": "this",
+            "mode": "replace_all",
+            "lore": [
+                {"translate": "item.dsc.invi_run.1","color": "#3f96ff","italic": false},
+                {"translate": "item.dsc.invi_run.2","color": "#3f96ff","italic": false},
+                {"translate": "item.dsc.invi_run.3","color": "#3f96ff","italic": false},
+                "",
+                {"translate": "item.dsc.invi_run.4","color": "gray","italic": false}
+            ]
+        },
+        {
+            "function": "set_components",
+            "components": {
+                "tooltip_display": {
+                    "hidden_components": [
+                        "potion_contents"
+                    ]
+                },
+                "max_stack_size": 4,
+                "potion_contents": {
+                    "custom_effects": [
+                        {
+                            "id": "invisibility",
+                            "ambient": false,
+                            "amplifier": 0,
+                            "duration": 600,
+                            "show_particles": false,
+                            "show_icon": true
+                        },
+                        {
+                            "id": "speed",
+                            "ambient": false,
+                            "amplifier": 1,
+                            "duration": 160,
+                            "show_particles": true,
+                            "show_icon": true
+                        },
+                        {
+                            "id": "resistance",
+                            "ambient": false,
+                            "amplifier": 1,
+                            "duration": 160,
+                            "show_particles": true,
+                            "show_icon": true
+                        }
+                    ],
+                    "custom_color": 10395391
+                },
+                "consumable": {
+                    "consume_seconds": 1,
+                    "animation": "drink",
+                    "sound": "entity.generic.drink",
+                    "has_consume_particles": false
+                }
+            }
+        },
+        {
+            "function": "reference",
+            "name": "dsc:keeps_on_death"
+        }
+    ]
+}

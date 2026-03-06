@@ -2,7 +2,21 @@
   "parent": "dsc_adv:adventure/sleep_in_bed",
   "criteria": {
     "traded": {
-      "trigger": "minecraft:villager_trade"
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": [
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": {"VillagerData":{"profession": "nitwit"}}
+              }
+            }
+          }
+        ]
+      }
     }
   },
   "display": {
@@ -48,10 +62,9 @@
         "italic": false,
         "color": "aqua"
       },
-      "\n",
       [
         {
-          "text": "",
+          "text": "=====",
           "font": "dsc:tasks/recipe",
           "underlined": false,
           "color": "white"
@@ -60,9 +73,11 @@
           "translate": "si.diamond_hoe",
           "extra": [
             "-"
-          ]
+          ],
+          "fallback": ""
         }
       ],
+      "\n",
       "\n",
       {
         "translate": "task.reward_first",

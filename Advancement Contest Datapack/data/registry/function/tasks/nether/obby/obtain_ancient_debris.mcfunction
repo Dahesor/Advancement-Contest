@@ -9,7 +9,7 @@ data modify storage dsc:task new append value {\
         recipe_sum_all:["netherite_ingot"],\
         recipe_sum_first:[],\
     },\
-    node:{node:"node",children:["dsc_adv:nether/netherite_armor"]}\
+    node:{node:"node",children:["dsc_adv:nether/netherite_armor","dsc_adv:husbandry/obtain_netherite_hoe"]}\
 }
 
 
@@ -17,7 +17,7 @@ data modify storage dsc:task new[-1] merge value {\
     id:"obtain_ancient_debris",\
     display:{\
         title:{"translate":"task.obtain_ancient_debris","italic":false},\
-        lore:[{"translate":"task.obtain_ancient_debris.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", [{"text": "", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.netherite_ingot", "extra": ["-"]}], "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}],\
+        lore:[{"translate":"task.obtain_ancient_debris.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, [{"text": "=====", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.netherite_ingot", "extra": ["-"], "fallback": ""}], "\n", "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}],\
         \
         recipe_name_all:[],\
         \

@@ -1,0 +1,115 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "villager_spawn_egg"
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_components",
+            "components": {
+                "entity_data": {
+                    "id": "villager",
+                    "Age": 0,
+                    "VillagerData": {
+                        "type": "plains",
+                        "profession": "nitwit",
+                        "level": 7
+                    },
+                    "Offers": {
+                        "Recipes": [
+                            {
+                                "buy": {
+                                    "id": "emerald",
+                                    "count": 1
+                                },
+                                "maxUses": 9999999,
+                                "rewardExp": false,
+                                "sell": {
+                                    "id": "dirt",
+                                    "count": 20
+                                }
+                            },
+                            {
+                                "buy": {
+                                    "id": "emerald",
+                                    "count": 1
+                                },
+                                "maxUses": 9999999,
+                                "rewardExp": false,
+                                "sell": {
+                                    "id": "dried_kelp",
+                                    "count": 16
+                                }
+                            },
+                            {
+                                "buy": {
+                                    "id": "emerald",
+                                    "count": 1
+                                },
+                                "maxUses": 9999999,
+                                "rewardExp": false,
+                                "sell": {
+                                    "id": "coal",
+                                    "count": 4
+                                }
+                            },
+                            {
+                                "buy": {
+                                    "id": "emerald",
+                                    "count": 1
+                                },
+                                "maxUses": 9999999,
+                                "rewardExp": false,
+                                "sell": {
+                                    "id": "experience_bottle",
+                                    "count": 4
+                                }
+                            },
+                            {
+                                "buy": {
+                                    "id": "emerald",
+                                    "count": 1
+                                },
+                                "maxUses": 9999999,
+                                "rewardExp": false,
+                                "sell": {
+                                    "id": "bread",
+                                    "count": 2
+                                }
+                            },
+                            {
+                                "buy": {
+                                    "id": "emerald",
+                                    "count": 2
+                                },
+                                "maxUses": 9999999,
+                                "rewardExp": false,
+                                "sell": {
+                                    "id": "copper_sword",
+                                    "count": 1
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "function": "set_name",
+            "target": "item_name",
+            "name": "便携商店"
+        },
+        {
+            "function": "reference",
+            "name": "dsc:keeps_on_death"
+        }
+    ]
+}

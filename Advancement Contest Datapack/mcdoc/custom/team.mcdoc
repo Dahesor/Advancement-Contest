@@ -46,7 +46,7 @@ dispatch minecraft:storage["team:"] to struct {
 }
 
 struct TeamTrackList{
-    node?: ("root"|"node"|"challenge"),
+    node?: ("root"|"node"|"challenge"|"conditional"),
     pin?: boolean,
     id?: string,
     advancement?: #[id(registry="advancement")] string,

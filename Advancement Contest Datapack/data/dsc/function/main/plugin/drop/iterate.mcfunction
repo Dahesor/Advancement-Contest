@@ -1,4 +1,5 @@
 data modify storage run num set value {i:-1}
+scoreboard players operation #p calc.DSC = drop_rate main
 
 #Inventory Items
 function dsc:main/plugin/drop/loop
@@ -26,3 +27,5 @@ execute if score $rand main <= drop_rate main if data storage temp equipment.fee
 #Offhand
 execute store result score $rand main run random value 1..100
 execute if score $rand main <= drop_rate main if data storage temp equipment.offhand run function dsc:main/plugin/drop/armor/offhand
+
+execute if score $offline calc.DSC matches 1 run data remove storage main: player[0].Inventory[{count:0}]

@@ -1,0 +1,21 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,"entries": [
+                {
+                    "type": "loot_table","value": "dsc:item/consume/invi_run",
+                    "functions": [{"function": "set_count","count": 2}]
+                }
+            ]
+        },
+        {
+            "rolls": 1,"entries": [
+                {
+                    "type": "loot_table","value": "dsc:props/villager/init",
+                    "functions": [{"function": "set_count","count": 2}]
+                }
+            ]
+        }
+    ]
+}

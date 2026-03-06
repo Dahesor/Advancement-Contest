@@ -1,0 +1,48 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "barrier"
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_components",
+            "components": {
+                "custom_data": {
+                    "__binomial": true
+                },
+                "item_model": "air"
+            }
+        },
+        {
+            "function": "set_count",
+            "count": {
+                "type": "binomial",
+                "n": {
+                    "type": "score",
+                    "score": "calc.DSC",
+                    "target": {
+                        "type": "fixed",
+                        "name": "#n"
+                    }
+                },
+                "p": {
+                    "type": "score",
+                    "score": "calc.DSC",
+                    "target": {
+                        "type": "fixed",
+                        "name": "#p"
+                    },
+                    "scale": 0.01
+                }
+            }
+        }
+    ]
+}

@@ -1,2 +1,2 @@
-summon item ~ ~0.6 ~ {Item:{id:"barrier"},PickupDelay:10s,Tags:["death_dropped_item","__death_dropped_item"]}
+summon item ~ ~0.6 ~ {Item:{id:"barrier",components:{item_model:"air"}},PickupDelay:10s,Tags:["death_dropped_item","__death_dropped_item"]}
 execute as @n[type=item,tag=death_dropped_item,tag=__death_dropped_item] run function dsc:main/plugin/drop/_item_self

@@ -2,14 +2,14 @@ data modify storage dsc:task new append value {\
     advancement:"dsc_adv:story/follow_ender_eye",\
     all_reward:{emerald:2,score:4},\
     first_reward:{emerald:4,score:5},\
-    display:{lore_length:1},\
+    display:{lore_length:2},\
     additional_lore:{\
         all_:"",\
         first_:"",\
         recipe_sum_all:[],\
         recipe_sum_first:[],\
     },\
-    node:{node:"node",children:["dsc_adv:story/enter_the_end"]}\
+    node:{node:"node",children:["dsc_adv:story/enter_the_end"],default_pin:true}\
 }
 
 
@@ -17,7 +17,7 @@ data modify storage dsc:task new[-1] merge value {\
     id:"follow_ender_eye",\
     display:{\
         title:{"translate":"task.follow_ender_eye","italic":false},\
-        lore:[{"translate":"task.follow_ender_eye.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}],\
+        lore:[{"translate":"task.follow_ender_eye.1","italic":false,"color":"gray"}, "\n", {"translate":"task.follow_ender_eye.2","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}],\
         \
         recipe_name_all:[],\
         \

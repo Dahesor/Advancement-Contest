@@ -4,42 +4,42 @@
             "type": "bitmap",
             "height": 33,
             "ascent": 10,
-            "file": "dsc:font/dec/back_thin.png",
+            "file": "dsc:font/dec/back/thin.png",
             "chars": ["\uEAAA"]
         },
         {
             "type": "bitmap",
             "height": 43,
             "ascent": 10,
-            "file": "dsc:font/dec/back_wide.png",
+            "file": "dsc:font/dec/back/wide.png",
             "chars": ["\uEAAB"]
         },
         {
             "type": "bitmap",
             "height": 24,
             "ascent": 10,
-            "file": "dsc:font/dec/back_thin_long.png",
+            "file": "dsc:font/dec/back/thin_long.png",
             "chars": ["\uEAAC"]
         },
         {
             "type": "bitmap",
             "height": 34,
             "ascent": 10,
-            "file": "dsc:font/dec/back_wide_long.png",
+            "file": "dsc:font/dec/back/wide_long.png",
             "chars": ["\uEAAD"]
         },
         {
             "type": "bitmap",
             "height": 34,
             "ascent": 10,
-            "file": "dsc:font/dec/back_alpha.png",
+            "file": "dsc:font/dec/back/alpha.png",
             "chars": ["\uEAA0"]
         },
         {
             "type": "bitmap",
             "height": 34,
             "ascent": 10,
-            "file": "dsc:font/dec/back_loreless.png",
+            "file": "dsc:font/dec/back/loreless.png",
             "chars": ["\uEAAE"]
         }
     ]

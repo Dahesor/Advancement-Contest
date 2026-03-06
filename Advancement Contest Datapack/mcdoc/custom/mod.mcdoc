@@ -4,6 +4,7 @@ use ::mcdoc::custom::team::TeamTrackList
 use ::java::util::slot::SlottedItem
 use ::java::world::entity::mob::player::PlayerEquipment
 use ::java::util::text::Text
+use ::mcdoc::dialog::dialog::DialogMix
 
 dispatch minecraft:storage["main:"] to struct{
     stronghold?: struct{
@@ -55,4 +56,5 @@ struct PlayerTaskTrack{
     result?: [TeamTrackList],
     pin?: [PlayerPin],
     unpin?: [PlayerPin],
+    build?: DialogMix
 }

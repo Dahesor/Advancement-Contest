@@ -9,7 +9,7 @@ data modify storage dsc:task new append value {\
         recipe_sum_all:["enchanting_table","chiseled_bookshelf"],\
         recipe_sum_first:[],\
     },\
-    node:{node:"node",children:["dsc_adv:adventure/unlock_vault","dsc_adv:adventure/use_wind_charge"]}\
+    node:{node:"conditional",children:["dsc_adv:adventure/unlock_vault","dsc_adv:adventure/use_wind_charge"]}\
 }
 
 
@@ -17,7 +17,7 @@ data modify storage dsc:task new[-1] merge value {\
     id:"trial_chamber",\
     display:{\
         title:{"translate":"task.trial_chamber","italic":false},\
-        lore:[{"translate":"task.trial_chamber.1","italic":false,"color":"gray"}, "\n", {"translate":"task.trial_chamber.2","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, "\n", [{"text": "", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.enchanting_table", "extra": ["-"]}, {"translate": "si.chiseled_bookshelf", "extra": ["-"]}], "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}],\
+        lore:[{"translate":"task.trial_chamber.1","italic":false,"color":"gray"}, "\n", {"translate":"task.trial_chamber.2","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, [{"text": "=====", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.enchanting_table", "extra": ["-"], "fallback": ""}, {"translate": "si.chiseled_bookshelf", "extra": ["-"], "fallback": ""}], "\n", "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}],\
         \
         recipe_name_all:[],\
         \

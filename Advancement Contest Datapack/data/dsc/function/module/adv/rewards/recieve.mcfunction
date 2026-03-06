@@ -49,4 +49,4 @@ tag @a remove __adv_teammate
 
 scoreboard players set $linked calc.DSC 0
 
-execute as @a[scores={team=1..}] run function dsc:menu/tasks/bar/pull
+function dsc:core/perf {run:"execute as @a run function dsc:menu/tasks/bar/pull"}

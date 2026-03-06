@@ -14,7 +14,7 @@ dispatch minecraft:storage["dsc:task"] to struct{
 }
 
 struct TaskNode{
-    node?: ("root"|"node"|"challenge"),
+    node?: ("root"|"node"|"challenge"|"conditional"),
     default_pin?: boolean,
     children?: [#[id(registry="advancement")] string],
 }

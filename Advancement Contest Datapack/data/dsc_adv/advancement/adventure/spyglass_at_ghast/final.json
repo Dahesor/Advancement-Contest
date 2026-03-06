@@ -39,6 +39,49 @@
       },
       "\n",
       {
+        "translate": "reward.recipe",
+        "italic": false,
+        "color": "aqua"
+      },
+      [
+        {
+          "text": "=====",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.oak_boat",
+          "extra": [
+            "-"
+          ],
+          "fallback": ""
+        },
+        {
+          "translate": "si.oak_chest_boat",
+          "extra": [
+            "-"
+          ],
+          "fallback": ""
+        },
+        {
+          "translate": "si.bamboo_raft",
+          "extra": [
+            "-"
+          ],
+          "fallback": ""
+        },
+        {
+          "translate": "si.bamboo_chest_raft",
+          "extra": [
+            "-"
+          ],
+          "fallback": ""
+        }
+      ],
+      "\n",
+      "\n",
+      {
         "translate": "task.reward_first",
         "italic": false,
         "color": "light_purple"

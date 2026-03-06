@@ -1,0 +1,12 @@
+{
+    "function": "set_count",
+    "add": false,
+    "count": {
+        "type": "score",
+        "score": "calc.DSC",
+        "target": {
+            "type": "fixed",
+            "name": "#count"
+        }
+    }
+}

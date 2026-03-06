@@ -158,18 +158,6 @@ def main() -> int:
         if args.dry_run:
             continue
 
-        if not args.no_backup:
-            bak = f.with_suffix(f.suffix + ".bak")
-            try:
-                # don't overwrite existing backup
-                if not bak.exists():
-                    bak.write_bytes(data)
-            except Exception:
-                pass
-
-        # write back as utf-8 by default (safe for Unicode chars)
-        f.write_text(new_text, encoding="utf-8")
-
     print(f"Processed folder: {root}")
     print(f"Files modified: {files_touched}")
     print(f"Total replacements made: {total_replaced}")
