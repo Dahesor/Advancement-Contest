@@ -1,4 +1,4 @@
-data modify storage dlm: char set string storage dlm: string 0 0
+data modify storage dlm: char set string storage dlm: string 0 1
 data modify storage dlm: string set string storage dlm: string 1
 execute if data storage dlm: {char:":"} run return 1
 

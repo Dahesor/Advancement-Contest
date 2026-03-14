@@ -1,0 +1,18 @@
+{
+    "type": "gen:lobby",
+    "generator": {
+        "type": "flat",
+        "settings": {
+            "biome": "the_void",
+            "layers": [
+                {
+                    "block": "air",
+                    "height": 1
+                }
+            ],
+            "features": false,
+            "lakes": false,
+            "structure_overrides": []
+        }
+    }
+}

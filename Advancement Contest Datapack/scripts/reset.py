@@ -38,7 +38,7 @@ def reset_world(world_folder, data_pack_folder, source_folder):
         if item in ('level.dat', 'datapacks'):
             continue
         full_path = os.path.join(world_folder, item)
-        if item in ('advancements','data','DIM1','DIM-1','stats','entities','playerdata','poi','region','session.lock'):
+        if item in ('advancements','data','DIM1','DIM-1','stats','entities','playerdata','poi','region','session.lock','dimensions'):
             try:
                 if os.path.isfile(full_path) or os.path.islink(full_path):
                     os.remove(full_path)

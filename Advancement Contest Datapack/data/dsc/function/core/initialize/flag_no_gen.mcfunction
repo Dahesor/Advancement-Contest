@@ -1,0 +1,1 @@
+scoreboard players set #FLAG_NO_GEN main 1

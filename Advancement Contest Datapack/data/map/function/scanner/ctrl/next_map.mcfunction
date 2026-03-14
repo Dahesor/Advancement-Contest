@@ -16,7 +16,7 @@ execute if score zthis_map map matches 1 run data modify storage map:main main s
 execute if score zthis_map map matches 2 run data modify storage map:main main set from storage map:main the_end
 
 scoreboard players operation max_sample map = SAMPLE_MAX map
-execute if score zthis_map map matches 1 run scoreboard players operation max_sample map /= #2 calc.DSC
+scoreboard players operation max_sample map /= #2 calc.DSC
 
 scoreboard players set SAMPLER map 0
 execute if score zthis_map map matches 1 run scoreboard players set SAMPLER map 1

@@ -10,13 +10,12 @@ scoreboard players set SHADER_TYPE map 1
 tp @a ~ ~ ~
 
 schedule function map:reset_main 1s
-data modify storage dlm: ticket set value {id:"dsc:lobby",life:{type:"indefinite"}}
-execute positioned ~-20 ~ ~-20 summon marker run function dsc:core/initialize/get_corner
+data modify storage dlm: ticket set value {id:"dsc:lobby",life:{type:"indefinite"},pos:[-22,-22],to:[22,22],dimension:"gen:lobby",on_load:"function dsc:core/initialize/place_lobby"}
 function dlm:new_ticket
 
 data modify storage dlm: ticket set value {id:"dsc:root",life:{type:"indefinite"}}
 function dlm:new_ticket
 
-return run schedule function gen:finish 2s
+execute if score #FLAG_NO_GEN main matches 1 run return run schedule function gen:finish 2s
 schedule clear gen:finish
 schedule function gen:entry 2s

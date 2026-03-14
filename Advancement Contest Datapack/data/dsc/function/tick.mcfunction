@@ -14,7 +14,6 @@ execute store result score $gametime calc.DSC run time query gametime
 scoreboard players add #loop_20 calc.DSC 1
 execute if score #loop_20 calc.DSC matches 20.. run scoreboard players set #loop_20 calc.DSC 0
 
-execute if score #loop_20 calc.DSC matches 9 unless score on main matches 1.. if score prepared main matches 1 run title @a title {translate:"resourcepack.check_exist",fallback:"您没有安装资源包！"}
 
 scoreboard players remove $map_frame calc.DSC 1
 execute if entity @a[tag=dsc.__mapping_request] run function map:page/main

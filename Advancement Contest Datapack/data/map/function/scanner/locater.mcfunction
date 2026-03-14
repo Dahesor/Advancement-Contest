@@ -2,6 +2,7 @@ scoreboard players operation __shift_x map = __cx map
 scoreboard players operation __shift_z map = __cz map
 scoreboard players operation __shift_x map *= #16 calc.DSC
 scoreboard players operation __shift_z map *= #16 calc.DSC
+scoreboard players set $skip_height map 0
 
 #Overworld
 execute unless score zthis_map map matches 1.. run scoreboard players operation __shift_x map += origin_x map
