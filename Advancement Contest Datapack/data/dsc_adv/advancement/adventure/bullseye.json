@@ -60,6 +60,28 @@
       },
       "\n",
       {
+        "translate": "reward.recipe",
+        "italic": false,
+        "color": "aqua"
+      },
+      [
+        {
+          "text": "=====",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.crossbow",
+          "extra": [
+            "-"
+          ],
+          "fallback": ""
+        }
+      ],
+      "\n",
+      "\n",
+      {
         "translate": "task.reward_first",
         "italic": false,
         "color": "light_purple"

@@ -1,2 +1,2 @@
 scoreboard players set in_range gen 0
-data modify storage gen gen_log prepend value [{text:"\n[gen:locator] 未能找到指定目标",color:"gray"},{text:"",color:"white",extra:[" (",{score:{name:"time",objective:"gen"}},"ms)"]}]
+data modify storage gen gen_log prepend value [{text:"\n[gen:locator] 未能找到指定目标",color:"red"},{text:"",color:"white",extra:[" (",{score:{name:"time",objective:"gen"}},"ms)"]}]

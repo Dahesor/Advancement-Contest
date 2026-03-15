@@ -6,6 +6,27 @@
             "ascent": 9,
             "chars": ["*"],
             "file": "dsc:font/button.png"
+        },
+        {
+            "type": "bitmap",
+            "height": 18,
+            "ascent": 12,
+            "chars": [">"],
+            "file": "dsc:font/ui/right.png"
+        },
+        {
+            "type": "bitmap",
+            "height": 18,
+            "ascent": 12,
+            "chars": ["<"],
+            "file": "dsc:font/ui/left.png"
+        },
+        {
+            "type": "bitmap",
+            "height": 18,
+            "ascent": 12,
+            "chars": ["["],
+            "file": "dsc:font/ui/left_disable.png"
         }
     ]
 }

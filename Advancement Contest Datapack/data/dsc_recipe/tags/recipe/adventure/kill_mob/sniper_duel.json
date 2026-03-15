@@ -1,6 +1,6 @@
 {
     "values": [
-        "crossbow",
+        "dsc:tools/crossbow_plus",
         "tripwire_hook"
     ]
 }

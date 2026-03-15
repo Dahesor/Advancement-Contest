@@ -7,6 +7,7 @@ execute if score $title gen matches 3..5 run title @a[tag=!dev] title ["正在�
 execute if score $title gen matches 6..8 run title @a[tag=!dev] title ["正在加载地图",{text:"/",shadow_color:0,font:"dsc:slash"}]
 execute if score $title gen matches 9.. run title @a[tag=!dev] title ["正在加载地图",{text:"|",shadow_color:0,font:"dsc:slash"}]
 title @a[tag=!dev] subtitle "这大概需要三分钟"
+
 effect give @a blindness 5 0 true
 execute as @a run attribute @s block_interaction_range modifier add gen:block -100 add_value
 execute as @a at @s run tp @s ~ 500 ~

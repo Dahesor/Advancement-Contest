@@ -20,12 +20,6 @@
       },
       "\n",
       {
-        "translate": "task.heart_transplanter.3",
-        "italic": false,
-        "color": "gray"
-      },
-      "\n",
-      {
         "translate": "task.reward",
         "italic": false,
         "color": "light_purple"
@@ -48,6 +42,28 @@
           "2"
         ]
       },
+      "\n",
+      {
+        "translate": "reward.recipe",
+        "italic": false,
+        "color": "aqua"
+      },
+      [
+        {
+          "text": "=====",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.stone_spear",
+          "extra": [
+            "-"
+          ],
+          "fallback": ""
+        }
+      ],
+      "\n",
       "\n",
       {
         "translate": "task.reward_first",

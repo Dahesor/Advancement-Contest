@@ -7,9 +7,11 @@ scoreboard players set x gen 0
 scoreboard players set z gen 0
 
 data modify storage gen out set from block ~ ~ ~ LastOutput
+
 setblock ~ ~ ~ air
 execute store result score x gen run data get storage minecraft:gen out.extra[0].with[1].with[0].with[0]
 execute store result score z gen run data get storage minecraft:gen out.extra[0].with[1].with[0].with[2]
+
 
 execute unless score success gen matches 1 run return run function gen:locate/core/not_found
 

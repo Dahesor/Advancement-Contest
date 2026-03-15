@@ -1,4 +1,4 @@
-execute unless score @s task_build_ver matches 1.. run function dsc:menu/tasks/bar/pull
+execute unless score @s task_build_ver matches 2.. run function dsc:menu/tasks/bar/pull
 
 
 

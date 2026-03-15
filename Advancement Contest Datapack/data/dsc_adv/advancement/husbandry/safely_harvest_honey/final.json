@@ -20,12 +20,6 @@
       },
       "\n",
       {
-        "translate": "task.safely_harvest_honey.3",
-        "italic": false,
-        "color": "gray"
-      },
-      "\n",
-      {
         "translate": "task.reward",
         "italic": false,
         "color": "light_purple"

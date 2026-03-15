@@ -1,4 +1,5 @@
 execute unless data storage main: p_tracks[0].id run return fail
+execute if score #skip calc.DSC matches 1.. run return run function dsc:menu/tasks/make/skip
 
 function dsc:menu/tasks/bar/template
 scoreboard players set #e_allow calc.DSC 4
@@ -15,4 +16,7 @@ data modify storage temp dialog.dialog.body[-1].contents append from storage mai
 data modify storage temp dialog.dialog.body[-1].contents append value "\n\n\n\n"
 #data modify storage temp dialog.dialog.body[0].contents append value {text:"\uE77A",font:"dsc:bitmap/space"}
 
-function dsc:menu/tasks/make/entries
+scoreboard players remove #skip calc.DSC 1
+
+#TASKLINE_PER_PAGE
+execute if score #skip calc.DSC matches -4.. run function dsc:menu/tasks/make/entries

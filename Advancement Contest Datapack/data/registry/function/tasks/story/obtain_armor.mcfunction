@@ -6,8 +6,8 @@ data modify storage dsc:task new append value {\
     additional_lore:{\
         all_:"",\
         first_:"",\
-        recipe_sum_all:["chainmail_boots","chainmail_leggings"],\
-        recipe_sum_first:["iron_helmet","iron_chestplate","iron_leggings","iron_boots"],\
+        recipe_sum_all:["iron_chestplate","iron_leggings","iron_boots"],\
+        recipe_sum_first:["iron_helmet"],\
     },\
     node:{node:"node",children:["dsc_adv:story/deflect_arrow"]}\
 }
@@ -17,7 +17,7 @@ data modify storage dsc:task new[-1] merge value {\
     id:"obtain_armor",\
     display:{\
         title:{"translate":"task.obtain_armor","italic":false},\
-        lore:[{"translate":"task.obtain_armor.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, [{"text": "=====", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.chainmail_boots", "extra": ["-"], "fallback": ""}, {"translate": "si.chainmail_leggings", "extra": ["-"], "fallback": ""}], "\n", "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["6"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, [{"text": "=====", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.iron_helmet", "extra": ["-"], "fallback": ""}, {"translate": "si.iron_chestplate", "extra": ["-"], "fallback": ""}, {"translate": "si.iron_leggings", "extra": ["-"], "fallback": ""}, {"translate": "si.iron_boots", "extra": ["-"], "fallback": ""}], "\n"],\
+        lore:[{"translate":"task.obtain_armor.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, [{"text": "=====", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.iron_chestplate", "extra": ["-"], "fallback": ""}, {"translate": "si.iron_leggings", "extra": ["-"], "fallback": ""}, {"translate": "si.iron_boots", "extra": ["-"], "fallback": ""}], "\n", "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["6"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, [{"text": "=====", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.iron_helmet", "extra": ["-"], "fallback": ""}], "\n"],\
         \
         recipe_name_all:[],\
         \

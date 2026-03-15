@@ -1,12 +1,12 @@
 data modify storage dsc:task new append value {\
     advancement:"dsc_adv:adventure/use_wind_charge",\
-    all_reward:{emerald:2,score:4},\
+    all_reward:{emerald:2,score:4,recipe:"dsc_recipe:adventure/trial/use_wind_charge"},\
     first_reward:{emerald:4,score:5},\
     display:{lore_length:2},\
     additional_lore:{\
         all_:"",\
         first_:"",\
-        recipe_sum_all:[],\
+        recipe_sum_all:["copper_spear"],\
         recipe_sum_first:[],\
     },\
     node:{node:"node",children:["dsc_adv:adventure/blowback"]}\
@@ -17,15 +17,15 @@ data modify storage dsc:task new[-1] merge value {\
     id:"use_wind_charge",\
     display:{\
         title:{"translate":"task.use_wind_charge","italic":false},\
-        lore:[{"translate":"task.use_wind_charge.1","italic":false,"color":"gray"}, "\n", {"translate":"task.use_wind_charge.2","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}],\
+        lore:[{"translate":"task.use_wind_charge.1","italic":false,"color":"gray"}, "\n", {"translate":"task.use_wind_charge.2","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, [{"text": "=====", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.copper_spear", "extra": ["-"], "fallback": ""}], "\n", "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}],\
         \
         recipe_name_all:[],\
         \
         recipe_name_first:[],\
     },\
     funcs:{\
-        give:"registry:null",\
-        take:"registry:null",\
+        give:"dsc_recipe:use_wind_charge/give",\
+        take:"dsc_recipe:use_wind_charge/take",\
         give_first:"registry:null",\
         take_first:"registry:null",\
     }\

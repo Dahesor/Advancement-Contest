@@ -87,14 +87,21 @@
           "color": "white"
         },
         {
-          "translate": "si.chainmail_boots",
+          "translate": "si.iron_chestplate",
           "extra": [
             "-"
           ],
           "fallback": ""
         },
         {
-          "translate": "si.chainmail_leggings",
+          "translate": "si.iron_leggings",
+          "extra": [
+            "-"
+          ],
+          "fallback": ""
+        },
+        {
+          "translate": "si.iron_boots",
           "extra": [
             "-"
           ],
@@ -132,27 +139,6 @@
         },
         {
           "translate": "si.iron_helmet",
-          "extra": [
-            "-"
-          ],
-          "fallback": ""
-        },
-        {
-          "translate": "si.iron_chestplate",
-          "extra": [
-            "-"
-          ],
-          "fallback": ""
-        },
-        {
-          "translate": "si.iron_leggings",
-          "extra": [
-            "-"
-          ],
-          "fallback": ""
-        },
-        {
-          "translate": "si.iron_boots",
           "extra": [
             "-"
           ],

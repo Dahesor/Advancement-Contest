@@ -1,6 +1,7 @@
 {
     "values": [
-        "dsc:armor/chain_boots",
-        "dsc:armor/chain_legs"
+        "iron_boots",
+        "iron_leggings",
+        "iron_chestplate"
     ]
 }

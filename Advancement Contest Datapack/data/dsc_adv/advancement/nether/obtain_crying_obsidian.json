@@ -62,6 +62,13 @@
             "-"
           ],
           "fallback": ""
+        },
+        {
+          "translate": "si.diamond_boots",
+          "extra": [
+            "-"
+          ],
+          "fallback": ""
         }
       ],
       "\n",

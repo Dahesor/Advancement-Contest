@@ -13,6 +13,7 @@ data modify storage map:main dec_end set value [{x:0,z:0,char:"~"}]
 gamerule command_block_output true
 gamerule block_drops false
 gamerule entity_drops false
+gamerule send_command_feedback true
 execute store result score spec_gen_chunk gen run gamerule spectators_generate_chunks
 gamerule spectators_generate_chunks true
 schedule function gen:main 1t replace

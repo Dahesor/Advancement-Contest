@@ -15,5 +15,7 @@ data modify storage main: player[-1].Name set from entity 0-0-0-0-1 text.inserti
 kill 0-0-0-0-1
 
 #Misc
+scoreboard players set @s task_build_ver 1
+scoreboard players set @s task_client_session 0
 data modify storage run UID_GET set value {UID:-1}
 attribute @s waypoint_transmit_range base set 0

@@ -87,7 +87,7 @@
           "fallback": ""
         },
         {
-          "translate": "si.crossbow",
+          "translate": "si.dsc:crossbow_p",
           "extra": [
             "-"
           ],

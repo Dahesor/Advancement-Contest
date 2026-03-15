@@ -1,0 +1,43 @@
+{
+  "type": "crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "stick",
+    "$": "tripwire_hook",
+    "&": "iron_ingot",
+    "~": "string",
+    "d": "gold_nugget"
+  },
+  "pattern": [
+    "#&#",
+    "~$~",
+    "d#d"
+  ],
+  "result": {
+    "id": "crossbow",
+    "components": {
+      "item_model": "dsc:crossbow_p",
+      "custom_name": {
+        "text": "精良弩",
+        "italic": false
+      },
+      "rarity": "uncommon",
+      "attribute_modifiers": [
+        {
+          "slot": "hand",
+          "amount": 0.05,
+          "id": "dsc:crossbow_speed_boost",
+          "operation": "add_multiplied_base",
+          "type": "movement_speed"
+        },
+        {
+          "slot": "hand",
+          "amount": 1.0,
+          "id": "dsc:crossbow_knockback_boost",
+          "operation": "add_value",
+          "type": "attack_knockback"
+        }
+      ]
+    }
+  }
+}

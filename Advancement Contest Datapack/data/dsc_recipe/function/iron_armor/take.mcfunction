@@ -1,2 +1,3 @@
-recipe take @s dsc:armor/chain_boots
-recipe take @s dsc:armor/chain_legs
+recipe take @s iron_boots
+recipe take @s iron_leggings
+recipe take @s iron_chestplate

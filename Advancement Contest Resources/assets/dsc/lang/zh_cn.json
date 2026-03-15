@@ -79,5 +79,6 @@
     "item.dsc.invi_run.1":"无粒子效果隐身 (00:30) ",
     "item.dsc.invi_run.2":"速度II (00:08)",
     "item.dsc.invi_run.3":"抗性提升II (00:08)",
-    "item.dsc.invi_run.4":"可急速使用"
+    "item.dsc.invi_run.4":"可急速使用",
+    "ptt":"任务列表 (%1$s/%2$s)"
 }

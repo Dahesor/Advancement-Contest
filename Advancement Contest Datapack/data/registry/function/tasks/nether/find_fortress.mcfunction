@@ -1,31 +1,30 @@
 data modify storage dsc:task new append value {\
     advancement:"dsc_adv:nether/find_fortress",\
-    all_reward:{emerald:2,score:4},\
+    all_reward:{emerald:2,score:4,recipe:"dsc_recipe:nether/fortress/enter_nether_fortress"},\
     first_reward:{emerald:4,score:5},\
     display:{lore_length:1},\
     additional_lore:{\
         all_:"",\
         first_:"",\
-        recipe_sum_all:[],\
+        recipe_sum_all:["golden_spear"],\
         recipe_sum_first:[],\
     },\
     node:{node:"node",children:["dsc_adv:nether/obtain_blaze_rod","dsc_adv:nether/get_wither_skull"]}\
 }
 
-
 data modify storage dsc:task new[-1] merge value {\
     id:"find_fortress",\
     display:{\
         title:{"translate":"task.find_fortress","italic":false},\
-        lore:[{"translate":"task.find_fortress.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}],\
+        lore:[{"translate":"task.find_fortress.1","italic":false,"color":"gray"}, "\n", {"translate":"task.reward","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["4"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["2"]}, "\n", {"translate":"reward.recipe","italic":false,"color":"aqua"}, [{"text": "=====", "font": "dsc:tasks/recipe", "underlined": false, "color": "white"}, {"translate": "si.golden_spear", "extra": ["-"], "fallback": ""}], "\n", "\n", {"translate":"task.reward_first","italic":false,"color":"light_purple"}, "\n", {"translate":"reward.score","italic":false,"color":"gold","with":["5"]}, "\n", {"translate":"reward.emerald","italic":false,"color":"green","with":["4"]}],\
         \
         recipe_name_all:[],\
         \
         recipe_name_first:[],\
     },\
     funcs:{\
-        give:"registry:null",\
-        take:"registry:null",\
+        give:"dsc_recipe:enter_nether_fortress/give",\
+        take:"dsc_recipe:enter_nether_fortress/take",\
         give_first:"registry:null",\
         take_first:"registry:null",\
     }\

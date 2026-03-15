@@ -11,7 +11,11 @@
               "condition": "entity_properties",
               "entity": "this",
               "predicate": {
-                "nbt": {"VillagerData":{"profession": "nitwit"}}
+                "nbt": {
+                  "VillagerData": {
+                    "profession": "nitwit"
+                  }
+                }
               }
             }
           }

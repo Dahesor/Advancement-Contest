@@ -65,6 +65,13 @@
             "-"
           ],
           "fallback": ""
+        },
+        {
+          "translate": "si.diamond_chestplate",
+          "extra": [
+            "-"
+          ],
+          "fallback": ""
         }
       ],
       "\n",

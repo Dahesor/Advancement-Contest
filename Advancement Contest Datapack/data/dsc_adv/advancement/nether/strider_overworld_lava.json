@@ -41,12 +41,6 @@
       },
       "\n",
       {
-        "translate": "task.strider_overworld_lava.3",
-        "italic": false,
-        "color": "gray"
-      },
-      "\n",
-      {
         "translate": "task.reward",
         "italic": false,
         "color": "light_purple"

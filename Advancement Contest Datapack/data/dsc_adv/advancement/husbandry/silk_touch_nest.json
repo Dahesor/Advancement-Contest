@@ -36,12 +36,6 @@
       },
       "\n",
       {
-        "translate": "task.silk_touch_nest.3",
-        "italic": false,
-        "color": "gray"
-      },
-      "\n",
-      {
         "translate": "task.reward",
         "italic": false,
         "color": "light_purple"
@@ -64,6 +58,28 @@
           "4"
         ]
       },
+      "\n",
+      {
+        "translate": "reward.recipe",
+        "italic": false,
+        "color": "aqua"
+      },
+      [
+        {
+          "text": "=====",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.iron_spear",
+          "extra": [
+            "-"
+          ],
+          "fallback": ""
+        }
+      ],
+      "\n",
       "\n",
       {
         "translate": "task.reward_first",

@@ -35,3 +35,4 @@ scoreboard objectives setdisplay list player_bounty
 scoreboard objectives modify player_bounty displayname {text:"赏金"}
 recipe give @a *
 execute as @a[scores={team=1..}] run function dsc_recipe:init_remove/take
+execute as @a run function dsc:menu/tasks/bar/pull

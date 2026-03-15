@@ -55,6 +55,56 @@
       },
       "\n",
       {
+        "translate": "reward.recipe",
+        "italic": false,
+        "color": "aqua"
+      },
+      [
+        {
+          "text": "=====",
+          "font": "dsc:tasks/recipe",
+          "underlined": false,
+          "color": "white"
+        },
+        {
+          "translate": "si.white_harness",
+          "extra": [
+            "-"
+          ],
+          "fallback": ""
+        },
+        {
+          "translate": "si.red_harness",
+          "extra": [
+            "-"
+          ],
+          "fallback": ""
+        },
+        {
+          "translate": "si.blue_harness",
+          "extra": [
+            "-"
+          ],
+          "fallback": ""
+        },
+        {
+          "translate": "si.yellow_harness",
+          "extra": [
+            "-"
+          ],
+          "fallback": ""
+        },
+        {
+          "translate": "si.green_harness",
+          "extra": [
+            "-"
+          ],
+          "fallback": ""
+        }
+      ],
+      "\n",
+      "\n",
+      {
         "translate": "task.reward_first",
         "italic": false,
         "color": "light_purple"

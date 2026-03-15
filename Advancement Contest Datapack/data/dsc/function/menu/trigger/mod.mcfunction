@@ -15,3 +15,5 @@ execute if score $this dialog matches 2 run return run function dsc:menu/map/req
 execute if score $this dialog matches 10 run return run function dsc:main/player/death/redeploy/check
 execute if score $this dialog matches 20 run return run function dsc:menu/tasks/make
 execute if score $this dialog matches 21 run return run function dsc:menu/tasks/toggle_pin_lore
+execute if score $this dialog matches 22 run return run function dsc:menu/tasks/page/left
+execute if score $this dialog matches 23 run return run function dsc:menu/tasks/page/right

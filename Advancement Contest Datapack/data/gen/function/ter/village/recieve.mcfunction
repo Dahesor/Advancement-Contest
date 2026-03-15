@@ -4,7 +4,6 @@ execute if score vil_z gen matches 512.. run scoreboard players set phase gen 3
 
 function gen:locate/core/read
 execute if score warning gen matches 1.. run scoreboard players set next gen 5
-
 execute unless score in_range gen matches 1.. run return fail
 
 execute store result storage gen vil.n.x int 1 run scoreboard players get x gen

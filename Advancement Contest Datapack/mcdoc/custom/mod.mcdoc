@@ -56,5 +56,6 @@ struct PlayerTaskTrack{
     result?: [TeamTrackList],
     pin?: [PlayerPin],
     unpin?: [PlayerPin],
-    build?: DialogMix
+    build?: DialogMix,
+    looking_at?: int,
 }

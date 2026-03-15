@@ -71,6 +71,7 @@ scoreboard players set #384 calc.DSC 384
 scoreboard players set #1000 calc.DSC 1000
 scoreboard players set #1024 calc.DSC 1024
 scoreboard players set #2667 calc.DSC 2667
+scoreboard players set TASKLINE_PER_PAGE calc.DSC 5
 
 #Prime Consts
 scoreboard players set NETHER_SCALE main 4
